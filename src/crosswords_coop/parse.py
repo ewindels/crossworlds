@@ -1,8 +1,8 @@
-from cv2 import cv2
-import os
-import numpy as np
 from collections import defaultdict
+import os
 from typing import Union
+from cv2 import cv2
+import numpy as np
 
 Coordinates = tuple[Union[float, int], Union[float, int]]
 
@@ -85,80 +85,17 @@ def get_corners(clusters: dict[Coordinates, list[tuple[Coordinates, int]]]) -> l
             corners.append(tuple(true_centroid))
         else:
             remaining_centroids.append(centroid)
-
-    print(f'{len(corners)} corners found')
-    print(f'{len(kept_shape_ids)} squares found')
     return corners
 
 
-def get_grid_corners(corners: list[Coordinates]) -> tuple[Coordinates, ...]:
-    top_left_corner = min(corners, key=lambda p: p[0] + p[1])
-    bottom_right_corner = max(corners, key=lambda p: p[0] + p[1])
-    top_right_corner = min(corners, key=lambda p: -p[0] + p[1])
-    bottom_left_corner = min(corners, key=lambda p: p[0] - p[1])
-    return top_left_corner, bottom_right_corner, top_right_corner, bottom_left_corner
-
-
-def get_borders(corners: list[Coordinates], grid_corners: tuple[Coordinates, ...]) -> tuple[list[Coordinates], ...]:
-    top_left_corner, bottom_right_corner, top_right_corner, bottom_left_corner = grid_corners
-    top_row = list()
-    left_column = list()
-    bottom_row = list()
-    right_column = list()
-    tol = 10
-
-    for corner in corners:
-        if distance_point_to_line(top_left_corner, top_right_corner, corner) < tol:
-            top_row.append(corner)
-            continue
-        if distance_point_to_line(top_left_corner, bottom_left_corner, corner) < tol:
-            left_column.append(corner)
-        if distance_point_to_line(bottom_left_corner, bottom_right_corner, corner) < tol:
-            bottom_row.append(corner)
-        if distance_point_to_line(bottom_right_corner, top_right_corner, corner) < tol:
-            right_column.append(corner)
-    return top_row, left_column, bottom_row, right_column
-
-
-def get_grid_dict(borders: tuple[list[Coordinates], ...], grid_corners: tuple[Coordinates, ...]) -> tuple[dict[Coordinates, Coordinates], int, int]:
-    top_left_corner, _, top_right_corner, bottom_left_corner = grid_corners
-    top_row, left_column, bottom_row, right_column = borders
-    grid_dict = dict()
-    n_rows = len(left_column)
-    n_cols = len(top_row)
-
-    for col, corner in enumerate(sorted(top_row, key=lambda c: distance(top_left_corner, c)), 1):
-        grid_dict[(1, col)] = corner
-    for row, corner in enumerate(sorted(left_column, key=lambda c: distance(top_left_corner, c)), 1):
-        grid_dict[(row, 1)] = corner
-    for col, corner in enumerate(sorted(bottom_row, key=lambda c: distance(bottom_left_corner, c)), 1):
-        grid_dict[(n_rows, col)] = corner
-    for row, corner in enumerate(sorted(right_column, key=lambda c: distance(top_right_corner, c)), 1):
-        grid_dict[(row, n_cols)] = corner
-    return grid_dict, n_rows, n_cols
-
-
-def get_predicted_coordinates(grid_dict: dict[Coordinates, Coordinates], n_rows: int, n_cols: int) -> dict[Coordinates, Coordinates]:
-    predicted_coordinates = dict()
-
-    for row in range(2, n_rows):
-        for col in range(2, n_cols):
-            l1_p1 = grid_dict[(1, col)]
-            l1_p2 = grid_dict[(n_rows, col)]
-            l2_p1 = grid_dict[(row, 1)]
-            l2_p2 = grid_dict[(row, n_cols)]
-            predicted_coordinates[(row, col)] =  lines_intersection(l1_p1, l1_p2, l2_p1, l2_p2)
-    return predicted_coordinates
-
-
-def map_remaining_corners(corners: list[Coordinates], predicted_coordinates: dict[Coordinates, Coordinates], grid_dict: dict[Coordinates, Coordinates]):
-    mapped_corners = {corner for corner in grid_dict.values()}
-    for corner in corners:
-        if corner in mapped_corners:
-            continue
-        closest_coor_prediction = min(predicted_coordinates, key=lambda c: distance(corner, predicted_coordinates[c]))
-        grid_dict[closest_coor_prediction] = corner
-        predicted_coordinates.pop(closest_coor_prediction)
+def get_distance_grid(corners: list[Coordinates]) -> np.ndarray:
+    distance_grid = np.zeros((len(corners), len(corners)))
+    for i, corner_1 in enumerate(corners[:-1]):
+        for j, corner_2 in enumerate(corners[i+1:], i+1):
+            corners_dist = distance(corner_1, corner_2)
+            distance_grid[i, j] = corners_dist
+            distance_grid[j, i] = corners_dist
+    return distance_grid
 
 
 def mirror_point(center: Coordinates, point: Coordinates) -> Coordinates:
@@ -167,34 +104,106 @@ def mirror_point(center: Coordinates, point: Coordinates) -> Coordinates:
     return x, y
 
 
-def add_outside_corners(grid_dict: dict[Coordinates, Coordinates], n_rows: int, n_cols: int):
-    for row in range(1, n_rows+1):
-        grid_dict[(row, 0)] = mirror_point(grid_dict[(row, 1)], grid_dict[(row, 2)])
-    grid_dict[(0, 0)] = mirror_point(grid_dict[(1, 1)], grid_dict[(2, 2)])
+def get_relative_grid_dict(corners: list[Coordinates], distance_grid: np.ndarray) -> dict[int, dict[str, int]]:
+    relative_grid_dict = defaultdict(dict)
+    corners_arr = np.array(corners)
+    for corner_idx, corner in enumerate(corners):
+        neighbours_idx = distance_grid[corner_idx].argsort()[1:5]
+        neighbours = corners_arr[neighbours_idx]
+        neighbours_argmin = neighbours.argmin(axis=0)
+        neighbours_argmax = neighbours.argmax(axis=0)
+        top = neighbours[neighbours_argmin[1]]
+        bottom = neighbours[neighbours_argmax[1]]
+        left = neighbours[neighbours_argmin[0]]
+        right = neighbours[neighbours_argmax[0]]
+        if distance(mirror_point(corner, top), bottom) < 10:
+            top_idx = neighbours_idx[neighbours_argmin[1]]
+            bottom_idx = neighbours_idx[neighbours_argmax[1]]
+            relative_grid_dict[corner_idx].update({'top': top_idx, 'bottom': bottom_idx})
+            relative_grid_dict[top_idx].update({'bottom': corner_idx})
+            relative_grid_dict[bottom_idx].update({'top': corner_idx})
+        if distance(mirror_point(corner, left), right) < 10:
+            left_idx = neighbours_idx[neighbours_argmin[0]]
+            right_idx = neighbours_idx[neighbours_argmax[0]]
+            relative_grid_dict[corner_idx].update({'left': left_idx, 'right': right_idx})
+            relative_grid_dict[left_idx].update({'right': corner_idx})
+            relative_grid_dict[right_idx].update({'left': corner_idx})
+    return relative_grid_dict
 
-    for row in range(1, n_rows+1):
-        grid_dict[(row, n_cols+1)] = mirror_point(grid_dict[(row, n_cols)], grid_dict[(row, n_cols-1)])
-    grid_dict[(n_rows+1, n_cols+1)] = mirror_point(grid_dict[(n_rows, n_cols)], grid_dict[(n_rows-1, n_cols-1)])
 
-    for col in range(1, n_cols+1):
-        grid_dict[(0, col)] = mirror_point(grid_dict[(1, col)], grid_dict[(2, col)])
-    grid_dict[(n_rows+1, 0)] = mirror_point(grid_dict[(n_rows, 1)], grid_dict[(n_rows-1, 2)])
+def get_tmp_grid_dict(relative_grid_dict: dict[int, dict[str, int]]) -> dict[int, Coordinates]:
+    tmp_grid_dict = dict()
+    tmp_grid_dict[0] = (0, 0)
+    done_corners = set()
+    stack = [0]
+    while stack:
+        corner_idx = stack.pop()
+        done_corners.add(corner_idx)
+        for direction, neighbour_idx in relative_grid_dict[corner_idx].items():
+            if neighbour_idx in done_corners:
+                continue
+            if direction == 'top':
+                tmp_grid_dict[neighbour_idx] = (tmp_grid_dict[corner_idx][0]-1, tmp_grid_dict[corner_idx][1])
+                stack.append(neighbour_idx)
+            elif direction == 'bottom':
+                tmp_grid_dict[neighbour_idx] = (tmp_grid_dict[corner_idx][0]+1, tmp_grid_dict[corner_idx][1])
+                stack.append(neighbour_idx)
+            elif direction == 'left':
+                tmp_grid_dict[neighbour_idx] = (tmp_grid_dict[corner_idx][0], tmp_grid_dict[corner_idx][1]-1)
+                stack.append(neighbour_idx)
+            elif direction == 'right':
+                tmp_grid_dict[neighbour_idx] = (tmp_grid_dict[corner_idx][0], tmp_grid_dict[corner_idx][1]+1)
+                stack.append(neighbour_idx)
+    return tmp_grid_dict
 
-    for col in range(1, n_cols+1):
-        grid_dict[(n_rows+1, col)] = mirror_point(grid_dict[(n_rows, col)], grid_dict[(n_rows-1, col)])
-    grid_dict[(0, n_cols+1)] = mirror_point(grid_dict[(1, n_cols)], grid_dict[(2, n_cols-1)])
+
+def get_grid_dict(corners: list[Coordinates], tmp_grid_dict: dict[int, Coordinates]) -> tuple[dict[Coordinates, Coordinates], int, int]:
+    min_row = min(x for x, y in tmp_grid_dict.values()) - 1
+    min_col = min(y for x, y in tmp_grid_dict.values()) - 1
+    grid_dict = dict()
+    for corner_idx, (x, y) in tmp_grid_dict.items():
+        grid_dict[(x - min_row, y - min_col)] = corners[corner_idx]
+    n_rows = max(x for x, y in grid_dict) + 2
+    n_cols = max(y for x, y in grid_dict) + 2
+    return grid_dict, n_rows, n_cols
+
+def fill_missing_corners(grid_dict: dict[Coordinates, Coordinates], n_rows: int, n_cols: int):
+    cutoff = max(n_rows, n_cols)
+    i = 0
+    while len(grid_dict) < n_rows * n_cols:
+        i += 1
+        if i > cutoff:
+            raise Exception('Could not fill missing corners')
+        for x in range(n_rows):
+            for y in range(n_cols):
+                if (x, y) in grid_dict:
+                    continue
+                approximations = list()
+                if (x-1, y) in grid_dict and (x-2, y) in grid_dict:
+                    approximations.append(mirror_point(grid_dict[(x-1, y)], grid_dict[(x-2, y)]))
+                if (x+1, y) in grid_dict and (x+2, y) in grid_dict:
+                    approximations.append(mirror_point(grid_dict[(x+1, y)], grid_dict[(x+2, y)]))
+                if (x, y-1) in grid_dict and (x, y-2) in grid_dict:
+                    approximations.append(mirror_point(grid_dict[(x, y-1)], grid_dict[(x, y-2)]))
+                if (x, y+1) in grid_dict and (x, y+2) in grid_dict:
+                    approximations.append(mirror_point(grid_dict[(x, y+1)], grid_dict[(x, y+2)]))
+                if approximations:
+                    point_approximation = np.mean(approximations, axis=0).round().astype(int)
+                    grid_dict[(x, y)] = (point_approximation[0], point_approximation[1])
 
 
 def reconstruct_grid_img(grid_dict: dict[Coordinates, Coordinates], img_arr: np.ndarray, n_rows: int, n_cols: int) -> dict[Coordinates, np.ndarray]:
     width = 100
     grid_img_dict = dict()
 
-    for x in range(n_rows+1):
-        for y in range(n_cols+1):
-            input_pts = np.array([grid_dict[(x, y)],
-                                    grid_dict[(x+1, y)],
-                                    grid_dict[(x+1, y+1)],
-                                    grid_dict[(x, y+1)]]).astype('float32')
+    for x in range(n_rows-1):
+        for y in range(n_cols-1):
+            input_pts = np.array([
+                grid_dict[(x, y)],
+                grid_dict[(x+1, y)],
+                grid_dict[(x+1, y+1)],
+                grid_dict[(x, y+1)]
+                ]).astype('float32')
             output_pts = np.array([(0, 0), (0, width), (width, width), (width, 0)]).astype('float32')
 
             M = cv2.getPerspectiveTransform(input_pts, output_pts)
@@ -209,11 +218,10 @@ def parse(file: str) -> dict[Coordinates, np.ndarray]:
     boxes = get_boxes(edges_arr)
     clusters = get_clusters(boxes)
     corners = get_corners(clusters)
-    grid_corners = get_grid_corners(corners)
-    borders = get_borders(corners, grid_corners)
-    grid_dict, n_rows, n_cols = get_grid_dict(borders, grid_corners)
-    predicted_coordinates = get_predicted_coordinates(grid_dict, n_rows, n_cols)
-    map_remaining_corners(corners, predicted_coordinates, grid_dict)
-    add_outside_corners(grid_dict, n_rows, n_cols)
+    distance_grid = get_distance_grid(corners)
+    relative_grid_dict = get_relative_grid_dict(corners, distance_grid)
+    tmp_grid_dict = get_tmp_grid_dict(relative_grid_dict)
+    grid_dict, n_rows, n_cols = get_grid_dict(corners, tmp_grid_dict)
+    fill_missing_corners(grid_dict, n_rows, n_cols)
     grid_img_dict = reconstruct_grid_img(grid_dict, img_arr, n_rows, n_cols)
     return grid_img_dict
