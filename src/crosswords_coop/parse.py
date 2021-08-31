@@ -15,7 +15,7 @@ def load_img(file: str) -> np.ndarray:
 def preprocess_img(img_arr: np.ndarray) -> np.ndarray:
     gray = cv2.cvtColor(img_arr, cv2.COLOR_BGR2GRAY)
     blur = cv2.blur(gray, (5, 5))
-    edges = cv2.Canny(blur, 90, 150)
+    edges = cv2.Canny(blur, 0, 150)
     kernel_size = (7, 7)
     kernel = np.ones(kernel_size, np.uint8)
     edges = cv2.dilate(edges, kernel, iterations=1)
@@ -47,6 +47,14 @@ def distance(pixel_1: Coordinates, pixel_2: Coordinates) -> float:
     return ((pixel_1[0] - pixel_2[0]) ** 2 + (pixel_1[1] - pixel_2[1]) ** 2) ** 0.5
 
 
+def l_max_distance(pixel_1: Coordinates, pixel_2: Coordinates) -> float:
+    return max(abs(pixel_1[0] - pixel_2[0]), abs(pixel_1[1] - pixel_2[1]))
+
+
+def l_min_distance(pixel_1: Coordinates, pixel_2: Coordinates) -> float:
+    return min(abs(pixel_1[0] - pixel_2[0]), abs(pixel_1[1] - pixel_2[1]))
+
+
 def distance_point_to_line(line_point_1: Coordinates, line_point_2: Coordinates, point: Coordinates) -> float:
     return abs((line_point_2[0] - line_point_1[0]) * (line_point_1[1] - point[1]) - (line_point_1[0] - point[0]) * (line_point_2[1] - line_point_1[1])) / ((line_point_2[0] - line_point_1[0]) ** 2 + (line_point_2[1] - line_point_1[1]) ** 2) ** 0.5
 
@@ -60,11 +68,10 @@ def lines_intersection(l1_p1: Coordinates, l1_p2: Coordinates, l2_p1: Coordinate
 
 def get_clusters(boxes: list[np.ndarray]) -> dict[Coordinates, list[tuple[Coordinates ,int]]]:
     clusters = dict()
-
     for i, box in enumerate(boxes):
         for pixel in box:
             for cluster_centroid in clusters:
-                if distance(pixel, cluster_centroid) < 20:
+                if l_max_distance(pixel, cluster_centroid) < 20:
                     clusters[cluster_centroid].append((pixel, i))
                     break
             else:
@@ -76,7 +83,6 @@ def get_corners(clusters: dict[Coordinates, list[tuple[Coordinates, int]]]) -> l
     corners = list()
     kept_shape_ids = set()
     remaining_centroids = list()
-
     for centroid, pixels in clusters.items():
         if len(pixels) >= 3:
             true_centroid = np.mean([pixel for pixel, _ in pixels], axis=0).astype(int)
@@ -116,13 +122,13 @@ def get_relative_grid_dict(corners: list[Coordinates], distance_grid: np.ndarray
         bottom = neighbours[neighbours_argmax[1]]
         left = neighbours[neighbours_argmin[0]]
         right = neighbours[neighbours_argmax[0]]
-        if distance(mirror_point(corner, top), bottom) < 10:
+        if distance(mirror_point(corner, top), bottom) < 10 and l_min_distance(corner, top) < 20:
             top_idx = neighbours_idx[neighbours_argmin[1]]
             bottom_idx = neighbours_idx[neighbours_argmax[1]]
             relative_grid_dict[corner_idx].update({'top': top_idx, 'bottom': bottom_idx})
             relative_grid_dict[top_idx].update({'bottom': corner_idx})
             relative_grid_dict[bottom_idx].update({'top': corner_idx})
-        if distance(mirror_point(corner, left), right) < 10:
+        if distance(mirror_point(corner, left), right) < 10 and l_min_distance(corner, left) < 20:
             left_idx = neighbours_idx[neighbours_argmin[0]]
             right_idx = neighbours_idx[neighbours_argmax[0]]
             relative_grid_dict[corner_idx].update({'left': left_idx, 'right': right_idx})
