@@ -35,8 +35,9 @@ def get_box(contour: np.ndarray) -> np.ndarray:
 def get_boxes(edges_arr: np.ndarray) -> list[np.ndarray]:
     contours, _ = cv2.findContours((~edges_arr).astype('uint8'), 1, 2)
     boxes = list()
+    lower_thresh = 2000 if edges_arr.shape[1] < edges_arr.shape[0] else 1000
     for contour in contours:
-        if 2000 < cv2.contourArea(contour) < 10000:
+        if lower_thresh < cv2.contourArea(contour) < 10000:
             box = get_box(contour)
             if cv2.contourArea(box) < 10000:
                 boxes.append(box)
@@ -139,9 +140,10 @@ def get_relative_grid_dict(corners: list[Coordinates], distance_grid: np.ndarray
 
 def get_tmp_grid_dict(relative_grid_dict: dict[int, dict[str, int]]) -> dict[int, Coordinates]:
     tmp_grid_dict = dict()
-    tmp_grid_dict[0] = (0, 0)
+    start_corner_idx = max(relative_grid_dict, key=lambda x: len(relative_grid_dict[x]))
+    tmp_grid_dict[start_corner_idx] = (0, 0)
     done_corners = set()
-    stack = [0]
+    stack = [start_corner_idx]
     while stack:
         corner_idx = stack.pop()
         done_corners.add(corner_idx)
