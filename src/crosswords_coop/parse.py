@@ -35,7 +35,7 @@ def get_box(contour: np.ndarray) -> np.ndarray:
 def get_boxes(edges_arr: np.ndarray) -> list[np.ndarray]:
     contours, _ = cv2.findContours((~edges_arr).astype('uint8'), 1, 2)
     boxes = list()
-    lower_thresh = 2000 if edges_arr.shape[1] < edges_arr.shape[0] else 1000
+    lower_thresh = 1000
     for contour in contours:
         if lower_thresh < cv2.contourArea(contour) < 10000:
             box = get_box(contour)
@@ -72,7 +72,7 @@ def get_clusters(boxes: list[np.ndarray]) -> dict[Coordinates, list[tuple[Coordi
     for i, box in enumerate(boxes):
         for pixel in box:
             for cluster_centroid in clusters:
-                if l_max_distance(pixel, cluster_centroid) < 20:
+                if l_max_distance(pixel, cluster_centroid) < 10:
                     clusters[cluster_centroid].append((pixel, i))
                     break
             else:
