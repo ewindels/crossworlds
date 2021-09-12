@@ -3,7 +3,7 @@ import json
 import pytest
 from crosswords_coop import parse
 
-with open(os.path.join('data', 'content.json'), 'r') as fp:
+with open(os.path.join('data', 'annotations.json'), 'r') as fp:
     content_dict = json.load(fp)
     grids_with_size = [grid for grid in content_dict if 'size' in content_dict[grid]]
     grids_with_text_cells = [grid for grid in content_dict if 'text' in content_dict[grid]]
