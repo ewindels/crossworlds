@@ -173,55 +173,35 @@ class Grid:
         if self.get_content(coor_end):
             self.__remove_def_and_word_starts(word_start.coor, coor_end)
 
-    def __check_word_vertical(self, coor_start: Coor, word: str):
-        coor_end = coor_start + Coor(len(word), 0)
-        if self.get_content(coor_end - Coor(1, 0)) is None:
-            return False
-        elif not self.get_content(coor_end) in ('', DEF_TOKEN, None):
-            return False
-        elif (
-            self.get_content(coor_end) in ('', DEF_TOKEN)
-            and (
-                self.get_content(coor_end - Coor(2, 0)) in (None, DEF_TOKEN)
-                or self.get_content(coor_end + Coor(2, 0)) == DEF_TOKEN
-                or self.get_content(coor_end + Coor(0, 2)) == DEF_TOKEN
-            )
-        ):
-            return False
-        for row_i, letter in enumerate(word, coor_start.row):
-            content = self.get_content(Coor(row_i, coor_start.col))
-            if not (content == '' or content == self.normalize(letter)):
-                return False
-        return True
-    
-    def __check_word_horizontal(self, coor_start: Coor, word: str):
-        coor_end = coor_start + Coor(0, len(word))
-        if self.get_content(coor_end - Coor(0, 1)) is None:
-            return False
-        elif not self.get_content(coor_end) in ('', DEF_TOKEN, None):
-            return False
-        elif (
-            self.get_content(Coor(coor_start.row, coor_start.col + len(word))) in ('', DEF_TOKEN)
-            and (
-                self.get_content(coor_end - Coor(0, 2)) in (None, DEF_TOKEN)
-                or self.get_content(coor_end + Coor(0, 2)) == DEF_TOKEN
-                or self.get_content(coor_end + Coor(2, 0)) == DEF_TOKEN
-            )
-        ):
-            return False
-        for col_i, letter in enumerate(word, coor_start.col):
-            content = self.get_content(Coor(coor_start.row, col_i))
-            if not (content == '' or content == self.normalize(letter)):
-                return False
-        return True
-
     def check_word(self, word_start: WordStart, word):
         if word_start.direction == 'V':
-            return self.__check_word_vertical(word_start.coor, word)
-        elif word_start.direction == 'H':
-            return self.__check_word_horizontal(word_start.coor, word)
+            coor_direction = Coor(1, 0)
+            coor_perpendicular = Coor(0, 1)
+        else:
+            coor_direction = Coor(0, 1)
+            coor_perpendicular = Coor(1, 0)
+        coor_end = word_start.coor + coor_direction * len(word)
+        if (
+            self.get_content(coor_end - coor_direction) is None
+            or (not self.get_content(coor_end) in ('', DEF_TOKEN, None))
+            or (
+                self.get_content(coor_end) in ('', DEF_TOKEN)
+                and (
+                    self.get_content(coor_end - coor_perpendicular) in (None, DEF_TOKEN)
+                    or self.get_content(coor_end + coor_perpendicular) == DEF_TOKEN
+                    or self.get_content(coor_end + coor_direction) == DEF_TOKEN
+                )
+            )
+        ):
+            return False
+        for offset, letter in enumerate(word):
+            coor_offset = coor_direction * offset
+            content = self.get_content(word_start.coor + coor_offset)
+            if not (content == '' or content == self.normalize(letter)):
+                return False
+        return True
 
-    def print(self):
+    def pretty_print(self):
         grid_str = '┌' + ('───┬───' * (self.width - 1)) + '┐\n'
         for row_n, row in enumerate(self.grid):
             for content in row:
