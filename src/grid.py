@@ -1,6 +1,15 @@
 from collections import defaultdict
-from typing import Optional
+from typing import Optional, NamedTuple
 
+class Coor(NamedTuple):
+    row: int
+    col: int
+
+class WordStart(NamedTuple):
+    coor: Coor
+    direction: str
+
+DEF_TOKEN = '[def]'
 
 class Grid:
     def __init__(self, size):
@@ -10,38 +19,46 @@ class Grid:
         self.letters_count = defaultdict(int)
         self.grid = self.__init_grid()
         self.settable_squares = self.__init_settable()
+        self.word_grid_impact = {}
+        self.word_settable_impact = {}
+
+    def __set_square(self, coor: Coor, content: str) -> None:
+        row_n, col_n = coor
+        self.grid[row_n][col_n] = content
 
     def __init_grid(self) -> list[list[str]]:
-        grid = [['' for _ in range(self.width)] for _ in range(self.height)]
+        self.grid = [['' for _ in range(self.width)] for _ in range(self.height)]
         for col_n in range(0, self.width, 2):
-            grid[0][col_n] = '[def]'
+            self.__set_square(Coor(0, col_n), DEF_TOKEN)
         for row_n in range(0, self.height, 2):
-            grid[row_n][0] = '[def]'
-        return grid
+            self.__set_square(Coor(row_n, 0), DEF_TOKEN)
+        return self.grid
 
-    def __init_settable(self) -> set:
+    def __init_settable(self) -> set[WordStart]:
         settable_squares = set()
         for col_i in range(1, self.width):
             if col_i % 2:
                 row_n = 0
             else:
                 row_n = 1
-            settable_squares.add((row_n, col_i, 'V'))
+            word_start = WordStart(Coor(row_n, col_i), 'V')
+            settable_squares.add(word_start)
             for row_i in range(row_n, self.height):
-                self.word_start_dict[(row_i, col_i)].append((row_n, col_i, 'V'))
+                self.word_start_dict[Coor(row_i, col_i)].append(word_start)
         for row_i in range(1, self.height):
             if row_i % 2:
                 col_n = 0
             else:
                 col_n = 1
-            settable_squares.add((row_i, col_n, 'H'))
+            word_start =  WordStart(Coor(row_i, col_n), 'H')
+            settable_squares.add(word_start)
             for col_i in range(col_n, self.width):
-                self.word_start_dict[(row_i, col_i)].append((row_i, col_n, 'H'))
+                self.word_start_dict[Coor(row_i, col_i)].append(word_start)
         return settable_squares
 
     @property
     def max_settable_square(self):
-        return max(self.settable_squares, key=lambda square: (self.letters_count[square], -square[0], -square[1]))
+        return max(self.settable_squares, key=lambda word_start: (self.letters_count[word_start], -word_start.coor.col, -word_start.coor.row))
 
     @staticmethod
     def normalize(letter: str) -> str:
@@ -59,116 +76,146 @@ class Grid:
         if (0 <= row_n < self.height) and (0 <= col_n < self.width):
             return self.grid[row_n][col_n]
 
-    def __set_word_vertical(self, row_n: int, col_n: int, word: str) -> None:
-        for row_i, letter in enumerate(word, row_n):
-            self.grid[row_i][col_n] = self.normalize(letter)
-            for square_start in self.word_start_dict[(row_i, col_n)]:
-                self.letters_count[square_start] += 1
-        if row_n + len(word) + 1 < self.height:
-            self.grid[row_n + len(word) + 1][col_n] = '[def]'
-            if row_n + len(word) + 3 < self.height:
-                self.settable_squares.add((row_n + len(word) + 2, col_n, 'V'))
-            if col_n + 2 < self.width:
-                self.settable_squares.add((row_n + len(word) + 1, col_n + 1, 'H'))
+    def check_impact_and_update_grid(self, coor: Coor, coor_start: Coor, content: str) -> bool:
+        if coor not in self.word_grid_impact:
+            self.word_grid_impact[coor] = coor_start
+            self.__set_square(coor, content)
+            return True
+        return False
 
-    def __set_word_horizontal(self, row_n: int, col_n: int, word: str) -> None:
-        for col_i, letter in enumerate(word, col_n):
-            self.grid[row_n][col_i] = self.normalize(letter)
-            for square_start in self.word_start_dict[(row_n, col_i)]:
-                self.letters_count[square_start] += 1
-        if col_n + len(word) + 1 < self.width:
-            self.grid[row_n][col_n + len(word) + 1] = '[def]'
-            if col_n + len(word) + 3 < self.width:
-                self.settable_squares.add((row_n, col_n + len(word) + 2, 'H'))
-            if row_n + 2 < self.height:
-                self.settable_squares.add((row_n + 1, col_n + len(word) + 1, 'V'))
+    def check_impact_and_update_settable(self, word_start: WordStart, coor_start: Coor) -> bool:
+        if word_start not in self.word_settable_impact:
+            self.word_settable_impact[word_start] = coor_start
+            self.settable_squares.add(word_start)
+            return True
+        return False
 
-    def set_word(self, direction: str, *args):
-        row_n, col_n, word = args
-        start_square = (row_n, col_n, direction)
-        self.words_dict[start_square] = word
-        self.settable_squares.discard(start_square)
-        if direction == 'V':
-            self.__set_word_vertical(*args)
-        elif direction == 'H':
-            self.__set_word_horizontal(*args)
+    def __set_word_vertical(self, coor_start: Coor, word: str) -> None:
+        for row_i, letter in enumerate(word, coor_start.row):
+            coor_letter = Coor(row_i, coor_start.col)
+            if self.check_impact_and_update_grid(coor_letter, coor_start, self.normalize(letter)):
+                for word_start in self.word_start_dict[coor_letter]:
+                    self.letters_count[word_start] += 1
+        if coor_start.row + len(word) + 1 < self.height:
+            self.check_impact_and_update_grid(Coor(coor_start.row + len(word) + 1, coor_start.col), coor_start, '[def]')
+            if coor_start.row + len(word) + 3 < self.height:
+                word_start = WordStart(Coor(coor_start.row + len(word) + 2, coor_start.col), 'V')
+                self.check_impact_and_update_settable(word_start, coor_start)
+            if coor_start.col + 2 < self.width:
+                word_start = WordStart(Coor(coor_start.row + len(word) + 1, coor_start.col + 1), 'H')
+                self.check_impact_and_update_settable(word_start, coor_start)
 
-    def __remove_word_vertical(self, row_n: int, col_n: int, word: str) -> None:
-        for row_i, _ in enumerate(word, row_n):
-            self.grid[row_i][col_n] = ''
-            for square_start in self.word_start_dict[(row_i, col_n)]:
-                self.letters_count[square_start] -= 1
-        if row_n + len(word) + 1 < self.height:
-            self.grid[row_n + len(word) + 1][col_n] = ''
-            if row_n + len(word) + 3 < self.height:
-                self.settable_squares.discard((row_n + len(word) + 2, col_n, 'V'))
-            if col_n + 2 < self.width:
-                self.settable_squares.discard((row_n + len(word) + 1, col_n + 1, 'H'))
+    def __set_word_horizontal(self, coor_start: Coor, word: str) -> None:
+        for col_i, letter in enumerate(word, coor_start.col):
+            coor_letter = Coor(coor_start.row, col_i)
+            if self.check_impact_and_update_grid(coor_letter, coor_start, self.normalize(letter)):
+                for word_start in self.word_start_dict[coor_letter]:
+                    self.letters_count[word_start] += 1
+        if coor_start.col + len(word) + 1 < self.width:
+            self.check_impact_and_update_grid(Coor(coor_start.row, coor_start.col + len(word) + 1), coor_start, '[def]')
+            if coor_start.col + len(word) + 3 < self.width:
+                word_start = WordStart(Coor(coor_start.row, coor_start.col + len(word) + 2), 'H')
+                self.check_impact_and_update_settable(word_start, coor_start)
+            if coor_start.row + 2 < self.height:
+                word_start = WordStart(Coor(coor_start.row + 1, coor_start.col + len(word) + 1), 'V')
+                self.check_impact_and_update_settable(word_start, coor_start)
 
-    def __remove_word_horizontal(self, row_n: int, col_n: int, word: str) -> None:
-        for col_i, _ in enumerate(word, col_n):
-            self.grid[row_n][col_i] = ''
-            for square_start in self.word_start_dict[(row_n, col_i)]:
-                self.letters_count[square_start] -= 1
-        if col_n + len(word) + 1 < self.width:
-            self.grid[row_n][col_n + len(word) + 1] = ''
-            if col_n + len(word) + 3 < self.width:
-                self.settable_squares.discard((row_n, col_n + len(word) + 2, 'H'))
-            if row_n + 2 < self.height:
-                self.settable_squares.discard((row_n + 1, col_n + len(word) + 1, 'V'))
+    def set_word(self, word_start: WordStart, word: str) -> None:
+        self.words_dict[word_start] = word
+        self.settable_squares.discard(word_start)
+        if word_start.direction == 'V':
+            self.__set_word_vertical(word_start.coor, word)
+        elif word_start.direction == 'H':
+            self.__set_word_horizontal(word_start.coor, word)
 
-    #only remove letter if only belonging word is the one we're erasing
-    def remove_word(self, direction: str, *args):
-        row_n, col_n, _ = args
-        start_square = (row_n, col_n, direction)
-        self.words_dict.pop(start_square)
-        self.settable_squares.add(start_square)
-        if direction == 'V':
-            self.__remove_word_vertical(*args)
-        elif direction == 'H':
-            self.__remove_word_horizontal(*args)
+    def check_and_remove_letter(self, letter_coor: Coor, coor_start: Coor) -> None:
+        if self.word_grid_impact[letter_coor] == coor_start:
+            self.__set_square(letter_coor, '')
+            self.word_grid_impact.pop(letter_coor)
+            for word_start in self.word_start_dict[letter_coor]:
+                self.letters_count[word_start] -= 1
 
-    def __check_word_vertical(self, row_n, col_n, word):
-        if self.get_square(row_n + len(word) - 1, col_n) is None:
+    def __remove_word_vertical(self, coor_start: Coor, word: str) -> None:
+        for row_i, _ in enumerate(word, coor_start.row):
+            self.check_and_remove_letter(Coor(row_i, coor_start.col), coor_start)
+        if coor_start.row + len(word) + 1 < self.height:
+            def_coor = Coor(coor_start.row + len(word) + 1, coor_start.col)
+            if self.word_grid_impact[def_coor] == coor_start:
+                self.__set_square(def_coor, '')
+            if coor_start.row + len(word) + 3 < self.height:
+                word_start = WordStart(Coor(coor_start.row + len(word) + 2, coor_start.col), 'V')
+                if self.word_settable_impact[word_start] == coor_start:
+                    self.settable_squares.discard(word_start)
+            if coor_start.col + 2 < self.width:
+                word_start = WordStart(Coor(coor_start.row + len(word) + 1, coor_start.col + 1), 'V')
+                if self.word_settable_impact[word_start] == coor_start:
+                    self.settable_squares.discard(word_start)
+
+    def __remove_word_horizontal(self, coor_start: Coor, word: str) -> None:
+        for col_i, _ in enumerate(word, coor_start.col):
+            self.check_and_remove_letter(Coor(coor_start.row, col_i), coor_start)
+        if coor_start.col + len(word) + 1 < self.width:
+            def_coor = Coor(coor_start.row, coor_start.col + len(word) + 1)
+            if self.word_grid_impact[def_coor] == coor_start:
+                self.__set_square(def_coor, '')
+            if coor_start.col + len(word) + 3 < self.width:
+                word_start = WordStart(Coor(coor_start.row, coor_start.col + len(word) + 2), 'H')
+                if self.word_settable_impact[word_start] == coor_start:
+                    self.settable_squares.discard(word_start)
+            if coor_start.row + 2 < self.height:
+                word_start = WordStart(Coor(coor_start.row + 1, coor_start.col + len(word) + 1), 'V')
+                if self.word_settable_impact[word_start] == coor_start:
+                    self.settable_squares.discard(word_start)
+
+    def remove_word(self, word_start: WordStart, word: str):
+        self.words_dict.pop(word_start)
+        self.settable_squares.add(word_start)
+        if word_start.direction == 'V':
+            self.__remove_word_vertical(word_start.coor, word)
+        elif word_start.direction == 'H':
+            self.__remove_word_horizontal(word_start.coor, word)
+
+    def __check_word_vertical(self, coor_start: Coor, word: str):
+        if self.get_square(coor_start.row + len(word) - 1, coor_start.col) is None:
             return False
         elif (
-            self.get_square(row_n + len(word), col_n) in ('', '[def]')
+            self.get_square(coor_start.row + len(word), coor_start.col) in ('', '[def]')
             and (
-                self.get_square(row_n + len(word), col_n - 2) in (None, '[def]')
-                or self.get_square(row_n + len(word) + 2, col_n) == '[def]'
-                or self.get_square(row_n + len(word), col_n + 2) == '[def]'
+                self.get_square(coor_start.row + len(word), coor_start.col - 2) in (None, '[def]')
+                or self.get_square(coor_start.row + len(word) + 2, coor_start.col) == '[def]'
+                or self.get_square(coor_start.row + len(word), coor_start.col + 2) == '[def]'
             )
         ):
             return False
-        for row_i, letter in enumerate(word, row_n):
-            square = self.get_square(row_i, col_n)
+        for row_i, letter in enumerate(word, coor_start.row):
+            square = self.get_square(row_i, coor_start.col)
             if not (square == '' or square == self.normalize(letter)):
                 return False
         return True
     
-    def __check_word_horizontal(self, row_n, col_n, word):
-        if self.get_square(row_n, col_n + len(word) - 1) is None:
+    def __check_word_horizontal(self, coor_start: Coor, word: str):
+        if self.get_square(coor_start.row, coor_start.col + len(word) - 1) is None:
             return False
         elif (
-            self.get_square(row_n, col_n + len(word)) in ('', '[def]')
+            self.get_square(coor_start.row, coor_start.col + len(word)) in ('', '[def]')
             and (
-                self.get_square(row_n - 2, col_n + len(word)) in (None, '[def]')
-                or self.get_square(row_n, col_n + len(word) + 2) == '[def]'
-                or self.get_square(row_n + 2, col_n + len(word)) == '[def]'
+                self.get_square(coor_start.row - 2, coor_start.col + len(word)) in (None, '[def]')
+                or self.get_square(coor_start.row, coor_start.col + len(word) + 2) == '[def]'
+                or self.get_square(coor_start.row + 2, coor_start.col + len(word)) == '[def]'
             )
         ):
             return False
-        for col_i, letter in enumerate(word, col_n):
-            square = self.get_square(row_n, col_i)
+        for col_i, letter in enumerate(word, coor_start.col):
+            square = self.get_square(coor_start.row, col_i)
             if not (square == '' or square == self.normalize(letter)):
                 return False
         return True
 
-    def check_word(self, direction, *args):
-        if direction == 'V':
-            return self.__check_word_vertical(*args)
-        elif direction == 'H':
-            return self.__check_word_horizontal(*args)
+    def check_word(self, word_start: WordStart, word):
+        if word_start.direction == 'V':
+            return self.__check_word_vertical(word_start.coor, word)
+        elif word_start.direction == 'H':
+            return self.__check_word_horizontal(word_start.coor, word)
 
     def print(self):
         grid_str = '┌' + ('───┬───' * (self.width - 1)) + '┐\n'
