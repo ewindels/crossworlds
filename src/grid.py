@@ -173,6 +173,22 @@ class Grid:
         if self.get_content(coor_end):
             self.__remove_def_and_word_starts(word_start.coor, coor_end)
 
+    def __check_word_no_fit(self, coor_end: Coor, coor_direction: Coor) -> bool:
+        return (
+            self.get_content(coor_end - coor_direction) is None
+            or (not self.get_content(coor_end) in ('', DEF_TOKEN, None))
+        )
+
+    def __check_def_no_fit(self, coor_end: Coor, coor_perpendicular: Coor, coor_direction: Coor) -> bool:
+        return (
+                self.get_content(coor_end) in ('', DEF_TOKEN)
+                and (
+                    self.get_content(coor_end - coor_perpendicular) in (None, DEF_TOKEN)
+                    or self.get_content(coor_end + coor_perpendicular) == DEF_TOKEN
+                    or self.get_content(coor_end + coor_direction) == DEF_TOKEN
+                )
+            )
+
     def check_word(self, word_start: WordStart, word):
         if word_start.direction == 'V':
             coor_direction = Coor(1, 0)
@@ -182,16 +198,8 @@ class Grid:
             coor_perpendicular = Coor(1, 0)
         coor_end = word_start.coor + coor_direction * len(word)
         if (
-            self.get_content(coor_end - coor_direction) is None
-            or (not self.get_content(coor_end) in ('', DEF_TOKEN, None))
-            or (
-                self.get_content(coor_end) in ('', DEF_TOKEN)
-                and (
-                    self.get_content(coor_end - coor_perpendicular) in (None, DEF_TOKEN)
-                    or self.get_content(coor_end + coor_perpendicular) == DEF_TOKEN
-                    or self.get_content(coor_end + coor_direction) == DEF_TOKEN
-                )
-            )
+            self.__check_word_no_fit(coor_end, coor_direction)
+            or self.__check_def_no_fit(coor_end, coor_perpendicular, coor_direction)
         ):
             return False
         for offset, letter in enumerate(word):
