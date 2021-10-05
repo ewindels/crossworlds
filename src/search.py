@@ -1,12 +1,11 @@
-from itertools import chain
 from grid import Grid
 from copy import copy
 
 def recursive_search(vocab_set: set[str], grid: Grid, found_grids: list[dict]) -> None:
-    if grid.settable_squares:
-        word_start = grid.max_settable_square
+    if grid.word_starts:
+        word_start = grid.best_word_start
     else:
-        if all(square != '' for square in chain.from_iterable(grid.grid)):
+        if grid.is_full:
             found_grids.append(copy(grid.words_dict))
         return
     for word in list(vocab_set):

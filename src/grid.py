@@ -1,3 +1,4 @@
+from itertools import chain
 from collections import defaultdict
 from typing import Optional, NamedTuple
 
@@ -18,7 +19,7 @@ class Grid:
         self.word_start_dict = defaultdict(list)
         self.letters_count = defaultdict(int)
         self.grid = self.__init_grid()
-        self.settable_squares = self.__init_settable()
+        self.word_starts = self.__init_word_starts()
         self.word_grid_impact = {}
         self.word_settable_impact = {}
 
@@ -34,15 +35,15 @@ class Grid:
             self.__set_square(Coor(row_n, 0), DEF_TOKEN)
         return self.grid
 
-    def __init_settable(self) -> set[WordStart]:
-        settable_squares = set()
+    def __init_word_starts(self) -> set[WordStart]:
+        word_starts = set()
         for col_i in range(1, self.width):
             if col_i % 2:
                 row_n = 0
             else:
                 row_n = 1
             word_start = WordStart(Coor(row_n, col_i), 'V')
-            settable_squares.add(word_start)
+            word_starts.add(word_start)
             for row_i in range(row_n, self.height):
                 self.word_start_dict[Coor(row_i, col_i)].append(word_start)
         for row_i in range(1, self.height):
@@ -51,14 +52,18 @@ class Grid:
             else:
                 col_n = 1
             word_start =  WordStart(Coor(row_i, col_n), 'H')
-            settable_squares.add(word_start)
+            word_starts.add(word_start)
             for col_i in range(col_n, self.width):
                 self.word_start_dict[Coor(row_i, col_i)].append(word_start)
-        return settable_squares
+        return word_starts
 
     @property
-    def max_settable_square(self):
-        return max(self.settable_squares, key=lambda word_start: (self.letters_count[word_start], -word_start.coor.col, -word_start.coor.row))
+    def best_word_start(self) -> WordStart:
+        return max(self.word_starts, key=lambda word_start: (self.letters_count[word_start], -word_start.coor.col, -word_start.coor.row))
+
+    @property
+    def is_full(self) -> bool:
+        return all(square != '' for square in chain.from_iterable(self.grid))
 
     @staticmethod
     def normalize(letter: str) -> str:
@@ -86,7 +91,7 @@ class Grid:
     def check_impact_and_update_settable(self, word_start: WordStart, coor_start: Coor) -> bool:
         if word_start not in self.word_settable_impact:
             self.word_settable_impact[word_start] = coor_start
-            self.settable_squares.add(word_start)
+            self.word_starts.add(word_start)
             return True
         return False
 
@@ -122,7 +127,7 @@ class Grid:
 
     def set_word(self, word_start: WordStart, word: str) -> None:
         self.words_dict[word_start] = word
-        self.settable_squares.discard(word_start)
+        self.word_starts.discard(word_start)
         if word_start.direction == 'V':
             self.__set_word_vertical(word_start.coor, word)
         elif word_start.direction == 'H':
@@ -145,11 +150,11 @@ class Grid:
             if coor_start.row + len(word) + 3 < self.height:
                 word_start = WordStart(Coor(coor_start.row + len(word) + 2, coor_start.col), 'V')
                 if self.word_settable_impact[word_start] == coor_start:
-                    self.settable_squares.discard(word_start)
+                    self.word_starts.discard(word_start)
             if coor_start.col + 2 < self.width:
                 word_start = WordStart(Coor(coor_start.row + len(word) + 1, coor_start.col + 1), 'V')
                 if self.word_settable_impact[word_start] == coor_start:
-                    self.settable_squares.discard(word_start)
+                    self.word_starts.discard(word_start)
 
     def __remove_word_horizontal(self, coor_start: Coor, word: str) -> None:
         for col_i, _ in enumerate(word, coor_start.col):
@@ -161,15 +166,15 @@ class Grid:
             if coor_start.col + len(word) + 3 < self.width:
                 word_start = WordStart(Coor(coor_start.row, coor_start.col + len(word) + 2), 'H')
                 if self.word_settable_impact[word_start] == coor_start:
-                    self.settable_squares.discard(word_start)
+                    self.word_starts.discard(word_start)
             if coor_start.row + 2 < self.height:
                 word_start = WordStart(Coor(coor_start.row + 1, coor_start.col + len(word) + 1), 'V')
                 if self.word_settable_impact[word_start] == coor_start:
-                    self.settable_squares.discard(word_start)
+                    self.word_starts.discard(word_start)
 
     def remove_word(self, word_start: WordStart, word: str):
         self.words_dict.pop(word_start)
-        self.settable_squares.add(word_start)
+        self.word_starts.add(word_start)
         if word_start.direction == 'V':
             self.__remove_word_vertical(word_start.coor, word)
         elif word_start.direction == 'H':
@@ -220,13 +225,13 @@ class Grid:
     def print(self):
         grid_str = '┌' + ('───┬───' * (self.width - 1)) + '┐\n'
         for row_n, row in enumerate(self.grid):
-            for square in row:
-                if square == '[def]':
+            for content in row:
+                if content == '[def]':
                     grid_str += '│ ■ '
-                elif square == '':
+                elif content == '':
                     grid_str += '│   '
                 else:
-                    grid_str += f'│ {square} '
+                    grid_str += f'│ {content} '
             grid_str += '│\n'
             if row_n < self.height - 1:
                 grid_str += '├' + ('───┼───' * (self.width - 1)) + '┤\n'
