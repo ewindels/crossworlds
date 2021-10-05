@@ -13,8 +13,8 @@ class WordStart(NamedTuple):
 DEF_TOKEN = '[def]'
 
 class Grid:
-    def __init__(self, size):
-        self.width, self.height = size
+    def __init__(self, width: int, height: int):
+        self.width, self.height = width, height
         self.words_dict = {}
         self.word_start_dict = defaultdict(list)
         self.letters_count = defaultdict(int)
