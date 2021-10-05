@@ -2,15 +2,25 @@ from itertools import chain
 from collections import defaultdict
 from typing import Optional, NamedTuple
 
+
+DEF_TOKEN = '[def]'
+
+
 class Coor(NamedTuple):
     row: int
     col: int
+
+    def __add__(self, other):
+        return Coor(self.row + other.row, self.col + other.col)
+
+    def __sub__(self, other):
+        return Coor(self.row - other.row, self.col - other.col)
+
 
 class WordStart(NamedTuple):
     coor: Coor
     direction: str
 
-DEF_TOKEN = '[def]'
 
 class Grid:
     def __init__(self, width: int, height: int):
@@ -23,16 +33,16 @@ class Grid:
         self.word_grid_impact = {}
         self.word_settable_impact = {}
 
-    def __set_square(self, coor: Coor, content: str) -> None:
+    def __set_content(self, coor: Coor, content: str) -> None:
         row_n, col_n = coor
         self.grid[row_n][col_n] = content
 
     def __init_grid(self) -> list[list[str]]:
         self.grid = [['' for _ in range(self.width)] for _ in range(self.height)]
         for col_n in range(0, self.width, 2):
-            self.__set_square(Coor(0, col_n), DEF_TOKEN)
+            self.__set_content(Coor(0, col_n), DEF_TOKEN)
         for row_n in range(0, self.height, 2):
-            self.__set_square(Coor(row_n, 0), DEF_TOKEN)
+            self.__set_content(Coor(row_n, 0), DEF_TOKEN)
         return self.grid
 
     def __init_word_starts(self) -> set[WordStart]:
@@ -63,7 +73,7 @@ class Grid:
 
     @property
     def is_full(self) -> bool:
-        return all(square != '' for square in chain.from_iterable(self.grid))
+        return all(content != '' for content in chain.from_iterable(self.grid))
 
     @staticmethod
     def normalize(letter: str) -> str:
@@ -77,53 +87,46 @@ class Grid:
         if 0 <= row_n < self.height:
             return self.grid[row_n]
 
-    def get_square(self, row_n: int, col_n: int):
-        if (0 <= row_n < self.height) and (0 <= col_n < self.width):
-            return self.grid[row_n][col_n]
+    def get_content(self, coor: Coor):
+        if (0 <= coor.row < self.height) and (0 <= coor.col < self.width):
+            return self.grid[coor.row][coor.col]
 
-    def check_impact_and_update_grid(self, coor: Coor, coor_start: Coor, content: str) -> bool:
+    def __check_impact_and_update_grid(self, coor_start: Coor, coor: Coor, content: str) -> None:
         if coor not in self.word_grid_impact:
             self.word_grid_impact[coor] = coor_start
-            self.__set_square(coor, content)
-            return True
-        return False
+            self.__set_content(coor, content)
+            for word_start in self.word_start_dict.get(coor, []):
+                self.letters_count[word_start] += 1
 
-    def check_impact_and_update_settable(self, word_start: WordStart, coor_start: Coor) -> bool:
+    def __check_impact_and_update_settable(self, coor_start: Coor, word_start: WordStart) -> None:
         if word_start not in self.word_settable_impact:
             self.word_settable_impact[word_start] = coor_start
             self.word_starts.add(word_start)
-            return True
-        return False
+
+    def __set_def_and_word_starts(self, coor_start: Coor, coor_end: Coor) -> None:
+        self.__check_impact_and_update_grid(coor_start, coor_end, DEF_TOKEN)
+        if coor_end.row + 2 < self.height:
+            word_start = WordStart(coor_end + Coor(1, 0), 'V')
+            self.__check_impact_and_update_settable(coor_start, word_start)
+        if coor_end.col + 2 < self.width:
+            word_start = WordStart(coor_end + Coor(0, 1), 'H')
+            self.__check_impact_and_update_settable(coor_start, word_start)
 
     def __set_word_vertical(self, coor_start: Coor, word: str) -> None:
         for row_i, letter in enumerate(word, coor_start.row):
             coor_letter = Coor(row_i, coor_start.col)
-            if self.check_impact_and_update_grid(coor_letter, coor_start, self.normalize(letter)):
-                for word_start in self.word_start_dict[coor_letter]:
-                    self.letters_count[word_start] += 1
-        if coor_start.row + len(word) + 1 < self.height:
-            self.check_impact_and_update_grid(Coor(coor_start.row + len(word) + 1, coor_start.col), coor_start, '[def]')
-            if coor_start.row + len(word) + 3 < self.height:
-                word_start = WordStart(Coor(coor_start.row + len(word) + 2, coor_start.col), 'V')
-                self.check_impact_and_update_settable(word_start, coor_start)
-            if coor_start.col + 2 < self.width:
-                word_start = WordStart(Coor(coor_start.row + len(word) + 1, coor_start.col + 1), 'H')
-                self.check_impact_and_update_settable(word_start, coor_start)
+            self.__check_impact_and_update_grid(coor_start, coor_letter, self.normalize(letter))
+        coor_end = coor_start + Coor(len(word), 0)
+        if coor_end.row < self.height:
+            self.__set_def_and_word_starts(coor_start, coor_end)
 
     def __set_word_horizontal(self, coor_start: Coor, word: str) -> None:
         for col_i, letter in enumerate(word, coor_start.col):
             coor_letter = Coor(coor_start.row, col_i)
-            if self.check_impact_and_update_grid(coor_letter, coor_start, self.normalize(letter)):
-                for word_start in self.word_start_dict[coor_letter]:
-                    self.letters_count[word_start] += 1
-        if coor_start.col + len(word) + 1 < self.width:
-            self.check_impact_and_update_grid(Coor(coor_start.row, coor_start.col + len(word) + 1), coor_start, '[def]')
-            if coor_start.col + len(word) + 3 < self.width:
-                word_start = WordStart(Coor(coor_start.row, coor_start.col + len(word) + 2), 'H')
-                self.check_impact_and_update_settable(word_start, coor_start)
-            if coor_start.row + 2 < self.height:
-                word_start = WordStart(Coor(coor_start.row + 1, coor_start.col + len(word) + 1), 'V')
-                self.check_impact_and_update_settable(word_start, coor_start)
+            self.__check_impact_and_update_grid(coor_start, coor_letter, self.normalize(letter))
+        coor_end = coor_start + Coor(0, len(word))
+        if coor_end.col < self.width:
+            self.__set_def_and_word_starts(coor_start, coor_end)
 
     def set_word(self, word_start: WordStart, word: str) -> None:
         self.words_dict[word_start] = word
@@ -133,44 +136,37 @@ class Grid:
         elif word_start.direction == 'H':
             self.__set_word_horizontal(word_start.coor, word)
 
-    def check_and_remove_letter(self, letter_coor: Coor, coor_start: Coor) -> None:
-        if self.word_grid_impact[letter_coor] == coor_start:
-            self.__set_square(letter_coor, '')
-            self.word_grid_impact.pop(letter_coor)
-            for word_start in self.word_start_dict[letter_coor]:
+    def __check_and_remove_letter(self, coor_start: Coor, coor: Coor) -> None:
+        if self.word_grid_impact.get(coor) == coor_start:
+            self.__set_content(coor, '')
+            self.word_grid_impact.pop(coor)
+            for word_start in self.word_start_dict.get(coor, []):
                 self.letters_count[word_start] -= 1
+
+    def __remove_def_and_word_starts(self, coor_start: Coor, coor_end: Coor) -> None:
+        self.__check_and_remove_letter(coor_start, coor_end)
+        if coor_end.row + 2 < self.height:
+            word_start = WordStart(coor_end + Coor(1, 0), 'V')
+            if self.word_settable_impact[word_start] == coor_start:
+                self.word_starts.discard(word_start)
+        if coor_end.col + 2 < self.width:
+            word_start = WordStart(coor_end + Coor(0, 1), 'H')
+            if self.word_settable_impact[word_start] == coor_start:
+                self.word_starts.discard(word_start)
 
     def __remove_word_vertical(self, coor_start: Coor, word: str) -> None:
         for row_i, _ in enumerate(word, coor_start.row):
-            self.check_and_remove_letter(Coor(row_i, coor_start.col), coor_start)
-        if coor_start.row + len(word) + 1 < self.height:
-            def_coor = Coor(coor_start.row + len(word) + 1, coor_start.col)
-            if self.word_grid_impact[def_coor] == coor_start:
-                self.__set_square(def_coor, '')
-            if coor_start.row + len(word) + 3 < self.height:
-                word_start = WordStart(Coor(coor_start.row + len(word) + 2, coor_start.col), 'V')
-                if self.word_settable_impact[word_start] == coor_start:
-                    self.word_starts.discard(word_start)
-            if coor_start.col + 2 < self.width:
-                word_start = WordStart(Coor(coor_start.row + len(word) + 1, coor_start.col + 1), 'V')
-                if self.word_settable_impact[word_start] == coor_start:
-                    self.word_starts.discard(word_start)
+            self.__check_and_remove_letter(Coor(row_i, coor_start.col), coor_start)
+        coor_end = coor_start + Coor(len(word), 0)
+        if coor_end.row < self.height:
+            self.__remove_def_and_word_starts(coor_start, coor_end)
 
     def __remove_word_horizontal(self, coor_start: Coor, word: str) -> None:
         for col_i, _ in enumerate(word, coor_start.col):
-            self.check_and_remove_letter(Coor(coor_start.row, col_i), coor_start)
-        if coor_start.col + len(word) + 1 < self.width:
-            def_coor = Coor(coor_start.row, coor_start.col + len(word) + 1)
-            if self.word_grid_impact[def_coor] == coor_start:
-                self.__set_square(def_coor, '')
-            if coor_start.col + len(word) + 3 < self.width:
-                word_start = WordStart(Coor(coor_start.row, coor_start.col + len(word) + 2), 'H')
-                if self.word_settable_impact[word_start] == coor_start:
-                    self.word_starts.discard(word_start)
-            if coor_start.row + 2 < self.height:
-                word_start = WordStart(Coor(coor_start.row + 1, coor_start.col + len(word) + 1), 'V')
-                if self.word_settable_impact[word_start] == coor_start:
-                    self.word_starts.discard(word_start)
+            self.__check_and_remove_letter(coor_start, Coor(coor_start.row, col_i))
+        coor_end = coor_start + Coor(0, len(word))
+        if coor_end.col < self.width:
+            self.__remove_def_and_word_starts(coor_start, coor_end)
 
     def remove_word(self, word_start: WordStart, word: str):
         self.words_dict.pop(word_start)
@@ -181,38 +177,44 @@ class Grid:
             self.__remove_word_horizontal(word_start.coor, word)
 
     def __check_word_vertical(self, coor_start: Coor, word: str):
-        if self.get_square(coor_start.row + len(word) - 1, coor_start.col) is None:
+        coor_end = coor_start + Coor(len(word), 0)
+        if self.get_content(coor_end - Coor(1, 0)) is None:
+            return False
+        elif not self.get_content(coor_end) in ('', DEF_TOKEN, None):
             return False
         elif (
-            self.get_square(coor_start.row + len(word), coor_start.col) in ('', '[def]')
+            self.get_content(coor_end) in ('', DEF_TOKEN)
             and (
-                self.get_square(coor_start.row + len(word), coor_start.col - 2) in (None, '[def]')
-                or self.get_square(coor_start.row + len(word) + 2, coor_start.col) == '[def]'
-                or self.get_square(coor_start.row + len(word), coor_start.col + 2) == '[def]'
+                self.get_content(coor_end - Coor(2, 0)) in (None, DEF_TOKEN)
+                or self.get_content(coor_end + Coor(2, 0)) == DEF_TOKEN
+                or self.get_content(coor_end + Coor(0, 2)) == DEF_TOKEN
             )
         ):
             return False
         for row_i, letter in enumerate(word, coor_start.row):
-            square = self.get_square(row_i, coor_start.col)
-            if not (square == '' or square == self.normalize(letter)):
+            content = self.get_content(Coor(row_i, coor_start.col))
+            if not (content == '' or content == self.normalize(letter)):
                 return False
         return True
     
     def __check_word_horizontal(self, coor_start: Coor, word: str):
-        if self.get_square(coor_start.row, coor_start.col + len(word) - 1) is None:
+        coor_end = coor_start + Coor(0, len(word))
+        if self.get_content(coor_end - Coor(0, 1)) is None:
+            return False
+        elif not self.get_content(coor_end) in ('', DEF_TOKEN, None):
             return False
         elif (
-            self.get_square(coor_start.row, coor_start.col + len(word)) in ('', '[def]')
+            self.get_content(Coor(coor_start.row, coor_start.col + len(word))) in ('', DEF_TOKEN)
             and (
-                self.get_square(coor_start.row - 2, coor_start.col + len(word)) in (None, '[def]')
-                or self.get_square(coor_start.row, coor_start.col + len(word) + 2) == '[def]'
-                or self.get_square(coor_start.row + 2, coor_start.col + len(word)) == '[def]'
+                self.get_content(coor_end - Coor(0, 2)) in (None, DEF_TOKEN)
+                or self.get_content(coor_end + Coor(0, 2)) == DEF_TOKEN
+                or self.get_content(coor_end + Coor(2, 0)) == DEF_TOKEN
             )
         ):
             return False
         for col_i, letter in enumerate(word, coor_start.col):
-            square = self.get_square(coor_start.row, col_i)
-            if not (square == '' or square == self.normalize(letter)):
+            content = self.get_content(Coor(coor_start.row, col_i))
+            if not (content == '' or content == self.normalize(letter)):
                 return False
         return True
 
@@ -226,7 +228,7 @@ class Grid:
         grid_str = '┌' + ('───┬───' * (self.width - 1)) + '┐\n'
         for row_n, row in enumerate(self.grid):
             for content in row:
-                if content == '[def]':
+                if content == DEF_TOKEN:
                     grid_str += '│ ■ '
                 elif content == '':
                     grid_str += '│   '
