@@ -114,4 +114,4 @@ dmypy.json
 .pyre/
 
 .vscode/
-zone.ipynb
+notebooks/
