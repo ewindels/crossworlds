@@ -1,4 +1,5 @@
 from itertools import chain
+from unidecode import unidecode
 from collections import defaultdict
 from typing import Optional, NamedTuple
 
@@ -15,6 +16,9 @@ class Coor(NamedTuple):
 
     def __sub__(self, other):
         return Coor(self.row - other.row, self.col - other.col)
+
+    def __mul__(self, other):
+        return Coor(self.row * other, self.col * other)
 
 
 class WordStart(NamedTuple):
@@ -77,7 +81,7 @@ class Grid:
 
     @staticmethod
     def normalize(letter: str) -> str:
-        return letter.upper()
+        return unidecode(letter).upper()
 
     def get_col(self, col_n: int) -> Optional[list[str]]:
         if 0 <= col_n < self.width:
@@ -154,27 +158,20 @@ class Grid:
             if self.word_settable_impact[word_start] == coor_start:
                 self.word_starts.discard(word_start)
 
-    def __remove_word_vertical(self, coor_start: Coor, word: str) -> None:
-        for row_i, _ in enumerate(word, coor_start.row):
-            self.__check_and_remove_letter(Coor(row_i, coor_start.col), coor_start)
-        coor_end = coor_start + Coor(len(word), 0)
-        if coor_end.row < self.height:
-            self.__remove_def_and_word_starts(coor_start, coor_end)
-
-    def __remove_word_horizontal(self, coor_start: Coor, word: str) -> None:
-        for col_i, _ in enumerate(word, coor_start.col):
-            self.__check_and_remove_letter(coor_start, Coor(coor_start.row, col_i))
-        coor_end = coor_start + Coor(0, len(word))
-        if coor_end.col < self.width:
-            self.__remove_def_and_word_starts(coor_start, coor_end)
-
     def remove_word(self, word_start: WordStart, word: str):
+        if word_start.direction == 'V':
+            coor_direction = Coor(1, 0)
+        else:
+            coor_direction = Coor(0, 1)
         self.words_dict.pop(word_start)
         self.word_starts.add(word_start)
-        if word_start.direction == 'V':
-            self.__remove_word_vertical(word_start.coor, word)
-        elif word_start.direction == 'H':
-            self.__remove_word_horizontal(word_start.coor, word)
+        for offset in range(len(word)):
+            coor_offset = coor_direction * offset
+            self.__check_and_remove_letter(word_start.coor, word_start.coor + coor_offset)
+        coor_offset = coor_direction * len(word)
+        coor_end = word_start.coor + coor_offset
+        if self.get_content(coor_end):
+            self.__remove_def_and_word_starts(word_start.coor, coor_end)
 
     def __check_word_vertical(self, coor_start: Coor, word: str):
         coor_end = coor_start + Coor(len(word), 0)
