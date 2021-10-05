@@ -2,15 +2,13 @@ import pytest
 from grid import Grid
 from search import recursive_search
 
-@pytest.fixture
-def grid():
-    return Grid((2, 2))
-
-@pytest.fixture
-def vocab():
-    return {'ab', 'bb', 'cb', 'dd'}
-
-def test_search(grid, vocab):
+@pytest.mark.parametrize("grid,vocab,expected", [
+    (Grid((2, 2)), {'ab', 'bb'}, 2),
+    (Grid((2, 2)), {'ab', 'dd'}, 0),
+    (Grid((2, 2)), {'ab', 'bb', 'cb', 'dd'}, 6),
+    (Grid((3, 3)), {'abc', 'bbb', 'ba', 'ca', 'ddd', 'dd'}, 2),
+])
+def test_search(grid, vocab, expected):
     found_grids = []
     recursive_search(vocab, grid, found_grids)
-    assert len(found_grids) == 6
+    assert len(found_grids) == expected

@@ -2,7 +2,7 @@ from itertools import chain
 from grid import Grid
 from copy import copy
 
-def recursive_search(vocab_set: set[str], grid: Grid, found_grids: list[dict]):
+def recursive_search(vocab_set: set[str], grid: Grid, found_grids: list[dict]) -> None:
     if grid.settable_squares:
         word_start = grid.max_settable_square
     else:
