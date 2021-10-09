@@ -1,79 +1,289 @@
+from __future__ import annotations
+from abc import ABC, abstractmethod
 from itertools import chain
-from unidecode import unidecode
 from collections import defaultdict
-from typing import Optional, NamedTuple
+from typing import Optional, Union
+from unidecode import unidecode
 
 
 DEF_TOKEN = '[def]'
 
 
-class Coor(NamedTuple):
-    row: int
-    col: int
+class CrossingWordPatterns:
+    def __init__(self, horizontal: Optional[WordPatternHorizontal] = None, vertical: Optional[WordPatternVertical] = None) -> None:
+        self.horizontal = horizontal
+        self.vertical = vertical
 
-    def __add__(self, other):
-        return Coor(self.row + other.row, self.col + other.col)
+    def get_aligned(self, word_pattern: WordPattern) -> Union[None, WordPattern]:
+        if isinstance(word_pattern, WordPatternHorizontal):
+            return self.horizontal
+        elif isinstance(word_pattern, WordPatternVertical):
+            return self.vertical
 
-    def __sub__(self, other):
-        return Coor(self.row - other.row, self.col - other.col)
+    def set_aligned(self, word_pattern: WordPattern) -> Union[None, WordPattern]:
+        if isinstance(word_pattern, WordPatternHorizontal):
+            self.horizontal = word_pattern
+        elif isinstance(word_pattern, WordPatternVertical):
+            self.vertical = word_pattern
 
-    def __mul__(self, other):
-        return Coor(self.row * other, self.col * other)
+    def get_orthogonal(self, word_pattern: WordPattern) -> Union[None, WordPattern]:
+        if isinstance(word_pattern, WordPatternHorizontal):
+            return self.vertical
+        elif isinstance(word_pattern, WordPatternVertical):
+            return self.horizontal
+
+    def set_orthogonal(self, word_pattern: WordPattern) -> Union[None, WordPattern]:
+        if isinstance(word_pattern, WordPatternHorizontal):
+            self.vertical = word_pattern
+        elif isinstance(word_pattern, WordPatternVertical):
+            self.horizontal = word_pattern
 
 
-class WordStart(NamedTuple):
-    coor: Coor
-    direction: str
+class WordPattern(ABC):
+    def __init__(self, row: int, col: int, length: int, grid: Grid) -> None:
+        self.row = row
+        self.col = col
+        self.length = 2
+        self.grid = grid
+        self.valid_word_lengths = {self.length}
+        self.set_length(length)
+        self.letters_indices = set()
+        self.linked_letters_indices = set()
+        self.filled = False
 
+    @abstractmethod
+    def __repr__(self) -> str:
+        pass
+
+    @abstractmethod
+    def get_coor(self, index: int) -> tuple[int ,int]:
+        pass
+
+    @abstractmethod
+    def get_coor_orthogonal(self, index: int, orthogonal_offset: int) -> tuple[int ,int]:
+        pass
+
+    @abstractmethod
+    def get_index(self, row: int, col: int) -> int:
+        pass
+
+    @abstractmethod
+    def create_aligned(self, row: int, col: int, length: int) -> WordPattern:
+        pass
+
+    @abstractmethod
+    def create_orthogonal(self, row: int, col: int, length: int) -> WordPattern:
+        pass
+
+    def get_content(self, index: int) -> Union[None, str]:
+        return self.grid.get_content(*self.get_coor(index))
+
+    def get_content_orthogonal(self, index: int, orthogonal_offset: int) -> Union[None, str]:
+        return self.grid.get_content(*self.get_coor_orthogonal(index, orthogonal_offset))
+
+    def set_content(self, index: int, content: str) -> None:
+        self.grid.set_content(*self.get_coor(index), content)
+
+    def add_letter_index(self, row: int, col: int) -> None:
+        index = self.get_index(row, col)
+        self.letters_indices.add(index)
+
+    def remove_letter_index(self, row: int, col: int) -> None:
+        index = self.get_index(row, col)
+        self.letters_indices.discard(index)
+
+    def update_crossing_word_patterns(self, index: int) -> None:
+        self.grid.crossing_word_patterns[self.get_coor(index)].set_aligned(self)
+
+    def get_orthogonal_word_pattern(self, index: int) -> Union[None, WordPattern]:
+        coor = self.get_coor(index)
+        return self.grid.crossing_word_patterns[coor].get_orthogonal(self)
+
+    def update_orthogonal_word_pattern_letters(self, index: int) -> None:
+        coor = self.get_coor(index)
+        if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
+            crossed_word_pattern.add_letter_index(*coor)
+
+    def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
+        coor = self.get_coor(index)
+        if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
+            crossed_word_pattern.remove_letter_index(*coor)
+
+    def update_orthogonal_word_patterns_length(self, index: int) -> None:
+        coor = self.get_coor(index)
+        if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
+            length = crossed_word_pattern.get_index(*coor) - 1
+            crossed_word_pattern.set_length(length)
+
+    def unset_orthogonal_word_patterns_length(self, index: int) -> None:
+        coor = self.get_coor(index)
+        if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
+            length = crossed_word_pattern.get_index(*coor) - 1
+            crossed_word_pattern.set_length(length)
+
+    def set_aligned_word_pattern(self, def_index: int) -> None:
+        if (
+            self.get_content(def_index + 2) not in (None, DEF_TOKEN)
+            and self.get_content(def_index + 1) != DEF_TOKEN
+            ):
+            row, col = self.get_coor(def_index + 1)
+            new_length = self.length - def_index
+            new_word_pattern_aligned = self.create_aligned(row, col, new_length)
+            self.set_length(def_index - 1)
+            for new_index in range(new_length):
+                new_word_pattern_aligned.update_crossing_word_patterns(new_index)
+                if new_index + def_index in self.letters_indices:
+                    new_word_pattern_aligned.letters_indices.add(new_index)
+            self.grid.word_patterns.add(new_word_pattern_aligned)
+
+    def set_orthogonal_word_pattern(self, def_index: int) -> None:
+        if (
+            self.get_content_orthogonal(def_index, 2) not in (None, DEF_TOKEN)
+            and self.get_content_orthogonal(def_index, 1) != DEF_TOKEN
+            and (orthogonal_word_pattern := self.get_orthogonal_word_pattern(def_index))
+            ):
+            row, col = self.get_coor_orthogonal(def_index, 1)
+            orthogonal_length = orthogonal_word_pattern.length
+            orthogonal_def_index = orthogonal_word_pattern.get_index(*self.get_coor(def_index))
+            new_length = orthogonal_length - orthogonal_def_index
+            new_word_pattern_orthogonal = self.create_orthogonal(row, col, new_length)
+            orthogonal_word_pattern.set_length(orthogonal_def_index - 1)
+            for new_index in range(orthogonal_length):
+                new_word_pattern_orthogonal.update_crossing_word_patterns(new_index)
+                if new_index + def_index in orthogonal_word_pattern.letters_indices:
+                    new_word_pattern_orthogonal.letters_indices.add(new_index)
+            self.grid.word_patterns.add(new_word_pattern_orthogonal)
+
+    def set_length(self, length: int) -> None:
+        if length > self.length:
+            for index in range(self.length, length):
+                if (
+                    self.get_content(index + 1) is None
+                    or (
+                        self.get_content(index + 1) == ''
+                        and (
+                            self.get_content(index + 3) != DEF_TOKEN
+                            and self.get_content_orthogonal(index + 1, 2) != DEF_TOKEN
+                            and self.get_content_orthogonal(index + 1, -2) not in (DEF_TOKEN, None)
+                        )
+                    )
+                ):
+                    self.valid_word_lengths.add(index)
+                self.update_crossing_word_patterns(index)
+        else:
+            for valid_length in self.valid_word_lengths:
+                if valid_length > length:
+                    self.valid_word_lengths.discard(valid_length)
+
+    def match_word(self, word: str) -> bool:
+        return (
+            len(word) in self.valid_word_lengths
+            and all(
+                word[index] == self.get_content(index) for index in self.letters_indices
+            )
+        )
+
+    def set_word(self, word: str) -> None:
+        self.grid.words_dict[self] = word
+        self.grid.word_patterns.discard(self)
+        for index, letter in enumerate(word):
+            if self.get_content(index) == '':
+                self.set_content(index, letter)
+                self.linked_letters_indices.add(index)
+                self.update_orthogonal_word_pattern_letters(index)
+        def_index = len(word) + 1
+        if self.get_content(def_index) is not None:
+            self.set_content(def_index, DEF_TOKEN)
+            self.update_orthogonal_word_patterns_length(def_index)
+            self.set_aligned_word_pattern(def_index)
+            self.set_orthogonal_word_pattern(def_index)
+
+    def remove_word(self) -> None:
+        self.grid.words_dict.pop(self)
+        self.grid.word_patterns.add(self)
+        for index in self.linked_letters_indices:
+            self.set_content(index,  '')
+            self.unset_orthogonal_word_pattern_letters(index)
+        self.linked_letters_indices = set()
+        def_index = self.length + 1
+        if self.get_content(def_index) == DEF_TOKEN:
+            self.set_content(def_index, '')
+            self.unset_orthogonal_word_patterns_length(def_index)
+            self.set_aligned_word_pattern(def_index)
+            self.set_orthogonal_word_pattern(def_index)
+
+
+class WordPatternHorizontal(WordPattern):
+    def __repr__(self) -> str:
+        return f'WordPatternH({self.row}, {self.col})'
+
+    def get_coor(self, index: int) -> tuple[int, int]:
+        return (self.row, self.col + index)
+
+    def get_coor_orthogonal(self, index: int, orthogonal_offset: int) -> tuple[int ,int]:
+        return (self.row + orthogonal_offset, self.col + index)
+
+    def get_index(self, row: int, col: int):
+        return col - self.col
+
+    def create_aligned(self, row: int, col: int, length: int) -> WordPatternHorizontal:
+        return WordPatternHorizontal(row, col, length, self.grid)
+
+    def create_orthogonal(self, row: int, col: int, length: int) -> WordPatternVertical:
+        return WordPatternVertical(row, col, length, self.grid)
+
+
+class WordPatternVertical(WordPattern):
+    def __repr__(self) -> str:
+        return f'WordPatternV({self.row}, {self.col})'
+
+    def get_coor(self, index: int) -> tuple[int, int]:
+        return (self.row + index, self.col)
+
+    def get_coor_orthogonal(self, index: int, orthogonal_offset: int) -> tuple[int ,int]:
+        return (self.row + index, self.col + orthogonal_offset)
+
+    def get_index(self, row: int, col: int):
+        return row - self.row
+
+    def create_aligned(self, row: int, col: int, length: int) -> WordPatternVertical:
+        return WordPatternVertical(row, col, length, self.grid)
+
+    def create_orthogonal(self, row: int, col: int, length: int) -> WordPatternHorizontal:
+        return WordPatternHorizontal(row, col, length, self.grid)
 
 class Grid:
     def __init__(self, width: int, height: int):
         self.width, self.height = width, height
         self.words_dict = {}
-        self.word_start_dict = defaultdict(list)
         self.letters_count = defaultdict(int)
-        self.grid = self.__init_grid()
-        self.word_starts = self.__init_word_starts()
-        self.word_grid_impact = {}
-        self.word_settable_impact = {}
+        self.grid = self._init_grid()
+        self.crossing_word_patterns = defaultdict(CrossingWordPatterns)
+        self.word_patterns = self._init_word_patterns()
 
-    def __set_content(self, coor: Coor, content: str) -> None:
-        row_n, col_n = coor
-        self.grid[row_n][col_n] = content
-
-    def __init_grid(self) -> list[list[str]]:
+    def _init_grid(self) -> list[list[str]]:
         self.grid = [['' for _ in range(self.width)] for _ in range(self.height)]
-        for col_n in range(0, self.width, 2):
-            self.__set_content(Coor(0, col_n), DEF_TOKEN)
-        for row_n in range(0, self.height, 2):
-            self.__set_content(Coor(row_n, 0), DEF_TOKEN)
+        for col in range(0, self.width, 2):
+            self.set_content(0, col, DEF_TOKEN)
+        for row in range(0, self.height, 2):
+            self.set_content(row, 0, DEF_TOKEN)
         return self.grid
 
-    def __init_word_starts(self) -> set[WordStart]:
-        word_starts = set()
-        for col_i in range(1, self.width):
-            if col_i % 2:
-                row_n = 0
-            else:
-                row_n = 1
-            word_start = WordStart(Coor(row_n, col_i), 'V')
-            word_starts.add(word_start)
-            for row_i in range(row_n, self.height):
-                self.word_start_dict[Coor(row_i, col_i)].append(word_start)
-        for row_i in range(1, self.height):
-            if row_i % 2:
-                col_n = 0
-            else:
-                col_n = 1
-            word_start =  WordStart(Coor(row_i, col_n), 'H')
-            word_starts.add(word_start)
-            for col_i in range(col_n, self.width):
-                self.word_start_dict[Coor(row_i, col_i)].append(word_start)
-        return word_starts
+    def _init_word_patterns(self) -> set[WordPattern]:
+        word_patterns = set()
+        for col in range(1, self.width):
+            row = (col + 1) % 2
+            word_pattern = WordPatternVertical(row, col, self.height - row, self)
+            word_patterns.add(word_pattern)
+        for row in range(1, self.height):
+            col = (row + 1) % 2
+            word_pattern =  WordPatternHorizontal(row, col, self.width - col, self)
+            word_patterns.add(word_pattern)
+        return word_patterns
 
     @property
-    def best_word_start(self) -> WordStart:
-        return max(self.word_starts, key=lambda word_start: (self.letters_count[word_start], -word_start.coor.col, -word_start.coor.row))
+    def best_word_pattern(self) -> WordPattern:
+        return max(self.word_patterns, key=lambda w_pat: (len(w_pat.letters_indices), -w_pat.col, -w_pat.row))
 
     @property
     def is_full(self) -> bool:
@@ -83,131 +293,12 @@ class Grid:
     def normalize(letter: str) -> str:
         return unidecode(letter).upper()
 
-    def get_col(self, col_n: int) -> Optional[list[str]]:
-        if 0 <= col_n < self.width:
-            return [self.grid[row_n][col_n] for row_n in range(self.height)]
+    def get_content(self, row: int, col: int) -> Optional[str]:
+        if (0 <= row < self.height) and (0 <= col < self.width):
+            return self.grid[row][col]
 
-    def get_row(self, row_n: int) -> Optional[list[str]]:
-        if 0 <= row_n < self.height:
-            return self.grid[row_n]
-
-    def get_content(self, coor: Coor):
-        if (0 <= coor.row < self.height) and (0 <= coor.col < self.width):
-            return self.grid[coor.row][coor.col]
-
-    def __check_impact_and_update_grid(self, coor_start: Coor, coor: Coor, content: str) -> None:
-        if coor not in self.word_grid_impact:
-            self.word_grid_impact[coor] = coor_start
-            self.__set_content(coor, content)
-            for word_start in self.word_start_dict.get(coor, []):
-                self.letters_count[word_start] += 1
-
-    def __check_impact_and_update_settable(self, coor_start: Coor, word_start: WordStart) -> None:
-        if word_start not in self.word_settable_impact:
-            self.word_settable_impact[word_start] = coor_start
-            self.word_starts.add(word_start)
-
-    def __set_def_and_word_starts(self, coor_start: Coor, coor_end: Coor) -> None:
-        self.__check_impact_and_update_grid(coor_start, coor_end, DEF_TOKEN)
-        if coor_end.row + 2 < self.height:
-            word_start = WordStart(coor_end + Coor(1, 0), 'V')
-            self.__check_impact_and_update_settable(coor_start, word_start)
-        if coor_end.col + 2 < self.width:
-            word_start = WordStart(coor_end + Coor(0, 1), 'H')
-            self.__check_impact_and_update_settable(coor_start, word_start)
-
-    def __set_word_vertical(self, coor_start: Coor, word: str) -> None:
-        for row_i, letter in enumerate(word, coor_start.row):
-            coor_letter = Coor(row_i, coor_start.col)
-            self.__check_impact_and_update_grid(coor_start, coor_letter, self.normalize(letter))
-        coor_end = coor_start + Coor(len(word), 0)
-        if coor_end.row < self.height:
-            self.__set_def_and_word_starts(coor_start, coor_end)
-
-    def __set_word_horizontal(self, coor_start: Coor, word: str) -> None:
-        for col_i, letter in enumerate(word, coor_start.col):
-            coor_letter = Coor(coor_start.row, col_i)
-            self.__check_impact_and_update_grid(coor_start, coor_letter, self.normalize(letter))
-        coor_end = coor_start + Coor(0, len(word))
-        if coor_end.col < self.width:
-            self.__set_def_and_word_starts(coor_start, coor_end)
-
-    def set_word(self, word_start: WordStart, word: str) -> None:
-        self.words_dict[word_start] = word
-        self.word_starts.discard(word_start)
-        if word_start.direction == 'V':
-            self.__set_word_vertical(word_start.coor, word)
-        elif word_start.direction == 'H':
-            self.__set_word_horizontal(word_start.coor, word)
-
-    def __check_and_remove_letter(self, coor_start: Coor, coor: Coor) -> None:
-        if self.word_grid_impact.get(coor) == coor_start:
-            self.__set_content(coor, '')
-            self.word_grid_impact.pop(coor)
-            for word_start in self.word_start_dict.get(coor, []):
-                self.letters_count[word_start] -= 1
-
-    def __remove_def_and_word_starts(self, coor_start: Coor, coor_end: Coor) -> None:
-        self.__check_and_remove_letter(coor_start, coor_end)
-        if coor_end.row + 2 < self.height:
-            word_start = WordStart(coor_end + Coor(1, 0), 'V')
-            if self.word_settable_impact[word_start] == coor_start:
-                self.word_starts.discard(word_start)
-        if coor_end.col + 2 < self.width:
-            word_start = WordStart(coor_end + Coor(0, 1), 'H')
-            if self.word_settable_impact[word_start] == coor_start:
-                self.word_starts.discard(word_start)
-
-    def remove_word(self, word_start: WordStart, word: str):
-        if word_start.direction == 'V':
-            coor_direction = Coor(1, 0)
-        else:
-            coor_direction = Coor(0, 1)
-        self.words_dict.pop(word_start)
-        self.word_starts.add(word_start)
-        for offset in range(len(word)):
-            coor_offset = coor_direction * offset
-            self.__check_and_remove_letter(word_start.coor, word_start.coor + coor_offset)
-        coor_offset = coor_direction * len(word)
-        coor_end = word_start.coor + coor_offset
-        if self.get_content(coor_end):
-            self.__remove_def_and_word_starts(word_start.coor, coor_end)
-
-    def __check_word_no_fit(self, coor_end: Coor, coor_direction: Coor) -> bool:
-        return (
-            self.get_content(coor_end - coor_direction) is None
-            or (not self.get_content(coor_end) in ('', DEF_TOKEN, None))
-        )
-
-    def __check_def_no_fit(self, coor_end: Coor, coor_perpendicular: Coor, coor_direction: Coor) -> bool:
-        return (
-                self.get_content(coor_end) in ('', DEF_TOKEN)
-                and (
-                    self.get_content(coor_end - coor_perpendicular) in (None, DEF_TOKEN)
-                    or self.get_content(coor_end + coor_perpendicular) == DEF_TOKEN
-                    or self.get_content(coor_end + coor_direction) == DEF_TOKEN
-                )
-            )
-
-    def check_word(self, word_start: WordStart, word):
-        if word_start.direction == 'V':
-            coor_direction = Coor(1, 0)
-            coor_perpendicular = Coor(0, 1)
-        else:
-            coor_direction = Coor(0, 1)
-            coor_perpendicular = Coor(1, 0)
-        coor_end = word_start.coor + coor_direction * len(word)
-        if (
-            self.__check_word_no_fit(coor_end, coor_direction)
-            or self.__check_def_no_fit(coor_end, coor_perpendicular, coor_direction)
-        ):
-            return False
-        for offset, letter in enumerate(word):
-            coor_offset = coor_direction * offset
-            content = self.get_content(word_start.coor + coor_offset)
-            if not (content == '' or content == self.normalize(letter)):
-                return False
-        return True
+    def set_content(self, row: int, col: int, content: str) -> None:
+        self.grid[row][col] = content
 
     def pretty_print(self):
         grid_str = '┌' + ('───┬───' * (self.width - 1)) + '┐\n'

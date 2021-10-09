@@ -4,18 +4,18 @@ from copy import copy
 from grid import Grid
 
 def recursive_search(vocab_set: set[str], grid: Grid, found_grids: list[dict]) -> None:
-    if grid.word_starts:
-        word_start = grid.best_word_start
+    if grid.word_patterns:
+        word_pattern = grid.best_word_pattern
     else:
         if grid.is_full:
             found_grids.append(copy(grid.words_dict))
         return
     for word in list(vocab_set):
-        if grid.check_word(word_start, word):
+        if word_pattern.match_word(word):
             vocab_set.discard(word)
-            grid.set_word(word_start, word)
+            word_pattern.set_word(word)
             recursive_search(vocab_set, grid, found_grids)
-            grid.remove_word(word_start, word)
+            word_pattern.remove_word()
             vocab_set.add(word)
 
 def init_vocab() -> set[str]:
