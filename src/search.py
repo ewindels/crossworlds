@@ -3,6 +3,7 @@ import json
 from copy import copy
 from grid import Grid
 
+
 def recursive_search(vocab_set: set[str], grid: Grid, found_grids: list[dict]) -> None:
     if grid.word_patterns:
         word_pattern = grid.best_word_pattern
@@ -17,6 +18,7 @@ def recursive_search(vocab_set: set[str], grid: Grid, found_grids: list[dict]) -
             recursive_search(vocab_set, grid, found_grids)
             word_pattern.remove_word()
             vocab_set.add(word)
+
 
 def init_vocab() -> set[str]:
     vocab_set = set()
