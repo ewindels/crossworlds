@@ -5,6 +5,7 @@ from collections import defaultdict
 from typing import Optional, Union
 from unidecode import unidecode
 
+EMPTY_TOKEN = ''
 DEF_TOKEN = '[def]'
 
 
@@ -163,8 +164,8 @@ class WordPattern(ABC):
                 if (
                         self.get_content(index + 1) is None
                         or (
-                            self.get_content(index + 1) == ''
-                            and (
+                        self.get_content(index + 1) == EMPTY_TOKEN
+                        and (
                                 self.get_content(index + 3) != DEF_TOKEN
                                 and self.get_content_orthogonal(index + 1, 2) != DEF_TOKEN
                                 and self.get_content_orthogonal(index + 1, -2) not in (DEF_TOKEN, None)
@@ -188,7 +189,7 @@ class WordPattern(ABC):
         self.grid.words_dict[self] = word
         self.grid.word_patterns.discard(self)
         for index, letter in enumerate(word):
-            if self.get_content(index) == '':
+            if self.get_content(index) == EMPTY_TOKEN:
                 self.set_content(index, letter)
                 self.linked_letters_indices.add(index)
                 self.update_orthogonal_word_pattern_letters(index)
@@ -203,12 +204,12 @@ class WordPattern(ABC):
         self.grid.words_dict.pop(self)
         self.grid.word_patterns.add(self)
         for index in self.linked_letters_indices:
-            self.set_content(index, '')
+            self.set_content(index, EMPTY_TOKEN)
             self.unset_orthogonal_word_pattern_letters(index)
         self.linked_letters_indices = set()
         def_index = self.length + 1
         if self.get_content(def_index) == DEF_TOKEN:
-            self.set_content(def_index, '')
+            self.set_content(def_index, EMPTY_TOKEN)
             self.unset_orthogonal_word_patterns_length(def_index)
             self.set_aligned_word_pattern(def_index)
             self.set_orthogonal_word_pattern(def_index)
@@ -264,7 +265,7 @@ class Grid:
         self.word_patterns = self._init_word_patterns()
 
     def _init_grid(self) -> list[list[str]]:
-        self.grid = [['' for _ in range(self.width)] for _ in range(self.height)]
+        self.grid = [[EMPTY_TOKEN for _ in range(self.width)] for _ in range(self.height)]
         for col in range(0, self.width, 2):
             self.set_content(0, col, DEF_TOKEN)
         for row in range(0, self.height, 2):
@@ -289,7 +290,7 @@ class Grid:
 
     @property
     def is_full(self) -> bool:
-        return all(content != '' for content in chain.from_iterable(self.grid))
+        return all(content != EMPTY_TOKEN for content in chain.from_iterable(self.grid))
 
     @staticmethod
     def normalize(letter: str) -> str:
@@ -308,7 +309,7 @@ class Grid:
             for content in row:
                 if content == DEF_TOKEN:
                     grid_str += '│ ■ '
-                elif content == '':
+                elif content == EMPTY_TOKEN:
                     grid_str += '│   '
                 else:
                     grid_str += f'│ {content} '
