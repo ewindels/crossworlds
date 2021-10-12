@@ -35,7 +35,7 @@ class CrossingWordPatterns:
         elif isinstance(word_pattern, WordPatternVertical):
             return self.horizontal
 
-    def set_orthogonal(self, word_pattern: WordPattern) -> None:
+    def set_orthogonal(self, word_pattern: Optional[WordPattern]) -> None:
         if isinstance(word_pattern, WordPatternHorizontal):
             self.vertical = word_pattern
         elif isinstance(word_pattern, WordPatternVertical):
@@ -71,11 +71,11 @@ class WordPattern(ABC):
         pass
 
     @abstractmethod
-    def create_aligned(self, row: int, col: int, length: int) -> WordPattern:
+    def create_pattern_aligned(self, row: int, col: int, length: int) -> WordPattern:
         pass
 
     @abstractmethod
-    def create_orthogonal(self, row: int, col: int, length: int) -> WordPattern:
+    def create_pattern_orthogonal(self, row: int, col: int, length: int) -> WordPattern:
         pass
 
     def get_content(self, index: int) -> Union[None, str]:
@@ -132,13 +132,21 @@ class WordPattern(ABC):
         ):
             row, col = self.get_coor(def_index + 1)
             new_length = self.length - def_index
-            new_word_pattern_aligned = self.create_aligned(row, col, new_length)
+            new_aligned_word_pattern = self.create_pattern_aligned(row, col, new_length)
             self.set_length(def_index - 1)
             for new_index in range(new_length):
-                new_word_pattern_aligned.update_crossing_word_patterns(new_index)
+                new_aligned_word_pattern.update_crossing_word_patterns(new_index)
                 if new_index + def_index in self.letters_indices:
-                    new_word_pattern_aligned.letters_indices.add(new_index)
-            self.grid.word_patterns.add(new_word_pattern_aligned)
+                    new_aligned_word_pattern.letters_indices.add(new_index)
+            self.grid.word_patterns.add(new_aligned_word_pattern)
+
+    def unset_aligned_word_pattern(self, def_index: int) -> None:
+        coor = self.get_coor(def_index + 1)
+        if aligned_word_pattern := self.grid.crossing_word_patterns[coor].get_aligned(self):
+            previous_length = self.length + aligned_word_pattern.length + 1
+            self.set_length(previous_length)
+            self.grid.word_patterns.discard(aligned_word_pattern)
+            del aligned_word_pattern
 
     def set_orthogonal_word_pattern(self, def_index: int) -> None:
         if (
@@ -150,13 +158,27 @@ class WordPattern(ABC):
             orthogonal_length = orthogonal_word_pattern.length
             orthogonal_def_index = orthogonal_word_pattern.get_index(*self.get_coor(def_index))
             new_length = orthogonal_length - orthogonal_def_index
-            new_word_pattern_orthogonal = self.create_orthogonal(row, col, new_length)
+            new_orthogonal_word_pattern = self.create_pattern_orthogonal(row, col, new_length)
             orthogonal_word_pattern.set_length(orthogonal_def_index - 1)
             for new_index in range(orthogonal_length):
-                new_word_pattern_orthogonal.update_crossing_word_patterns(new_index)
+                new_orthogonal_word_pattern.update_crossing_word_patterns(new_index)
                 if new_index + def_index in orthogonal_word_pattern.letters_indices:
-                    new_word_pattern_orthogonal.letters_indices.add(new_index)
-            self.grid.word_patterns.add(new_word_pattern_orthogonal)
+                    new_orthogonal_word_pattern.letters_indices.add(new_index)
+            self.grid.word_patterns.add(new_orthogonal_word_pattern)
+
+    def unset_orthogonal_word_pattern(self, def_index: int) -> None:
+        coor = self.get_coor_orthogonal(def_index, 1)
+        if orthogonal_word_pattern := self.grid.crossing_word_patterns[coor].get_orthogonal(self):
+            coor_prev = self.get_coor_orthogonal(def_index, -1)
+            if prev_orthogonal_word_pattern := self.grid.crossing_word_patterns[coor_prev].get_orthogonal(self):
+                previous_length = orthogonal_word_pattern.length + prev_orthogonal_word_pattern.length + 1
+                prev_orthogonal_word_pattern.set_length(previous_length)
+            else:
+                for index in range(orthogonal_word_pattern.length):
+                    coor_index = orthogonal_word_pattern.get_coor(index)
+                    self.grid.crossing_word_patterns[coor_index].set_orthogonal(None)
+            self.grid.word_patterns.discard(orthogonal_word_pattern)
+            del orthogonal_word_pattern
 
     def set_length(self, length: int) -> None:
         if length > self.length:
@@ -211,8 +233,8 @@ class WordPattern(ABC):
         if self.get_content(def_index) == DEF_TOKEN:
             self.set_content(def_index, EMPTY_TOKEN)
             self.unset_orthogonal_word_patterns_length(def_index)
-            self.set_aligned_word_pattern(def_index)
-            self.set_orthogonal_word_pattern(def_index)
+            self.unset_aligned_word_pattern(def_index)
+            self.unset_orthogonal_word_pattern(def_index)
 
 
 class WordPatternHorizontal(WordPattern):
@@ -228,11 +250,17 @@ class WordPatternHorizontal(WordPattern):
     def get_index(self, row: int, col: int):
         return col - self.col
 
-    def create_aligned(self, row: int, col: int, length: int) -> WordPatternHorizontal:
+    def create_pattern_aligned(self, row: int, col: int, length: int) -> WordPatternHorizontal:
         return WordPatternHorizontal(row, col, length, self.grid)
 
-    def create_orthogonal(self, row: int, col: int, length: int) -> WordPatternVertical:
+    def create_pattern_orthogonal(self, row: int, col: int, length: int) -> WordPatternVertical:
         return WordPatternVertical(row, col, length, self.grid)
+
+    def get_pattern_aligned(self, row: int, col: int) -> Union[None, WordPatternHorizontal]:
+        return self.grid.crossing_word_patterns[(row, col)].horizontal
+
+    def get_pattern_orthogonal(self, row: int, col: int) -> Union[None, WordPatternVertical]:
+        return self.grid.crossing_word_patterns[(row, col)].vertical
 
 
 class WordPatternVertical(WordPattern):
@@ -248,11 +276,17 @@ class WordPatternVertical(WordPattern):
     def get_index(self, row: int, col: int):
         return row - self.row
 
-    def create_aligned(self, row: int, col: int, length: int) -> WordPatternVertical:
+    def create_pattern_aligned(self, row: int, col: int, length: int) -> WordPatternVertical:
         return WordPatternVertical(row, col, length, self.grid)
 
-    def create_orthogonal(self, row: int, col: int, length: int) -> WordPatternHorizontal:
+    def create_pattern_orthogonal(self, row: int, col: int, length: int) -> WordPatternHorizontal:
         return WordPatternHorizontal(row, col, length, self.grid)
+
+    def get_pattern_aligned(self, row: int, col: int) -> Union[None, WordPatternVertical]:
+        return self.grid.crossing_word_patterns[(row, col)].vertical
+
+    def get_pattern_orthogonal(self, row: int, col: int) -> Union[None, WordPatternHorizontal]:
+        return self.grid.crossing_word_patterns[(row, col)].horizontal
 
 
 class Grid:
