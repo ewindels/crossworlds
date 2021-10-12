@@ -46,9 +46,9 @@ class WordPattern(ABC):
     def __init__(self, row: int, col: int, length: int, grid: Grid) -> None:
         self.row = row
         self.col = col
-        self.length = 2
+        self.length = 0
         self.grid = grid
-        self.valid_word_lengths = {self.length}
+        self.valid_word_lengths = set()
         self.set_length(length)
         self.letters_indices = set()
         self.linked_letters_indices = set()
@@ -194,10 +194,10 @@ class WordPattern(ABC):
                             )
                         )
                 ):
-                    self.valid_word_lengths.add(index)
+                    self.valid_word_lengths.add(index + 1)
                 self.update_crossing_word_patterns(index)
         else:
-            for valid_length in self.valid_word_lengths:
+            for valid_length in self.valid_word_lengths.copy():
                 if valid_length > length:
                     self.valid_word_lengths.discard(valid_length)
 
