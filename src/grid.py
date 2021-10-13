@@ -207,6 +207,11 @@ class WordPattern(ABC):
             and all(word[index] == self.get_content(index) for index in self.letters_indices)
         )
 
+    def match_vocab(self, vocab: set[str]) -> str:
+        for word in list(vocab):
+            if self.match_word(word):
+                yield word
+
     def set_word(self, word: str) -> None:
         self.grid.words_dict[self] = word
         self.grid.word_patterns.discard(self)
