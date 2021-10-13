@@ -3,10 +3,7 @@
 # sort time
 # stats 10
 
-from grid import Grid
-from search import recursive_search, init_vocab
+from search import get_full_grids
+from lookup import init_vocab
 
-grid = Grid(3, 3)
-found_grids = []
-vocab = init_vocab()
-recursive_search(vocab, grid, found_grids)
+found_grids = get_full_grids(3, 3, init_vocab())
