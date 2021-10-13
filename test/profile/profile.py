@@ -6,4 +6,4 @@
 from search import get_full_grids
 from lookup import init_vocab
 
-found_grids = get_full_grids(3, 3, init_vocab())
+found_grids = get_full_grids(4, 4, init_vocab())
