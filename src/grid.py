@@ -204,7 +204,7 @@ class WordPattern(ABC):
     def match_word(self, word: str) -> bool:
         return (
             len(word) in self.valid_word_lengths
-            and all(word[index] == self.get_content(index) for index in self.letters_indices)
+            and all(self.grid.normalize(word[index]) == self.get_content(index) for index in self.letters_indices)
         )
 
     def match_vocab(self, vocab: set[str]) -> str:
@@ -217,7 +217,7 @@ class WordPattern(ABC):
         self.grid.word_patterns.discard(self)
         for index, letter in enumerate(word):
             if self.get_content(index) == EMPTY_TOKEN:
-                self.set_content(index, letter)
+                self.set_content(index, self.grid.normalize(letter))
                 self.linked_letters_indices.add(index)
                 self.update_orthogonal_word_pattern_letters(index)
         def_index = len(word) + 1
