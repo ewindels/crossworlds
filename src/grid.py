@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 from itertools import chain
 from collections import defaultdict
 from typing import Optional, Union
-from unidecode import unidecode
+from lookup import LookupDict, normalize
 
 EMPTY_TOKEN = ''
 DEF_TOKEN = '[def]'
@@ -204,7 +204,7 @@ class WordPattern(ABC):
     def match_word(self, word: str) -> bool:
         return (
             len(word) in self.valid_word_lengths
-            and all(self.grid.normalize(word[index]) == self.get_content(index) for index in self.letters_indices)
+            and all(normalize(word[index]) == self.get_content(index) for index in self.letters_indices)
         )
 
     def match_vocab(self, vocab: set[str]) -> str:
@@ -212,12 +212,24 @@ class WordPattern(ABC):
             if self.match_word(word):
                 yield word
 
+    def match_lookups(self, words_lookups_dict: LookupDict, vocab_length_dict: dict[int, set[str]]):
+        matching_words = set(chain.from_iterable(vocab_length_dict.get(length, {})
+                                                 for length in self.valid_word_lengths))
+        for index in self.letters_indices:
+            letter = self.get_content(index)
+            if not (lookup := words_lookups_dict.get((index, letter))):
+                return {}
+            matching_words = matching_words.intersection(lookup.vocab)
+            if not matching_words:
+                return {}
+        return matching_words
+
     def set_word(self, word: str) -> None:
         self.grid.words_dict[self] = word
         self.grid.word_patterns.discard(self)
-        for index, letter in enumerate(word):
+        for index, letter in enumerate(normalize(word)):
             if self.get_content(index) == EMPTY_TOKEN:
-                self.set_content(index, self.grid.normalize(letter))
+                self.set_content(index, letter)
                 self.linked_letters_indices.add(index)
                 self.update_orthogonal_word_pattern_letters(index)
         def_index = len(word) + 1
@@ -330,10 +342,6 @@ class Grid:
     @property
     def is_full(self) -> bool:
         return all(content != EMPTY_TOKEN for content in chain.from_iterable(self.grid))
-
-    @staticmethod
-    def normalize(letter: str) -> str:
-        return unidecode(letter).upper()
 
     def get_content(self, row: int, col: int) -> Optional[str]:
         if (0 <= row < self.height) and (0 <= col < self.width):

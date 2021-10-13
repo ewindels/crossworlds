@@ -1,15 +1,15 @@
-         17144270 function calls (17142561 primitive calls) in 4.335 seconds
+         333809 function calls (332087 primitive calls) in 0.236 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-     3143    1.938    0.001    4.174    0.001 grid.py:210(match_vocab)
-  8296233    1.551    0.000    2.236    0.000 grid.py:204(match_word)
-8301350/8301322    0.552    0.000    0.552    0.000 {built-in method builtins.len}
-       53    0.077    0.001    0.077    0.001 decoder.py:343(raw_decode)
-    82174    0.033    0.000    0.124    0.000 grid.py:207(<genexpr>)
-    48535    0.030    0.000    0.055    0.000 grid.py:81(get_content)
-    43866    0.021    0.000    0.047    0.000 grid.py:334(normalize)
-    48547    0.016    0.000    0.016    0.000 grid.py:338(get_content)
-    43866    0.012    0.000    0.021    0.000 __init__.py:35(unidecode_expect_ascii)
-    41013    0.010    0.000    0.128    0.000 {built-in method builtins.all}
+       53    0.080    0.002    0.080    0.002 decoder.py:343(raw_decode)
+     5300    0.032    0.000    0.069    0.000 lookup.py:30(update_lookups)
+    40395    0.012    0.000    0.012    0.000 lookup.py:8(__init__)
+    53211    0.006    0.000    0.006    0.000 {method 'add' of 'set' objects}
+        1    0.006    0.006    0.095    0.095 lookup.py:17(init_vocab)
+     1577    0.005    0.000    0.026    0.000 grid.py:227(set_word)
+    43688    0.005    0.000    0.005    0.000 {method 'get' of 'dict' objects}
+     9023    0.005    0.000    0.009    0.000 grid.py:81(get_content)
+     1566    0.005    0.000    0.009    0.000 grid.py:215(match_lookups)
+   1578/1    0.004    0.000    0.060    0.060 search.py:6(recursive_search)
