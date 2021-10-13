@@ -22,7 +22,7 @@ def vocab():
     return init_vocab()
 
 
-@pytest.mark.parametrize("grid", [Grid(2, 2), Grid(2, 3), Grid(3, 3)])
+@pytest.mark.parametrize("grid", [Grid(2, 2), Grid(3, 3)])
 def test_vocab_search(grid, vocab):
     found_grids = []
     recursive_search(vocab, grid, found_grids)
