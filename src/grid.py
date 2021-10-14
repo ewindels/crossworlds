@@ -84,14 +84,6 @@ class WordPattern(ABC):
         row, col = self.get_coor(index)
         self.grid.set_content(row, col, content)
 
-    def add_letter_index(self, row: int, col: int) -> None:
-        index = self.get_index(row, col)
-        self.letters_indices.add(index)
-
-    def remove_letter_index(self, row: int, col: int) -> None:
-        index = self.get_index(row, col)
-        self.letters_indices.discard(index)
-
     def update_crossing_word_patterns(self, index: int) -> None:
         self.grid.crossing_word_patterns[self.get_coor(index)].set_aligned(self)
 
@@ -102,12 +94,16 @@ class WordPattern(ABC):
     def update_orthogonal_word_pattern_letters(self, index: int) -> None:
         coor = self.get_coor(index)
         if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
-            crossed_word_pattern.add_letter_index(*coor)
+            index = crossed_word_pattern.get_index(*coor)
+            crossed_word_pattern.letters_indices.add(index)
+            crossed_word_pattern.valid_word_lengths.discard(index - 1)
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
         coor = self.get_coor(index)
         if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
-            crossed_word_pattern.remove_letter_index(*coor)
+            index = crossed_word_pattern.get_index(*coor)
+            crossed_word_pattern.letters_indices.remove(index)
+            crossed_word_pattern.valid_word_lengths.add(index - 1)
 
     def update_orthogonal_word_patterns_length(self, index: int) -> None:
         coor = self.get_coor(index)
@@ -196,6 +192,7 @@ class WordPattern(ABC):
             for valid_length in self.valid_word_lengths.copy():
                 if valid_length > length:
                     self.valid_word_lengths.discard(valid_length)
+        self.length = length
 
     def match_word(self, word: str) -> bool:
         return (
@@ -228,7 +225,7 @@ class WordPattern(ABC):
                 self.set_content(index, letter)
                 self.linked_letters_indices.add(index)
                 self.update_orthogonal_word_pattern_letters(index)
-        def_index = len(word) + 1
+        def_index = len(word)
         if self.get_content(def_index) is not None:
             self.set_content(def_index, DEF_TOKEN)
             self.update_orthogonal_word_patterns_length(def_index)
