@@ -47,9 +47,11 @@ def get_word_translations_dict(soup):
         elif elem.name == 'table' and 'flextable-fr-mfsp' in elem.get('class', []):
             forms_dict = find_word_forms(elem)
         elif elem.name == 'div' and 'boite' in elem.get('class', []):
-            if (nav_head := elem.find('div', {'class': 'NavHead'})) and (translations_div := elem.find('div', {'class': 'translations'})):
+            if (nav_head := elem.find('div', {'class': 'NavHead'}))\
+                    and (translations_div := elem.find('div', {'class': 'translations'})):
                 definition = nav_head.text
-                translations_tmp = [line.rsplit('\xa0: ', 1) for line in translations_div.text.splitlines() if '\xa0' in line]
+                translations_tmp = [line.rsplit('\xa0: ', 1)
+                                    for line in translations_div.text.splitlines() if '\xa0' in line]
                 definition_translations_dict = defaultdict(list)
                 for _, trad in filter(lambda x: len(x) == 2, translations_tmp):
                     n_translations += 1
@@ -61,7 +63,16 @@ def get_word_translations_dict(soup):
                         'translations': definition_translations_dict
                     }
                     word_form_translations.append(translation_dict)
+    if word_form_translations:
+        translation_dict = {
+            'type': word_type,
+            'translations': word_form_translations
+        }
+        if forms_dict:
+            translation_dict['forms'] = forms_dict
+        word_translations.append(translation_dict)
     return word_translations
+
 
 def main():
     with open(f'data/scraper_info.json', 'r') as fp:
@@ -110,7 +121,7 @@ def main():
                 translations_dict = {}
 
         for elem in word_page_soup.findAll('a'):
-             if elem.text == 'page suivante':
+            if elem.text == 'page suivante':
                 next_page_href = elem.get('href')
                 word_page_url = 'https://fr.wiktionary.org' + next_page_href
                 r = requests.get(word_page_url)
