@@ -55,10 +55,6 @@ class WordPattern(ABC):
         self.filled = False
 
     @abstractmethod
-    def __repr__(self) -> str:
-        pass
-
-    @abstractmethod
     def get_coor(self, index: int) -> tuple[int, int]:
         pass
 
@@ -258,6 +254,9 @@ class WordPatternHorizontal(WordPattern):
     def __repr__(self) -> str:
         return f'WordPatternH({self.row}, {self.col})'
 
+    def __str__(self) -> str:
+        return f'H({self.row}, {self.col})'
+
     def get_coor(self, index: int) -> tuple[int, int]:
         return self.row, self.col + index
 
@@ -283,6 +282,9 @@ class WordPatternHorizontal(WordPattern):
 class WordPatternVertical(WordPattern):
     def __repr__(self) -> str:
         return f'WordPatternV({self.row}, {self.col})'
+
+    def __str__(self) -> str:
+        return f'V({self.row}, {self.col})'
 
     def get_coor(self, index: int) -> tuple[int, int]:
         return self.row + index, self.col
@@ -335,6 +337,9 @@ class Grid:
             word_patterns.add(word_pattern)
         return word_patterns
 
+    def __str__(self):
+        return self.prettify()
+
     @property
     def best_word_pattern(self) -> WordPattern:
         return max(self.word_patterns, key=lambda w_pat: (len(w_pat.letters_indices), -w_pat.col, -w_pat.row))
@@ -350,8 +355,8 @@ class Grid:
     def set_content(self, row: int, col: int, content: str) -> None:
         self.grid[row][col] = content
 
-    def pretty_print(self):
-        grid_str = '┌' + ('───┬───' * (self.width - 1)) + '┐\n'
+    def prettify(self):
+        grid_str = '┌──' + ('─┬──' * (self.width - 1)) + '─┐\n'
         for row_n, row in enumerate(self.grid):
             for content in row:
                 if content == DEF_TOKEN:
@@ -362,7 +367,7 @@ class Grid:
                     grid_str += f'│ {content} '
             grid_str += '│\n'
             if row_n < self.height - 1:
-                grid_str += '├' + ('───┼───' * (self.width - 1)) + '┤\n'
+                grid_str += '├──' + ('─┼──' * (self.width - 1)) + '─┤\n'
             else:
-                grid_str += '└' + ('───┴───' * (self.width - 1)) + '┘\n'
-        print(grid_str)
+                grid_str += '└──' + ('─┴──' * (self.width - 1)) + '─┘\n'
+        return grid_str
