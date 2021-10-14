@@ -5,12 +5,12 @@ from lookup import LookupDict, build_lookups
 
 def recursive_search(words_lookups_dict: LookupDict,
                      vocab_length_dict: dict[int, set[str]],
-                     grid: Grid, found_grids: list[dict]) -> None:
+                     grid: Grid, found_grids: list[tuple[dict, str]]) -> None:
     if grid.word_patterns:
         word_pattern = grid.best_word_pattern
     else:
         if grid.is_full:
-            found_grids.append(copy(grid.words_dict))
+            found_grids.append((copy(grid.words_dict), grid.prettify()))
         return
     for word in word_pattern.match_lookups(words_lookups_dict, vocab_length_dict):
         vocab_length_dict[len(word)].discard(word)
