@@ -1,0 +1,5851 @@
+{
+    "anorgasmie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anorgasmia"
+                        ],
+                        "ca": [
+                            "anorg\u00e0smia"
+                        ],
+                        "da": [
+                            "anorgasme"
+                        ],
+                        "es": [
+                            "anorgasmia"
+                        ],
+                        "fi": [
+                            "anorgasmia"
+                        ],
+                        "gl": [
+                            "anorgasmia"
+                        ],
+                        "it": [
+                            "anorgasmia"
+                        ],
+                        "mg": [
+                            "tsifisiana orgasma"
+                        ],
+                        "nl": [
+                            "anorgasmie"
+                        ],
+                        "pl": [
+                            "anorgazmia"
+                        ],
+                        "pt": [
+                            "anorgasmia"
+                        ],
+                        "sr": [
+                            "\u0430\u043d\u043e\u0440\u0433\u0430\u0437\u043c\u0438\u0458\u0430"
+                        ],
+                        "sk": [
+                            "anorgazmia"
+                        ],
+                        "cs": [
+                            "anorgasmie"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anorgasmie": [
+                    "Singulier"
+                ],
+                "anorgasmies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anormal": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "unnormal"
+                        ],
+                        "en": [
+                            "abnormal"
+                        ],
+                        "hr": [
+                            "abnormalan"
+                        ],
+                        "it": [
+                            "abnorme",
+                            "anormale"
+                        ],
+                        "pl": [
+                            "nienormalny"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u043d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+                        ],
+                        "sk": [
+                            "abnorm\u00e1lny"
+                        ],
+                        "sv": [
+                            "abnorm"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anormal": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "anormaux": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "anormale": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "anormales": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun 2",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Abnorme"
+                        ],
+                        "en": [
+                            "abnormal"
+                        ],
+                        "ca": [
+                            "anormal"
+                        ],
+                        "es": [
+                            "anormal"
+                        ],
+                        "io": [
+                            "nenormala"
+                        ],
+                        "id": [
+                            "abnormal"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "anormalit\u00e9": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "abnormality"
+                        ],
+                        "ca": [
+                            "anormalitat"
+                        ],
+                        "hr": [
+                            "abnormalnost"
+                        ],
+                        "es": [
+                            "anormalidad"
+                        ],
+                        "it": [
+                            "anormalit\u00e0"
+                        ],
+                        "sv": [
+                            "abnormitet"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anormalit\u00e9": [
+                    "Singulier"
+                ],
+                "anormalit\u00e9s": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anorthite": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Anorthit"
+                        ],
+                        "en": [
+                            "anorthite"
+                        ],
+                        "bs": [
+                            "anortit"
+                        ],
+                        "bg": [
+                            "\u0430\u043d\u043e\u0440\u0442\u0438\u0442"
+                        ],
+                        "ca": [
+                            "anortita"
+                        ],
+                        "hr": [
+                            "anortit"
+                        ],
+                        "es": [
+                            "anortita"
+                        ],
+                        "fi": [
+                            "anortiitti"
+                        ],
+                        "gl": [
+                            "anortita"
+                        ],
+                        "he": [
+                            "\u05d0\u05e0\u05d5\u05e8\u05ea\u05d9\u05d8"
+                        ],
+                        "hu": [
+                            "anortit"
+                        ],
+                        "it": [
+                            "anortite"
+                        ],
+                        "ja": [
+                            "\u7070\u9577\u77f3"
+                        ],
+                        "lt": [
+                            "anortitas"
+                        ],
+                        "nl": [
+                            "anorthiet"
+                        ],
+                        "no": [
+                            "anortitt"
+                        ],
+                        "pl": [
+                            "anortyt"
+                        ],
+                        "pt": [
+                            "anortita"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u043e\u0440\u0442\u0438\u0442"
+                        ],
+                        "sr": [
+                            "\u0430\u043d\u043e\u0440\u0442\u0438\u0442"
+                        ],
+                        "sh": [
+                            "anortit"
+                        ],
+                        "sv": [
+                            "anortit"
+                        ],
+                        "uk": [
+                            "\u0430\u043d\u043e\u0440\u0442\u0438\u0442"
+                        ],
+                        "vi": [
+                            "anorthit"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anorthite": [
+                    "Singulier"
+                ],
+                "anorthites": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anosmie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anosmia"
+                        ],
+                        "ca": [
+                            "an\u00f2smia"
+                        ],
+                        "hr": [
+                            "anozmija"
+                        ],
+                        "es": [
+                            "anosmia"
+                        ],
+                        "it": [
+                            "anosmia"
+                        ],
+                        "oc": [
+                            "anosmia"
+                        ],
+                        "pl": [
+                            "anosmia"
+                        ],
+                        "pt": [
+                            "anosmia"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anosmie": [
+                    "Singulier"
+                ],
+                "anosmies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anosognosie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Anosognosie"
+                        ],
+                        "en": [
+                            "anosognosia"
+                        ],
+                        "ca": [
+                            "anosogn\u00f2sia"
+                        ],
+                        "zh": [
+                            "\u75c5\u89c9\u7f3a\u5931"
+                        ],
+                        "es": [
+                            "anosognosia"
+                        ],
+                        "et": [
+                            "anosognoosia"
+                        ],
+                        "hu": [
+                            "anosognosia"
+                        ],
+                        "it": [
+                            "anosognosia",
+                            "anosoagnosia"
+                        ],
+                        "ja": [
+                            "\u75c5\u614b\u5931\u8a8d"
+                        ],
+                        "nl": [
+                            "anosognosie"
+                        ],
+                        "no": [
+                            "anosognosi"
+                        ],
+                        "pl": [
+                            "anosognozja"
+                        ],
+                        "pt": [
+                            "anosognosia"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u043e\u0437\u043e\u0433\u043d\u043e\u0437\u0438\u044f"
+                        ],
+                        "cs": [
+                            "anosognosie"
+                        ],
+                        "th": [
+                            "\u0e01\u0e32\u0e23"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anosognosie": [
+                    "Singulier"
+                ],
+                "anosognosies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anoure": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Anura"
+                        ],
+                        "de": [
+                            "Froschlurch"
+                        ],
+                        "ca": [
+                            "anur"
+                        ],
+                        "hr": [
+                            "bezrepci"
+                        ],
+                        "it": [
+                            "anuro"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anoure": [
+                    "Singulier"
+                ],
+                "anoures": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anoxie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anoxia"
+                        ],
+                        "ca": [
+                            "an\u00f2xia"
+                        ],
+                        "es": [
+                            "anoxia"
+                        ],
+                        "it": [
+                            "anossia"
+                        ],
+                        "nl": [
+                            "zuurstoftekort"
+                        ],
+                        "oc": [
+                            "anoxia"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anoxie": [
+                    "Singulier"
+                ],
+                "anoxies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anoxique": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anoxic"
+                        ],
+                        "ca": [
+                            "an\u00f2xic",
+                            "an\u00f2xica"
+                        ],
+                        "es": [
+                            "an\u00f3xico"
+                        ],
+                        "it": [
+                            "anossico"
+                        ],
+                        "oc": [
+                            "anoxic"
+                        ],
+                        "pt": [
+                            "an\u00f3xico"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anoxique": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "anoxiques": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "anse": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "poign\u00e9e",
+                    "translations": {
+                        "de": [
+                            "Henkel"
+                        ],
+                        "en": [
+                            "handle"
+                        ],
+                        "ca": [
+                            "ansa",
+                            "nansa"
+                        ],
+                        "hr": [
+                            "ru\u010dica"
+                        ],
+                        "da": [
+                            "\u00f8re",
+                            "hank"
+                        ],
+                        "es": [
+                            "asa"
+                        ],
+                        "eo": [
+                            "anso"
+                        ],
+                        "io": [
+                            "anso"
+                        ],
+                        "it": [
+                            "ansa"
+                        ],
+                        "nl": [
+                            "handvat",
+                            "oor"
+                        ],
+                        "nrm": [
+                            "haunse"
+                        ],
+                        "oc": [
+                            "carba",
+                            "manilha"
+                        ],
+                        "pl": [
+                            "ucho",
+                            "uszko",
+                            "uszko"
+                        ],
+                        "ro": [
+                            "toart\u0103"
+                        ],
+                        "sv": [
+                            "\u00f6ra"
+                        ]
+                    }
+                },
+                {
+                    "definition": "baie, golfe",
+                    "translations": {
+                        "de": [
+                            "Bucht"
+                        ],
+                        "en": [
+                            "cove"
+                        ],
+                        "ca": [
+                            "ansa",
+                            "cala",
+                            "anc\u00f3"
+                        ],
+                        "hr": [
+                            "uvala"
+                        ],
+                        "da": [
+                            "vig"
+                        ],
+                        "io": [
+                            "golfeto"
+                        ],
+                        "nrm": [
+                            "noe"
+                        ],
+                        "oc": [
+                            "ansa",
+                            "calanca"
+                        ],
+                        "pl": [
+                            "zatoczka"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anse": [
+                    "Singulier"
+                ],
+                "anses": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "ans\u00e9rine": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "dipeptide",
+                    "translations": {
+                        "de": [
+                            "anserin",
+                            "anserin"
+                        ],
+                        "en": [
+                            "anserine"
+                        ],
+                        "ca": [
+                            "anserina"
+                        ],
+                        "it": [
+                            "anserina"
+                        ],
+                        "pl": [
+                            "anseryna"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ans\u00e9rine": [
+                    "Singulier"
+                ],
+                "ans\u00e9rines": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "antagonique": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "adversarial",
+                            "antagonistic"
+                        ],
+                        "ca": [
+                            "antag\u00f2nic",
+                            "antag\u00f2nica"
+                        ],
+                        "hr": [
+                            "antagonisti\u010dki"
+                        ],
+                        "es": [
+                            "antag\u00f3nico",
+                            "antag\u00f3nica"
+                        ],
+                        "ro": [
+                            "antagonic"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antagonique": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "antagoniques": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "antagoniser": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "antagonisieren"
+                        ],
+                        "en": [
+                            "antagonize"
+                        ],
+                        "es": [
+                            "antagonizar"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c4\u03b1\u03b3\u03c9\u03bd\u03af\u03b6\u03bf\u03bc\u03b1\u03b9"
+                        ],
+                        "pt": [
+                            "antagonizar"
+                        ],
+                        "sv": [
+                            "antagonisera"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "antagonisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "antagonism"
+                        ],
+                        "bg": [
+                            "\u0430\u043d\u0442\u0430\u0433\u043e\u043d\u0438\u0437\u044a\u043c"
+                        ],
+                        "ca": [
+                            "antagonisme"
+                        ],
+                        "hr": [
+                            "antagonizam"
+                        ],
+                        "es": [
+                            "antagonismo"
+                        ],
+                        "io": [
+                            "antagonismo"
+                        ],
+                        "mt": [
+                            "antagonizmu"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0430\u0433\u043e\u043d\u0438\u0437\u043c"
+                        ],
+                        "uk": [
+                            "\u0430\u043d\u0442\u0430\u0433\u043e\u043d\u0456\u0437\u043c"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antagonisme": [
+                    "Singulier"
+                ],
+                "antagonismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "antagoniste": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "1",
+                    "translations": {
+                        "de": [
+                            "Gegner",
+                            "Widerpart",
+                            "Widersacher",
+                            "Antagonist",
+                            "Gegenspieler"
+                        ],
+                        "en": [
+                            "antagonist",
+                            "adversary",
+                            "opponent",
+                            "objector"
+                        ],
+                        "bg": [
+                            "\u0430\u043d\u0442\u0430\u0433\u043e\u043d\u0438\u0441\u0442"
+                        ],
+                        "ca": [
+                            "antagonista"
+                        ],
+                        "hr": [
+                            "antagonist"
+                        ],
+                        "es": [
+                            "antagonista"
+                        ],
+                        "eo": [
+                            "kontra\u016dulo"
+                        ],
+                        "hu": [
+                            "ellenf\u00e9l"
+                        ],
+                        "it": [
+                            "antagonista"
+                        ],
+                        "nl": [
+                            "tegenspeler",
+                            "tegenstander"
+                        ],
+                        "pl": [
+                            "przeciwnik"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0430\u0433\u043e\u043d\u0438\u0441\u0442"
+                        ],
+                        "sv": [
+                            "vedersakare"
+                        ],
+                        "cs": [
+                            "protivn\u00edk"
+                        ],
+                        "tr": [
+                            "aleyhtar"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antagoniste": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "antagonistes": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "antan": [
+        {
+            "type": "Adverbe",
+            "translations": [
+                {
+                    "definition": "L\u2019ann\u00e9e derni\u00e8re",
+                    "translations": {
+                        "en": [
+                            "yesteryear",
+                            "last year"
+                        ],
+                        "hy": [
+                            "\u0574\u0565\u056f \u057f\u0561\u0580\u056b \u0561\u057c\u0561\u057b"
+                        ],
+                        "eu": [
+                            "iaz"
+                        ],
+                        "ca": [
+                            "antany"
+                        ],
+                        "ko": [
+                            "\uc791\ub144"
+                        ],
+                        "hr": [
+                            "od pro\u0161le godine",
+                            "iz prija\u0161nje godine"
+                        ],
+                        "da": [
+                            "i fjor"
+                        ],
+                        "es": [
+                            "anta\u00f1o"
+                        ],
+                        "fi": [
+                            "mennyt vuosi"
+                        ],
+                        "hu": [
+                            "tavaly"
+                        ],
+                        "io": [
+                            "antea yaro"
+                        ],
+                        "it": [
+                            "anno scorso"
+                        ],
+                        "ja": [
+                            "\u53bb\u5e74",
+                            "\u6628\u5e74"
+                        ],
+                        "kk": [
+                            "\u0431\u044b\u043b\u0442\u044b\u0440"
+                        ],
+                        "sv": [
+                            "i fjol",
+                            "i fjor"
+                        ],
+                        "cs": [
+                            "lo\u0148sk\u00fd"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Le temps d\u2019autrefois",
+                    "translations": {
+                        "de": [
+                            "einstig",
+                            "damalig",
+                            "aus vergangenen Tagen",
+                            "aus vergangener Zeit"
+                        ],
+                        "en": [
+                            "yesteryear",
+                            "yore"
+                        ],
+                        "hy": [
+                            "\u0576\u0561\u056d\u056f\u056b\u0576\u0578\u0582\u0574"
+                        ],
+                        "ca": [
+                            "antany"
+                        ],
+                        "hr": [
+                            "prija\u0161njih vremena"
+                        ],
+                        "es": [
+                            "anta\u00f1o"
+                        ],
+                        "fi": [
+                            "menneet vuodet"
+                        ],
+                        "it": [
+                            "antan",
+                            "di una volta",
+                            "di un tempo"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "antarctique": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "antarktisch",
+                            "s\u00fcdpolar"
+                        ],
+                        "en": [
+                            "antarctic"
+                        ],
+                        "ca": [
+                            "ant\u00e0rtic"
+                        ],
+                        "hr": [
+                            "antarkti\u010dki"
+                        ],
+                        "es": [
+                            "ant\u00e1rtico"
+                        ],
+                        "eo": [
+                            "antarkta",
+                            "antarktika"
+                        ],
+                        "gl": [
+                            "ant\u00e1rtico"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c4\u03b1\u03c1\u03ba\u03c4\u03b9\u03ba\u03cc\u03c2"
+                        ],
+                        "hu": [
+                            "antarktikus",
+                            "antarktiszi"
+                        ],
+                        "io": [
+                            "antarktika"
+                        ],
+                        "it": [
+                            "antartico"
+                        ],
+                        "nl": [
+                            "antarctisch"
+                        ],
+                        "oc": [
+                            "antartic"
+                        ],
+                        "pt": [
+                            "ant\u00e1rctico"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0430\u0440\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439"
+                        ],
+                        "sv": [
+                            "antarktisk"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antarctique": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "antarctiques": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ant\u00e9c\u00e9dence": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "antecedence"
+                        ],
+                        "ca": [
+                            "anteced\u00e8ncia"
+                        ],
+                        "hr": [
+                            "prethodnost",
+                            "antecedencija"
+                        ],
+                        "es": [
+                            "antecedencia"
+                        ],
+                        "pt": [
+                            "anteced\u00eancia"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ant\u00e9c\u00e9dence": [
+                    "Singulier"
+                ],
+                "ant\u00e9c\u00e9dences": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "ant\u00e9c\u00e9dent": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "antecedent",
+                            "background"
+                        ],
+                        "ca": [
+                            "antecedent"
+                        ],
+                        "hr": [
+                            "antecedent"
+                        ],
+                        "es": [
+                            "antecedente"
+                        ],
+                        "fi": [
+                            "menneisyys"
+                        ],
+                        "io": [
+                            "antea"
+                        ],
+                        "la": [
+                            "antecessio"
+                        ],
+                        "pt": [
+                            "antecedente"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ant\u00e9c\u00e9dent": [
+                    "Singulier"
+                ],
+                "ant\u00e9c\u00e9dents": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "ant\u00e9christ": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "antichris"
+                        ],
+                        "de": [
+                            "Antichrist"
+                        ],
+                        "en": [
+                            "Antichrist",
+                            "antichrist"
+                        ],
+                        "ar": [
+                            "\u0627\u0644\u0645\u0633\u064a\u062d \u0627\u0644\u062f\u062c\u0627\u0644"
+                        ],
+                        "bg": [
+                            "\u0430\u043d\u0442\u0438\u0445\u0440\u0438\u0441\u0442"
+                        ],
+                        "ca": [
+                            "antichrist"
+                        ],
+                        "hr": [
+                            "antikrist"
+                        ],
+                        "es": [
+                            "anticristo"
+                        ],
+                        "eo": [
+                            "kontra\u016dkristo"
+                        ],
+                        "fi": [
+                            "Antikristus",
+                            "antikristus"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c4\u03af\u03c7\u03c1\u03b9\u03c3\u03c4\u03bf\u03c2"
+                        ],
+                        "io": [
+                            "antikristo"
+                        ],
+                        "it": [
+                            "anticristo"
+                        ],
+                        "ja": [
+                            "\u53cd\u30ad\u30ea\u30b9\u30c8"
+                        ],
+                        "nl": [
+                            "antichrist"
+                        ],
+                        "pl": [
+                            "antychryst"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0438\u0445\u0440\u0438\u0441\u0442"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ant\u00e9christ": [
+                    "Singulier"
+                ],
+                "ant\u00e9christs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "ant\u00e9diluvien": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "vorsintflutlich"
+                        ],
+                        "en": [
+                            "antediluvian",
+                            "antediluvial"
+                        ],
+                        "ca": [
+                            "antediluvi\u00e0"
+                        ],
+                        "hr": [
+                            "pretpotopni"
+                        ],
+                        "es": [
+                            "antediluviano"
+                        ],
+                        "et": [
+                            "aadamaaegne"
+                        ],
+                        "it": [
+                            "antediluviano",
+                            "antidiluviano"
+                        ],
+                        "nl": [
+                            "antediluviaal"
+                        ],
+                        "oc": [
+                            "antediluvian"
+                        ],
+                        "ru": [
+                            "\u0434\u043e\u043f\u043e\u0442\u043e\u043f\u043d\u044b\u0439"
+                        ],
+                        "sv": [
+                            "antediluviansk"
+                        ],
+                        "cs": [
+                            "p\u0159edpotopn\u00ed"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ant\u00e9diluvien": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "ant\u00e9diluviens": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "ant\u00e9diluvienne": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "ant\u00e9diluviennes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ant\u00e9fixe": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Antefix"
+                        ],
+                        "en": [
+                            "antefix"
+                        ],
+                        "ar": [
+                            "\u062a\u0645\u0627\u062b\u064a\u0644 \u0641\u0648\u0642 \u0627\u0644\u0645\u0633\u0646\u0645"
+                        ],
+                        "ca": [
+                            "antefixa"
+                        ],
+                        "es": [
+                            "antefijo"
+                        ],
+                        "gl": [
+                            "antefixo"
+                        ],
+                        "hu": [
+                            "antefix"
+                        ],
+                        "it": [
+                            "antefissa"
+                        ],
+                        "ja": [
+                            "\u30a2\u30f3\u30c6\u30d5\u30a3\u30af\u30b5"
+                        ],
+                        "mk": [
+                            "\u0430\u043d\u0442\u0435\u0444\u0438\u043a\u0441"
+                        ],
+                        "nl": [
+                            "antefix"
+                        ],
+                        "pl": [
+                            "antefiks"
+                        ],
+                        "pt": [
+                            "antefixo"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0435\u0444\u0438\u043a\u0441"
+                        ],
+                        "sv": [
+                            "antefix"
+                        ],
+                        "uk": [
+                            "\u0430\u043d\u0442\u0435\u0444\u0456\u043a\u0441"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ant\u00e9fixe": [
+                    "Singulier"
+                ],
+                "ant\u00e9fixes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "antenne": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "(Entomologie) Organe des insectes\u00a0(3)",
+                    "translations": {
+                        "de": [
+                            "F\u00fchlhorn"
+                        ],
+                        "hr": [
+                            "ticalo"
+                        ],
+                        "fi": [
+                            "tuntosarvi"
+                        ],
+                        "ga": [
+                            "adharc",
+                            "adharc\u00e1n"
+                        ],
+                        "gl": [
+                            "antena"
+                        ],
+                        "it": [
+                            "antenna"
+                        ],
+                        "la": [
+                            "cornicula"
+                        ],
+                        "pl": [
+                            "czu\u0142ki"
+                        ],
+                        "sv": [
+                            "antenn"
+                        ],
+                        "cs": [
+                            "tykadlo"
+                        ]
+                    }
+                },
+                {
+                    "definition": "(Technique) Appareil pour recevoir un signal\u00a0(5)",
+                    "translations": {
+                        "af": [
+                            "antenne"
+                        ],
+                        "sq": [
+                            "antena"
+                        ],
+                        "de": [
+                            "Antenne"
+                        ],
+                        "en": [
+                            "antenna"
+                        ],
+                        "ar": [
+                            "\u0647\u0648\u0627\u0626\u064a"
+                        ],
+                        "hy": [
+                            "\u0561\u0576\u057f\u0565\u0576\u0561"
+                        ],
+                        "ast": [
+                            "antena"
+                        ],
+                        "az": [
+                            "antenna"
+                        ],
+                        "eu": [
+                            "antena"
+                        ],
+                        "be": [
+                            "\u0430\u043d\u0442\u044d\u043d\u0430"
+                        ],
+                        "bs": [
+                            "antena"
+                        ],
+                        "bg": [
+                            "\u0430\u043d\u0442\u0435\u043d\u0430"
+                        ],
+                        "ca": [
+                            "antena"
+                        ],
+                        "zh": [
+                            "\u5929\u7ebf"
+                        ],
+                        "ko": [
+                            "\uc548\ud14c\ub098"
+                        ],
+                        "hr": [
+                            "antena"
+                        ],
+                        "da": [
+                            "radioantenne",
+                            "antenne"
+                        ],
+                        "es": [
+                            "antena"
+                        ],
+                        "eo": [
+                            "anteno"
+                        ],
+                        "et": [
+                            "antenn"
+                        ],
+                        "fi": [
+                            "antenni"
+                        ],
+                        "ga": [
+                            "aer\u00f3g"
+                        ],
+                        "gl": [
+                            "antena"
+                        ],
+                        "ka": [
+                            "\u10d0\u10dc\u10e2\u10d4\u10dc\u10d0"
+                        ],
+                        "el": [
+                            "\u03ba\u03b5\u03c1\u03b1\u03af\u03b1"
+                        ],
+                        "he": [
+                            "\u05d0\u05e0\u05d8\u05e0\u05d4"
+                        ],
+                        "io": [
+                            "anteno"
+                        ],
+                        "id": [
+                            "antena"
+                        ],
+                        "is": [
+                            "loftnet"
+                        ],
+                        "it": [
+                            "antenna"
+                        ],
+                        "ja": [
+                            "\u30a2\u30f3\u30c6\u30ca"
+                        ],
+                        "kk": [
+                            "\u0430\u043d\u0442\u0435\u043d\u043d\u0430"
+                        ],
+                        "ky": [
+                            "\u0430\u043d\u0442\u0435\u043d\u043d\u0430"
+                        ],
+                        "la": [
+                            "antenna"
+                        ],
+                        "lv": [
+                            "antena"
+                        ],
+                        "lt": [
+                            "antena"
+                        ],
+                        "mk": [
+                            "\u0430\u043d\u0442\u0435\u043d\u0430"
+                        ],
+                        "ms": [
+                            "antena"
+                        ],
+                        "ml": [
+                            "\u0d28"
+                        ],
+                        "nl": [
+                            "antenne"
+                        ],
+                        "no": [
+                            "antenne",
+                            "radioantenne",
+                            "antenne"
+                        ],
+                        "ur": [
+                            "\u0645\u062d\u0627\u0633"
+                        ],
+                        "uz": [
+                            "antenna"
+                        ],
+                        "pnb": [
+                            "\u0627\u0646\u0679\u06cc\u0646\u0627"
+                        ],
+                        "fa": [
+                            "\u0622\u0646\u062a\u0646"
+                        ],
+                        "pl": [
+                            "antena"
+                        ],
+                        "pt": [
+                            "antena"
+                        ],
+                        "ro": [
+                            "anten\u0103"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0435\u043d\u043d\u0430"
+                        ],
+                        "sr": [
+                            "\u0430\u043d\u0442\u0435\u043d\u0430"
+                        ],
+                        "sh": [
+                            "antena"
+                        ],
+                        "scn": [
+                            "ntinna"
+                        ],
+                        "sk": [
+                            "ant\u00e9na"
+                        ],
+                        "sl": [
+                            "antena"
+                        ],
+                        "sv": [
+                            "antenn"
+                        ],
+                        "sw": [
+                            "antena"
+                        ],
+                        "tg": [
+                            "\u0430\u043d\u0442\u0435\u043d\u043d\u0430"
+                        ],
+                        "tl": [
+                            "antena"
+                        ],
+                        "cs": [
+                            "ant\u00e9na"
+                        ],
+                        "th": [
+                            "\u0e2a\u0e32\u0e22\u0e2d\u0e32\u0e01\u0e32\u0e28"
+                        ],
+                        "tr": [
+                            "anten"
+                        ],
+                        "uk": [
+                            "\u0430\u043d\u0442\u0435\u043d\u0430"
+                        ],
+                        "vi": [
+                            "\u0103ngten"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antenne": [
+                    "Singulier"
+                ],
+                "antennes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "antependium": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Antependium"
+                        ],
+                        "en": [
+                            "antependium"
+                        ],
+                        "hu": [
+                            "antependium"
+                        ],
+                        "it": [
+                            "paliotto"
+                        ],
+                        "ja": [
+                            "\u30a2\u30f3\u30c6\u30da\u30f3\u30c7\u30a3\u30a6\u30e0"
+                        ],
+                        "la": [
+                            "antependium"
+                        ],
+                        "lb": [
+                            "antependium"
+                        ],
+                        "nl": [
+                            "antependium"
+                        ],
+                        "no": [
+                            "antependium"
+                        ],
+                        "pl": [
+                            "antepedium"
+                        ],
+                        "sv": [
+                            "antependium"
+                        ],
+                        "cs": [
+                            "antependium"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antependium": [
+                    "Singulier"
+                ],
+                "antependiums": [
+                    "Pluriel"
+                ],
+                "antependia": [
+                    "Pluriel"
+                ],
+                "": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "ant\u00e9p\u00e9nulti\u00e8me": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "drittletzt"
+                        ],
+                        "en": [
+                            "antepenultimate"
+                        ],
+                        "eu": [
+                            "hirugarren"
+                        ],
+                        "ca": [
+                            "antepen\u00faltim"
+                        ],
+                        "hr": [
+                            "pretpredzadnji"
+                        ],
+                        "es": [
+                            "antepen\u00faltimo"
+                        ],
+                        "el": [
+                            "\u03c0\u03c1\u03bf\u03c0\u03b1\u03c1\u03b1\u03bb\u03ae\u03b3\u03bf\u03c5\u03c3\u03b1"
+                        ],
+                        "io": [
+                            "lasta",
+                            "anteprelasta"
+                        ],
+                        "it": [
+                            "terzultimo"
+                        ],
+                        "ja": [
+                            "\u6b21\u3005\u672b"
+                        ],
+                        "la": [
+                            "antepaeneultimus"
+                        ],
+                        "pl": [
+                            "przedprzedostatni"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ant\u00e9p\u00e9nulti\u00e8me": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "ant\u00e9p\u00e9nulti\u00e8mes": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ant\u00e9poser": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "front"
+                        ],
+                        "br": [
+                            "raklakaat"
+                        ],
+                        "ca": [
+                            "anteposar"
+                        ],
+                        "hr": [
+                            "postaviti ispred"
+                        ],
+                        "es": [
+                            "anteponer"
+                        ],
+                        "ja": [
+                            "\u524d\u7f6e\u3059\u308b"
+                        ],
+                        "la": [
+                            "antepono"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "ant\u00e9position": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "fronting"
+                        ],
+                        "ca": [
+                            "anteposici\u00f3"
+                        ],
+                        "hr": [
+                            "antepozicija"
+                        ],
+                        "es": [
+                            "anteposici\u00f3n"
+                        ],
+                        "gl": [
+                            "anteposici\u00f3n"
+                        ],
+                        "ja": [
+                            "\u524d\u7f6e"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ant\u00e9position": [
+                    "Singulier"
+                ],
+                "ant\u00e9positions": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "ant\u00e9rieur": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Qui pr\u00e9c\u00e8de dans le temps\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "fr\u00fcher"
+                        ],
+                        "en": [
+                            "previous",
+                            "preceding",
+                            "former"
+                        ],
+                        "ca": [
+                            "anterior"
+                        ],
+                        "hr": [
+                            "biti prethodan"
+                        ],
+                        "es": [
+                            "anterior"
+                        ],
+                        "eo": [
+                            "anta\u016da"
+                        ],
+                        "io": [
+                            "antea",
+                            "anteriora"
+                        ],
+                        "it": [
+                            "anteriore",
+                            "precedente"
+                        ],
+                        "ja": [
+                            "\u524d"
+                        ],
+                        "oc": [
+                            "abans"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Qui pr\u00e9c\u00e8de dans l\u2019espace\u00a0(2)",
+                    "translations": {
+                        "de": [
+                            "vorder",
+                            "vorderer"
+                        ],
+                        "en": [
+                            "anterior",
+                            "frontal",
+                            "forward",
+                            "front"
+                        ],
+                        "ca": [
+                            "anterior"
+                        ],
+                        "hr": [
+                            "unutar"
+                        ],
+                        "es": [
+                            "anterior"
+                        ],
+                        "eo": [
+                            "anta\u016da"
+                        ],
+                        "ka": [
+                            "\u10ec\u10d8\u10dc\u10d0"
+                        ],
+                        "io": [
+                            "avana"
+                        ],
+                        "ja": [
+                            "\u524d"
+                        ],
+                        "oc": [
+                            "anterior",
+                            "davant",
+                            "avant"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Prononc\u00e9 avec la langue avanc\u00e9e dans la bouche\u00a0(3)",
+                    "translations": {
+                        "en": [
+                            "front"
+                        ],
+                        "ca": [
+                            "anterior"
+                        ],
+                        "hr": [
+                            "prednji"
+                        ],
+                        "es": [
+                            "anterior"
+                        ],
+                        "ja": [
+                            "\u524d\u820c"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ant\u00e9rieur": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "ant\u00e9rieurs": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "ant\u00e9rieure": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "ant\u00e9rieures": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ant\u00e9rieurement": [
+        {
+            "type": "Adverbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "before",
+                            "earlier"
+                        ],
+                        "ca": [
+                            "anteriorment"
+                        ],
+                        "hr": [
+                            "prethodno"
+                        ],
+                        "es": [
+                            "anteriormente"
+                        ],
+                        "it": [
+                            "anteriormente"
+                        ],
+                        "oc": [
+                            "anteriorament",
+                            "de per abans"
+                        ],
+                        "ru": [
+                            "\u0440\u0430\u043d\u0435\u0435"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "ant\u00e9riorit\u00e9": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Priorit\u00e9",
+                    "translations": {
+                        "de": [
+                            "Vorzeitigkeit",
+                            "Priorit\u00e4t"
+                        ],
+                        "en": [
+                            "priority"
+                        ],
+                        "ca": [
+                            "anterioritat"
+                        ],
+                        "hr": [
+                            "prioritet nad datumom",
+                            "ante factum",
+                            "prior tempore"
+                        ],
+                        "es": [
+                            "anterioridad"
+                        ],
+                        "gl": [
+                            "anterioridade"
+                        ],
+                        "it": [
+                            "anteriorit\u00e0"
+                        ],
+                        "ja": [
+                            "\u5148\u884c"
+                        ],
+                        "nl": [
+                            "het eerder zijn",
+                            "het vooraf gaan"
+                        ],
+                        "pt": [
+                            "anterioridade"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ant\u00e9riorit\u00e9": [
+                    "Singulier"
+                ],
+                "ant\u00e9riorit\u00e9s": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthelminthique": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "anthelminthikum"
+                        ],
+                        "en": [
+                            "anthelmintic",
+                            "antihelminthic"
+                        ],
+                        "ca": [
+                            "antihelm\u00edntic"
+                        ],
+                        "hr": [
+                            "sredstvo protiv parazita"
+                        ],
+                        "es": [
+                            "antihelm\u00edntico"
+                        ],
+                        "it": [
+                            "antielmintico"
+                        ],
+                        "nl": [
+                            "anthelminthicum"
+                        ],
+                        "oc": [
+                            "antielmintic"
+                        ],
+                        "pl": [
+                            "leki przeciwrobacze"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthelminthique": [
+                    "Singulier"
+                ],
+                "anthelminthiques": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anth\u00e8re": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Anthere",
+                            "Staubbeutel"
+                        ],
+                        "en": [
+                            "anther"
+                        ],
+                        "ar": [
+                            "\u0645\u0621\u0628\u0631",
+                            "\u0645\u062a\u0643"
+                        ],
+                        "ca": [
+                            "antera"
+                        ],
+                        "hr": [
+                            "pra\u0161nica",
+                            "peludnica"
+                        ],
+                        "es": [
+                            "antera"
+                        ],
+                        "eo": [
+                            "antero"
+                        ],
+                        "fo": [
+                            "s\u00e1\u00f0knappur"
+                        ],
+                        "gl": [
+                            "antera"
+                        ],
+                        "io": [
+                            "antero"
+                        ],
+                        "it": [
+                            "antera"
+                        ],
+                        "nl": [
+                            "helmknop"
+                        ],
+                        "pt": [
+                            "antera"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anth\u00e8re": [
+                    "Singulier"
+                ],
+                "anth\u00e8res": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthocyane": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "pigment v\u00e9g\u00e9tal",
+                    "translations": {
+                        "de": [
+                            "Anthocyane"
+                        ],
+                        "en": [
+                            "anthocyanin"
+                        ],
+                        "ca": [
+                            "antoci\u00e0",
+                            "antocianidina",
+                            "antocianina"
+                        ],
+                        "es": [
+                            "antocianina",
+                            "antociana"
+                        ],
+                        "it": [
+                            "antociano"
+                        ],
+                        "cs": [
+                            "antokyan"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthocyane": [
+                    "Singulier"
+                ],
+                "anthocyanes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthologie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "bloemlesing",
+                            "chrestomatie"
+                        ],
+                        "de": [
+                            "Chrestomatie",
+                            "Blumenlese",
+                            "Anthologie"
+                        ],
+                        "en": [
+                            "anthology",
+                            "chrestomathy"
+                        ],
+                        "bg": [
+                            "\u0430\u043d\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
+                        ],
+                        "ca": [
+                            "antologia"
+                        ],
+                        "hr": [
+                            "antologija"
+                        ],
+                        "es": [
+                            "antolog\u00eda"
+                        ],
+                        "eo": [
+                            "krestomatio"
+                        ],
+                        "fo": [
+                            "lesib\u00f3k"
+                        ],
+                        "fi": [
+                            "antologia"
+                        ],
+                        "fy": [
+                            "bloml\u00eazing"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03b8\u03bf\u03bb\u03bf\u03b3\u03af\u03b1"
+                        ],
+                        "io": [
+                            "antologio"
+                        ],
+                        "it": [
+                            "antologia"
+                        ],
+                        "la": [
+                            "anthologicon"
+                        ],
+                        "nl": [
+                            "chrestomathie"
+                        ],
+                        "pt": [
+                            "colet\u00e2nea",
+                            "crestomatia"
+                        ],
+                        "ro": [
+                            "antologie",
+                            "crestoma\u021bie",
+                            "florilegiu"
+                        ],
+                        "sk": [
+                            "antol\u00f3gia"
+                        ],
+                        "sv": [
+                            "urval"
+                        ],
+                        "cs": [
+                            "antologie"
+                        ],
+                        "wa": [
+                            "antolodjeye"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthologie": [
+                    "Singulier"
+                ],
+                "anthologies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthonome": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Anthonomus"
+                        ],
+                        "de": [
+                            "Bl\u00fctenstecher"
+                        ],
+                        "en": [
+                            "blossom weevil"
+                        ],
+                        "hr": [
+                            "cvjeto\u017eder"
+                        ],
+                        "et": [
+                            "\u00f5iel\u00f5ikaja"
+                        ],
+                        "fi": [
+                            "kukkak\u00e4rs\u00e4k\u00e4s"
+                        ],
+                        "it": [
+                            "antonomo"
+                        ],
+                        "lt": [
+                            "\u017eiedgrau\u017eis"
+                        ],
+                        "nl": [
+                            "bloesemkever"
+                        ],
+                        "pl": [
+                            "kwieciak"
+                        ],
+                        "ru": [
+                            "\u0446\u0432\u0435\u0442\u043e\u0435\u0434"
+                        ],
+                        "uk": [
+                            "\u043a\u0432\u0456\u0442\u043a\u043e\u0457\u0434"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthonome": [
+                    "Singulier"
+                ],
+                "anthonomes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthophyllite": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Anthophyllit"
+                        ],
+                        "en": [
+                            "anthophyllite"
+                        ],
+                        "eu": [
+                            "antofilita"
+                        ],
+                        "ca": [
+                            "lita"
+                        ],
+                        "hr": [
+                            "antofilit"
+                        ],
+                        "es": [
+                            "antofilita"
+                        ],
+                        "fi": [
+                            "antofylliitti"
+                        ],
+                        "gl": [
+                            "antofilita"
+                        ],
+                        "he": [
+                            "\u05d0\u05e0\u05ea\u05d5\u05e4\u05d9\u05dc\u05d9\u05d8"
+                        ],
+                        "it": [
+                            "antofillite"
+                        ],
+                        "ja": [
+                            "\u76f4\u9583\u77f3"
+                        ],
+                        "nl": [
+                            "anthofylliet"
+                        ],
+                        "pl": [
+                            "antofyllit"
+                        ],
+                        "sh": [
+                            "antofilit"
+                        ],
+                        "sv": [
+                            "antofyllit"
+                        ],
+                        "uk": [
+                            "\u0430\u043d\u0442\u043e\u0444\u0456\u043b\u0456\u0442"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthophyllite": [
+                    "Singulier"
+                ],
+                "anthophyllites": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthracite": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Anthrazit"
+                        ],
+                        "en": [
+                            "anthracite"
+                        ],
+                        "ca": [
+                            "antracita"
+                        ],
+                        "hr": [
+                            "antracit"
+                        ],
+                        "es": [
+                            "antracita"
+                        ],
+                        "io": [
+                            "antracito"
+                        ],
+                        "pt": [
+                            "antracite"
+                        ],
+                        "sk": [
+                            "antracit"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthracite": [
+                    "Singulier"
+                ],
+                "anthracites": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthracologie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Anthrakologie"
+                        ],
+                        "en": [
+                            "anthracology"
+                        ],
+                        "es": [
+                            "antracolog\u00eda"
+                        ],
+                        "it": [
+                            "antracologia"
+                        ],
+                        "pt": [
+                            "antracologia"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthracologie": [
+                    "Singulier"
+                ],
+                "anthracologies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthrax": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "carbuncle"
+                        ],
+                        "ca": [
+                            "\u00e0ntrax"
+                        ],
+                        "hr": [
+                            "antraks"
+                        ],
+                        "es": [
+                            "\u00e1ntrax"
+                        ],
+                        "el": [
+                            "\u03ac\u03bd\u03b8\u03c1\u03b1\u03ba\u03b1\u03c2"
+                        ],
+                        "sv": [
+                            "brandb\u00f6ld"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "anthropique": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Relatif \u00e0 l'activit\u00e9 humaine\u00a0(2)",
+                    "translations": {
+                        "de": [
+                            "anthropisch"
+                        ],
+                        "en": [
+                            "anthropic"
+                        ],
+                        "ca": [
+                            "antr\u00f2pic"
+                        ],
+                        "zh": [
+                            "\u4eba\u4e3a\u7684"
+                        ],
+                        "es": [
+                            "antr\u00f3pico"
+                        ],
+                        "fi": [
+                            "antrooppinen"
+                        ],
+                        "he": [
+                            "\u05d0\u05e0\u05ea\u05e8\u05d5\u05e4\u05d9"
+                        ],
+                        "it": [
+                            "antropico"
+                        ],
+                        "nl": [
+                            "antropisch"
+                        ],
+                        "pl": [
+                            "antropiczny"
+                        ],
+                        "pt": [
+                            "antr\u00f3pico"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043d\u044b\u0439"
+                        ],
+                        "sl": [
+                            "antropi\u010dno"
+                        ],
+                        "sv": [
+                            "antropisk"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropique": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "anthropiques": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "anthropoc\u00e8ne": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Anthropoz\u00e4n"
+                        ],
+                        "en": [
+                            "anthropocene"
+                        ],
+                        "ca": [
+                            "antropoc\u00e8"
+                        ],
+                        "ko": [
+                            "\uc778\ub958\uc138"
+                        ],
+                        "zh": [
+                            "\u4eba\u985e\u4e16"
+                        ],
+                        "es": [
+                            "antropoceno"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03b8\u03c1\u03c9\u03c0\u03cc\u03ba\u03b1\u03b9\u03bd\u03bf\u03c2"
+                        ],
+                        "it": [
+                            "antropocene"
+                        ],
+                        "la": [
+                            "anthropocaenum"
+                        ],
+                        "nl": [
+                            "anthropoceen"
+                        ],
+                        "pl": [
+                            "antropocen"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u0446\u0435\u043d"
+                        ],
+                        "sv": [
+                            "antropocen"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropoc\u00e8ne": [
+                    "Singulier"
+                ],
+                "anthropoc\u00e8nes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "Anthropoc\u00e8ne": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Anthropoz\u00e4n"
+                        ],
+                        "en": [
+                            "anthropocene"
+                        ],
+                        "zh": [
+                            "\u4eba\u985e\u4e16"
+                        ],
+                        "it": [
+                            "antropocene"
+                        ],
+                        "nl": [
+                            "anthropoceen"
+                        ],
+                        "pl": [
+                            "antropocen"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u0446\u0435\u043d"
+                        ],
+                        "sv": [
+                            "antropocen"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "anthropocentrique": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anthropocentric"
+                        ],
+                        "ca": [
+                            "antropoc\u00e8ntric"
+                        ],
+                        "hr": [
+                            "antropocentri\u010dan"
+                        ],
+                        "es": [
+                            "antropoc\u00e9ntrico"
+                        ],
+                        "it": [
+                            "antropocentrico"
+                        ],
+                        "ja": [
+                            "\u4eba\u9593\u4e2d\u5fc3\u7684"
+                        ],
+                        "sv": [
+                            "antropocentrisk"
+                        ],
+                        "cs": [
+                            "antropocentrick\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropocentrique": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "anthropocentriques": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "anthropocentrisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "anthropozentrismus"
+                        ],
+                        "en": [
+                            "anthropocentrism"
+                        ],
+                        "bg": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u0446\u0435\u043d\u0442\u0440\u0438\u0437\u044a\u043c"
+                        ],
+                        "ca": [
+                            "antropocentrisme"
+                        ],
+                        "zh": [
+                            "\u4eba\u985e\u4e2d\u5fc3\u4e3b\u7fa9"
+                        ],
+                        "hr": [
+                            "antropocentrizam"
+                        ],
+                        "da": [
+                            "Antropocentrisme"
+                        ],
+                        "es": [
+                            "antropocentrismo"
+                        ],
+                        "et": [
+                            "antropotsentrism"
+                        ],
+                        "fi": [
+                            "ihmiskeskeisyys"
+                        ],
+                        "gl": [
+                            "antropocentrismo"
+                        ],
+                        "he": [
+                            "\u05d0\u05e0\u05ea\u05e8\u05d5\u05e4\u05d5\u05e6\u05e0\u05d8\u05e8\u05d9\u05d5\u05ea"
+                        ],
+                        "it": [
+                            "antropocentrismo"
+                        ],
+                        "ja": [
+                            "\u4eba\u9593\u4e2d\u5fc3\u4e3b\u7fa9"
+                        ],
+                        "kk": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u0446\u0435\u043d\u0442\u0440\u0438\u0437\u043c"
+                        ],
+                        "ky": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u0446\u0435\u043d\u0442\u0440\u0438\u0437\u043c"
+                        ],
+                        "lv": [
+                            "antropocentrisms"
+                        ],
+                        "lt": [
+                            "antropocentrizmas"
+                        ],
+                        "nl": [
+                            "antropocentrisme"
+                        ],
+                        "no": [
+                            "antroposentrisme"
+                        ],
+                        "oc": [
+                            "antropocentrisme"
+                        ],
+                        "pl": [
+                            "antropocentryzm"
+                        ],
+                        "pt": [
+                            "antropocentrismo"
+                        ],
+                        "ro": [
+                            "antropocentrism"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u0446\u0435\u043d\u0442\u0440\u0438\u0437\u043c"
+                        ],
+                        "sh": [
+                            "antropocentrizam"
+                        ],
+                        "sk": [
+                            "antropocentrizmus"
+                        ],
+                        "sl": [
+                            "antropocentrizem"
+                        ],
+                        "sv": [
+                            "antropocentrism"
+                        ],
+                        "cs": [
+                            "antropocentrismus"
+                        ],
+                        "tr": [
+                            "antroposantrizm"
+                        ],
+                        "uk": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u0446\u0435\u043d\u0442\u0440\u0438\u0437\u043c"
+                        ],
+                        "vi": [
+                            "ch\u1ee7 ngh\u0129a duy con ng\u01b0\u1eddi"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropocentrisme": [
+                    "Singulier"
+                ],
+                "anthropocentrismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthropogen\u00e8se": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anthropogenesis"
+                        ],
+                        "hr": [
+                            "antropogeneza"
+                        ],
+                        "it": [
+                            "antropogenesi"
+                        ],
+                        "oc": [
+                            "antropogen\u00e8si"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u0433\u0435\u043d\u0435\u0437"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropogen\u00e8se": [
+                    "Singulier"
+                ],
+                "anthropogen\u00e8ses": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthropo\u00efde": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "anthropoid",
+                            "menschen\u00e4hnlich"
+                        ],
+                        "en": [
+                            "anthropoid",
+                            "humanlike"
+                        ],
+                        "ca": [
+                            "antropoide"
+                        ],
+                        "hr": [
+                            "antropoid"
+                        ],
+                        "es": [
+                            "antropoide"
+                        ],
+                        "eo": [
+                            "antropoida"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03b8\u03c1\u03c9\u03c0\u03bf\u03b5\u03b9\u03b4\u03ae\u03c2"
+                        ],
+                        "io": [
+                            "antropoida"
+                        ],
+                        "it": [
+                            "antropoide"
+                        ],
+                        "nl": [
+                            "antropo\u00efd",
+                            "mensachtig"
+                        ],
+                        "oc": [
+                            "antropo\u00efde"
+                        ],
+                        "pt": [
+                            "antrop\u00f3ide"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropo\u00efde": [
+                    "Singulier"
+                ],
+                "anthropo\u00efdes": [
+                    "Pluriel"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Menschenaffe"
+                        ],
+                        "en": [
+                            "anthropoid"
+                        ],
+                        "ca": [
+                            "antropoide"
+                        ],
+                        "hr": [
+                            "antropoid"
+                        ],
+                        "es": [
+                            "antropoide"
+                        ],
+                        "eo": [
+                            "antropoido"
+                        ],
+                        "io": [
+                            "antropoido"
+                        ],
+                        "nl": [
+                            "mensaap"
+                        ],
+                        "oc": [
+                            "antropo\u00efde"
+                        ],
+                        "pt": [
+                            "antrop\u00f3ide"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropo\u00efde": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "anthropo\u00efdes": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "anthropologie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "antropologie"
+                        ],
+                        "de": [
+                            "Anthropologie",
+                            "Menschenkunde"
+                        ],
+                        "en": [
+                            "anthropology"
+                        ],
+                        "ast": [
+                            "antropolox\u00eda"
+                        ],
+                        "eu": [
+                            "antropologia"
+                        ],
+                        "br": [
+                            "antropologiezh",
+                            "denoniezh"
+                        ],
+                        "bg": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u043b\u043e\u0433\u0438\u044f"
+                        ],
+                        "ca": [
+                            "antropologia"
+                        ],
+                        "zh": [
+                            "\u4eba\u7c7b\u5b66"
+                        ],
+                        "hr": [
+                            "antropologija"
+                        ],
+                        "da": [
+                            "antropologi"
+                        ],
+                        "es": [
+                            "antropolog\u00eda"
+                        ],
+                        "eo": [
+                            "antropologio"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03b8\u03c1\u03c9\u03c0\u03bf\u03bb\u03bf\u03b3\u03af\u03b1"
+                        ],
+                        "hu": [
+                            "antropol\u00f3gia"
+                        ],
+                        "io": [
+                            "antropologio"
+                        ],
+                        "id": [
+                            "antropologi"
+                        ],
+                        "it": [
+                            "antropologia"
+                        ],
+                        "mk": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u043b\u043e\u0433\u0438\u0458\u0430"
+                        ],
+                        "nl": [
+                            "antropologie",
+                            "menskunde"
+                        ],
+                        "no": [
+                            "antropologi"
+                        ],
+                        "pl": [
+                            "antropologia"
+                        ],
+                        "pt": [
+                            "antropologia"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u043b\u043e\u0433\u0438\u044f"
+                        ],
+                        "sk": [
+                            "antropol\u00f3gia"
+                        ],
+                        "sl": [
+                            "antropologija"
+                        ],
+                        "sv": [
+                            "antropologi"
+                        ],
+                        "cs": [
+                            "antropologie"
+                        ],
+                        "vi": [
+                            "nh\u00e2n lo\u1ea1i h\u1ecdc"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropologie": [
+                    "Singulier"
+                ],
+                "anthropologies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthropologique": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "anthropologisch"
+                        ],
+                        "ca": [
+                            "antropol\u00f2gic",
+                            "antropol\u00f2gica"
+                        ],
+                        "hr": [
+                            "antropolo\u0161ki"
+                        ],
+                        "es": [
+                            "antropol\u00f3gico"
+                        ],
+                        "it": [
+                            "antropologico"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropologique": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "anthropologiques": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "anthropologiste": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anthropologist"
+                        ],
+                        "hr": [
+                            "antropolog"
+                        ],
+                        "es": [
+                            "antrop\u00f3logo"
+                        ],
+                        "io": [
+                            "antropologiisto"
+                        ],
+                        "pt": [
+                            "antrop\u00f3logo"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropologiste": [
+                    "Singulier"
+                ],
+                "anthropologistes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthropologue": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anthropologist"
+                        ],
+                        "ca": [
+                            "antrop\u00f2leg",
+                            "antrop\u00f2loga"
+                        ],
+                        "hr": [
+                            "antropolog"
+                        ],
+                        "es": [
+                            "antrop\u00f3logo"
+                        ],
+                        "id": [
+                            "antropolog"
+                        ],
+                        "it": [
+                            "antropologo",
+                            "antropologa"
+                        ],
+                        "pt": [
+                            "antrop\u00f3logo"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u043b\u043e\u0433"
+                        ],
+                        "sv": [
+                            "antropolog"
+                        ],
+                        "cs": [
+                            "antropolog"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropologue": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "anthropologues": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "anthropom\u00e9trie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anthropometry",
+                            "biometry"
+                        ],
+                        "ca": [
+                            "antropometria"
+                        ],
+                        "hr": [
+                            "antropometrija"
+                        ],
+                        "es": [
+                            "antropometr\u00eda"
+                        ],
+                        "io": [
+                            "antropometrio"
+                        ],
+                        "it": [
+                            "antropometria"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u043c\u0435\u0442\u0440\u0438\u044f"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropom\u00e9trie": [
+                    "Singulier"
+                ],
+                "anthropom\u00e9tries": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthropom\u00e9trique": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anthropometric"
+                        ],
+                        "ca": [
+                            "antropom\u00e8tric"
+                        ],
+                        "es": [
+                            "antropom\u00e9trico"
+                        ],
+                        "it": [
+                            "antropometrico"
+                        ],
+                        "nl": [
+                            "antropometrisch"
+                        ],
+                        "pl": [
+                            "antropometryczny"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u043c\u0435\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropom\u00e9trique": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "anthropom\u00e9triques": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "anthropomorphe": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anthropomorph"
+                        ],
+                        "br": [
+                            "denhe\u00f1vel"
+                        ],
+                        "hr": [
+                            "antropomorfan"
+                        ],
+                        "es": [
+                            "antropomorfo"
+                        ],
+                        "it": [
+                            "antropomorfo"
+                        ],
+                        "nl": [
+                            "mensvormig"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropomorphe": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "anthropomorphes": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "anthropomorphique": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "anthropomorphistisch",
+                            "anthropomorphisch"
+                        ],
+                        "en": [
+                            "anthropomorphic"
+                        ],
+                        "ca": [
+                            "antropom\u00f2rfic"
+                        ],
+                        "es": [
+                            "antropom\u00f3rfico"
+                        ],
+                        "it": [
+                            "antropomorfico"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropomorphique": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "anthropomorphiques": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "anthropomorphisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anthropomorphism"
+                        ],
+                        "hr": [
+                            "antropomorfizam"
+                        ],
+                        "io": [
+                            "antropomorfismo"
+                        ],
+                        "it": [
+                            "antropomorfismo"
+                        ],
+                        "oc": [
+                            "antropomorfisme"
+                        ],
+                        "pl": [
+                            "antropomorfizm"
+                        ],
+                        "cs": [
+                            "antropomorfismus"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropomorphisme": [
+                    "Singulier"
+                ],
+                "anthropomorphismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthroponyme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Nom de personne\u00a0(1)",
+                    "translations": {
+                        "en": [
+                            "anthroponym"
+                        ],
+                        "br": [
+                            "denanv"
+                        ],
+                        "ca": [
+                            "antrop\u00f2nim"
+                        ],
+                        "hr": [
+                            "antroponim"
+                        ],
+                        "es": [
+                            "antrop\u00f3nimo"
+                        ],
+                        "it": [
+                            "antroponimo"
+                        ],
+                        "ja": [
+                            "\u4eba\u540d"
+                        ],
+                        "pt": [
+                            "antrop\u00f3nimo",
+                            "antrop\u00f4nimo"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthroponyme": [
+                    "Singulier"
+                ],
+                "anthroponymes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthroponymie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anthroponymy"
+                        ],
+                        "an": [
+                            "antroponimia"
+                        ],
+                        "ca": [
+                            "antropon\u00edmia"
+                        ],
+                        "hr": [
+                            "antroponimija"
+                        ],
+                        "es": [
+                            "antroponimia"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03b8\u03c1\u03c9\u03c0\u03c9\u03bd\u03c5\u03bc\u03af\u03b1"
+                        ],
+                        "it": [
+                            "antroponimia"
+                        ],
+                        "oc": [
+                            "antroponimia"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthroponymie": [
+                    "Singulier"
+                ],
+                "anthroponymies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthropophage": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "eating",
+                            "cannibalistic"
+                        ],
+                        "hr": [
+                            "ljudo\u017ederski"
+                        ],
+                        "gl": [
+                            "antrop\u00f3fago"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03b8\u03c1\u03c9\u03c0\u03bf\u03c6\u03ac\u03b3\u03bf\u03c2",
+                            "\u03ba\u03b1\u03bd\u03af\u03b2\u03b1\u03bb\u03bf\u03c2"
+                        ],
+                        "it": [
+                            "antropofago"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropophage": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "anthropophages": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "eater",
+                            "cannibal"
+                        ],
+                        "ca": [
+                            "antrop\u00f2fag"
+                        ],
+                        "ko": [
+                            "\uc2dd\uc778\uc885\uc758"
+                        ],
+                        "hr": [
+                            "ljudo\u017eder"
+                        ],
+                        "da": [
+                            "menneske\u00e6der",
+                            "antropofag"
+                        ],
+                        "es": [
+                            "antrop\u00f3fago"
+                        ],
+                        "gl": [
+                            "antrop\u00f3fago"
+                        ],
+                        "it": [
+                            "antropofago"
+                        ],
+                        "ru": [
+                            "\u043b\u044e\u0434\u043e\u0435\u0434"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropophage": [
+                    "Singulier"
+                ],
+                "anthropophages": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthropophagie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anthropophagy"
+                        ],
+                        "ca": [
+                            "antropof\u00e0gia"
+                        ],
+                        "hr": [
+                            "antropofagija"
+                        ],
+                        "da": [
+                            "menneske\u00e6deri",
+                            "antropofagi"
+                        ],
+                        "es": [
+                            "antropofagia"
+                        ],
+                        "gl": [
+                            "antropofaxia"
+                        ],
+                        "it": [
+                            "antropofagia"
+                        ],
+                        "sk": [
+                            "antropof\u00e1gia"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropophagie": [
+                    "Singulier"
+                ],
+                "anthropophagies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthropophobie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Anthropophobie"
+                        ],
+                        "en": [
+                            "anthropophobia",
+                            "anthrophobia"
+                        ],
+                        "ca": [
+                            "antropof\u00f2bia"
+                        ],
+                        "pl": [
+                            "antropofobia"
+                        ],
+                        "sv": [
+                            "antropofobi"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthropophobie": [
+                    "Singulier"
+                ],
+                "anthropophobies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthroposophie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anthroposophy"
+                        ],
+                        "ca": [
+                            "antroposofia"
+                        ],
+                        "hr": [
+                            "antropozofija"
+                        ],
+                        "es": [
+                            "antroposof\u00eda"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03b8\u03c1\u03c9\u03c0\u03bf\u03c3\u03bf\u03c6\u03af\u03b1"
+                        ],
+                        "it": [
+                            "antroposofia"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthroposophie": [
+                    "Singulier"
+                ],
+                "anthroposophies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anthrozoologie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Anthrozoologie"
+                        ],
+                        "en": [
+                            "anthrozoology"
+                        ],
+                        "be": [
+                            "\u0430\u043d\u0442\u0440\u0430\u0437\u0430\u0430\u043b\u043e\u0433\u0456\u044f"
+                        ],
+                        "da": [
+                            "antrozoologi"
+                        ],
+                        "no": [
+                            "antrozoologi"
+                        ],
+                        "pl": [
+                            "antrozoologia"
+                        ],
+                        "pt": [
+                            "antrozoologia"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anthrozoologie": [
+                    "Singulier"
+                ],
+                "anthrozoologies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anti-intellectualisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "intellectualism"
+                        ],
+                        "zh": [
+                            "\u53cd\u667a\u4e3b\u4e49"
+                        ],
+                        "ko": [
+                            "\ubc18\uc9c0\uc131\uc8fc\uc758"
+                        ],
+                        "es": [
+                            "antiintelectualismo"
+                        ],
+                        "ja": [
+                            "\u53cd\u77e5\u6027\u4e3b\u7fa9"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0438\u0438\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0443\u0430\u043b\u0438\u0437\u043c"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anti-intellectualisme": [
+                    "Singulier"
+                ],
+                "anti-intellectualismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "antia\u00e9rien": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "antiaircraft"
+                        ],
+                        "ca": [
+                            "antiaeri"
+                        ],
+                        "hr": [
+                            "protuzra\u010dni"
+                        ],
+                        "es": [
+                            "antia\u00e9reo"
+                        ],
+                        "it": [
+                            "antiaereo"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antia\u00e9rien": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "antia\u00e9riens": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "antia\u00e9rienne": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "antia\u00e9riennes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "antiallergique": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "antiallergical"
+                        ],
+                        "ca": [
+                            "l\u00e8rgic",
+                            "l\u00e8rgica"
+                        ],
+                        "es": [
+                            "antial\u00e9rgico",
+                            "antial\u00e9rgica"
+                        ],
+                        "it": [
+                            "antiallergico"
+                        ],
+                        "pt": [
+                            "antial\u00e9rgico"
+                        ],
+                        "sv": [
+                            "allergisk"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antiallergique": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "antiallergiques": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Antiallergikum"
+                        ],
+                        "en": [
+                            "allergy"
+                        ],
+                        "da": [
+                            "allergimiddel"
+                        ],
+                        "es": [
+                            "antial\u00e9rgico"
+                        ],
+                        "it": [
+                            "antistaminico"
+                        ],
+                        "pt": [
+                            "al\u00e9rgico"
+                        ],
+                        "sv": [
+                            "allergil\u00e4kemedel"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antiallergique": [
+                    "Singulier"
+                ],
+                "antiallergiques": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "antiam\u00e9ricanisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Antiamerikanismus"
+                        ],
+                        "en": [
+                            "Americanism"
+                        ],
+                        "zh": [
+                            "\u53cd\u7f8e\u60c5\u7eea"
+                        ],
+                        "es": [
+                            "antiamericanismo"
+                        ],
+                        "eo": [
+                            "antiusonismo"
+                        ],
+                        "fi": [
+                            "amerikkalaisvastaisuus"
+                        ],
+                        "it": [
+                            "antiamericanismo"
+                        ],
+                        "ja": [
+                            "\u53cd\u7c73"
+                        ],
+                        "nl": [
+                            "antiamerikanisme"
+                        ],
+                        "pt": [
+                            "antiamericanismo"
+                        ],
+                        "sv": [
+                            "antiamerikanism"
+                        ],
+                        "cs": [
+                            "antiamerikanismus"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antiam\u00e9ricanisme": [
+                    "Singulier"
+                ],
+                "antiam\u00e9ricanismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "antibact\u00e9rien": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "antibakterisch"
+                        ],
+                        "en": [
+                            "antibacterial"
+                        ],
+                        "ca": [
+                            "antibacteri\u00e0"
+                        ],
+                        "es": [
+                            "antibacteriano"
+                        ],
+                        "io": [
+                            "antibakteria"
+                        ],
+                        "it": [
+                            "antibatterico"
+                        ],
+                        "pt": [
+                            "antibacteriano"
+                        ],
+                        "ro": [
+                            "antibacterian"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antibact\u00e9rien": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "antibact\u00e9riens": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "antibact\u00e9rienne": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "antibact\u00e9riennes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "antibiogramme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Antibiogramm"
+                        ],
+                        "en": [
+                            "antibiogram"
+                        ],
+                        "ca": [
+                            "antibiograma"
+                        ],
+                        "es": [
+                            "antibiograma"
+                        ],
+                        "it": [
+                            "antibiogramma"
+                        ],
+                        "oc": [
+                            "antibiograma"
+                        ],
+                        "pt": [
+                            "antibiograma"
+                        ],
+                        "ro": [
+                            "antibiogram\u0103"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antibiogramme": [
+                    "Singulier"
+                ],
+                "antibiogrammes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "antibiotique": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "antibiotisch"
+                        ],
+                        "en": [
+                            "antibiotic"
+                        ],
+                        "ca": [
+                            "antibi\u00f2tic",
+                            "antibi\u00f2tica"
+                        ],
+                        "hr": [
+                            "antibioti\u010dni"
+                        ],
+                        "es": [
+                            "antibi\u00f3tico",
+                            "antibi\u00f3tica"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c4\u03b9\u03b2\u03b9\u03bf\u03c4\u03b9\u03ba\u03cc\u03c2"
+                        ],
+                        "io": [
+                            "antibiotika"
+                        ],
+                        "it": [
+                            "antibiotico",
+                            "antibiotica"
+                        ],
+                        "oc": [
+                            "antibiotic"
+                        ],
+                        "pl": [
+                            "Antybiotyk",
+                            "antybiotyk"
+                        ],
+                        "pt": [
+                            "antibi\u00f3tico"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439"
+                        ],
+                        "cs": [
+                            "antibiotick\u00fd"
+                        ],
+                        "wa": [
+                            "antibiyotike"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antibiotique": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "antibiotiques": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Antibiotikum"
+                        ],
+                        "en": [
+                            "antibiotic"
+                        ],
+                        "hr": [
+                            "antibiotici"
+                        ],
+                        "da": [
+                            "antibiotikum"
+                        ],
+                        "es": [
+                            "antibi\u00f3tico"
+                        ],
+                        "eo": [
+                            "antibiotiko"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c4\u03b9\u03b2\u03b9\u03bf\u03c4\u03b9\u03ba\u03cc"
+                        ],
+                        "hu": [
+                            "antibiotikum"
+                        ],
+                        "io": [
+                            "antibiotiko"
+                        ],
+                        "id": [
+                            "antibiotik"
+                        ],
+                        "it": [
+                            "antibiotico"
+                        ],
+                        "nl": [
+                            "antibioticum"
+                        ],
+                        "pl": [
+                            "antybiotyk"
+                        ],
+                        "pt": [
+                            "antibi\u00f3tico"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a"
+                        ],
+                        "sk": [
+                            "antibiotikum"
+                        ],
+                        "sv": [
+                            "antibiotikum"
+                        ],
+                        "cs": [
+                            "antibiotikum"
+                        ],
+                        "vi": [
+                            "kh\u00e1ng sinh"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antibiotique": [
+                    "Singulier"
+                ],
+                "antibiotiques": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "antibrouillard": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Nebelscheinwerfer"
+                        ],
+                        "en": [
+                            "fog light",
+                            "fog lamp"
+                        ],
+                        "br": [
+                            "latar"
+                        ],
+                        "zh": [
+                            "\u96fe\u706f"
+                        ],
+                        "es": [
+                            "antiniebla"
+                        ],
+                        "eo": [
+                            "nebullumilo",
+                            "nebullampo"
+                        ],
+                        "fi": [
+                            "sumuvalo"
+                        ],
+                        "ga": [
+                            "lampa ceo"
+                        ],
+                        "el": [
+                            "\u03c6\u03ce\u03c4\u03b1 \u03bf\u03bc\u03af\u03c7\u03bb\u03b7\u03c2"
+                        ],
+                        "hu": [
+                            "k\u00f6dl\u00e1mpa"
+                        ],
+                        "it": [
+                            "antinebbia"
+                        ],
+                        "ja": [
+                            "\u90e8\u9727\u706f",
+                            "\u30d5\u30a9\u30b0\u30e9\u30f3\u30d7"
+                        ],
+                        "nl": [
+                            "mistlamp"
+                        ],
+                        "no": [
+                            "t\u00e5kelys",
+                            "t\u00e5keljos"
+                        ],
+                        "pt": [
+                            "farol de nevoeiro"
+                        ],
+                        "ru": [
+                            "\u043f\u0440\u043e\u0442\u0438\u0432\u043e\u0442\u0443\u043c\u0430\u043d\u043d\u0430\u044f \u0444\u0430\u0440\u0430"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antibrouillard": [
+                    "Singulier"
+                ],
+                "antibrouillards": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anticaf\u00e9": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "caf\u00e9",
+                            "minute caf\u00e9",
+                            "time club"
+                        ],
+                        "hy": [
+                            "\u0570\u0561\u056f\u0561\u057d\u0580\u0573\u0561\u0580\u0561\u0576"
+                        ],
+                        "az": [
+                            "antikafe"
+                        ],
+                        "eo": [
+                            "antikafejo"
+                        ],
+                        "ky": [
+                            "\u0430\u043d\u0442\u0438\u043a\u0430\u0444\u0435"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0438\u043a\u0430\u0444\u0435"
+                        ],
+                        "sk": [
+                            "antikaviare\u0148"
+                        ],
+                        "sv": [
+                            "antikaf\u00e9"
+                        ],
+                        "cs": [
+                            "antikav\u00e1rna"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anticaf\u00e9": [
+                    "Singulier"
+                ],
+                "anticaf\u00e9s": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anticanc\u00e9reux": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anticancer"
+                        ],
+                        "ca": [
+                            "anticancer\u00f3s",
+                            "anticancerosa"
+                        ],
+                        "es": [
+                            "anticanceroso",
+                            "antitumoral"
+                        ],
+                        "it": [
+                            "anticancro",
+                            "anticanceroso"
+                        ],
+                        "pl": [
+                            "przeciwnowotworowy"
+                        ],
+                        "pt": [
+                            "anticancro",
+                            "anticanceroso",
+                            "antitumorais"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anticanc\u00e9reuse": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "anticanc\u00e9reuses": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "antichambre": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Pi\u00e8ce plac\u00e9e \u00e0 l\u2019entr\u00e9e d'un appartement avant une chambre\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "Vorzimmer"
+                        ],
+                        "en": [
+                            "anteroom",
+                            "antechamber"
+                        ],
+                        "az": [
+                            "d\u0259hliz"
+                        ],
+                        "br": [
+                            "rakkambr"
+                        ],
+                        "ca": [
+                            "antecambra",
+                            "avantcambra"
+                        ],
+                        "hr": [
+                            "predsoblje"
+                        ],
+                        "da": [
+                            "forlokale",
+                            "forrum"
+                        ],
+                        "es": [
+                            "antec\u00e1mara",
+                            "antesala",
+                            "sala de espera"
+                        ],
+                        "fi": [
+                            "eteinen"
+                        ],
+                        "el": [
+                            "\u03c0\u03c1\u03bf\u03b8\u03ac\u03bb\u03b1\u03bc\u03bf\u03c2"
+                        ],
+                        "io": [
+                            "avanchambro"
+                        ],
+                        "it": [
+                            "anticamera"
+                        ],
+                        "pt": [
+                            "sala de espera",
+                            "antec\u00e2mara"
+                        ],
+                        "ru": [
+                            "\u043f\u0440\u0438\u0445\u043e\u0436\u0430\u044f"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antichambre": [
+                    "Singulier"
+                ],
+                "antichambres": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anticholinergique": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Anticholinergikum"
+                        ],
+                        "en": [
+                            "anticholinergic"
+                        ],
+                        "ca": [
+                            "anticolin\u00e8rgic"
+                        ],
+                        "es": [
+                            "anticolin\u00e9rgico"
+                        ],
+                        "it": [
+                            "anticolinergico"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anticholinergique": [
+                    "Singulier"
+                ],
+                "anticholinergiques": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "antichr\u00e8se": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Antichrese"
+                        ],
+                        "en": [
+                            "antichresis"
+                        ],
+                        "es": [
+                            "anticresis"
+                        ],
+                        "it": [
+                            "anticresi"
+                        ],
+                        "nl": [
+                            "antichrese"
+                        ],
+                        "pt": [
+                            "anticrese"
+                        ],
+                        "sv": [
+                            "antikres"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antichr\u00e8se": [
+                    "Singulier"
+                ],
+                "antichr\u00e8ses": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "Antici": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Antici"
+                        ],
+                        "en": [
+                            "Antici"
+                        ],
+                        "bg": [
+                            "\u0410\u043d\u0442\u0438\u0447\u0438"
+                        ],
+                        "hr": [
+                            "Antici"
+                        ],
+                        "da": [
+                            "Antici"
+                        ],
+                        "es": [
+                            "Antici"
+                        ],
+                        "et": [
+                            "Antici"
+                        ],
+                        "fi": [
+                            "Antici"
+                        ],
+                        "ga": [
+                            "Antici"
+                        ],
+                        "el": [
+                            "Antici"
+                        ],
+                        "hu": [
+                            "Antici"
+                        ],
+                        "it": [
+                            "Antici"
+                        ],
+                        "lv": [
+                            "Antici"
+                        ],
+                        "lt": [
+                            "Antici"
+                        ],
+                        "mt": [
+                            "Antici"
+                        ],
+                        "nl": [
+                            "Antici"
+                        ],
+                        "pl": [
+                            "Antici"
+                        ],
+                        "pt": [
+                            "Antici"
+                        ],
+                        "ro": [
+                            "Antici"
+                        ],
+                        "sk": [
+                            "Antici"
+                        ],
+                        "sl": [
+                            "Antici"
+                        ],
+                        "sv": [
+                            "Antici"
+                        ],
+                        "cs": [
+                            "Antici"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "anticipation": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "antisipasie"
+                        ],
+                        "de": [
+                            "Vorwegnahme",
+                            "Vorgriff",
+                            "Voraussicht",
+                            "Antizipation"
+                        ],
+                        "en": [
+                            "anticipation",
+                            "expectation"
+                        ],
+                        "ca": [
+                            "anticipaci\u00f3"
+                        ],
+                        "hr": [
+                            "anticipacija"
+                        ],
+                        "es": [
+                            "anticipaci\u00f3n",
+                            "antelaci\u00f3n"
+                        ],
+                        "eo": [
+                            "anticipo"
+                        ],
+                        "io": [
+                            "anticipo",
+                            "anticipado"
+                        ],
+                        "it": [
+                            "anticipazione"
+                        ],
+                        "nl": [
+                            "anticipatie"
+                        ],
+                        "pt": [
+                            "antecipa\u00e7\u00e3o"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anticipation": [
+                    "Singulier"
+                ],
+                "anticipations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anticiper": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "antisipeer"
+                        ],
+                        "de": [
+                            "antizipieren",
+                            "vorausnehmen",
+                            "vorwegnehmen",
+                            "vorausempfangen",
+                            "vorfristig leisten",
+                            "im Voraus tun",
+                            "im Voraus verwenden",
+                            "vorgreifen",
+                            "vor der Zeit erledigen",
+                            "vorausahnen",
+                            "vorhersehen"
+                        ],
+                        "en": [
+                            "anticipate"
+                        ],
+                        "ca": [
+                            "anticipar"
+                        ],
+                        "hr": [
+                            "anticipirati"
+                        ],
+                        "da": [
+                            "forudsige",
+                            "forudse",
+                            "foregribe"
+                        ],
+                        "es": [
+                            "anticipar"
+                        ],
+                        "eo": [
+                            "anticipi"
+                        ],
+                        "io": [
+                            "anticipar"
+                        ],
+                        "it": [
+                            "anticipare"
+                        ],
+                        "nl": [
+                            "anticiperen",
+                            "prejudici\u00ebren",
+                            "vooruitlopen",
+                            "vooruitlopen op"
+                        ],
+                        "pt": [
+                            "antecipar"
+                        ],
+                        "tr": [
+                            "\u00f6ncelemek",
+                            "\u00f6nce gelmek"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "anticl\u00e9rical": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anticlerical"
+                        ],
+                        "ca": [
+                            "anticlerical"
+                        ],
+                        "hr": [
+                            "antiklerikalni"
+                        ],
+                        "es": [
+                            "anticlerical"
+                        ],
+                        "gl": [
+                            "anticlerical"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c4\u03b9\u03ba\u03bb\u03b7\u03c1\u03b9\u03ba\u03cc\u03c2"
+                        ],
+                        "it": [
+                            "anticlericale"
+                        ],
+                        "sv": [
+                            "pr\u00e4stfientlig",
+                            "antiklerikal"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anticl\u00e9rical": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "anticl\u00e9ricaux": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "anticl\u00e9ricale": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "anticl\u00e9ricales": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "anticl\u00e9ricalisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Antiklerikalismus"
+                        ],
+                        "ca": [
+                            "anticlericalisme"
+                        ],
+                        "hr": [
+                            "antiklerikalizam"
+                        ],
+                        "es": [
+                            "anticlericalismo"
+                        ],
+                        "it": [
+                            "anticlericalismo"
+                        ],
+                        "oc": [
+                            "anticlericalisme"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anticl\u00e9ricalisme": [
+                    "Singulier"
+                ],
+                "anticl\u00e9ricalismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anticlinal": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Antiklinale"
+                        ],
+                        "en": [
+                            "anticline"
+                        ],
+                        "eu": [
+                            "antiforme"
+                        ],
+                        "bg": [
+                            "\u0441\u0435\u0434\u043b\u043e\u0432\u0438\u043d\u0430",
+                            "\u0430\u043d\u0442\u0438\u043a\u043b\u0438\u043d\u0430\u043b\u0430"
+                        ],
+                        "ca": [
+                            "anticlinal",
+                            "anticl\u00ed"
+                        ],
+                        "hr": [
+                            "antiklinalni"
+                        ],
+                        "es": [
+                            "anticlinal"
+                        ],
+                        "eo": [
+                            "antiklinalo"
+                        ],
+                        "et": [
+                            "antiklinaal"
+                        ],
+                        "fi": [
+                            "satulapoimu",
+                            "antikliini"
+                        ],
+                        "ga": [
+                            "dronnchlaonas"
+                        ],
+                        "ka": [
+                            "\u10d0\u10dc\u10e2\u10d8\u10d9\u10da\u10d8\u10dc\u10d8"
+                        ],
+                        "he": [
+                            "\u05e7\u05de\u05e8"
+                        ],
+                        "it": [
+                            "anticlinale"
+                        ],
+                        "ja": [
+                            "\u80cc\u659c"
+                        ],
+                        "kk": [
+                            "a\u043d\u0442\u0438\u043a\u043b\u0438\u043d\u0430\u043b\u044c",
+                            "\u0430\u043d\u0442\u0438\u043a\u043b\u0438\u043d\u0430\u043b\u044c\u0434\u044b\u049b \u049b\u0430\u0442\u043f\u0430\u0440"
+                        ],
+                        "nl": [
+                            "anticline",
+                            "anticlinaal"
+                        ],
+                        "no": [
+                            "antiklinal",
+                            "antiklinal"
+                        ],
+                        "fa": [
+                            "\u062a\u0627\u0642\u062f\u06cc\u0633"
+                        ],
+                        "pl": [
+                            "antyklina",
+                            "siod\u0142o"
+                        ],
+                        "pt": [
+                            "anticlinal"
+                        ],
+                        "ro": [
+                            "anticlinal"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0438\u043a\u043b\u0438\u043d\u0430\u043b\u044c",
+                            "\u0430\u043d\u0442\u0438\u043a\u043b\u0438\u043d\u0430\u043b\u044c\u043d\u0430\u044f \u0441\u043a\u043b\u0430\u0434\u043a\u0430"
+                        ],
+                        "sh": [
+                            "antiklinala",
+                            "a\u043d\u0442\u0438\u043a\u043b\u0438\u043d\u0430\u043b\u0430"
+                        ],
+                        "sk": [
+                            "antiklin\u00e1la"
+                        ],
+                        "sl": [
+                            "antiklinala"
+                        ],
+                        "sv": [
+                            "antiklinal",
+                            "antiform"
+                        ],
+                        "tr": [
+                            "yuka\u00e7",
+                            "antiklinal"
+                        ],
+                        "uk": [
+                            "a\u043d\u0442\u0438\u043a\u043b\u0456\u043d\u00e1\u043b\u044c"
+                        ],
+                        "vi": [
+                            "n\u1ebfp u\u1ed1n l\u1ed3i",
+                            "n\u1ebfp l\u1ed3i"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anticlinal": [
+                    "Singulier"
+                ],
+                "anticlinaux": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anticolonialisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Antikolonialismus"
+                        ],
+                        "en": [
+                            "anticolonialism"
+                        ],
+                        "es": [
+                            "anticolonialismo"
+                        ],
+                        "it": [
+                            "anticolonialismo"
+                        ],
+                        "ja": [
+                            "\u53cd\u690d\u6c11\u5730\u4e3b\u7fa9"
+                        ],
+                        "nl": [
+                            "kolonialisme"
+                        ],
+                        "pt": [
+                            "anticolonialismo"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anticolonialisme": [
+                    "Singulier"
+                ],
+                "anticolonialismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anticommunisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Antikommunismus"
+                        ],
+                        "en": [
+                            "anticommunism"
+                        ],
+                        "ca": [
+                            "anticomunisme"
+                        ],
+                        "hr": [
+                            "antikomunizam"
+                        ],
+                        "es": [
+                            "anticomunismo"
+                        ],
+                        "it": [
+                            "anticomunismo"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0438\u043a\u043e\u043c\u043c\u0443\u043d\u0438\u0437\u043c"
+                        ],
+                        "cs": [
+                            "antikomunismus"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anticommunisme": [
+                    "Singulier"
+                ],
+                "anticommunismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anticommuniste": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anticommunist"
+                        ],
+                        "ca": [
+                            "anticomunista"
+                        ],
+                        "hr": [
+                            "antikomunisti\u010dki"
+                        ],
+                        "es": [
+                            "anticomunista"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c4\u03b9\u03ba\u03bf\u03bc\u03bf\u03c5\u03bd\u03b9\u03c3\u03c4\u03b9\u03ba\u03cc\u03c2"
+                        ],
+                        "it": [
+                            "anticomunista"
+                        ],
+                        "pl": [
+                            "antykomunistyczny"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anticommuniste": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "anticommunistes": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "anticommunist"
+                        ],
+                        "hr": [
+                            "antikomunist"
+                        ],
+                        "es": [
+                            "anticomunista"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c4\u03b9\u03ba\u03bf\u03bc\u03bf\u03c5\u03bd\u03b9\u03c3\u03c4\u03ae\u03c2"
+                        ],
+                        "it": [
+                            "anticomunista"
+                        ],
+                        "pl": [
+                            "antykomunista"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anticommuniste": [
+                    "Singulier"
+                ],
+                "anticommunistes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anticonstitutionnel": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "verfassungswidrig"
+                        ],
+                        "en": [
+                            "unconstitutional"
+                        ],
+                        "ca": [
+                            "anticonstitucional"
+                        ],
+                        "hr": [
+                            "protuustavni"
+                        ],
+                        "es": [
+                            "anticonstitucional"
+                        ],
+                        "eo": [
+                            "kontra\u016dkonstitucia"
+                        ],
+                        "io": [
+                            "kontrekonstituca"
+                        ],
+                        "it": [
+                            "anticostituzionale"
+                        ],
+                        "ja": [
+                            "\u9055\u61b2"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anticonstitutionnel": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "anticonstitutionnels": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "anticonstitutionnelle": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "anticonstitutionnelles": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "anticonstitutionnellement": [
+        {
+            "type": "Adverbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "verfassungswidrig"
+                        ],
+                        "en": [
+                            "anticonstitutionally"
+                        ],
+                        "ca": [
+                            "anticonstitucionalment"
+                        ],
+                        "hr": [
+                            "protuustavno"
+                        ],
+                        "es": [
+                            "anticonstitucionalmente"
+                        ],
+                        "eo": [
+                            "kontra\u016dkonstitucie"
+                        ],
+                        "et": [
+                            "p\u00f5hiseadusevastaselt"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c4\u03b9\u03c3\u03c5\u03bd\u03c4\u03b1\u03b3\u03bc\u03b1\u03c4\u03b9\u03ba\u03ac"
+                        ],
+                        "it": [
+                            "anticostituzionalmente"
+                        ],
+                        "pt": [
+                            "anticonstitucionalmente"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0438\u043a\u043e\u043d\u0441\u0442\u0438\u0442\u0443\u0446\u0438\u043e\u043d\u043d\u043e"
+                        ],
+                        "sk": [
+                            "proti\u00fastavne"
+                        ],
+                        "cs": [
+                            "proti\u00fastavn\u011b"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "anticorps": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "antibody",
+                            "immunoglobin"
+                        ],
+                        "ca": [
+                            "antic\u00f3s"
+                        ],
+                        "hr": [
+                            "antitijelo"
+                        ],
+                        "es": [
+                            "anticuerpo"
+                        ],
+                        "eo": [
+                            "antikorpo"
+                        ],
+                        "fi": [
+                            "aine"
+                        ],
+                        "gl": [
+                            "anticorpo"
+                        ],
+                        "io": [
+                            "antikorpo"
+                        ],
+                        "it": [
+                            "anticorpo"
+                        ],
+                        "nl": [
+                            "antistof",
+                            "antilichaam"
+                        ],
+                        "pt": [
+                            "anticorpo"
+                        ],
+                        "ro": [
+                            "anticorp"
+                        ],
+                        "sv": [
+                            "antikropp"
+                        ],
+                        "sw": [
+                            "antibodi"
+                        ],
+                        "cs": [
+                            "protil\u00e1tka"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "anticorruption": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "anticorruption",
+                    "translations": {
+                        "en": [
+                            "anticorruption",
+                            "antibribery"
+                        ],
+                        "ca": [
+                            "anticorrupci\u00f3"
+                        ],
+                        "es": [
+                            "anticorrupci\u00f3n"
+                        ],
+                        "gl": [
+                            "anticorrupci\u00f3n"
+                        ],
+                        "it": [
+                            "anticorruzione"
+                        ],
+                        "cs": [
+                            "protikorup\u010dn\u00ed"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "anticyclone": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Hoch",
+                            "Hochdruckgebiet"
+                        ],
+                        "en": [
+                            "high",
+                            "anticyclone"
+                        ],
+                        "bs": [
+                            "anticiklona"
+                        ],
+                        "bg": [
+                            "\u0430\u043d\u0442\u0438\u0446\u0438\u043a\u043b\u043e\u043d"
+                        ],
+                        "ca": [
+                            "anticicl\u00f3"
+                        ],
+                        "zh": [
+                            "\u53cd\u6c14\u65cb"
+                        ],
+                        "hr": [
+                            "anticiklona"
+                        ],
+                        "da": [
+                            "anticyklon"
+                        ],
+                        "es": [
+                            "anticicl\u00f3n"
+                        ],
+                        "fi": [
+                            "korkeapaine"
+                        ],
+                        "el": [
+                            "\u03c5\u03c8\u03b7\u03bb\u03cc \u03b2\u03b1\u03c1\u03bf\u03bc\u03b5\u03c4\u03c1\u03b9\u03ba\u03cc",
+                            "\u03b1\u03bd\u03c4\u03b9\u03ba\u03c5\u03ba\u03bb\u03ce\u03bd\u03b1\u03c2"
+                        ],
+                        "he": [
+                            "\u05d0\u05e0\u05d8\u05d9 \u05e6\u05d9\u05e7\u05dc\u05d5\u05df"
+                        ],
+                        "hu": [
+                            "anticiklon"
+                        ],
+                        "io": [
+                            "anticiklono"
+                        ],
+                        "it": [
+                            "anticiclone"
+                        ],
+                        "nl": [
+                            "hogedrukgebied"
+                        ],
+                        "no": [
+                            "h\u00f8ytrykk",
+                            "h\u00f8gtrykk"
+                        ],
+                        "pl": [
+                            "antycyklon"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0438\u0446\u0438\u043a\u043b\u043e\u043d"
+                        ],
+                        "sk": [
+                            "tlakov\u00e1 v\u00fd\u0161"
+                        ],
+                        "sl": [
+                            "anticiklon"
+                        ],
+                        "sv": [
+                            "h\u00f6gtryck"
+                        ],
+                        "cs": [
+                            "anticykl\u00f3na"
+                        ],
+                        "tr": [
+                            "y\u00fcksek bas\u0131n\u00e7"
+                        ],
+                        "uk": [
+                            "a\u043d\u0442\u0438\u0446\u0438\u043a\u043b\u043e\u043d"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "antid\u00e9mocratique": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "undemocratic"
+                        ],
+                        "ca": [
+                            "antidemocr\u00e0tic",
+                            "antidemocr\u00e0tica"
+                        ],
+                        "hr": [
+                            "antidemokratski"
+                        ],
+                        "es": [
+                            "antidemocr\u00e1tico",
+                            "antidemocr\u00e1tica"
+                        ],
+                        "gl": [
+                            "antidemocr\u00e1tico"
+                        ],
+                        "it": [
+                            "antidemocratico"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antid\u00e9mocratique": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "antid\u00e9mocratiques": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "antid\u00e9presseur": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Antidepressivum"
+                        ],
+                        "en": [
+                            "antidepressant"
+                        ],
+                        "ca": [
+                            "antidepressiu"
+                        ],
+                        "hr": [
+                            "sredstvo protiv depresije"
+                        ],
+                        "es": [
+                            "antidepresivo"
+                        ],
+                        "it": [
+                            "antidepressivo"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antid\u00e9presseur": [
+                    "Singulier"
+                ],
+                "antid\u00e9presseurs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "antidopage": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "antidoping"
+                        ],
+                        "ca": [
+                            "antidopatge"
+                        ],
+                        "hr": [
+                            "antidoping"
+                        ],
+                        "es": [
+                            "antidopaje"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c4\u03b9\u03bd\u03c4\u03cc\u03c0\u03b9\u03bd\u03b3\u03ba"
+                        ],
+                        "oc": [
+                            "antidopatge"
+                        ],
+                        "cs": [
+                            "antidopingov\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antidopage": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "antidopages": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "antidote": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Impfstoff"
+                        ],
+                        "en": [
+                            "antidote"
+                        ],
+                        "ar": [
+                            "\u062a\u0631\u064a\u0627\u0642"
+                        ],
+                        "ca": [
+                            "ant\u00eddot",
+                            "antiver\u00ed"
+                        ],
+                        "zh": [
+                            "\u89e3\u6bd2\u5242",
+                            "\u89e3\u6bd2\u836f"
+                        ],
+                        "hr": [
+                            "antidoti"
+                        ],
+                        "es": [
+                            "ant\u00eddoto"
+                        ],
+                        "eo": [
+                            "kontra\u016dveneno",
+                            "antidoto"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c4\u03af\u03b4\u03bf\u03c4\u03bf"
+                        ],
+                        "io": [
+                            "antidoto"
+                        ],
+                        "ia": [
+                            "contraveneno"
+                        ],
+                        "it": [
+                            "antidoto"
+                        ],
+                        "ja": [
+                            "\u89e3\u6bd2\u5264",
+                            "\u89e3\u6bd2\u85ac"
+                        ],
+                        "la": [
+                            "antidotum"
+                        ],
+                        "no": [
+                            "motgift"
+                        ],
+                        "pt": [
+                            "ant\u00eddoto"
+                        ],
+                        "sv": [
+                            "motgift"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antidote": [
+                    "Singulier"
+                ],
+                "antidotes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "antidouleur": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "schmerzstillend"
+                        ],
+                        "en": [
+                            "analgesic"
+                        ],
+                        "da": [
+                            "smertestillende"
+                        ],
+                        "it": [
+                            "antidolorifico"
+                        ],
+                        "nl": [
+                            "pijnstillend"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "antidumping": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "antidumping"
+                        ],
+                        "pl": [
+                            "antydumpingowy"
+                        ],
+                        "ru": [
+                            "\u0430\u043d\u0442\u0438\u0434\u0435\u043c\u043f\u0438\u043d\u0433\u043e\u0432\u044b\u0439"
+                        ],
+                        "cs": [
+                            "antidumpingov\u00fd"
+                        ],
+                        "uk": [
+                            "\u0430\u043d\u0442\u0438\u0434\u0435\u043c\u043f\u0456\u043d\u0433\u043e\u0432\u0438\u0439"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antidumping": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "antidumpings": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "antienne": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "(Liturgie catholique) Sorte de verset que le pr\u00eatre ou le chantre dit et qui se r\u00e9p\u00e8te apr\u00e8s tout entier\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "Antiphon",
+                            "Wechselgesang"
+                        ],
+                        "en": [
+                            "antiphon"
+                        ],
+                        "ca": [
+                            "ant\u00edfona"
+                        ],
+                        "es": [
+                            "ant\u00edfona"
+                        ],
+                        "eo": [
+                            "antifono"
+                        ],
+                        "io": [
+                            "antifono"
+                        ],
+                        "it": [
+                            "antifona"
+                        ],
+                        "nl": [
+                            "antifoon",
+                            "wisselzang"
+                        ],
+                        "oc": [
+                            "antifona"
+                        ],
+                        "pl": [
+                            "antyfona"
+                        ],
+                        "pt": [
+                            "ant\u00edfona"
+                        ],
+                        "cs": [
+                            "antifona"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antienne": [
+                    "Singulier"
+                ],
+                "antiennes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "anti\u00e9pileptique": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Antiepileptikum"
+                        ],
+                        "en": [
+                            "epileptic"
+                        ],
+                        "ca": [
+                            "antielpil\u00e8ptic"
+                        ],
+                        "da": [
+                            "epilepsimiddel"
+                        ],
+                        "es": [
+                            "antiepil\u00e9ptico"
+                        ],
+                        "it": [
+                            "antiepilettico"
+                        ],
+                        "pt": [
+                            "epil\u00e9ptico"
+                        ],
+                        "sv": [
+                            "epilepsil\u00e4kemedel"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "anti\u00e9pileptique": [
+                    "Singulier"
+                ],
+                "anti\u00e9pileptiques": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "antieurop\u00e9anisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "Europeanism"
+                        ],
+                        "es": [
+                            "antieurope\u00edsmo"
+                        ],
+                        "gl": [
+                            "antieurope\u00edsmo"
+                        ],
+                        "it": [
+                            "antieuropeismo"
+                        ],
+                        "pt": [
+                            "antieurope\u00edsmo"
+                        ],
+                        "ro": [
+                            "antieuropenism"
+                        ],
+                        "sh": [
+                            "antieuropeizam",
+                            "antievropejstvo"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antieurop\u00e9anisme": [
+                    "Singulier"
+                ],
+                "antieurop\u00e9anismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "antifasciste": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "antifaschistisch"
+                        ],
+                        "en": [
+                            "antifascist"
+                        ],
+                        "ca": [
+                            "antifeixista"
+                        ],
+                        "hr": [
+                            "antifa\u0161isti\u010dki"
+                        ],
+                        "es": [
+                            "antifascista"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c4\u03b9\u03c6\u03b1\u03c3\u03b9\u03c3\u03c4\u03b9\u03ba\u03cc\u03c2"
+                        ],
+                        "it": [
+                            "antifascista",
+                            "antifascistico"
+                        ],
+                        "sv": [
+                            "antifascistisk"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antifasciste": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "antifascistes": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "antifascist"
+                        ],
+                        "hr": [
+                            "antifa\u0161ist"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c4\u03b9\u03c6\u03b1\u03c3\u03af\u03c3\u03c4\u03b1\u03c2"
+                        ],
+                        "it": [
+                            "antifascista"
+                        ],
+                        "sv": [
+                            "antifascist"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antifasciste": [
+                    "Singulier"
+                ],
+                "antifascistes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "antif\u00e9minisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Antifeminismus"
+                        ],
+                        "en": [
+                            "antifeminism"
+                        ],
+                        "hr": [
+                            "antifeminizam"
+                        ],
+                        "es": [
+                            "antifeminismo"
+                        ],
+                        "it": [
+                            "antifemminismo"
+                        ],
+                        "sh": [
+                            "antifeminizam"
+                        ],
+                        "sv": [
+                            "antifeminism"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "antif\u00e9minisme": [
+                    "Singulier"
+                ],
+                "antif\u00e9minismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ]
+}
