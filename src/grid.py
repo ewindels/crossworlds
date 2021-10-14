@@ -337,12 +337,13 @@ class Grid:
             word_patterns.add(word_pattern)
         return word_patterns
 
-    def __str__(self):
-        return self.prettify()
+    @staticmethod
+    def score_pattern(pattern: WordPattern) -> tuple[int, int, int, int]:
+        return len(pattern.letters_indices), -len(pattern.valid_word_lengths), -pattern.col, -pattern.row
 
     @property
     def best_word_pattern(self) -> WordPattern:
-        return max(self.word_patterns, key=lambda w_pat: (len(w_pat.letters_indices), -w_pat.col, -w_pat.row))
+        return max(self.word_patterns, key=self.score_pattern)
 
     @property
     def is_full(self) -> bool:

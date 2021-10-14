@@ -1,15 +1,15 @@
-         55026372 function calls (54496090 primitive calls) in 27.869 seconds
+         57168482 function calls (56656534 primitive calls) in 26.697 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-   338347    3.149    0.000    4.862    0.000 grid.py:211(match_lookups)
-  3496218    2.109    0.000    3.839    0.000 grid.py:77(get_content)
-   530137    2.057    0.000   10.688    0.000 grid.py:223(set_word)
- 530138/1    1.855    0.000   26.474   26.474 search.py:6(recursive_search)
-   530137    1.213    0.000    5.654    0.000 grid.py:238(remove_word)
-  1851914    1.178    0.000    3.063    0.000 grid.py:98(get_orthogonal_word_pattern)
-  1851914    1.082    0.000    1.797    0.000 grid.py:83(set_content)
-  3584290    1.073    0.000    1.073    0.000 grid.py:351(get_content)
-   156365    0.973    0.000    0.973    0.000 grid.py:358(prettify)
-  4837845    0.896    0.000    0.896    0.000 grid.py:260(get_coor)
+   398825    2.445    0.000    2.445    0.000 grid.py:359(prettify)
+   511802    2.111    0.000   11.347    0.000 grid.py:223(set_word)
+  3087016    1.858    0.000    3.382    0.000 grid.py:77(get_content)
+ 511803/1    1.631    0.000   26.521   26.521 search.py:6(recursive_search)
+  7298330    1.361    0.000    1.361    0.000 grid.py:289(get_coor)
+  1944385    1.258    0.000    4.316    0.000 grid.py:98(get_orthogonal_word_pattern)
+   511802    1.252    0.000    6.230    0.000 grid.py:238(remove_word)
+  3625184    1.210    0.000    1.985    0.000 {built-in method builtins.isinstance}
+  1944385    1.144    0.000    1.912    0.000 grid.py:83(set_content)
+    61555    1.080    0.000    1.633    0.000 grid.py:211(match_lookups)
