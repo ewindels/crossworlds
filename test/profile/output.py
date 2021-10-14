@@ -8,5 +8,6 @@ for word_patterns, grid_str in found_grids:
     for word_pattern, word in word_patterns.items():
         output_str += f'{str(word_pattern)}: {word} | '
     output_str += '\n---------\n'
+print(len(found_grids))
 with open('test/profile/output.txt', 'w') as fp:
     fp.write(output_str)
