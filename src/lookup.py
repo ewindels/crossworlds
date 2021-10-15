@@ -20,6 +20,7 @@ def init_vocab() -> set[str]:
     for vocab_json in os.listdir(translations_dir):
         with open(os.path.join(translations_dir, vocab_json), 'r', encoding='utf-8') as fp:
             vocab_set.update(json.load(fp))
+    print(f'{len(vocab_set)} words in vocabulary')
     return vocab_set
 
 
