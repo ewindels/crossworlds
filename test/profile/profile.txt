@@ -1,15 +1,15 @@
-         167073 function calls (166524 primitive calls) in 0.107 seconds
+3900 words in vocabulary
+         329555 function calls (328285 primitive calls) in 0.200 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-       24    0.028    0.001    0.028    0.001 decoder.py:343(raw_decode)
-     2400    0.017    0.000    0.040    0.000 lookup.py:30(update_lookups)
-    21453    0.006    0.000    0.006    0.000 lookup.py:8(__init__)
-    27662    0.003    0.000    0.003    0.000 {method 'add' of 'set' objects}
-        4    0.003    0.001    0.003    0.001 {built-in method posix.listdir}
-      744    0.003    0.000    0.009    0.000 __init__.py:117(_unidecode)
-    22339    0.003    0.000    0.003    0.000 {method 'get' of 'dict' objects}
-        1    0.002    0.002    0.035    0.035 lookup.py:17(init_vocab)
-     6378    0.002    0.000    0.006    0.000 __init__.py:81(_get_repl_str)
-      405    0.002    0.000    0.011    0.000 grid.py:220(set_word)
+       39    0.048    0.001    0.048    0.001 decoder.py:343(raw_decode)
+     3900    0.030    0.000    0.067    0.000 lookup.py:31(update_lookups)
+    33698    0.011    0.000    0.011    0.000 lookup.py:8(__init__)
+    48017    0.007    0.000    0.007    0.000 {method 'add' of 'set' objects}
+     1125    0.006    0.000    0.030    0.000 grid.py:220(set_word)
+    36029    0.005    0.000    0.005    0.000 {method 'get' of 'dict' objects}
+     7921    0.005    0.000    0.008    0.000 grid.py:77(get_content)
+     1163    0.005    0.000    0.012    0.000 __init__.py:117(_unidecode)
+    24694    0.004    0.000    0.004    0.000 grid.py:286(get_coor)
