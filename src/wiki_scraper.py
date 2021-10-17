@@ -112,7 +112,7 @@ def main():
                 print(f'[{len(translations_dict):}/100] {word}')
             if len(translations_dict) >= 100:
                 first_word, *_, last_word = translations_dict.keys()
-                with open(f'data/translations/{first_word[:3]}-{last_word[:3]}.json', 'w') as fp:
+                with open(f'data/translations/{first_word[:4]}-{last_word[:4]}.json', 'w') as fp:
                     json.dump(translations_dict, fp, indent=4)
                 with open(f'data/scraper_info.json', 'w') as fp:
                     scraper_info['last_scrapped_word'] = last_word.lower()

@@ -178,8 +178,8 @@ class WordPattern(ABC):
                 if (
                         self.get_content(index + 1) is None
                         or (
-                        self.get_content(index + 1) == EMPTY_TOKEN
-                        and (
+                            self.get_content(index + 1) == EMPTY_TOKEN
+                            and (
                                 self.get_content(index + 3) != DEF_TOKEN
                                 and self.get_content_orthogonal(index + 1, 2) != DEF_TOKEN
                                 and self.get_content_orthogonal(index + 1, -2) not in (DEF_TOKEN, None)
