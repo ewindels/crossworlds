@@ -1,0 +1,5971 @@
+{
+    "darique": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "daric"
+                        ],
+                        "es": [
+                            "darico",
+                            "d\u00e1rico"
+                        ],
+                        "la": [
+                            "darius"
+                        ],
+                        "nl": [
+                            "dareik",
+                            "dariek"
+                        ],
+                        "fa": [
+                            "\u062f\u0631\u06cc\u06a9"
+                        ],
+                        "ru": [
+                            "\u0434\u0430\u0440\u0438\u043a"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "darique": [
+                    "Singulier"
+                ],
+                "dariques": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "darkside": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "darkstep"
+                        ],
+                        "pl": [
+                            "darkstep"
+                        ],
+                        "ru": [
+                            "\u0434\u0430\u0440\u043a\u0441\u0442\u0435\u043f"
+                        ],
+                        "sv": [
+                            "darkstep"
+                        ],
+                        "cs": [
+                            "darkstep"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "darkstep": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "darkstep"
+                        ],
+                        "pl": [
+                            "darkstep"
+                        ],
+                        "ru": [
+                            "\u0434\u0430\u0440\u043a\u0441\u0442\u0435\u043f"
+                        ],
+                        "sv": [
+                            "darkstep"
+                        ],
+                        "cs": [
+                            "darkstep"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "darmstadtium": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Darmstadtium"
+                        ],
+                        "en": [
+                            "darmstadtium"
+                        ],
+                        "ar": [
+                            "\u062f\u0627\u0631\u0645\u0634\u062a\u0627\u062f\u062a\u064a\u0648\u0645"
+                        ],
+                        "bs": [
+                            "darm\u0161tatijum"
+                        ],
+                        "bg": [
+                            "\u0434\u0430\u0440\u043c\u0449\u0430\u0434\u0438\u0439"
+                        ],
+                        "ca": [
+                            "darmstadti"
+                        ],
+                        "zh": [
+                            "\ud86d\udffc"
+                        ],
+                        "ko": [
+                            "\ub2e4\ub984\uc288\ud0c0\ud2ac"
+                        ],
+                        "co": [
+                            "darmstadtiu"
+                        ],
+                        "hr": [
+                            "darmstadij"
+                        ],
+                        "da": [
+                            "darmstadtium"
+                        ],
+                        "es": [
+                            "darmstadtio"
+                        ],
+                        "eo": [
+                            "darm\u015dtatio"
+                        ],
+                        "et": [
+                            "darmstadtium"
+                        ],
+                        "fi": [
+                            "darmstadtium"
+                        ],
+                        "gl": [
+                            "darmstadtio"
+                        ],
+                        "el": [
+                            "\u03bd\u03c4\u03b1\u03c1\u03bc\u03c3\u03c4\u03ac\u03bd\u03c4\u03b9\u03bf"
+                        ],
+                        "he": [
+                            "\u05d3\u05e8\u05de\u05e9\u05d8\u05d8\u05d9\u05d5\u05dd"
+                        ],
+                        "hu": [
+                            "darmstadtium"
+                        ],
+                        "is": [
+                            "darmstat\u00edn",
+                            "darmstadt\u00edn"
+                        ],
+                        "it": [
+                            "darmstadtio",
+                            "ununnilio"
+                        ],
+                        "ja": [
+                            "\u30c0\u30fc\u30e0\u30b9\u30bf\u30c1\u30a6\u30e0"
+                        ],
+                        "ku": [
+                            "darmstadtiy\u00fbm"
+                        ],
+                        "la": [
+                            "darmstadtium"
+                        ],
+                        "lv": [
+                            "darmstadtijs"
+                        ],
+                        "lt": [
+                            "darm\u0161tadtis"
+                        ],
+                        "jbo": [
+                            "jinmrdarmctati"
+                        ],
+                        "lb": [
+                            "Darmstadtium"
+                        ],
+                        "mt": [
+                            "darmstadtju"
+                        ],
+                        "gv": [
+                            "darmstadtium"
+                        ],
+                        "nl": [
+                            "darmstadtium"
+                        ],
+                        "no": [
+                            "darmstadtium",
+                            "darmstadtium"
+                        ],
+                        "pl": [
+                            "darmsztadt"
+                        ],
+                        "pt": [
+                            "darmst\u00e1dio"
+                        ],
+                        "ro": [
+                            "darmstadtiu"
+                        ],
+                        "ru": [
+                            "\u0434\u0430\u0440\u043c\u0448\u0442\u0430\u0434\u0442\u0438\u0439"
+                        ],
+                        "sr": [
+                            "\u0434\u0430\u0440\u043c\u0448\u0442\u0430\u0442\u0438\u0458\u0443\u043c"
+                        ],
+                        "sh": [
+                            "darm\u0161tatijum"
+                        ],
+                        "sk": [
+                            "darmstadtium"
+                        ],
+                        "sl": [
+                            "darmstadtij"
+                        ],
+                        "sv": [
+                            "darmstadtium"
+                        ],
+                        "cs": [
+                            "darmstadtium"
+                        ],
+                        "th": [
+                            "\u0e22\u0e21"
+                        ],
+                        "tr": [
+                            "darmstadtiyum"
+                        ],
+                        "uk": [
+                            "\u0434\u0430\u0440\u043c\u0448\u0442\u0430\u0434\u0442\u0456\u0439"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "darmstadtium": [
+                    "Singulier"
+                ],
+                "darmstadtiums": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "Darriwilien": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Darriwilium"
+                        ],
+                        "en": [
+                            "Darriwilian"
+                        ],
+                        "ca": [
+                            "Darriwili\u00e0"
+                        ],
+                        "hu": [
+                            "Hirnanti"
+                        ],
+                        "it": [
+                            "Darriwilliano"
+                        ],
+                        "nl": [
+                            "Darriwillien"
+                        ],
+                        "pl": [
+                            "Darriwil"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "darse": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "wet dock",
+                            "harbour"
+                        ],
+                        "hr": [
+                            "bazen",
+                            "dok"
+                        ],
+                        "es": [
+                            "d\u00e1rsena"
+                        ],
+                        "io": [
+                            "doko"
+                        ],
+                        "it": [
+                            "darsena"
+                        ],
+                        "nl": [
+                            "binnenhaven",
+                            "open dok"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "darse": [
+                    "Singulier"
+                ],
+                "darses": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "darwinisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "Darwinism"
+                        ],
+                        "hr": [
+                            "darvinizam"
+                        ],
+                        "es": [
+                            "darwinismo"
+                        ],
+                        "it": [
+                            "darwinismo"
+                        ],
+                        "ru": [
+                            "\u0434\u0430\u0440\u0432\u0438\u043d\u0438\u0437\u043c"
+                        ],
+                        "sv": [
+                            "darwinism"
+                        ],
+                        "cs": [
+                            "darwinismus"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "darwinisme": [
+                    "Singulier"
+                ],
+                "darwinismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "dastar": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Dastar"
+                        ],
+                        "en": [
+                            "dastar"
+                        ],
+                        "da": [
+                            "dastar"
+                        ],
+                        "es": [
+                            "dastar"
+                        ],
+                        "kk": [
+                            "\u0434\u0430\u0441\u0442\u0430\u0440"
+                        ],
+                        "pa": [
+                            "\u0a30"
+                        ],
+                        "fa": [
+                            "\u0633\u062a\u0627\u0631"
+                        ],
+                        "ru": [
+                            "\u0434\u0430\u0441\u0442\u0430\u0440"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "dastar": [
+                    "Singulier"
+                ],
+                "dastars": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "dasyorne": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Dasyornis"
+                        ],
+                        "de": [
+                            "Lackvogel"
+                        ],
+                        "en": [
+                            "bristlebird"
+                        ],
+                        "ca": [
+                            "becfil\u00f3s"
+                        ],
+                        "da": [
+                            "b\u00f8rstesanger"
+                        ],
+                        "es": [
+                            "picocerdas"
+                        ],
+                        "et": [
+                            "r\u00e4galind"
+                        ],
+                        "fi": [
+                            "sukasmalurit"
+                        ],
+                        "hu": [
+                            "s\u00f6rt\u00e9smad\u00e1r"
+                        ],
+                        "it": [
+                            "uccello di macchia",
+                            "beccoriccio"
+                        ],
+                        "lt": [
+                            "\u0161eriasnapis"
+                        ],
+                        "nl": [
+                            "borstelvogel"
+                        ],
+                        "no": [
+                            "b\u00f8rstefugl"
+                        ],
+                        "pl": [
+                            "kolcopi\u00f3rek"
+                        ],
+                        "sk": [
+                            "\u0161tetin\u00e1r"
+                        ],
+                        "sv": [
+                            "borstsmyg"
+                        ],
+                        "cs": [
+                            "st\u0159\u00edzl\u00edkovec"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "dasyorne": [
+                    "Singulier"
+                ],
+                "dasyornes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "dasypeltis": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Dasypeltis"
+                        ],
+                        "de": [
+                            "Afrikanische Eierschlange"
+                        ],
+                        "en": [
+                            "eating snake"
+                        ],
+                        "et": [
+                            "munamadu"
+                        ],
+                        "hu": [
+                            "toj\u00e1sev\u0151 k\u00edgy\u00f3"
+                        ],
+                        "id": [
+                            "ular pemakan telur Afrika"
+                        ],
+                        "lt": [
+                            "afrikinis kiau\u0161in\u0117dis"
+                        ],
+                        "cs": [
+                            "vejco\u017erout"
+                        ],
+                        "vi": [
+                            "r\u1eafn \u0103n tr\u1ee9ng"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "dasyure": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Dasyurus"
+                        ],
+                        "de": [
+                            "Beutelmarder"
+                        ],
+                        "en": [
+                            "dasyure",
+                            "quoll"
+                        ],
+                        "br": [
+                            "kazh godellek"
+                        ],
+                        "ca": [
+                            "gat marsupial"
+                        ],
+                        "es": [
+                            "cuol",
+                            "satanelo"
+                        ],
+                        "hu": [
+                            "ersz\u00e9nyesnyest"
+                        ],
+                        "it": [
+                            "quoll"
+                        ],
+                        "lt": [
+                            "sterbliakiaun\u0117"
+                        ],
+                        "nl": [
+                            "buidelmarter"
+                        ],
+                        "pl": [
+                            "nie\u0142az"
+                        ],
+                        "pt": [
+                            "quoll"
+                        ],
+                        "ro": [
+                            "pisic\u0103 marsupial\u0103"
+                        ],
+                        "sk": [
+                            "kunovec"
+                        ],
+                        "cs": [
+                            "kunovec"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "dasyure": [
+                    "Singulier"
+                ],
+                "dasyures": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "datation": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Datierung"
+                        ],
+                        "en": [
+                            "dating"
+                        ],
+                        "ca": [
+                            "dataci\u00f3"
+                        ],
+                        "hr": [
+                            "datiranje"
+                        ],
+                        "es": [
+                            "dataci\u00f3n"
+                        ],
+                        "it": [
+                            "datazione"
+                        ],
+                        "nl": [
+                            "datering"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "datation": [
+                    "Singulier"
+                ],
+                "datations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "datcha": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Datsche",
+                            "Datscha"
+                        ],
+                        "en": [
+                            "dacha"
+                        ],
+                        "eo": [
+                            "da\u0109o"
+                        ],
+                        "it": [
+                            "dacia"
+                        ],
+                        "kk": [
+                            "\u0441\u0430\u044f\u0436\u0430\u0439"
+                        ],
+                        "pl": [
+                            "dacza"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "datcha": [
+                    "Singulier"
+                ],
+                "datchas": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "date": [
+        {
+            "type": "Nom commun 1",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "sq": [
+                            "dat\u00eb"
+                        ],
+                        "de": [
+                            "Datum"
+                        ],
+                        "en": [
+                            "date"
+                        ],
+                        "ar": [
+                            "\u062a\u0627\u0631\u064a\u062e",
+                            "\u062a\u0623\u0631\u064a\u062e",
+                            "\u0645\u0624\u0627\u0631\u062e\u0629"
+                        ],
+                        "hy": [
+                            "\u0569\u057e\u0561\u056f\u0561\u0576",
+                            "\u0561\u0574\u057d\u0561\u0569\u056b\u057e"
+                        ],
+                        "az": [
+                            "tarix"
+                        ],
+                        "be": [
+                            "\u0434\u0430\u0442\u0430"
+                        ],
+                        "br": [
+                            "deiziad"
+                        ],
+                        "bg": [
+                            "\u0434\u0430\u0442\u0430"
+                        ],
+                        "ca": [
+                            "data"
+                        ],
+                        "zh": [
+                            "\u65e5\u671f",
+                            "\u65e5\u5b50"
+                        ],
+                        "ko": [
+                            "\ub0a0\uc9dc",
+                            "\uc77c\uc790"
+                        ],
+                        "hr": [
+                            "datum"
+                        ],
+                        "da": [
+                            "datering"
+                        ],
+                        "es": [
+                            "fecha",
+                            "data"
+                        ],
+                        "eo": [
+                            "dato"
+                        ],
+                        "et": [
+                            "daatum"
+                        ],
+                        "fi": [
+                            "p\u00e4iv\u00e4ys"
+                        ],
+                        "ka": [
+                            "\u10d7\u10d0\u10e0\u10d8\u10e6\u10d8"
+                        ],
+                        "el": [
+                            "\u03b7\u03bc\u03b5\u03c1\u03bf\u03bc\u03b7\u03bd\u03af\u03b1"
+                        ],
+                        "hu": [
+                            "d\u00e1tum"
+                        ],
+                        "io": [
+                            "dato"
+                        ],
+                        "is": [
+                            "dagsetning"
+                        ],
+                        "it": [
+                            "data"
+                        ],
+                        "ja": [
+                            "\u65e5\u4ed8",
+                            "\u5e74\u6708\u65e5"
+                        ],
+                        "kk": [
+                            "\u0434\u0430\u0442\u0430"
+                        ],
+                        "lv": [
+                            "datums"
+                        ],
+                        "lt": [
+                            "data"
+                        ],
+                        "nl": [
+                            "datum"
+                        ],
+                        "no": [
+                            "datering"
+                        ],
+                        "pl": [
+                            "data"
+                        ],
+                        "pt": [
+                            "data"
+                        ],
+                        "ro": [
+                            "dat\u0103"
+                        ],
+                        "ru": [
+                            "\u0434\u0430\u0442\u0430"
+                        ],
+                        "sr": [
+                            "\u0434\u0430\u0442\u0443\u043c"
+                        ],
+                        "sk": [
+                            "d\u00e1tum"
+                        ],
+                        "sl": [
+                            "datum"
+                        ],
+                        "sv": [
+                            "datering"
+                        ],
+                        "cs": [
+                            "datum"
+                        ],
+                        "tr": [
+                            "tarih"
+                        ],
+                        "uk": [
+                            "\u0434\u0430\u0442\u0430"
+                        ],
+                        "vi": [
+                            "ng\u00e0y"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "date": [
+                    "Singulier"
+                ],
+                "dates": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "dater": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "dateer"
+                        ],
+                        "de": [
+                            "datieren"
+                        ],
+                        "en": [
+                            "date"
+                        ],
+                        "ar": [
+                            "\u0623\u0631\u062e",
+                            "\u0622\u0631\u062e"
+                        ],
+                        "hr": [
+                            "datirati"
+                        ],
+                        "es": [
+                            "fechar"
+                        ],
+                        "eo": [
+                            "dati"
+                        ],
+                        "fo": [
+                            "dagfesta"
+                        ],
+                        "fy": [
+                            "datearje"
+                        ],
+                        "io": [
+                            "datizar"
+                        ],
+                        "it": [
+                            "datare"
+                        ],
+                        "nl": [
+                            "dagtekenen",
+                            "dateren"
+                        ],
+                        "pt": [
+                            "datar"
+                        ],
+                        "sv": [
+                            "datera"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "datif": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Dativ",
+                            "Wemfall",
+                            "Fall"
+                        ],
+                        "en": [
+                            "dative"
+                        ],
+                        "br": [
+                            "roi\u00f1",
+                            "troad dativel"
+                        ],
+                        "hr": [
+                            "dativ",
+                            "sudski skrbnik"
+                        ],
+                        "es": [
+                            "dativo"
+                        ],
+                        "eo": [
+                            "dativo"
+                        ],
+                        "fi": [
+                            "datiivi"
+                        ],
+                        "el": [
+                            "\u03b4\u03bf\u03c4\u03b9\u03ba\u03ae"
+                        ],
+                        "io": [
+                            "dativo"
+                        ],
+                        "is": [
+                            "\u00fe\u00e1gufall"
+                        ],
+                        "it": [
+                            "dativo"
+                        ],
+                        "ja": [
+                            "\u4e0e\u683c"
+                        ],
+                        "kk": [
+                            "\u0431\u0430\u0440\u044b\u0441 \u0441\u0435\u043f\u0442\u0456\u043a"
+                        ],
+                        "la": [
+                            "dativus"
+                        ],
+                        "lt": [
+                            "naudininkas"
+                        ],
+                        "ug": [
+                            "\u064a\u06c6\u0646\u0649\u0644\u0649\u0634 \u0643\u06d0\u0644\u0649\u0634"
+                        ],
+                        "pl": [
+                            "celownik"
+                        ],
+                        "ru": [
+                            "\u0434\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "datif": [
+                    "Singulier"
+                ],
+                "datifs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "datisque": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Datisca"
+                        ],
+                        "de": [
+                            "Scheinhanf"
+                        ],
+                        "az": [
+                            "d\u0259li\u00e7\u0259t\u0259n\u0259"
+                        ],
+                        "eo": [
+                            "datisko"
+                        ],
+                        "pl": [
+                            "konopnica"
+                        ],
+                        "cs": [
+                            "konopour"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "datisque": [
+                    "Singulier"
+                ],
+                "datisques": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "datolite": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Datolith"
+                        ],
+                        "en": [
+                            "datolite"
+                        ],
+                        "ca": [
+                            "datolita"
+                        ],
+                        "he": [
+                            "\u05d3\u05d8\u05d5\u05dc\u05d9\u05d8"
+                        ],
+                        "it": [
+                            "datolite"
+                        ],
+                        "lt": [
+                            "datolitas"
+                        ],
+                        "nl": [
+                            "datoliet"
+                        ],
+                        "pl": [
+                            "datolit"
+                        ],
+                        "sv": [
+                            "datolit"
+                        ],
+                        "uk": [
+                            "\u0434\u0430\u0442\u043e\u043b\u0456\u0442"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "datolite": [
+                    "Singulier"
+                ],
+                "datolites": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "datte": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Fruit comestible du palmier-dattier\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "Dattel"
+                        ],
+                        "en": [
+                            "date"
+                        ],
+                        "ar": [
+                            "\u062a\u0645\u0631\u0629"
+                        ],
+                        "eu": [
+                            "datil"
+                        ],
+                        "bg": [
+                            "\u0444\u0443\u0440\u043c\u0430",
+                            "\u0444\u0438\u043d\u0438\u043a"
+                        ],
+                        "ca": [
+                            "d\u00e0til"
+                        ],
+                        "co": [
+                            "n\u00e0ttara"
+                        ],
+                        "hr": [
+                            "datulja"
+                        ],
+                        "da": [
+                            "daddel"
+                        ],
+                        "es": [
+                            "d\u00e1til"
+                        ],
+                        "eo": [
+                            "daktilo"
+                        ],
+                        "et": [
+                            "dattel"
+                        ],
+                        "fi": [
+                            "taateli"
+                        ],
+                        "el": [
+                            "\u03c7\u03bf\u03c5\u03c1\u03bc\u03ac\u03c2"
+                        ],
+                        "he": [
+                            "\u05ea\u05de\u05e8"
+                        ],
+                        "hi": [
+                            "\u0930"
+                        ],
+                        "hu": [
+                            "datolya"
+                        ],
+                        "io": [
+                            "datelo"
+                        ],
+                        "it": [
+                            "dattero"
+                        ],
+                        "ja": [
+                            "\u30c7\u30fc\u30c4"
+                        ],
+                        "ks": [
+                            "\u0631"
+                        ],
+                        "kk": [
+                            "\u049b\u04b1\u0440\u043c\u0430"
+                        ],
+                        "ku": [
+                            "qesp",
+                            "xurme"
+                        ],
+                        "la": [
+                            "palmula"
+                        ],
+                        "lv": [
+                            "datele"
+                        ],
+                        "lt": [
+                            "datul\u0117"
+                        ],
+                        "nl": [
+                            "dadel"
+                        ],
+                        "no": [
+                            "daddel"
+                        ],
+                        "oc": [
+                            "d\u00e0til"
+                        ],
+                        "ur": [
+                            "\u06a9\u06be\u062c\u0648\u0631"
+                        ],
+                        "pl": [
+                            "daktyl"
+                        ],
+                        "pt": [
+                            "t\u00e2mara"
+                        ],
+                        "ro": [
+                            "curmal\u0103",
+                            "finic"
+                        ],
+                        "ru": [
+                            "\u0444\u0438\u043d\u0438\u043a"
+                        ],
+                        "sk": [
+                            "dat\u013ea"
+                        ],
+                        "sl": [
+                            "datelj"
+                        ],
+                        "sv": [
+                            "dadel"
+                        ],
+                        "cs": [
+                            "datle"
+                        ],
+                        "tr": [
+                            "hurma"
+                        ],
+                        "uk": [
+                            "\u0444\u0456\u043d\u0456\u043a"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "datte": [
+                    "Singulier"
+                ],
+                "dattes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "dattier": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Phoenix dactylifera"
+                        ],
+                        "de": [
+                            "Dattelpalme"
+                        ],
+                        "en": [
+                            "date palm"
+                        ],
+                        "ar": [
+                            "\u0629"
+                        ],
+                        "eu": [
+                            "datilondo"
+                        ],
+                        "co": [
+                            "palmu di n\u00e0ttara"
+                        ],
+                        "hr": [
+                            "datulja"
+                        ],
+                        "eo": [
+                            "daktilarbo",
+                            "daktilujo"
+                        ],
+                        "io": [
+                            "dateliero"
+                        ],
+                        "ru": [
+                            "\u0444\u0438\u043d\u0438\u043a"
+                        ],
+                        "cs": [
+                            "datlovn\u00edk"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "dattier": [
+                    "Singulier"
+                ],
+                "dattiers": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "datura": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Datura"
+                        ],
+                        "en": [
+                            "datura"
+                        ],
+                        "io": [
+                            "daturo"
+                        ],
+                        "nl": [
+                            "doornappel"
+                        ],
+                        "cs": [
+                            "durman"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "datura": [
+                    "Singulier"
+                ],
+                "daturas": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "dauphin": [
+        {
+            "type": "Nom commun 1",
+            "translations": [
+                {
+                    "definition": "C\u00e9tac\u00e9",
+                    "translations": {
+                        "wikispecies": [
+                            "Delphinus"
+                        ],
+                        "sq": [
+                            "delfin"
+                        ],
+                        "de": [
+                            "Delphin",
+                            "Delfin",
+                            "T\u00fcmmler"
+                        ],
+                        "en": [
+                            "dolphin"
+                        ],
+                        "ar": [
+                            "\u0627\u0644\u062f\u0644\u0641\u064a\u0646",
+                            "\u062f\u062e\u0633"
+                        ],
+                        "hy": [
+                            "\u0564\u0565\u056c\u0586\u056b\u0576"
+                        ],
+                        "az": [
+                            "delfin"
+                        ],
+                        "eu": [
+                            "izurde"
+                        ],
+                        "be": [
+                            "\u0434\u044d\u043b\u044c\u0444\u0456\u043d"
+                        ],
+                        "br": [
+                            "hir",
+                            "delfin"
+                        ],
+                        "bg": [
+                            "\u0434\u0435\u043b\u0444\u0438\u043d"
+                        ],
+                        "ca": [
+                            "dof\u00ed"
+                        ],
+                        "zh": [
+                            "\u6d77\u8c5a"
+                        ],
+                        "ko": [
+                            "\ub3cc\uace0\ub798"
+                        ],
+                        "kw": [
+                            "pyffyer"
+                        ],
+                        "hr": [
+                            "delfin",
+                            "dupin"
+                        ],
+                        "da": [
+                            "delfin"
+                        ],
+                        "es": [
+                            "delf\u00edn"
+                        ],
+                        "eo": [
+                            "delfeno"
+                        ],
+                        "et": [
+                            "delfiin"
+                        ],
+                        "fo": [
+                            "delfin",
+                            "springari"
+                        ],
+                        "fi": [
+                            "delfiini"
+                        ],
+                        "fy": [
+                            "dolfin"
+                        ],
+                        "ga": [
+                            "deilf"
+                        ],
+                        "gl": [
+                            "golfi\u00f1o"
+                        ],
+                        "cy": [
+                            "dolffin"
+                        ],
+                        "ka": [
+                            "\u10d3\u10d4\u10da\u10e4\u10d8\u10dc\u10d8"
+                        ],
+                        "el": [
+                            "\u03b4\u03b5\u03bb\u03c6\u03af\u03bd\u03b9"
+                        ],
+                        "he": [
+                            "\u05d3\u05d5\u05dc\u05e4\u05d9\u05df"
+                        ],
+                        "hu": [
+                            "delfin"
+                        ],
+                        "io": [
+                            "delfino"
+                        ],
+                        "id": [
+                            "lumba"
+                        ],
+                        "ia": [
+                            "delphino"
+                        ],
+                        "is": [
+                            "h\u00f6frungur"
+                        ],
+                        "it": [
+                            "delfino"
+                        ],
+                        "ja": [
+                            "\u6d77\u8c5a"
+                        ],
+                        "kk": [
+                            "\u0434\u0435\u043b\u044c\u0444\u0438\u043d"
+                        ],
+                        "km": [
+                            "\u178f"
+                        ],
+                        "la": [
+                            "delphinus"
+                        ],
+                        "lv": [
+                            "delf\u012bns"
+                        ],
+                        "lt": [
+                            "delfinas"
+                        ],
+                        "mk": [
+                            "\u0434\u0435\u043b\u0444\u0438\u043d"
+                        ],
+                        "ms": [
+                            "lumba"
+                        ],
+                        "mg": [
+                            "feso"
+                        ],
+                        "mt": [
+                            "delfini"
+                        ],
+                        "gv": [
+                            "doraid"
+                        ],
+                        "nl": [
+                            "dolfijn"
+                        ],
+                        "no": [
+                            "delfin"
+                        ],
+                        "oc": [
+                            "dalfin"
+                        ],
+                        "uz": [
+                            "delfin"
+                        ],
+                        "fa": [
+                            "\u062f\u0644\u0641\u06cc\u0646"
+                        ],
+                        "pl": [
+                            "delfin"
+                        ],
+                        "pt": [
+                            "boto",
+                            "delfim",
+                            "golfinho"
+                        ],
+                        "ro": [
+                            "delfin"
+                        ],
+                        "ru": [
+                            "\u0434\u0435\u043b\u044c\u0444\u0438\u043d"
+                        ],
+                        "sr": [
+                            "\u0434\u0435\u043b\u0444\u0438\u043d"
+                        ],
+                        "sk": [
+                            "delf\u00edn"
+                        ],
+                        "sl": [
+                            "delfin"
+                        ],
+                        "sv": [
+                            "delfin"
+                        ],
+                        "tg": [
+                            "\u0434\u0435\u043b\u0444\u0438\u043d"
+                        ],
+                        "tl": [
+                            "lumba"
+                        ],
+                        "cs": [
+                            "delf\u00edn",
+                            "pl\u00edskavice"
+                        ],
+                        "th": [
+                            "\u0e42\u0e25\u0e21\u0e32"
+                        ],
+                        "tr": [
+                            "yunus",
+                            "yunus bal\u0131\u011f\u0131"
+                        ],
+                        "tk": [
+                            "delfin"
+                        ],
+                        "uk": [
+                            "\u0434\u0435\u043b\u044c\u0444\u0456\u043d"
+                        ],
+                        "vi": [
+                            "c\u00e1 heo"
+                        ],
+                        "yi": [
+                            "\u05d3\u05e2\u05dc\u05e4\u05d9\u05df"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "dauphin": [
+                    "Singulier"
+                ],
+                "dauphins": [
+                    "Pluriel"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun 2",
+            "translations": [
+                {
+                    "definition": "prince h\u00e9ritier",
+                    "translations": {
+                        "de": [
+                            "Kronprinz"
+                        ],
+                        "en": [
+                            "crown prince",
+                            "dauphin"
+                        ],
+                        "be": [
+                            "\u043a\u0440\u043e\u043d\u043f\u0440\u044b\u043d\u0446"
+                        ],
+                        "br": [
+                            "daofin"
+                        ],
+                        "ko": [
+                            "\ud0dc\uc790"
+                        ],
+                        "hr": [
+                            "prijestolonasljednik"
+                        ],
+                        "da": [
+                            "kronprins"
+                        ],
+                        "es": [
+                            "pr\u00edncipe heredero"
+                        ],
+                        "eo": [
+                            "kronprinco"
+                        ],
+                        "fi": [
+                            "kruununprinssi"
+                        ],
+                        "el": [
+                            "\u03b4\u03b9\u03ac\u03b4\u03bf\u03c7\u03bf\u03c2 \u03c4\u03bf\u03c5 \u03b8\u03c1\u03cc\u03bd\u03bf\u03c5"
+                        ],
+                        "hu": [
+                            "koronaherceg"
+                        ],
+                        "it": [
+                            "principe ereditario"
+                        ],
+                        "ja": [
+                            "\u7687\u592a\u5b50"
+                        ],
+                        "nl": [
+                            "kroonprins"
+                        ],
+                        "no": [
+                            "kronprins"
+                        ],
+                        "oc": [
+                            "dalfin",
+                            "dalfina"
+                        ],
+                        "pl": [
+                            "delfin"
+                        ],
+                        "pt": [
+                            "pr\u00edncipe herdeiro",
+                            "delfim"
+                        ],
+                        "ru": [
+                            "\u043a\u0440\u043e\u043d\u043f\u0440\u0438\u043d\u0446"
+                        ],
+                        "sv": [
+                            "kronprins"
+                        ],
+                        "tr": [
+                            "veliaht"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "dauphin": [
+                    "Singulier"
+                ],
+                "dauphins": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "davantage": [
+        {
+            "type": "Adverbe",
+            "translations": [
+                {
+                    "definition": "Plus. (Sens g\u00e9n\u00e9ral).",
+                    "translations": {
+                        "af": [
+                            "meer"
+                        ],
+                        "de": [
+                            "mehr"
+                        ],
+                        "en": [
+                            "more"
+                        ],
+                        "ar": [
+                            "\u0623\u0643\u062b\u0631"
+                        ],
+                        "eu": [
+                            "gehiago"
+                        ],
+                        "br": [
+                            "muioc\u02bch"
+                        ],
+                        "ca": [
+                            "m\u00e9s"
+                        ],
+                        "da": [
+                            "flere",
+                            "mere"
+                        ],
+                        "es": [
+                            "m\u00e1s"
+                        ],
+                        "eo": [
+                            "pli"
+                        ],
+                        "fo": [
+                            "meir"
+                        ],
+                        "fi": [
+                            "enemm\u00e4n"
+                        ],
+                        "fy": [
+                            "mear"
+                        ],
+                        "la": [
+                            "plus"
+                        ],
+                        "ms": [
+                            "lebih"
+                        ],
+                        "nl": [
+                            "meer"
+                        ],
+                        "pl": [
+                            "bardziej",
+                            "wi\u0119cej"
+                        ],
+                        "pt": [
+                            "mais"
+                        ],
+                        "ro": [
+                            "mai mult"
+                        ],
+                        "ru": [
+                            "\u0431\u043e\u043b\u0435\u0435"
+                        ],
+                        "sv": [
+                            "mer",
+                            "mera"
+                        ],
+                        "vi": [
+                            "h\u01a1n"
+                        ],
+                        "zu": [
+                            "ningi"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "dazo": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Coleus dazo",
+                            "Plectranthus esculentus"
+                        ],
+                        "af": [
+                            "veldaartappel"
+                        ],
+                        "en": [
+                            "Livingstone potato"
+                        ],
+                        "ha": [
+                            "rizga"
+                        ],
+                        "sg": [
+                            "dazo"
+                        ],
+                        "tn": [
+                            "umbondive"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "dazo": [
+                    "Singulier"
+                ],
+                "dazos": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "DCI": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "D\u00e9nomination commune internationale",
+                    "translations": {
+                        "de": [
+                            "DCI"
+                        ],
+                        "en": [
+                            "INN",
+                            "rINN"
+                        ],
+                        "ca": [
+                            "DCI"
+                        ],
+                        "es": [
+                            "DCI"
+                        ],
+                        "gl": [
+                            "DCI"
+                        ],
+                        "it": [
+                            "DCI"
+                        ],
+                        "pt": [
+                            "DCI"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "DDT": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "DDT"
+                        ],
+                        "de": [
+                            "DDT"
+                        ],
+                        "en": [
+                            "DDT"
+                        ],
+                        "eu": [
+                            "DDT"
+                        ],
+                        "bs": [
+                            "DDT"
+                        ],
+                        "bg": [
+                            "\u0414\u0414\u0422"
+                        ],
+                        "ca": [
+                            "DDT"
+                        ],
+                        "da": [
+                            "DDT"
+                        ],
+                        "es": [
+                            "DDT"
+                        ],
+                        "eo": [
+                            "DDT"
+                        ],
+                        "et": [
+                            "DDT"
+                        ],
+                        "fi": [
+                            "DDT"
+                        ],
+                        "ga": [
+                            "DDT"
+                        ],
+                        "hu": [
+                            "DDT"
+                        ],
+                        "it": [
+                            "DDT"
+                        ],
+                        "kk": [
+                            "\u0414\u0414\u0422"
+                        ],
+                        "lt": [
+                            "DDT"
+                        ],
+                        "mk": [
+                            "\u0414\u0414\u0422"
+                        ],
+                        "ms": [
+                            "DDT"
+                        ],
+                        "nl": [
+                            "DDT"
+                        ],
+                        "no": [
+                            "DDT",
+                            "DDT"
+                        ],
+                        "uz": [
+                            "DDT"
+                        ],
+                        "pl": [
+                            "DDT"
+                        ],
+                        "pt": [
+                            "DDT"
+                        ],
+                        "ro": [
+                            "DDT"
+                        ],
+                        "ru": [
+                            "\u0414\u0414\u0422"
+                        ],
+                        "sr": [
+                            "DDT"
+                        ],
+                        "sk": [
+                            "DDT"
+                        ],
+                        "sl": [
+                            "DDT"
+                        ],
+                        "so": [
+                            "DDT"
+                        ],
+                        "sv": [
+                            "DDT"
+                        ],
+                        "cs": [
+                            "DDT"
+                        ],
+                        "tr": [
+                            "DDT"
+                        ],
+                        "uk": [
+                            "\u0414\u0414\u0422"
+                        ],
+                        "vi": [
+                            "DDT"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "de": [
+        {
+            "type": "Pr\u00e9position 1",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "van"
+                        ],
+                        "sq": [
+                            "e"
+                        ],
+                        "de": [
+                            "aus",
+                            "von",
+                            "zu",
+                            "f\u00fcr"
+                        ],
+                        "en": [
+                            "of",
+                            "s",
+                            "to"
+                        ],
+                        "ca": [
+                            "de"
+                        ],
+                        "ko": [
+                            "\uc5d0\uc11c",
+                            "\uc758"
+                        ],
+                        "co": [
+                            "di"
+                        ],
+                        "hr": [
+                            "iz",
+                            "od",
+                            "po"
+                        ],
+                        "da": [
+                            "fra"
+                        ],
+                        "es": [
+                            "de"
+                        ],
+                        "eo": [
+                            "da",
+                            "de",
+                            "el",
+                            "je",
+                            "da",
+                            "fare de"
+                        ],
+                        "io": [
+                            "di"
+                        ],
+                        "ia": [
+                            "de"
+                        ],
+                        "it": [
+                            "da",
+                            "di",
+                            "del",
+                            "della",
+                            "delle",
+                            "dello",
+                            "de"
+                        ],
+                        "ja": [
+                            "\u304b\u3089",
+                            "\u306e"
+                        ],
+                        "ln": [
+                            "ya"
+                        ],
+                        "nl": [
+                            "uit",
+                            "van"
+                        ],
+                        "oc": [
+                            "de"
+                        ],
+                        "pt": [
+                            "de"
+                        ],
+                        "ro": [
+                            "din",
+                            "lui",
+                            "de"
+                        ],
+                        "sv": [
+                            "fr\u00e5n",
+                            "av",
+                            "med",
+                            "som"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Indication de provenance, d\u2019origine.\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "aus",
+                            "von"
+                        ],
+                        "en": [
+                            "from"
+                        ],
+                        "ar": [
+                            "\u0645\u0646"
+                        ],
+                        "hr": [
+                            "iz"
+                        ],
+                        "da": [
+                            "fra"
+                        ],
+                        "es": [
+                            "de"
+                        ],
+                        "id": [
+                            "dari"
+                        ],
+                        "ia": [
+                            "de",
+                            "ab"
+                        ],
+                        "lb": [
+                            "vun"
+                        ],
+                        "nl": [
+                            "uit"
+                        ],
+                        "ru": [
+                            "\u0438\u0437",
+                            "\u0441",
+                            "\u043e\u0442",
+                            "\u0438\u0437\u043e"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Indication de possession",
+                    "translations": {
+                        "de": [
+                            "von"
+                        ],
+                        "en": [
+                            "of",
+                            "s"
+                        ],
+                        "hr": [
+                            "od"
+                        ],
+                        "eo": [
+                            "de"
+                        ],
+                        "ia": [
+                            "de"
+                        ],
+                        "lb": [
+                            "vun"
+                        ],
+                        "nl": [
+                            "van"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "du": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "des": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ],
+                "de la": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "d\u00e9": [
+        {
+            "type": "Nom commun 3",
+            "translations": [
+                {
+                    "definition": "Lettre D ou d",
+                    "translations": {
+                        "de": [
+                            "de"
+                        ],
+                        "en": [
+                            "dee"
+                        ],
+                        "ca": [
+                            "de"
+                        ],
+                        "ko": [
+                            "\ub514"
+                        ],
+                        "hr": [
+                            "de"
+                        ],
+                        "es": [
+                            "de",
+                            "dedal",
+                            "dado"
+                        ],
+                        "eo": [
+                            "do"
+                        ],
+                        "it": [
+                            "dado"
+                        ],
+                        "ja": [
+                            "\u30c7\u30a3\u30fc",
+                            "\u30c7\u30fc"
+                        ],
+                        "cs": [
+                            "d\u00e9\u010dko"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9": [
+                    "Singulier"
+                ],
+                "d\u00e9s": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "dealer": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "dealer",
+                            "drug dealer"
+                        ],
+                        "ca": [
+                            "adroguer",
+                            "camell",
+                            "narcotraficant"
+                        ],
+                        "es": [
+                            "camello",
+                            "narco",
+                            "narcotraficante"
+                        ],
+                        "it": [
+                            "commerciante",
+                            "spacciatore"
+                        ],
+                        "nl": [
+                            "dealer"
+                        ],
+                        "ro": [
+                            "dealer"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "dealer": [
+                    "Singulier"
+                ],
+                "dealers": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "dealeur": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Dealer",
+                            "Drogendealer"
+                        ],
+                        "en": [
+                            "drug dealer"
+                        ],
+                        "it": [
+                            "spacciatore"
+                        ],
+                        "pl": [
+                            "dealer"
+                        ],
+                        "ru": [
+                            "\u0434\u0438\u043b\u0435\u0440"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "dealeur": [
+                    "Singulier"
+                ],
+                "dealeurs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9ambulateur": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "walker",
+                            "walking frame",
+                            "Zimmer frame"
+                        ],
+                        "da": [
+                            "gangstativ"
+                        ],
+                        "es": [
+                            "andador",
+                            "andadera"
+                        ],
+                        "it": [
+                            "deambulatore"
+                        ],
+                        "nl": [
+                            "looprek"
+                        ],
+                        "pl": [
+                            "balkonik"
+                        ],
+                        "cs": [
+                            "chod\u00edtko"
+                        ],
+                        "wa": [
+                            "gadot"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9ambulateur": [
+                    "Singulier"
+                ],
+                "d\u00e9ambulateurs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9ambulatoire": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Chorumgang"
+                        ],
+                        "en": [
+                            "ambulatory"
+                        ],
+                        "es": [
+                            "girola",
+                            "deambulatorio"
+                        ],
+                        "hu": [
+                            "szent\u00e9lyk\u00f6r\u00fclj\u00e1r\u00f3"
+                        ],
+                        "it": [
+                            "deambulatorio",
+                            "ambulacro"
+                        ],
+                        "nl": [
+                            "kooromgang",
+                            "koorommegang",
+                            "deambulatorium"
+                        ],
+                        "no": [
+                            "omgang",
+                            "ambulatorium"
+                        ],
+                        "pt": [
+                            "deambulat\u00f3rio",
+                            "charola"
+                        ],
+                        "sv": [
+                            "ambulatorium",
+                            "koromg\u00e5ng"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9ambulatoire": [
+                    "Singulier"
+                ],
+                "d\u00e9ambulatoires": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9ambuler": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "schlendern",
+                            "herumlaufen"
+                        ],
+                        "en": [
+                            "stroll"
+                        ],
+                        "hr": [
+                            "bazati",
+                            "tumarati"
+                        ],
+                        "id": [
+                            "lantung"
+                        ],
+                        "it": [
+                            "passeggiare"
+                        ],
+                        "nl": [
+                            "slenteren",
+                            "dolen"
+                        ],
+                        "no": [
+                            "spasere"
+                        ],
+                        "pt": [
+                            "deambular"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9b\u00e2cle": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "changement brusque qui am\u00e8ne d\u00e9sordre et confusion",
+                    "translations": {
+                        "de": [
+                            "Debakel"
+                        ],
+                        "en": [
+                            "debacle"
+                        ],
+                        "hr": [
+                            "slom",
+                            "rasulo"
+                        ],
+                        "es": [
+                            "debacle"
+                        ],
+                        "el": [
+                            "\u03c0\u03b1\u03bd\u03c9\u03bb\u03b5\u03b8\u03c1\u03af\u03b1"
+                        ],
+                        "pt": [
+                            "debandada"
+                        ],
+                        "sv": [
+                            "debaclet"
+                        ],
+                        "cs": [
+                            "debakl"
+                        ],
+                        "vi": [
+                            "th\u1ea5t b\u1ea1i"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9b\u00e2cle": [
+                    "Singulier"
+                ],
+                "d\u00e9b\u00e2cles": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9baller": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "Extraire d\u2019une balle, d\u2019un paquet,...",
+                    "translations": {
+                        "de": [
+                            "auspacken"
+                        ],
+                        "en": [
+                            "unwrap",
+                            "unpack"
+                        ],
+                        "zh": [
+                            "\u958b\u7bb1\u53d6\u51fa",
+                            "\u5766\u8ff0"
+                        ],
+                        "hr": [
+                            "raspakirati"
+                        ],
+                        "eo": [
+                            "malpaki"
+                        ],
+                        "it": [
+                            "disimballare"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9bandade": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Action de se d\u00e9bander, de se disperser, d\u00e9b\u00e2cle",
+                    "translations": {
+                        "de": [
+                            "Stampede"
+                        ],
+                        "en": [
+                            "stampede",
+                            "rout"
+                        ],
+                        "nl": [
+                            "wilde vlucht",
+                            "verwarring",
+                            "wanorde"
+                        ],
+                        "pt": [
+                            "debandada"
+                        ],
+                        "cs": [
+                            "\u00faprk"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9bandade": [
+                    "Singulier"
+                ],
+                "d\u00e9bandades": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9bander": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "d\u00e9tendre une chose band\u00e9e",
+                    "translations": {
+                        "en": [
+                            "unfasten"
+                        ],
+                        "hr": [
+                            "odapeti"
+                        ],
+                        "nl": [
+                            "losmaken"
+                        ],
+                        "pt": [
+                            "debandar"
+                        ],
+                        "cs": [
+                            "uvolnit"
+                        ]
+                    }
+                },
+                {
+                    "definition": "\u00f4ter une bande, un bandeau",
+                    "translations": {
+                        "en": [
+                            "uncoil"
+                        ],
+                        "hr": [
+                            "odmotati povoj"
+                        ],
+                        "nl": [
+                            "losbinden"
+                        ],
+                        "pt": [
+                            "debandar"
+                        ],
+                        "cs": [
+                            "odvinout"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9barcad\u00e8re": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "aanlegplek",
+                            "aanl\u00eaplaas",
+                            "aanl\u00eaplek"
+                        ],
+                        "de": [
+                            "Landungsbr\u00fccke",
+                            "Bootssteg",
+                            "Anlegestelle",
+                            "Landeplatz"
+                        ],
+                        "en": [
+                            "stage",
+                            "pier"
+                        ],
+                        "hr": [
+                            "gat"
+                        ],
+                        "da": [
+                            "landingsplads"
+                        ],
+                        "es": [
+                            "amarradero",
+                            "desembarcadero"
+                        ],
+                        "eo": [
+                            "albordi\u011dejo"
+                        ],
+                        "fy": [
+                            "lisplak"
+                        ],
+                        "io": [
+                            "desembarkeyo"
+                        ],
+                        "is": [
+                            "landg\u00f6ngubryggja"
+                        ],
+                        "nl": [
+                            "aanlegplaats",
+                            "aanlegsteiger",
+                            "landingsplaats",
+                            "steiger"
+                        ],
+                        "oc": [
+                            "desbarcador",
+                            "desbarcada",
+                            "desembarcador"
+                        ],
+                        "pt": [
+                            "ancoradouro"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9barcad\u00e8re": [
+                    "Singulier"
+                ],
+                "d\u00e9barcad\u00e8res": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9barder": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "(Exploitation foresti\u00e8re) Transporter des bois",
+                    "translations": {
+                        "en": [
+                            "skid"
+                        ],
+                        "hr": [
+                            "prenjeti",
+                            "tegliti",
+                            "vu\u0107i"
+                        ],
+                        "es": [
+                            "transportar",
+                            "acarrear"
+                        ],
+                        "id": [
+                            "menyarad"
+                        ],
+                        "it": [
+                            "scaricare"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9bardeur": [
+        {
+            "type": "Nom commun 1",
+            "translations": [
+                {
+                    "definition": "Travailleur des quais.",
+                    "translations": {
+                        "de": [
+                            "Hafenarbeiter",
+                            "Schauermann"
+                        ],
+                        "en": [
+                            "docker"
+                        ],
+                        "hr": [
+                            "lu\u010dki radnik"
+                        ],
+                        "da": [
+                            "havnearbejder"
+                        ],
+                        "es": [
+                            "estibador"
+                        ],
+                        "nl": [
+                            "havenarbeider",
+                            "dokwerker"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9bardeur": [
+                    "Singulier"
+                ],
+                "d\u00e9bardeurs": [
+                    "Pluriel"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun 2",
+            "translations": [
+                {
+                    "definition": "V\u00eatement laissant les \u00e9paules \u00e0 d\u00e9couvert.",
+                    "translations": {
+                        "de": [
+                            "Unterhemd"
+                        ],
+                        "en": [
+                            "tank top",
+                            "wifebeater"
+                        ],
+                        "hr": [
+                            "majica"
+                        ],
+                        "da": [
+                            "top"
+                        ],
+                        "eo": [
+                            "sub\u0109emizo"
+                        ],
+                        "id": [
+                            "kaus oblong"
+                        ],
+                        "it": [
+                            "canottiera"
+                        ],
+                        "ja": [
+                            "\u30bf\u30f3\u30af\u30c8\u30c3\u30d7"
+                        ],
+                        "nl": [
+                            "onderhemd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9bardeur": [
+                    "Singulier"
+                ],
+                "d\u00e9bardeurs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9barquement": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "disembarkation",
+                            "unloading"
+                        ],
+                        "br": [
+                            "dilestradeg"
+                        ],
+                        "hr": [
+                            "iskrcavanje"
+                        ],
+                        "da": [
+                            "lands\u00e6tning"
+                        ],
+                        "fi": [
+                            "maihinnousu"
+                        ],
+                        "io": [
+                            "desembarko"
+                        ],
+                        "it": [
+                            "sbarco"
+                        ],
+                        "nl": [
+                            "ontschepen",
+                            "uitstappen",
+                            "landing"
+                        ],
+                        "oc": [
+                            "desbarcament",
+                            "desembarcament",
+                            "desbarcada"
+                        ],
+                        "cs": [
+                            "vylod\u011bn\u00ed",
+                            "vylo\u010fov\u00e1n\u00ed"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9barquement": [
+                    "Singulier"
+                ],
+                "d\u00e9barquements": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9barquer": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Faire sortir d\u2019un navire, d\u2019un bateau, ce qu\u2019il contient.",
+                    "translations": {
+                        "br": [
+                            "dilestra\u00f1",
+                            "dilestri\u00f1"
+                        ],
+                        "hr": [
+                            "iskrcati"
+                        ],
+                        "nl": [
+                            "ontschepen",
+                            "lossen",
+                            "aan land zetten"
+                        ],
+                        "oc": [
+                            "desbarcar"
+                        ],
+                        "ru": [
+                            "\u0432\u044b\u0441\u0430\u0436\u0438\u0432\u0430\u0442\u044c"
+                        ],
+                        "cs": [
+                            "vylodit"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Quitter le navire, le bateau, et descendre \u00e0 terre",
+                    "translations": {
+                        "de": [
+                            "an Land gehen",
+                            "landen"
+                        ],
+                        "en": [
+                            "disembark",
+                            "land"
+                        ],
+                        "br": [
+                            "dilestra\u00f1",
+                            "dilestri\u00f1"
+                        ],
+                        "hr": [
+                            "iskrcati se"
+                        ],
+                        "eo": [
+                            "el\u015dipi\u011di"
+                        ],
+                        "fi": [
+                            "nousta"
+                        ],
+                        "gl": [
+                            "desembarcar"
+                        ],
+                        "el": [
+                            "\u03b1\u03c0\u03bf\u03b2\u03b9\u03b2\u03ac\u03b6\u03bf\u03bc\u03b1\u03b9",
+                            "\u03b1\u03c0\u03bf\u03b2\u03b9\u03b2\u03ac\u03b6\u03c9"
+                        ],
+                        "nl": [
+                            "van boord gaan",
+                            "ontschepen",
+                            "aan land gaan"
+                        ],
+                        "oc": [
+                            "desembarcar"
+                        ],
+                        "pt": [
+                            "desembarcar"
+                        ],
+                        "sw": [
+                            "kushuka"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9barras": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Endroit\u00a0(2)",
+                    "translations": {
+                        "de": [
+                            "Abseite"
+                        ],
+                        "en": [
+                            "closet",
+                            "storeroom"
+                        ],
+                        "bg": [
+                            "\u043a\u0438\u043b\u0435\u0440"
+                        ],
+                        "hr": [
+                            "spremi\u0161te"
+                        ],
+                        "da": [
+                            "pulterrum",
+                            "pulterkammer"
+                        ],
+                        "io": [
+                            "desembaraso"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9barrasser": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "D\u00e9gager",
+                    "translations": {
+                        "de": [
+                            "abr\u00e4umen",
+                            "aufr\u00e4umen"
+                        ],
+                        "en": [
+                            "to clear"
+                        ],
+                        "hr": [
+                            "rije\u0161iti",
+                            "o\u010distiti"
+                        ],
+                        "da": [
+                            "rydde",
+                            "udrydde"
+                        ],
+                        "es": [
+                            "despejar"
+                        ],
+                        "io": [
+                            "desembarasar"
+                        ],
+                        "it": [
+                            "sbarrazzare"
+                        ],
+                        "nl": [
+                            "debarrasseren"
+                        ],
+                        "cs": [
+                            "vyklidit"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Enlever",
+                    "translations": {
+                        "en": [
+                            "to clear"
+                        ],
+                        "hr": [
+                            "ukloniti"
+                        ],
+                        "da": [
+                            "rydde"
+                        ],
+                        "es": [
+                            "quitar"
+                        ],
+                        "it": [
+                            "sparecchiare"
+                        ],
+                        "nl": [
+                            "afruimen",
+                            "opruimen"
+                        ],
+                        "cs": [
+                            "zbavit"
+                        ]
+                    }
+                },
+                {
+                    "definition": "\u00c9loigner",
+                    "translations": {
+                        "en": [
+                            "to clear"
+                        ],
+                        "hr": [
+                            "rije\u0161iti"
+                        ],
+                        "da": [
+                            "rydde"
+                        ],
+                        "it": [
+                            "togliere"
+                        ],
+                        "cs": [
+                            "uvolnit"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9bat": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Debatte",
+                            "Er\u00f6rterung",
+                            "Wortstreit",
+                            "Aussprache"
+                        ],
+                        "en": [
+                            "debate"
+                        ],
+                        "ar": [
+                            "\u0645\u0646\u0627\u0642\u0634\u0629",
+                            "\u0645\u062c\u0627\u062f\u0644\u0629"
+                        ],
+                        "eu": [
+                            "eztabaida"
+                        ],
+                        "ca": [
+                            "debat"
+                        ],
+                        "hr": [
+                            "rasprava",
+                            "debata"
+                        ],
+                        "da": [
+                            "debat",
+                            "debatt"
+                        ],
+                        "es": [
+                            "debate"
+                        ],
+                        "eo": [
+                            "debato"
+                        ],
+                        "fi": [
+                            "v\u00e4ittely",
+                            "debatti"
+                        ],
+                        "io": [
+                            "debato"
+                        ],
+                        "it": [
+                            "dibattito"
+                        ],
+                        "nl": [
+                            "debat"
+                        ],
+                        "pt": [
+                            "debate",
+                            "discuss\u00e3o"
+                        ],
+                        "ro": [
+                            "dezbatere"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9bat": [
+                    "Singulier"
+                ],
+                "d\u00e9bats": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9battre": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "agiteer",
+                            "beroer"
+                        ],
+                        "sq": [
+                            "agjitoj"
+                        ],
+                        "de": [
+                            "debattieren",
+                            "diskutieren",
+                            "er\u00f6rtern",
+                            "verhandeln",
+                            "besprechen",
+                            "agitieren",
+                            "aufwiegeln",
+                            "aufw\u00fchlen"
+                        ],
+                        "en": [
+                            "debate",
+                            "discuss",
+                            "agitate",
+                            "stir up"
+                        ],
+                        "ar": [
+                            "\u0646\u0627\u0642\u0634",
+                            "\u062c\u0627\u062f\u0644"
+                        ],
+                        "eu": [
+                            "eztabaidatu"
+                        ],
+                        "ca": [
+                            "debatre"
+                        ],
+                        "hr": [
+                            "raspravljati",
+                            "debatirati"
+                        ],
+                        "es": [
+                            "debatir"
+                        ],
+                        "eo": [
+                            "diskuti",
+                            "agiti"
+                        ],
+                        "fo": [
+                            "\u00f8sa",
+                            "\u00f8rkymla"
+                        ],
+                        "fi": [
+                            "v\u00e4itell\u00e4",
+                            "kiistell\u00e4"
+                        ],
+                        "fy": [
+                            "diskusjearje"
+                        ],
+                        "el": [
+                            "\u03b4\u03b9\u03b1\u03c0\u03c1\u03b1\u03b3\u03bc\u03b1\u03c4\u03b5\u03cd\u03bf\u03bc\u03b1\u03b9"
+                        ],
+                        "hu": [
+                            "vitat",
+                            "megvitat",
+                            "vit\u00e1zik",
+                            "agit\u00e1l"
+                        ],
+                        "io": [
+                            "debatar",
+                            "baraktar"
+                        ],
+                        "it": [
+                            "discutere",
+                            "agitare",
+                            "rimescolare"
+                        ],
+                        "la": [
+                            "concitare"
+                        ],
+                        "nl": [
+                            "bespreken",
+                            "discuteren",
+                            "van gedachten wisselen",
+                            "agiteren",
+                            "ophitsen",
+                            "opruien",
+                            "opstoken",
+                            "opwinden",
+                            "schudden",
+                            "debatteren"
+                        ],
+                        "oc": [
+                            "debatre"
+                        ],
+                        "pl": [
+                            "dyskutowa\u0107"
+                        ],
+                        "pt": [
+                            "discutir",
+                            "agitar",
+                            "amotinar",
+                            "sacolejar",
+                            "sacudir"
+                        ],
+                        "ro": [
+                            "dezbate"
+                        ],
+                        "ru": [
+                            "\u0432\u043e\u0437\u0431\u0443\u0436\u0434\u0430\u0442\u044c",
+                            "\u0434\u0438\u0441\u043a\u0443\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c"
+                        ],
+                        "sv": [
+                            "diskutera",
+                            "orda om"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9bauche": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Verschwendung",
+                            "Ma\u00dflosigkeit",
+                            "Z\u00fcgellosigkeit",
+                            "Ausschweifung"
+                        ],
+                        "en": [
+                            "debauchery"
+                        ],
+                        "hr": [
+                            "lakomljenje",
+                            "bludnost",
+                            "neumjerenost",
+                            "raspu\u0161tanje"
+                        ],
+                        "da": [
+                            "utugt"
+                        ],
+                        "es": [
+                            "desenfreno",
+                            "exceso"
+                        ],
+                        "eo": [
+                            "mal\u0109asteco",
+                            "dibo\u0109o",
+                            "troabundeco"
+                        ],
+                        "nl": [
+                            "schranspartij",
+                            "ontucht",
+                            "uitspatting",
+                            "overdaad"
+                        ],
+                        "pt": [
+                            "desregramento",
+                            "excesso",
+                            "desregramento",
+                            "excesso"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9bauche": [
+                    "Singulier"
+                ],
+                "d\u00e9bauches": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9baucher": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "debauch"
+                        ],
+                        "hr": [
+                            "razvratiti",
+                            "raspustiti"
+                        ],
+                        "es": [
+                            "corromper",
+                            "pervertir",
+                            "despedir"
+                        ],
+                        "io": [
+                            "debochigar"
+                        ],
+                        "cs": [
+                            "debu\u017e\u00edrovat"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9bile": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "dom"
+                        ],
+                        "sq": [
+                            "budalla"
+                        ],
+                        "de": [
+                            "dumm",
+                            "d\u00e4mlich"
+                        ],
+                        "en": [
+                            "dumb"
+                        ],
+                        "br": [
+                            "toc\u02bchor"
+                        ],
+                        "hr": [
+                            "nemo\u0107an",
+                            "slabouman"
+                        ],
+                        "fi": [
+                            "heikko"
+                        ],
+                        "gl": [
+                            "subnormal"
+                        ],
+                        "io": [
+                            "debila"
+                        ],
+                        "ia": [
+                            "debile"
+                        ],
+                        "pl": [
+                            "debilny"
+                        ],
+                        "ru": [
+                            "\u0434\u0435\u0431\u0438\u043b"
+                        ],
+                        "vi": [
+                            "y\u1ebfu",
+                            "suy y\u1ebfu"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9bile": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "d\u00e9biles": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "d\u00e9bit": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Debet",
+                            "Soll",
+                            "R\u00fcckstand",
+                            "Schuld",
+                            "Lastschrift"
+                        ],
+                        "en": [
+                            "turnover",
+                            "sales",
+                            "license",
+                            "ou licence",
+                            "capacity",
+                            "ledger",
+                            "bandwidth",
+                            "rate",
+                            "flow",
+                            "debit"
+                        ],
+                        "ca": [
+                            "d\u00e8bit",
+                            "venda"
+                        ],
+                        "hr": [
+                            "pro\u0111a",
+                            "protok",
+                            "\u0161ank",
+                            "kapacitet",
+                            "rezanje",
+                            "dikcija",
+                            "dugovanje",
+                            "tok"
+                        ],
+                        "es": [
+                            "debe"
+                        ],
+                        "eo": [
+                            "debeto"
+                        ],
+                        "io": [
+                            "debeto"
+                        ],
+                        "nl": [
+                            "debet",
+                            "debetzijde"
+                        ],
+                        "pt": [
+                            "d\u00e9bito",
+                            "deve"
+                        ],
+                        "vi": [
+                            "s\u1ef1 b\u00e1n ra"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9bit": [
+                    "Singulier"
+                ],
+                "d\u00e9bits": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9biter": [
+        {
+            "type": "Verbe 1",
+            "translations": [
+                {
+                    "definition": "D\u00e9couper, diviser",
+                    "translations": {
+                        "de": [
+                            "dividieren",
+                            "teilen",
+                            "aufteilen",
+                            "einteilen",
+                            "verteilen",
+                            "zerteilen",
+                            "gliedern",
+                            "zerlegen",
+                            "absetzen",
+                            "umsetzen",
+                            "belasten",
+                            "debitieren"
+                        ],
+                        "en": [
+                            "divide",
+                            "separate",
+                            "share"
+                        ],
+                        "ang": [
+                            "d\u00e6lan",
+                            "ged\u00e6lan"
+                        ],
+                        "ca": [
+                            "dividir",
+                            "partir"
+                        ],
+                        "hr": [
+                            "rezati"
+                        ],
+                        "da": [
+                            "dele"
+                        ],
+                        "es": [
+                            "dividir",
+                            "partir"
+                        ],
+                        "eo": [
+                            "dividi",
+                            "debiti",
+                            "debeti"
+                        ],
+                        "fo": [
+                            "deila",
+                            "b\u00fdta sundur"
+                        ],
+                        "fi": [
+                            "jakaa"
+                        ],
+                        "fy": [
+                            "diele",
+                            "ferdiele",
+                            "ferpartsje",
+                            "partsje"
+                        ],
+                        "gd": [
+                            "cuid",
+                            "roinn"
+                        ],
+                        "hu": [
+                            "oszt"
+                        ],
+                        "io": [
+                            "debetigar"
+                        ],
+                        "it": [
+                            "dividere"
+                        ],
+                        "ms": [
+                            "membagi"
+                        ],
+                        "nl": [
+                            "afbreken",
+                            "delen",
+                            "splitsen",
+                            "opsplitsen",
+                            "verdelen",
+                            "omzetten",
+                            "verkopen",
+                            "debiteren"
+                        ],
+                        "pl": [
+                            "dzieli\u0107"
+                        ],
+                        "pt": [
+                            "desmembrar",
+                            "dividir",
+                            "repartir",
+                            "debitar"
+                        ],
+                        "ro": [
+                            "diviza",
+                            "desp\u0103r\u021bi",
+                            "\u00eemp\u0103r\u021bi"
+                        ],
+                        "sv": [
+                            "dela"
+                        ],
+                        "tl": [
+                            "hat\u00edin"
+                        ],
+                        "tr": [
+                            "b\u00f6lmek"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9biteur": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Debitor"
+                        ],
+                        "en": [
+                            "debtor",
+                            "obligor"
+                        ],
+                        "hr": [
+                            "du\u017enik",
+                            "raznositelj",
+                            "rezalo"
+                        ],
+                        "da": [
+                            "debitor"
+                        ],
+                        "es": [
+                            "deudor"
+                        ],
+                        "eo": [
+                            "debitoro",
+                            "\u015duldanto"
+                        ],
+                        "io": [
+                            "debanto"
+                        ],
+                        "id": [
+                            "peminjam"
+                        ],
+                        "it": [
+                            "debitore"
+                        ],
+                        "oc": [
+                            "debitor"
+                        ],
+                        "pl": [
+                            "d\u0142u\u017cnik"
+                        ],
+                        "pt": [
+                            "devedor"
+                        ],
+                        "ro": [
+                            "debitor"
+                        ],
+                        "cs": [
+                            "dlu\u017en\u00edk"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9biteur": [
+                    "Singulier"
+                ],
+                "d\u00e9biteurs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9bogueur": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Debugger"
+                        ],
+                        "en": [
+                            "debugger"
+                        ],
+                        "zh": [
+                            "\u8c03\u8bd5\u5668",
+                            "\u9664\u9519\u5668",
+                            "\u8c03\u8bd5\u5de5\u5177"
+                        ],
+                        "ko": [
+                            "\ub514\ubc84\uac70"
+                        ],
+                        "es": [
+                            "depurador"
+                        ],
+                        "ja": [
+                            "\u30c7\u30d0\u30c3\u30ac"
+                        ],
+                        "vi": [
+                            "tr\u00ecnh g\u1ee1 l\u1ed7i",
+                            "c\u00f4ng c\u1ee5 g\u1ee1 l\u1ed7i"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9bogueur": [
+                    "Singulier"
+                ],
+                "d\u00e9bogueurs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9boire": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "D\u00e9go\u00fbt, sujet de regret, de m\u00e9contentement et de d\u00e9sillusions qu\u2019on \u00e9prouve. (2)",
+                    "translations": {
+                        "ca": [
+                            "regust",
+                            "desengany"
+                        ],
+                        "hr": [
+                            "neugodnost",
+                            "neprilika",
+                            "nezgoda"
+                        ],
+                        "es": [
+                            "sinsabor",
+                            "disgusto"
+                        ],
+                        "nl": [
+                            "teleurstelling",
+                            "mislukking",
+                            "tegenslag"
+                        ],
+                        "pt": [
+                            "desgosto"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9boire": [
+                    "Singulier"
+                ],
+                "d\u00e9boires": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9boiser": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "abholzen",
+                            "entwalden"
+                        ],
+                        "en": [
+                            "deforest"
+                        ],
+                        "br": [
+                            "digoada\u00f1"
+                        ],
+                        "hr": [
+                            "posje\u0107i"
+                        ],
+                        "es": [
+                            "deforestar"
+                        ],
+                        "gl": [
+                            "deforestar"
+                        ],
+                        "it": [
+                            "diboscare"
+                        ],
+                        "pl": [
+                            "wylesi\u0107",
+                            "wylesia\u0107"
+                        ],
+                        "ro": [
+                            "a defrisa",
+                            "a despaduri"
+                        ],
+                        "sv": [
+                            "kalhugga"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9bonnaire": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "gutm\u00fctig",
+                            "tolerant",
+                            "zu vert\u00e4ndnisvoll",
+                            "zu nachsichtig"
+                        ],
+                        "en": [
+                            "kind",
+                            "benevolent",
+                            "debonair",
+                            "willed"
+                        ],
+                        "zh": [
+                            "\u6eab\u9806"
+                        ],
+                        "hr": [
+                            "dobro\u0107udan",
+                            "dobrodu\u0161an"
+                        ],
+                        "io": [
+                            "benigna"
+                        ],
+                        "it": [
+                            "bonario"
+                        ],
+                        "nl": [
+                            "vriendelijk",
+                            "welwillend",
+                            "verdraagzaam",
+                            "inschikkelijk",
+                            "onderdanig"
+                        ],
+                        "ru": [
+                            "\u0434\u043e\u0431\u0440\u043e\u0434\u0443\u0448\u043d\u044b\u0439"
+                        ],
+                        "sv": [
+                            "godhj\u00e4rtad",
+                            "godmodig",
+                            "svagsint"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9bonnaire": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "d\u00e9bonnaires": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "d\u00e9border": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "(intransitif) D\u00e9passer le bord\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "\u00fcberlaufen"
+                        ],
+                        "en": [
+                            "overflow"
+                        ],
+                        "hr": [
+                            "iza\u0107i iz korita",
+                            "prepuniti",
+                            "preljevati se",
+                            "ispup\u010diti"
+                        ],
+                        "eo": [
+                            "elrandi\u011di"
+                        ],
+                        "id": [
+                            "meluap",
+                            "melembak",
+                            "membeludak",
+                            "meruap"
+                        ],
+                        "kk": [
+                            "\u0442\u0430\u0441\u0443"
+                        ],
+                        "sv": [
+                            "sv\u00e4mma \u00f6ver"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9bouchage": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "opening"
+                        ],
+                        "hr": [
+                            "ot\u010depljivanje"
+                        ],
+                        "eo": [
+                            "mal\u015dtopado",
+                            "malkorkado"
+                        ],
+                        "it": [
+                            "stappatura"
+                        ],
+                        "sv": [
+                            "uppkorkande"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9bouchage": [
+                    "Singulier"
+                ],
+                "d\u00e9bouchages": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9boucher": [
+        {
+            "type": "Verbe 1",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "entkorken"
+                        ],
+                        "en": [
+                            "uncork",
+                            "unblock",
+                            "clear",
+                            "set abroach"
+                        ],
+                        "br": [
+                            "divonta\u00f1",
+                            "divonti\u00f1"
+                        ],
+                        "hr": [
+                            "otvoriti",
+                            "ot\u010depiti"
+                        ],
+                        "es": [
+                            "destapar",
+                            "descorchar",
+                            "desembocar"
+                        ],
+                        "eo": [
+                            "mal\u015dtopi",
+                            "malkorki"
+                        ],
+                        "io": [
+                            "desstopar"
+                        ],
+                        "it": [
+                            "stappare"
+                        ],
+                        "nl": [
+                            "openmaken",
+                            "opentrekken",
+                            "ontkurken"
+                        ],
+                        "no": [
+                            "trekke opp"
+                        ],
+                        "pt": [
+                            "destapar",
+                            "destampar",
+                            "desentupir",
+                            "desembocar",
+                            "desarrolhar"
+                        ],
+                        "ro": [
+                            "destupa"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Verbe 2",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "herauskommen",
+                            "hervorkommen",
+                            "m\u00fcnden"
+                        ],
+                        "en": [
+                            "lead to"
+                        ],
+                        "hr": [
+                            "izlaziti",
+                            "pojaviti se",
+                            "izbijati",
+                            "prodirati"
+                        ],
+                        "es": [
+                            "desembocar"
+                        ],
+                        "nl": [
+                            "uitmonden",
+                            "uitkomen",
+                            "uitlopen"
+                        ],
+                        "pt": [
+                            "surgir"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9bouchoir": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "instrument \u00e0 ventouse\u00a0(1)",
+                    "translations": {
+                        "en": [
+                            "plunger"
+                        ],
+                        "hr": [
+                            "ru\u010dna pumpa",
+                            "sisaljka"
+                        ],
+                        "es": [
+                            "desatascador"
+                        ],
+                        "pt": [
+                            "desentupidor"
+                        ],
+                        "ru": [
+                            "\u0432\u0430\u043d\u0442\u0443\u0437"
+                        ],
+                        "cs": [
+                            "zvon"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9bouchoir": [
+                    "Singulier"
+                ],
+                "d\u00e9bouchoirs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9boulonner": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "von seinem Sockel holen"
+                        ],
+                        "en": [
+                            "topple"
+                        ],
+                        "hr": [
+                            "rastaviti",
+                            "demontirati",
+                            "sru\u0161iti"
+                        ],
+                        "io": [
+                            "desboltagar"
+                        ],
+                        "it": [
+                            "sbullonare"
+                        ],
+                        "nl": [
+                            "van zijn sokkel"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9bourser": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "Tirer de l\u2019argent de sa bourse",
+                    "translations": {
+                        "de": [
+                            "abbezahlen",
+                            "aufbringen",
+                            "aufkommen",
+                            "ausgeben"
+                        ],
+                        "en": [
+                            "disburse"
+                        ],
+                        "br": [
+                            "diyalc\u02bcha\u00f1",
+                            "diyalc\u02bchi\u00f1"
+                        ],
+                        "hr": [
+                            "isplatiti"
+                        ],
+                        "es": [
+                            "desembolsar"
+                        ],
+                        "it": [
+                            "sborsare"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "debout": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Qui n'est pas couch\u00e9.\u00a0(4)",
+                    "translations": {
+                        "de": [
+                            "stehend",
+                            "aufrecht"
+                        ],
+                        "es": [
+                            "de pie",
+                            "derecho"
+                        ],
+                        "eo": [
+                            "staranta",
+                            "stara"
+                        ],
+                        "fi": [
+                            "seisaalla"
+                        ],
+                        "el": [
+                            "\u03cc\u03c1\u03b8\u03b9\u03bf\u03c2"
+                        ],
+                        "nl": [
+                            "staand"
+                        ],
+                        "pl": [
+                            "stoj\u0105cy"
+                        ],
+                        "ru": [
+                            "\u0441\u0442\u043e\u044f\u0447\u0438\u0439",
+                            "\u0432\u0435\u0440\u0442\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0439"
+                        ],
+                        "cs": [
+                            "stoj\u00edc\u00ed"
+                        ],
+                        "wa": [
+                            "stamp\u00e9",
+                            "dress\u00ee"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Adverbe",
+            "translations": [
+                {
+                    "definition": "Verticalement",
+                    "translations": {
+                        "de": [
+                            "senkrecht",
+                            "hochkant"
+                        ],
+                        "en": [
+                            "standing",
+                            "vertically"
+                        ],
+                        "co": [
+                            "drittu"
+                        ],
+                        "hr": [
+                            "uspravno"
+                        ],
+                        "da": [
+                            "h\u00f8jkant"
+                        ],
+                        "es": [
+                            "verticalmente"
+                        ],
+                        "ru": [
+                            "\u0432\u0435\u0440\u0442\u0438\u043a\u0430\u043b\u044c\u043d\u043e"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Figur\u00e9\u00a0: non tomb\u00e9 \u00e0 terre",
+                    "translations": {
+                        "de": [
+                            "aufrecht",
+                            "gerade"
+                        ],
+                        "en": [
+                            "upright",
+                            "standing"
+                        ],
+                        "br": [
+                            "sav"
+                        ],
+                        "hr": [
+                            "stoji"
+                        ],
+                        "da": [
+                            "oprejst",
+                            "st\u00e5ende"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Sur ses pieds",
+                    "translations": {
+                        "de": [
+                            "stehend"
+                        ],
+                        "en": [
+                            "upright"
+                        ],
+                        "ca": [
+                            "dempeus"
+                        ],
+                        "hr": [
+                            "na nogama"
+                        ],
+                        "da": [
+                            "st\u00e5ende"
+                        ],
+                        "es": [
+                            "parado",
+                            "de pie"
+                        ],
+                        "ru": [
+                            "\u043d\u0430 \u043d\u043e\u0433\u0430\u0445"
+                        ]
+                    }
+                },
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "regop"
+                        ],
+                        "sq": [
+                            "arithi"
+                        ],
+                        "en": [
+                            "directly",
+                            "straight",
+                            "straight ahead",
+                            "square"
+                        ],
+                        "ar": [
+                            "\u0648\u0627\u0642\u0641",
+                            "\u0648\u0627\u0642\u0641\u0629",
+                            "\u0648\u0627\u0642\u0641\u0627\u0646",
+                            "\u0648\u0627\u0642\u0641\u062a\u0627\u0646",
+                            "\u0648\u0627\u0642\u0641\u0648\u0646"
+                        ],
+                        "ca": [
+                            "dempeus"
+                        ],
+                        "co": [
+                            "arrittu",
+                            "rittu"
+                        ],
+                        "es": [
+                            "de pie"
+                        ],
+                        "eo": [
+                            "vertikale",
+                            "rekte"
+                        ],
+                        "io": [
+                            "stacar"
+                        ],
+                        "nl": [
+                            "overeind",
+                            "direct",
+                            "overeind",
+                            "rechtop"
+                        ],
+                        "oc": [
+                            "de p\u00e8s",
+                            "de p\u00e8",
+                            "dep\u00e8s"
+                        ],
+                        "pl": [
+                            "wprost",
+                            "prosto"
+                        ],
+                        "pt": [
+                            "verticalmente",
+                            "em p\u00e9"
+                        ],
+                        "ru": [
+                            "\u0432\u0435\u0440\u0442\u0438\u043a\u0430\u043b\u044c\u043d\u043e"
+                        ],
+                        "cs": [
+                            "vertik\u00e1ln\u011b",
+                            "p\u0159\u00ed\u010dn\u011b"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9boutonner": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "unbutton"
+                        ],
+                        "br": [
+                            "dibrenna\u00f1",
+                            "dibrenni\u00f1"
+                        ],
+                        "hr": [
+                            "raskop\u010dati",
+                            "raskop\u010dati se",
+                            "otkop\u010dati",
+                            "osloboditi se"
+                        ],
+                        "io": [
+                            "desbutonagar"
+                        ],
+                        "it": [
+                            "sbottonare"
+                        ],
+                        "oc": [
+                            "desbotonar"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9brancher": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "ausstecken",
+                            "ausziehen",
+                            "abklemmen",
+                            "abziehen"
+                        ],
+                        "en": [
+                            "unplug"
+                        ],
+                        "br": [
+                            "diluga\u00f1"
+                        ],
+                        "hr": [
+                            "isklju\u010diti"
+                        ],
+                        "eo": [
+                            "malkonekti"
+                        ],
+                        "nl": [
+                            "uitschakelen"
+                        ],
+                        "pt": [
+                            "desligar"
+                        ],
+                        "sr": [
+                            "isklju\u010diti"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9brayer": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "Supprimer l'action du moteur",
+                    "translations": {
+                        "de": [
+                            "auskuppeln"
+                        ],
+                        "en": [
+                            "to declutch"
+                        ],
+                        "ca": [
+                            "desembragar"
+                        ],
+                        "hr": [
+                            "staviti u ler"
+                        ],
+                        "da": [
+                            "koble ud"
+                        ],
+                        "pt": [
+                            "desligar"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9briefing": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Action de d\u00e9briefer\u00a0(1)",
+                    "translations": {
+                        "en": [
+                            "debriefing"
+                        ],
+                        "mt": [
+                            "debriefing"
+                        ],
+                        "nl": [
+                            "debriefing"
+                        ],
+                        "uz": [
+                            "debriefing"
+                        ],
+                        "pt": [
+                            "debriefing"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9briefing": [
+                    "Singulier"
+                ],
+                "d\u00e9briefings": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9bris": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "afval"
+                        ],
+                        "de": [
+                            "M\u00fcll",
+                            "Schutt"
+                        ],
+                        "en": [
+                            "debris"
+                        ],
+                        "ca": [
+                            "brossa",
+                            "enderroc",
+                            "terregall"
+                        ],
+                        "hr": [
+                            "ostatak",
+                            "odlomci"
+                        ],
+                        "da": [
+                            "skrald"
+                        ],
+                        "es": [
+                            "desecho",
+                            "detrito",
+                            "escombros",
+                            "desperdicios",
+                            "basura"
+                        ],
+                        "eo": [
+                            "rubo"
+                        ],
+                        "fo": [
+                            "rusk"
+                        ],
+                        "hu": [
+                            "omlad\u00e9kos"
+                        ],
+                        "io": [
+                            "fragmento"
+                        ],
+                        "nl": [
+                            "afval",
+                            "vuil",
+                            "prullaria",
+                            "puin",
+                            "rommel",
+                            "rommelzooi"
+                        ],
+                        "no": [
+                            "avfall"
+                        ],
+                        "pt": [
+                            "escombros",
+                            "destro\u00e7os",
+                            "ru\u00ednas"
+                        ],
+                        "ro": [
+                            "r\u0103m\u0103\u0219i\u021be",
+                            "resturi"
+                        ],
+                        "ru": [
+                            "\u0440\u0443\u0438\u043d\u044b",
+                            "\u043e\u0431\u043b\u043e\u043c\u043a\u0438"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9brouillard": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "findig"
+                        ],
+                        "en": [
+                            "resourceful"
+                        ],
+                        "ca": [
+                            "espavilat"
+                        ],
+                        "zh": [
+                            "\u6a5f\u9748"
+                        ],
+                        "es": [
+                            "espabilado"
+                        ],
+                        "nl": [
+                            "vindingrijk",
+                            "zelfredzaam"
+                        ],
+                        "oc": [
+                            "abelit",
+                            "desgordit"
+                        ],
+                        "pl": [
+                            "spryciarz"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9brouillard": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "d\u00e9brouillards": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "d\u00e9brouillarde": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "d\u00e9brouillardes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "d\u00e9brouiller": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "aufkl\u00e4ren",
+                            "entwirren",
+                            "sortieren",
+                            "aufr\u00e4umen",
+                            "sich organisieren",
+                            "zurechtkommen"
+                        ],
+                        "en": [
+                            "put in order",
+                            "sort out",
+                            "untangle",
+                            "unravel",
+                            "clear up",
+                            "make out",
+                            "unscramble",
+                            "figure out"
+                        ],
+                        "hr": [
+                            "razjasniti",
+                            "razmrsiti",
+                            "odgonetnuti",
+                            "sna\u0107i se",
+                            "snalaziti se"
+                        ],
+                        "es": [
+                            "ordenar",
+                            "desenmara\u00f1ar"
+                        ],
+                        "el": [
+                            "\u03be\u03b5\u03bc\u03c0\u03b5\u03c1\u03b4\u03b5\u03cd\u03c9"
+                        ],
+                        "io": [
+                            "deskonfuzigar",
+                            "desintrikar"
+                        ],
+                        "it": [
+                            "districare"
+                        ],
+                        "nl": [
+                            "ontwarren"
+                        ],
+                        "pt": [
+                            "ordenar",
+                            "destrinchar",
+                            "desemaranhar"
+                        ],
+                        "ro": [
+                            "descurca"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9broussailler": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "br": [
+                            "dic\u02bcharzha\u00f1",
+                            "dic\u02bcharzhi\u00f1",
+                            "distrouezha\u00f1",
+                            "distrouezhi\u00f1"
+                        ],
+                        "ca": [
+                            "arrabassar"
+                        ],
+                        "co": [
+                            "dirasc\u00e0"
+                        ],
+                        "hr": [
+                            "iskr\u010diti \u0161ikaru",
+                            "rasvijetliti"
+                        ],
+                        "es": [
+                            "desbrozar"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9broussailleuse": [
+        {
+            "type": "Nom commun 1",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "brushcutter",
+                            "strimmer",
+                            "string trimmer",
+                            "wheed eater",
+                            "weed whacker",
+                            "whipper snipper"
+                        ],
+                        "ca": [
+                            "desbrossadora"
+                        ],
+                        "es": [
+                            "desbrozadora"
+                        ],
+                        "fi": [
+                            "trimmeri"
+                        ],
+                        "gl": [
+                            "desbrozadora"
+                        ],
+                        "it": [
+                            "decespugliatore"
+                        ],
+                        "no": [
+                            "ryddesag",
+                            "gresstrimmer",
+                            "ryddesag"
+                        ],
+                        "pl": [
+                            "podkaszarka"
+                        ],
+                        "ru": [
+                            "\u0442\u0440\u0438\u043c\u043c\u0435\u0440"
+                        ],
+                        "sv": [
+                            "r\u00f6js\u00e5g",
+                            "gr\u00e4strimmer"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9broussailleuse": [
+                    "Singulier"
+                ],
+                "d\u00e9broussailleuses": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9busqueur": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "skidder"
+                        ],
+                        "fi": [
+                            "juontokoura"
+                        ],
+                        "no": [
+                            "stammelunner",
+                            "stammelunnar"
+                        ],
+                        "pl": [
+                            "skider"
+                        ],
+                        "ru": [
+                            "\u0442\u0440\u0435\u043b\u0451\u0432\u043e\u0447\u043d\u044b\u0439 \u0442\u0440\u0430\u043a\u0442\u043e\u0440"
+                        ],
+                        "sl": [
+                            "vla\u010dilec hlodov"
+                        ],
+                        "sv": [
+                            "lunnare"
+                        ],
+                        "uk": [
+                            "\u0441\u043a\u0456\u0434\u0434\u0435\u0440"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9busqueur": [
+                    "Singulier"
+                ],
+                "d\u00e9busqueurs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9but": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Commencement",
+                    "translations": {
+                        "sq": [
+                            "fillim",
+                            "nisje"
+                        ],
+                        "de": [
+                            "Beginn",
+                            "Anfang",
+                            "Start"
+                        ],
+                        "en": [
+                            "beginning",
+                            "commencement",
+                            "start"
+                        ],
+                        "ar": [
+                            "\u062f\u0627\u064a\u0629"
+                        ],
+                        "az": [
+                            "ba\u015flan\u011f\u0131c",
+                            "\u0259vv\u0259l"
+                        ],
+                        "ca": [
+                            "comen\u00e7ament",
+                            "inici",
+                            "principi"
+                        ],
+                        "ko": [
+                            "\uc2dc\uc791"
+                        ],
+                        "hr": [
+                            "po\u010detak"
+                        ],
+                        "da": [
+                            "begyndelse"
+                        ],
+                        "es": [
+                            "comienzo",
+                            "inicio",
+                            "principio"
+                        ],
+                        "el": [
+                            "\u03b1\u03c1\u03c7\u03ae",
+                            "\u03be\u03b5\u03ba\u03af\u03bd\u03b7\u03bc\u03b1"
+                        ],
+                        "ha": [
+                            "farko"
+                        ],
+                        "it": [
+                            "inizio"
+                        ],
+                        "ja": [
+                            "\u59cb\u307e\u308a",
+                            "\u958b\u59cb"
+                        ],
+                        "mt": [
+                            "bidu"
+                        ],
+                        "nl": [
+                            "begin",
+                            "aanvang"
+                        ],
+                        "no": [
+                            "begynnelse"
+                        ],
+                        "pt": [
+                            "in\u00edcio"
+                        ],
+                        "ro": [
+                            "\u00eenceput"
+                        ],
+                        "sv": [
+                            "begynnelse",
+                            "b\u00f6rjan"
+                        ]
+                    }
+                },
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "aanvang",
+                            "begin"
+                        ],
+                        "de": [
+                            "Anfang",
+                            "Beginn"
+                        ],
+                        "hr": [
+                            "prvi nastup",
+                            "prvo djelo",
+                            "prvi korak"
+                        ],
+                        "eo": [
+                            "komenci\u011do"
+                        ],
+                        "fy": [
+                            "begjin",
+                            "oanfang"
+                        ],
+                        "io": [
+                            "debuto"
+                        ],
+                        "id": [
+                            "awal"
+                        ],
+                        "ku": [
+                            "destp\u00eak"
+                        ],
+                        "la": [
+                            "initium"
+                        ],
+                        "nl": [
+                            "aanvang",
+                            "begin",
+                            "ontstaan"
+                        ],
+                        "pt": [
+                            "princ\u00edpio"
+                        ],
+                        "ru": [
+                            "\u043d\u0430\u0447\u0430\u043b\u043e",
+                            "\u0434\u0435\u0431\u044e\u0442"
+                        ],
+                        "cs": [
+                            "za\u010d\u00e1tek"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9but": [
+                    "Singulier"
+                ],
+                "d\u00e9buts": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9butant": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "celui, celle qui d\u00e9bute",
+                    "translations": {
+                        "de": [
+                            "Anf\u00e4nger",
+                            "Neuling"
+                        ],
+                        "en": [
+                            "beginner",
+                            "debutant"
+                        ],
+                        "hr": [
+                            "po\u010detnik",
+                            "debitant"
+                        ],
+                        "es": [
+                            "debutante",
+                            "principiante"
+                        ],
+                        "eo": [
+                            "komencanto"
+                        ],
+                        "id": [
+                            "pemula"
+                        ],
+                        "la": [
+                            "inceptor"
+                        ],
+                        "nl": [
+                            "debutant",
+                            "beginneling"
+                        ],
+                        "pt": [
+                            "novato",
+                            "iniciante",
+                            "principiante"
+                        ],
+                        "ru": [
+                            "\u043d\u043e\u0432\u0438\u0447\u043e\u043a"
+                        ],
+                        "sv": [
+                            "nyb\u00f6rjare"
+                        ],
+                        "cs": [
+                            "za\u010d\u00e1te\u010dn\u00edk"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9butant": [
+                    "Singulier"
+                ],
+                "d\u00e9butants": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9buter": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "(intransitif) commencer",
+                    "translations": {
+                        "sq": [
+                            "filloj"
+                        ],
+                        "de": [
+                            "anfangen",
+                            "beginnen",
+                            "erstmals erscheinen"
+                        ],
+                        "az": [
+                            "ba\u015flanmaq"
+                        ],
+                        "hr": [
+                            "po\u010deti"
+                        ],
+                        "pl": [
+                            "zaczyna\u0107"
+                        ],
+                        "pt": [
+                            "debutar"
+                        ],
+                        "vi": [
+                            "b\u1eaft \u0111\u1ea7u"
+                        ]
+                    }
+                },
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "aanvang",
+                            "begin",
+                            "aanbreek"
+                        ],
+                        "sq": [
+                            "filloj"
+                        ],
+                        "de": [
+                            "anfangen",
+                            "beginnen",
+                            "starten"
+                        ],
+                        "en": [
+                            "begin",
+                            "commence",
+                            "start"
+                        ],
+                        "da": [
+                            "begynde"
+                        ],
+                        "es": [
+                            "comenzar",
+                            "empezar",
+                            "principiar"
+                        ],
+                        "eo": [
+                            "komenci\u011di"
+                        ],
+                        "fo": [
+                            "ver\u00f0a byrja\u00f0ur"
+                        ],
+                        "fy": [
+                            "begjinne",
+                            "oanbrekke",
+                            "oanfange",
+                            "oangean"
+                        ],
+                        "gd": [
+                            "t\u00f2isich"
+                        ],
+                        "io": [
+                            "debutar",
+                            "exordiar",
+                            "komencar"
+                        ],
+                        "it": [
+                            "cominciare"
+                        ],
+                        "nl": [
+                            "aanbreken",
+                            "aanvangen",
+                            "beginnen",
+                            "ingaan"
+                        ],
+                        "no": [
+                            "begynne"
+                        ],
+                        "pl": [
+                            "zaczyna\u0107"
+                        ],
+                        "pt": [
+                            "come\u00e7ar"
+                        ],
+                        "sv": [
+                            "begynna",
+                            "b\u00f6rja"
+                        ],
+                        "tr": [
+                            "ba\u015flamak"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9cacandela": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Dekacandela"
+                        ],
+                        "en": [
+                            "decacandela"
+                        ],
+                        "es": [
+                            "decacandela"
+                        ],
+                        "gl": [
+                            "decacandela"
+                        ],
+                        "it": [
+                            "decacandela"
+                        ],
+                        "ja": [
+                            "\u30c7\u30ab\u30ab\u30f3\u30c7\u30e9"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9cacandela": [
+                    "Singulier"
+                ],
+                "d\u00e9cacandelas": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9cade": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "ca": [
+                            "d\u00e9cada"
+                        ],
+                        "zh": [
+                            "\u65ec"
+                        ],
+                        "ko": [
+                            "\uc21c"
+                        ],
+                        "es": [
+                            "d\u00e9cada"
+                        ],
+                        "ja": [
+                            "\u65ec",
+                            "\u65ec\u9593"
+                        ],
+                        "kk": [
+                            "\u043e\u043d\u043a\u04af\u043d\u0434\u0456\u043a"
+                        ],
+                        "oc": [
+                            "decada"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9cade": [
+                    "Singulier"
+                ],
+                "d\u00e9cades": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9cadence": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Dekadenz"
+                        ],
+                        "en": [
+                            "decadence"
+                        ],
+                        "hy": [
+                            "\u0561\u0576\u056f\u0578\u0582\u0574\u0561\u0575\u0576\u0578\u0582\u0569\u0575\u0578\u0582\u0576"
+                        ],
+                        "bg": [
+                            "\u0434\u0435\u043a\u0430\u0434\u0430\u043d\u0441"
+                        ],
+                        "ca": [
+                            "decad\u00e8ncia"
+                        ],
+                        "hr": [
+                            "dekadenca",
+                            "dekadansa",
+                            "opadanje",
+                            "nazadak",
+                            "dekadencija"
+                        ],
+                        "id": [
+                            "dekadensi"
+                        ],
+                        "ja": [
+                            "\u9000\u5ec3",
+                            "\u30c7\u30ab\u30c0\u30f3\u30b9"
+                        ],
+                        "oc": [
+                            "decad\u00e9ncia"
+                        ],
+                        "pl": [
+                            "dekadencja"
+                        ],
+                        "pt": [
+                            "decad\u00eancia"
+                        ],
+                        "ru": [
+                            "\u0434\u0435\u043a\u0430\u0434\u0430\u043d\u0441"
+                        ],
+                        "sv": [
+                            "f\u00f6rfall"
+                        ],
+                        "cs": [
+                            "dekadence"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9cadence": [
+                    "Singulier"
+                ],
+                "d\u00e9cadences": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9cadent": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "dekadent"
+                        ],
+                        "en": [
+                            "decadent"
+                        ],
+                        "id": [
+                            "dekaden"
+                        ],
+                        "it": [
+                            "decadente"
+                        ],
+                        "nl": [
+                            "decadent"
+                        ],
+                        "oc": [
+                            "decadent"
+                        ],
+                        "pl": [
+                            "dekadencki"
+                        ],
+                        "cs": [
+                            "dekadentn\u00ed"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9cadent": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "d\u00e9cadents": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "d\u00e9cadente": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "d\u00e9cadentes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "d\u00e9ca\u00e8dre": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "decahedron"
+                        ],
+                        "zh": [
+                            "\u5341\u9762\u4f53"
+                        ],
+                        "ko": [
+                            "\uc2ed\uba74\uccb4"
+                        ],
+                        "eo": [
+                            "dekedro"
+                        ],
+                        "it": [
+                            "decaedro"
+                        ],
+                        "ja": [
+                            "\u5341\u9762\u4f53"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9ca\u00e8dre": [
+                    "Singulier"
+                ],
+                "d\u00e9ca\u00e8dres": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9caf\u00e9ination": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Entkoffeinierung"
+                        ],
+                        "en": [
+                            "decaffeination"
+                        ],
+                        "es": [
+                            "descafeinizaci\u00f3n"
+                        ],
+                        "el": [
+                            "\u03b1\u03c0\u03bf\u03ba\u03b1\u03c6\u03b5\u0390\u03bd\u03c9\u03c3\u03b7"
+                        ],
+                        "it": [
+                            "decaffeinizzazione"
+                        ],
+                        "ro": [
+                            "decafeinizare"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9caf\u00e9ination": [
+                    "Singulier"
+                ],
+                "d\u00e9caf\u00e9inations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9cagone": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "decagon",
+                            "gon"
+                        ],
+                        "zh": [
+                            "\u5341\u8fb9\u5f62"
+                        ],
+                        "ko": [
+                            "\uc2ed\uac01\ud615"
+                        ],
+                        "hr": [
+                            "deseterokut"
+                        ],
+                        "es": [
+                            "dec\u00e1gono"
+                        ],
+                        "eo": [
+                            "deklatero"
+                        ],
+                        "el": [
+                            "\u03b4\u03b5\u03ba\u03ac\u03b3\u03c9\u03bd\u03bf"
+                        ],
+                        "it": [
+                            "decagono"
+                        ],
+                        "ja": [
+                            "\u5341\u89d2\u5f62"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9cagone": [
+                    "Singulier"
+                ],
+                "d\u00e9cagones": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9cagramme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "decagram",
+                            "decagramme"
+                        ],
+                        "ko": [
+                            "\ub370\uce74\uadf8\ub7a8"
+                        ],
+                        "hr": [
+                            "dekagram"
+                        ],
+                        "it": [
+                            "decagrammo"
+                        ],
+                        "ja": [
+                            "\u30c7\u30ab\u30b0\u30e9\u30e0"
+                        ],
+                        "ru": [
+                            "\u0434\u0435\u043a\u0430\u0433\u0440\u0430\u043c\u043c"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9cagramme": [
+                    "Singulier"
+                ],
+                "d\u00e9cagrammes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9cahenry": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Unit\u00e9 de mesure d\u2019inductance",
+                    "translations": {
+                        "de": [
+                            "Dekahenry"
+                        ],
+                        "en": [
+                            "decahenry"
+                        ],
+                        "es": [
+                            "decahenrio"
+                        ],
+                        "gl": [
+                            "decahenry",
+                            "decahenrio"
+                        ],
+                        "it": [
+                            "decahenry"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9cahenry": [
+                    "Singulier"
+                ],
+                "d\u00e9cahenrys": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9cahertz": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Unit\u00e9 de mesure de fr\u00e9quence",
+                    "translations": {
+                        "de": [
+                            "Dekahertz"
+                        ],
+                        "en": [
+                            "decahertz"
+                        ],
+                        "ko": [
+                            "\ub370\uce74\ud5e4\ub974\uce20"
+                        ],
+                        "es": [
+                            "decahercio",
+                            "decahertz",
+                            "decahertzio"
+                        ],
+                        "gl": [
+                            "decahertz"
+                        ],
+                        "it": [
+                            "decahertz"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9calage": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "\u00a0(1,2,3)",
+                    "translations": {
+                        "de": [
+                            "Verschiebung"
+                        ],
+                        "en": [
+                            "offset"
+                        ],
+                        "hr": [
+                            "udaljenost",
+                            "razmak"
+                        ],
+                        "da": [
+                            "forskydning",
+                            "forskel",
+                            "afstand"
+                        ],
+                        "it": [
+                            "spostamento",
+                            "sfasamento",
+                            "divario",
+                            "scarto"
+                        ],
+                        "pt": [
+                            "dist\u00e2ncia",
+                            "diferen\u00e7a"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9calage": [
+                    "Singulier"
+                ],
+                "d\u00e9calages": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9calcifier": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "faire perdre le calcium",
+                    "translations": {
+                        "en": [
+                            "decalcify"
+                        ],
+                        "es": [
+                            "descalcificar"
+                        ],
+                        "eo": [
+                            "senkalciigi"
+                        ],
+                        "gl": [
+                            "descalcificar"
+                        ],
+                        "it": [
+                            "decalcificare"
+                        ]
+                    }
+                },
+                {
+                    "definition": "se d\u00e9calcifier",
+                    "translations": {
+                        "en": [
+                            "decalcify"
+                        ],
+                        "es": [
+                            "descalcificar"
+                        ],
+                        "eo": [
+                            "senkalciigi"
+                        ],
+                        "gl": [
+                            "descalcificar"
+                        ],
+                        "it": [
+                            "decalcificarsi"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9caler": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "Changer l\u2019\u00e9quilibre, l\u2019aplomb\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "verschieben",
+                            "versetzen"
+                        ],
+                        "en": [
+                            "shift"
+                        ],
+                        "hr": [
+                            "razmaknuti"
+                        ],
+                        "da": [
+                            "forskyde",
+                            "forrykke"
+                        ],
+                        "id": [
+                            "geser"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9calogue": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Commandements",
+                    "translations": {
+                        "en": [
+                            "Decalogue"
+                        ],
+                        "es": [
+                            "dec\u00e1logo"
+                        ],
+                        "el": [
+                            "\u03b4\u03b5\u03ba\u03ac\u03bb\u03bf\u03b3\u03bf\u03c2"
+                        ],
+                        "it": [
+                            "decalogo"
+                        ],
+                        "pl": [
+                            "Dekalog"
+                        ],
+                        "cs": [
+                            "desatero",
+                            "dekalog"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9calogue": [
+                    "Singulier"
+                ],
+                "d\u00e9calogues": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9calumen": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Dekalumen"
+                        ],
+                        "en": [
+                            "decalumen"
+                        ],
+                        "es": [
+                            "decalumen"
+                        ],
+                        "it": [
+                            "decalumen"
+                        ],
+                        "ja": [
+                            "\u30c7\u30ab\u30eb\u30fc\u30e1\u30f3"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9calumen": [
+                    "Singulier"
+                ],
+                "d\u00e9calumens": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9calux": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Dekalux"
+                        ],
+                        "en": [
+                            "decalux"
+                        ],
+                        "es": [
+                            "decalux"
+                        ],
+                        "it": [
+                            "decalux"
+                        ],
+                        "ja": [
+                            "\u30c7\u30ab\u30eb\u30af\u30b9"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9cam\u00e8tre": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "dekameter"
+                        ],
+                        "eo": [
+                            "dekametro"
+                        ],
+                        "gl": [
+                            "dec\u00e1metro"
+                        ],
+                        "io": [
+                            "dekametro"
+                        ],
+                        "it": [
+                            "decametro"
+                        ],
+                        "ja": [
+                            "\u30c7\u30ab\u30e1\u30fc\u30c8\u30eb"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9cam\u00e8tre": [
+                    "Singulier"
+                ],
+                "d\u00e9cam\u00e8tres": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9cane": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Decan"
+                        ],
+                        "en": [
+                            "decane"
+                        ],
+                        "hr": [
+                            "dekan"
+                        ],
+                        "es": [
+                            "decano"
+                        ],
+                        "it": [
+                            "decano"
+                        ],
+                        "ru": [
+                            "\u0434\u0435\u043a\u0430\u043d"
+                        ],
+                        "cs": [
+                            "dekan"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9cane": [
+                    "Singulier"
+                ],
+                "d\u00e9canes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9canewton": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Dekanewton"
+                        ],
+                        "en": [
+                            "decanewton"
+                        ],
+                        "es": [
+                            "decanewton"
+                        ],
+                        "gl": [
+                            "decanewton"
+                        ],
+                        "it": [
+                            "decanewton"
+                        ],
+                        "ja": [
+                            "\u30c7\u30ab\u30cb\u30e5\u30fc\u30c8\u30f3"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9canewton": [
+                    "Singulier"
+                ],
+                "d\u00e9canewtons": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9canter": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "decant"
+                        ],
+                        "zh": [
+                            "\u6ed7\u6790"
+                        ],
+                        "hr": [
+                            "razrijediti"
+                        ],
+                        "da": [
+                            "dekantere"
+                        ],
+                        "es": [
+                            "decantar"
+                        ],
+                        "eo": [
+                            "dekanti"
+                        ],
+                        "io": [
+                            "dekantar"
+                        ],
+                        "it": [
+                            "decantare"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9capascal": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Dekapascal"
+                        ],
+                        "en": [
+                            "decapascal"
+                        ],
+                        "es": [
+                            "decapascal"
+                        ],
+                        "gl": [
+                            "decapascal"
+                        ],
+                        "it": [
+                            "decapascal"
+                        ],
+                        "ja": [
+                            "\u30c7\u30ab\u30d1\u30b9\u30ab\u30eb"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9capascal": [
+                    "Singulier"
+                ],
+                "d\u00e9capascals": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9caper": [
+        {
+            "type": "Verbe 1",
+            "translations": [
+                {
+                    "definition": "D\u00e9barrasser un m\u00e9tal de la rouille",
+                    "translations": {
+                        "de": [
+                            "entrosten"
+                        ],
+                        "en": [
+                            "scour",
+                            "strip"
+                        ],
+                        "hr": [
+                            "istrugati",
+                            "otapati",
+                            "spaliti"
+                        ],
+                        "el": [
+                            "\u03be\u03b5\u03c3\u03ba\u03bf\u03c5\u03c1\u03b9\u03ac\u03b6\u03c9"
+                        ],
+                        "nl": [
+                            "schuren",
+                            "strippen",
+                            "ontdoen van"
+                        ],
+                        "pt": [
+                            "decapar"
+                        ],
+                        "cs": [
+                            "brousit"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "d\u00e9capeur": [
+        {
+            "type": "Nom commun 2",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Sch\u00fcrfz\u00fcge"
+                        ],
+                        "en": [
+                            "scraper",
+                            "scraper"
+                        ],
+                        "es": [
+                            "mototra\u00edllas"
+                        ],
+                        "it": [
+                            "ruspa"
+                        ],
+                        "nl": [
+                            "banden met trekkergedeelte",
+                            "scraper"
+                        ],
+                        "pl": [
+                            "zgarniarki ko\u0142owe"
+                        ],
+                        "sv": [
+                            "motorschaktvagnar"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9capeur": [
+                    "Singulier"
+                ],
+                "d\u00e9capeurs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "d\u00e9capeuse": [
+        {
+            "type": "Nom commun 2",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Sch\u00fcrfz\u00fcge"
+                        ],
+                        "en": [
+                            "scraper",
+                            "scraper"
+                        ],
+                        "hr": [
+                            "strug"
+                        ],
+                        "es": [
+                            "mototra\u00edllas"
+                        ],
+                        "it": [
+                            "ruspa"
+                        ],
+                        "nl": [
+                            "banden met trekkergedeelte",
+                            "scraper"
+                        ],
+                        "pl": [
+                            "zgarniarki ko\u0142owe"
+                        ],
+                        "sv": [
+                            "motorschaktvagnar"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "d\u00e9capeuse": [
+                    "Singulier"
+                ],
+                "d\u00e9capeuses": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ]
+}
