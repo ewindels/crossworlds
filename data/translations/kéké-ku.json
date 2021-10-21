@@ -1,0 +1,6070 @@
+{
+    "k\u00e9k\u00e9": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Angeber",
+                            "Protzer"
+                        ],
+                        "en": [
+                            "off"
+                        ],
+                        "bg": [
+                            "\u0438\u043c\u0430\u043c\u043d\u0438\u043a",
+                            "\u0438\u0437\u043c\u0430\u043c\u043d\u0438\u043a"
+                        ],
+                        "da": [
+                            "bl\u00e6rer\u00f8v",
+                            "pralhals"
+                        ],
+                        "es": [
+                            "cani"
+                        ],
+                        "it": [
+                            "sborone"
+                        ],
+                        "nl": [
+                            "aansteller"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "k\u00e9k\u00e9": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "k\u00e9k\u00e9s": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "kelpie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Cheval aquatique",
+                    "translations": {
+                        "de": [
+                            "Kelpie"
+                        ],
+                        "en": [
+                            "kelpie"
+                        ],
+                        "bg": [
+                            "\u043a\u0435\u043b\u043f\u0438"
+                        ],
+                        "ca": [
+                            "kelpie"
+                        ],
+                        "zh": [
+                            "\u51f1\u723e\u6d3e",
+                            "\u6c34\u9b3c"
+                        ],
+                        "es": [
+                            "kelpie"
+                        ],
+                        "fi": [
+                            "vetehishevonen"
+                        ],
+                        "gl": [
+                            "kelpie"
+                        ],
+                        "id": [
+                            "kelpi"
+                        ],
+                        "it": [
+                            "kelpie"
+                        ],
+                        "ja": [
+                            "\u30b1\u30eb\u30d4\u30fc"
+                        ],
+                        "nl": [
+                            "kelpie"
+                        ],
+                        "pl": [
+                            "kelpie"
+                        ],
+                        "ru": [
+                            "\u043a\u0435\u043b\u043f\u0438"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kelpie": [
+                    "Singulier"
+                ],
+                "kelpies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kelvin": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Unit\u00e9 de mesure de temp\u00e9rature",
+                    "translations": {
+                        "af": [
+                            "kelvin"
+                        ],
+                        "de": [
+                            "Kelvin"
+                        ],
+                        "en": [
+                            "kelvin"
+                        ],
+                        "ar": [
+                            "\u0643\u0644\u0641\u0646"
+                        ],
+                        "ast": [
+                            "kelvin"
+                        ],
+                        "nds": [
+                            "kelvin"
+                        ],
+                        "eu": [
+                            "kelvin"
+                        ],
+                        "bn": [
+                            "\u09a8"
+                        ],
+                        "bs": [
+                            "kelvin"
+                        ],
+                        "br": [
+                            "kelvin"
+                        ],
+                        "bg": [
+                            "\u043a\u0435\u043b\u0432\u0438\u043d"
+                        ],
+                        "ca": [
+                            "kelvin"
+                        ],
+                        "zh": [
+                            "\u5f00\u5c14\u6587"
+                        ],
+                        "ko": [
+                            "\ucf08\ube48"
+                        ],
+                        "hr": [
+                            "kelvin"
+                        ],
+                        "da": [
+                            "kelvin"
+                        ],
+                        "es": [
+                            "kelvin"
+                        ],
+                        "eo": [
+                            "kelvino"
+                        ],
+                        "et": [
+                            "kelvin"
+                        ],
+                        "fi": [
+                            "kelvin"
+                        ],
+                        "ga": [
+                            "ceilvin"
+                        ],
+                        "gl": [
+                            "kelvin"
+                        ],
+                        "ka": [
+                            "\u10d9\u10d4\u10da\u10d5\u10d8\u10dc\u10d8"
+                        ],
+                        "he": [
+                            "\u05e7\u05dc\u05d5\u05d5\u05d9\u05df"
+                        ],
+                        "hi": [
+                            "\u0928"
+                        ],
+                        "hu": [
+                            "kelvin"
+                        ],
+                        "id": [
+                            "kelvin"
+                        ],
+                        "is": [
+                            "kelvin"
+                        ],
+                        "it": [
+                            "kelvin"
+                        ],
+                        "ja": [
+                            "\u30b1\u30eb\u30d3\u30f3"
+                        ],
+                        "la": [
+                            "kelvin"
+                        ],
+                        "lv": [
+                            "kelvins"
+                        ],
+                        "ln": [
+                            "kelvin"
+                        ],
+                        "lt": [
+                            "kelvinas"
+                        ],
+                        "jbo": [
+                            "kelvo"
+                        ],
+                        "mk": [
+                            "\u043a\u0435\u043b\u0432\u0438\u043d"
+                        ],
+                        "ms": [
+                            "kelvin"
+                        ],
+                        "nl": [
+                            "kelvin"
+                        ],
+                        "ne": [
+                            "\u0928"
+                        ],
+                        "no": [
+                            "kelvin",
+                            "kelvin"
+                        ],
+                        "oc": [
+                            "kelvin"
+                        ],
+                        "uz": [
+                            "kelvin"
+                        ],
+                        "fa": [
+                            "\u06a9\u0644\u0648\u06cc\u0646"
+                        ],
+                        "pl": [
+                            "kelwin"
+                        ],
+                        "pt": [
+                            "kelvin"
+                        ],
+                        "ro": [
+                            "kelvin"
+                        ],
+                        "ru": [
+                            "\u043a\u0435\u043b\u044c\u0432\u0438\u043d"
+                        ],
+                        "sr": [
+                            "\u043a\u0435\u043b\u0432\u0438\u043d"
+                        ],
+                        "sh": [
+                            "kelvin"
+                        ],
+                        "sk": [
+                            "kelvin"
+                        ],
+                        "sl": [
+                            "kelvin"
+                        ],
+                        "sv": [
+                            "kelvin"
+                        ],
+                        "sw": [
+                            "kelvini"
+                        ],
+                        "cs": [
+                            "kelvin"
+                        ],
+                        "th": [
+                            "\u0e19"
+                        ],
+                        "tr": [
+                            "kelvin"
+                        ],
+                        "uk": [
+                            "\u043a\u0435\u043b\u044c\u0432\u0456\u043d"
+                        ],
+                        "vec": [
+                            "kelvin"
+                        ],
+                        "vi": [
+                            "kelvin",
+                            "kenvin"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kelvin": [
+                    "Singulier"
+                ],
+                "kelvins": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "K\u00e9nyan": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "Kenyan"
+                        ],
+                        "az": [
+                            "keniyal\u0131"
+                        ],
+                        "es": [
+                            "keniano",
+                            "keniana"
+                        ],
+                        "eo": [
+                            "kenjano",
+                            "kenjani\u0109o",
+                            "kenjanino"
+                        ],
+                        "it": [
+                            "keniota"
+                        ],
+                        "ja": [
+                            "\u30b1\u30cb\u30a2\u4eba"
+                        ],
+                        "pt": [
+                            "queniano",
+                            "queniana"
+                        ],
+                        "vo": [
+                            "Keny\u00e4nan",
+                            "Keny\u00e4nan",
+                            "Keny\u00e4nan"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "K\u00e9nyan": [
+                    "Singulier"
+                ],
+                "K\u00e9nyans": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "k\u00e9pi": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "K\u00e4ppi"
+                        ],
+                        "en": [
+                            "cap",
+                            "kepi"
+                        ],
+                        "ca": [
+                            "quepis"
+                        ],
+                        "es": [
+                            "quepis",
+                            "kep\u00ed",
+                            "quep\u00ed"
+                        ],
+                        "eo": [
+                            "kepo"
+                        ],
+                        "el": [
+                            "\u03c0\u03b7\u03bb\u03ae\u03ba\u03b9\u03bf"
+                        ],
+                        "io": [
+                            "kepio"
+                        ],
+                        "it": [
+                            "chep\u00ec"
+                        ],
+                        "nl": [
+                            "kepie"
+                        ],
+                        "pt": [
+                            "quepe"
+                        ],
+                        "ro": [
+                            "chipiu"
+                        ],
+                        "ru": [
+                            "\u043a\u0435\u043f\u0438"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "k\u00e9pi": [
+                    "Singulier"
+                ],
+                "k\u00e9pis": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "k\u00e9ratine": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Keratin"
+                        ],
+                        "en": [
+                            "keratin"
+                        ],
+                        "ko": [
+                            "\ucf00\ub77c\ud2f4"
+                        ],
+                        "es": [
+                            "queratina"
+                        ],
+                        "it": [
+                            "cheratina"
+                        ],
+                        "ja": [
+                            "\u30b1\u30e9\u30c1\u30f3"
+                        ],
+                        "ru": [
+                            "\u043a\u0435\u0440\u0430\u0442\u0438\u043d\u044b"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "k\u00e9ratine": [
+                    "Singulier"
+                ],
+                "k\u00e9ratines": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "k\u00e9ratoc\u00f4ne": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Keratokonus"
+                        ],
+                        "en": [
+                            "keratoconus"
+                        ],
+                        "ca": [
+                            "queratocon"
+                        ],
+                        "es": [
+                            "queratocono"
+                        ],
+                        "it": [
+                            "cheratocono"
+                        ],
+                        "nl": [
+                            "keratoconus"
+                        ],
+                        "pl": [
+                            "sto\u017cek rog\u00f3wki"
+                        ],
+                        "pt": [
+                            "ceratocone"
+                        ],
+                        "ru": [
+                            "\u043a\u0435\u0440\u0430\u0442\u043e\u043a\u043e\u043d\u0443\u0441"
+                        ],
+                        "sv": [
+                            "keratokonus"
+                        ],
+                        "cs": [
+                            "sajdk\u00e1ra"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "k\u00e9ratoc\u00f4ne": [
+                    "Singulier"
+                ],
+                "k\u00e9ratoc\u00f4nes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "k\u00e9ratoplastie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Keratoplastik"
+                        ],
+                        "en": [
+                            "keratoplasty"
+                        ],
+                        "hy": [
+                            "\u0565\u0572\u057b\u0565\u0580\u0561\u057a\u056c\u0561\u057d\u057f\u056b\u056f\u0561"
+                        ],
+                        "az": [
+                            "keratoplastika"
+                        ],
+                        "es": [
+                            "queratoplastia"
+                        ],
+                        "id": [
+                            "keratoplasti"
+                        ],
+                        "it": [
+                            "cheratoplastica"
+                        ],
+                        "ky": [
+                            "\u043a\u0435\u0440\u0430\u0442\u043e\u043f\u043b\u0430\u0441\u0442\u0438\u043a\u0430"
+                        ],
+                        "nl": [
+                            "keratoplastiek"
+                        ],
+                        "no": [
+                            "keratoplastikk"
+                        ],
+                        "pl": [
+                            "keratoplastyka"
+                        ],
+                        "ru": [
+                            "\u043a\u0435\u0440\u0430\u0442\u043e\u043f\u043b\u0430\u0441\u0442\u0438\u043a\u0430"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "k\u00e9ratoplastie": [
+                    "Singulier"
+                ],
+                "k\u00e9ratoplasties": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kermesse": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "fair",
+                            "village fair",
+                            "kermesse",
+                            "kirmess"
+                        ],
+                        "es": [
+                            "kerm\u00e9s"
+                        ],
+                        "eo": [
+                            "kermeso"
+                        ],
+                        "nl": [
+                            "kermis"
+                        ],
+                        "pt": [
+                            "quermesse"
+                        ],
+                        "cs": [
+                            "posv\u00edcen\u00ed"
+                        ],
+                        "wa": [
+                            "dic\u00e5ce",
+                            "fiesse del p\u00e5rotche"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kermesse": [
+                    "Singulier"
+                ],
+                "kermesses": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "k\u00e9ros\u00e8ne": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "kerosene",
+                            "coal oil"
+                        ],
+                        "zh": [
+                            "\u7164\u6cb9"
+                        ],
+                        "ko": [
+                            "\ub4f1\uc720",
+                            "\ucf00\ub7ec\uc2e0"
+                        ],
+                        "es": [
+                            "queroseno"
+                        ],
+                        "it": [
+                            "cherosene",
+                            "kerosene"
+                        ],
+                        "ja": [
+                            "\u706f\u6cb9",
+                            "\u30b1\u30ed\u30b7\u30f3"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "k\u00e9ros\u00e8ne": [
+                    "Singulier"
+                ],
+                "k\u00e9ros\u00e8nes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "ketch": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Ketsch"
+                        ],
+                        "en": [
+                            "ketch"
+                        ],
+                        "bs": [
+                            "ke\u010d"
+                        ],
+                        "ca": [
+                            "quetx"
+                        ],
+                        "da": [
+                            "ketch"
+                        ],
+                        "es": [
+                            "queche"
+                        ],
+                        "et": [
+                            "ket\u0161"
+                        ],
+                        "fi": [
+                            "ketsi"
+                        ],
+                        "ga": [
+                            "cits"
+                        ],
+                        "hu": [
+                            "ketch"
+                        ],
+                        "it": [
+                            "checchia"
+                        ],
+                        "nl": [
+                            "kits"
+                        ],
+                        "no": [
+                            "ketch"
+                        ],
+                        "pl": [
+                            "kecz"
+                        ],
+                        "pt": [
+                            "ketch"
+                        ],
+                        "ru": [
+                            "\u043a\u0435\u0447",
+                            "\u043a\u044d\u0447"
+                        ],
+                        "sh": [
+                            "ke\u010d"
+                        ],
+                        "sk": [
+                            "ke\u010d"
+                        ],
+                        "sv": [
+                            "ketch"
+                        ],
+                        "cs": [
+                            "ke\u010d"
+                        ],
+                        "uk": [
+                            "\u043a\u0435\u0447"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ketch": [
+                    "Singulier"
+                ],
+                "ketchs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "ketchup": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Ketchup"
+                        ],
+                        "en": [
+                            "ketchup",
+                            "catsup"
+                        ],
+                        "ar": [
+                            "\u0643\u0627\u062a\u0634\u0628"
+                        ],
+                        "ca": [
+                            "quetxup"
+                        ],
+                        "zh": [
+                            "\u756a\u8304\u9171"
+                        ],
+                        "ko": [
+                            "\ucf00\ucca9"
+                        ],
+                        "da": [
+                            "ketchup"
+                        ],
+                        "es": [
+                            "ketchup"
+                        ],
+                        "eo": [
+                            "ke\u0109apo"
+                        ],
+                        "fi": [
+                            "ketsuppi"
+                        ],
+                        "ga": [
+                            "citseap"
+                        ],
+                        "gl": [
+                            "ketchup"
+                        ],
+                        "el": [
+                            "\u03ba\u03ad\u03c4\u03c3\u03b1\u03c0"
+                        ],
+                        "he": [
+                            "\u05e7\u05d8\u05e9\u05d5\u05e4"
+                        ],
+                        "it": [
+                            "ketchup"
+                        ],
+                        "ja": [
+                            "\u30b1\u30c1\u30e3\u30c3\u30d7"
+                        ],
+                        "nl": [
+                            "tomatenketchup"
+                        ],
+                        "no": [
+                            "ketchup"
+                        ],
+                        "pl": [
+                            "keczup"
+                        ],
+                        "pt": [
+                            "catchupe"
+                        ],
+                        "ru": [
+                            "\u043a\u0435\u0442\u0447\u0443\u043f"
+                        ],
+                        "sl": [
+                            "ke\u010dap"
+                        ],
+                        "sv": [
+                            "ketchup"
+                        ],
+                        "cs": [
+                            "ke\u010dup"
+                        ],
+                        "tr": [
+                            "ket\u00e7ap"
+                        ],
+                        "vi": [
+                            "s\u1ed1t c\u00e0 chua"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ketchup": [
+                    "Singulier"
+                ],
+                "ketchups": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "k\u00e9toupa": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Ketupa"
+                        ],
+                        "de": [
+                            "Fischuhu"
+                        ],
+                        "en": [
+                            "fish owl"
+                        ],
+                        "ar": [
+                            "\u0647\u0648\u0632\u0646"
+                        ],
+                        "ca": [
+                            "duc pescador"
+                        ],
+                        "fi": [
+                            "kalahuuhkaja"
+                        ],
+                        "hu": [
+                            "hal\u00e1szbagoly"
+                        ],
+                        "nl": [
+                            "visuil"
+                        ],
+                        "pl": [
+                            "ketupa"
+                        ],
+                        "ru": [
+                            "\u0440\u044b\u0431\u043d\u044b\u0439 \u0444\u0438\u043b\u0438\u043d"
+                        ],
+                        "sv": [
+                            "fiskuv"
+                        ],
+                        "th": [
+                            "\u0e2d"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "k\u00e9toupa": [
+                    "Singulier"
+                ],
+                "k\u00e9toupas": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "khagan": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Khagan"
+                        ],
+                        "en": [
+                            "khagan"
+                        ],
+                        "zh": [
+                            "\u53ef\u6c57",
+                            "\u53ef\u7f55"
+                        ],
+                        "mn": [
+                            "\u0445\u0430\u0430\u043d"
+                        ],
+                        "oc": [
+                            "cagan"
+                        ],
+                        "fa": [
+                            "\u062e\u0627\u0642\u0627\u0646"
+                        ],
+                        "pt": [
+                            "khagan"
+                        ],
+                        "ru": [
+                            "\u043a\u0430\u0433\u0430\u043d"
+                        ],
+                        "cs": [
+                            "kagan"
+                        ],
+                        "tr": [
+                            "hakan"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "khagan": [
+                    "Singulier"
+                ],
+                "khagans": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "khaganat": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "khaganate"
+                        ],
+                        "el": [
+                            "\u03c7\u03b1\u03b3\u03b1\u03bd\u03ac\u03c4\u03bf"
+                        ],
+                        "ky": [
+                            "\u043a\u0430\u0433\u0430\u043d\u0434\u044b\u043a"
+                        ],
+                        "mn": [
+                            "\u0445\u0430\u0430\u043d\u0442 \u0443\u043b\u0441"
+                        ],
+                        "oc": [
+                            "caganat"
+                        ],
+                        "ru": [
+                            "\u043a\u0430\u0433\u0430\u043d\u0430\u0442"
+                        ],
+                        "tr": [
+                            "ka\u011fanl\u0131k"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "khaganat": [
+                    "Singulier"
+                ],
+                "khaganats": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "khan": [
+        {
+            "type": "Nom commun 1",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "khan"
+                        ],
+                        "ar": [
+                            "\u062e\u0627\u0646"
+                        ],
+                        "az": [
+                            "xan"
+                        ],
+                        "zh": [
+                            "\u6c57"
+                        ],
+                        "ko": [
+                            "\uce78"
+                        ],
+                        "es": [
+                            "kan"
+                        ],
+                        "eo": [
+                            "\u0125ano"
+                        ],
+                        "it": [
+                            "khan"
+                        ],
+                        "ja": [
+                            "\u30ab\u30fc\u30f3",
+                            "\u30ab\u30f3",
+                            "\u30cf\u30fc\u30f3"
+                        ],
+                        "kk": [
+                            "\u0445\u0430\u043d"
+                        ],
+                        "mn": [
+                            "\u0445\u0430\u0430\u043d",
+                            "\u0445\u0430\u043d"
+                        ],
+                        "oc": [
+                            "can"
+                        ],
+                        "fa": [
+                            "\u062e\u0627\u0646"
+                        ],
+                        "pl": [
+                            "chan"
+                        ],
+                        "pt": [
+                            "c\u00e3"
+                        ],
+                        "ru": [
+                            "\u0445\u0430\u043d"
+                        ],
+                        "sv": [
+                            "khan"
+                        ],
+                        "vi": [
+                            "h\u00e3n",
+                            "khan"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "khan": [
+                    "Singulier"
+                ],
+                "khans": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "khanat": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Khanat"
+                        ],
+                        "en": [
+                            "khanate"
+                        ],
+                        "az": [
+                            "xanl\u0131q"
+                        ],
+                        "es": [
+                            "kanato"
+                        ],
+                        "eo": [
+                            "\u0125anujo"
+                        ],
+                        "fi": [
+                            "kaanikunta"
+                        ],
+                        "it": [
+                            "khanato",
+                            "canato"
+                        ],
+                        "kk": [
+                            "\u0445\u0430\u043d\u0434\u044b\u049b\u0430"
+                        ],
+                        "mn": [
+                            "\u0445\u0430\u043d\u043b\u0438\u0433"
+                        ],
+                        "oc": [
+                            "canat"
+                        ],
+                        "pl": [
+                            "chanat"
+                        ],
+                        "ru": [
+                            "\u0445\u0430\u043d\u0441\u0442\u0432\u043e"
+                        ],
+                        "tt": [
+                            "\u0445\u0430\u043d\u043b\u044b\u043a"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "khanat": [
+                    "Singulier"
+                ],
+                "khanats": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kheer": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "kheer"
+                        ],
+                        "az": [
+                            "firni"
+                        ],
+                        "bn": [
+                            "\u09b8"
+                        ],
+                        "es": [
+                            "kheer"
+                        ],
+                        "fi": [
+                            "kheer"
+                        ],
+                        "gu": [
+                            "\u0ab0"
+                        ],
+                        "hi": [
+                            "\u0930"
+                        ],
+                        "it": [
+                            "kheer"
+                        ],
+                        "kn": [
+                            "\u0caf\u0cb8"
+                        ],
+                        "ne": [
+                            "\u0930"
+                        ],
+                        "no": [
+                            "kheer"
+                        ],
+                        "ur": [
+                            "\u06a9\u06be\u06cc\u0631"
+                        ],
+                        "pa": [
+                            "\u0a30"
+                        ],
+                        "fa": [
+                            "\u0641\u0631\u0646\u06cc"
+                        ],
+                        "pl": [
+                            "khir"
+                        ],
+                        "sa": [
+                            "\u0930"
+                        ],
+                        "sd": [
+                            "\u06a9\u06be\u06cc\u0631"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kheer": [
+                    "Singulier"
+                ],
+                "kheers": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "khi": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Lettre grecque",
+                    "translations": {
+                        "de": [
+                            "Chi"
+                        ],
+                        "en": [
+                            "chi"
+                        ],
+                        "ar": [
+                            "\u062e\u064a"
+                        ],
+                        "ca": [
+                            "khi"
+                        ],
+                        "zh": [
+                            "\u897f"
+                        ],
+                        "ko": [
+                            "\ud0a4"
+                        ],
+                        "es": [
+                            "ji"
+                        ],
+                        "eo": [
+                            "\u0125io"
+                        ],
+                        "fi": [
+                            "khii"
+                        ],
+                        "el": [
+                            "\u03c7\u03b9"
+                        ],
+                        "it": [
+                            "chi"
+                        ],
+                        "ja": [
+                            "\u30ab\u30a4",
+                            "\u30ad\u30fc"
+                        ],
+                        "la": [
+                            "chi"
+                        ],
+                        "nl": [
+                            "chi"
+                        ],
+                        "pt": [
+                            "qui",
+                            "chi"
+                        ],
+                        "ru": [
+                            "\u0445\u0438"
+                        ],
+                        "cs": [
+                            "ch\u00ed"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "khi": [
+                    "Singulier"
+                ],
+                "khis": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "khmer": [
+        {
+            "type": "Nom commun 1",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "Khmer"
+                        ],
+                        "ko": [
+                            "\ud06c\uba54\ub974\uc5b4"
+                        ],
+                        "fi": [
+                            "khmer"
+                        ],
+                        "gu": [
+                            "\u0ab0"
+                        ],
+                        "hi": [
+                            "\u0930"
+                        ],
+                        "it": [
+                            "kmer"
+                        ],
+                        "ja": [
+                            "\u30af\u30e1\u30fc\u30eb\u8a9e"
+                        ],
+                        "km": [
+                            "\u179a",
+                            "\u179a"
+                        ],
+                        "nl": [
+                            "Khmer"
+                        ],
+                        "sv": [
+                            "khmer"
+                        ],
+                        "th": [
+                            "\u0e20\u0e32\u0e29\u0e32\u0e40\u0e02\u0e21\u0e23"
+                        ],
+                        "tr": [
+                            "Kmer dili"
+                        ],
+                        "vi": [
+                            "Me"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "kambodschanisch",
+                            "kambodschanisch"
+                        ],
+                        "en": [
+                            "Khmer",
+                            "Cambodian"
+                        ],
+                        "eo": [
+                            "kampu\u0109ea",
+                            "kambo\u011da"
+                        ],
+                        "gu": [
+                            "\u0ab0"
+                        ],
+                        "hi": [
+                            "\u0930"
+                        ],
+                        "it": [
+                            "khmer"
+                        ],
+                        "nl": [
+                            "Cambodjaans",
+                            "Cambodjaans"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "khmer": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "khmers": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "khm\u00e8re": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "khm\u00e8res": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "Khmer": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "Khmer"
+                        ],
+                        "it": [
+                            "khmer"
+                        ],
+                        "ja": [
+                            "\u30af\u30e1\u30fc\u30eb\u4eba"
+                        ],
+                        "km": [
+                            "\u179a"
+                        ],
+                        "ru": [
+                            "\u043a\u0445\u043c\u0435\u0440",
+                            "\u043a\u0445\u043c\u0435\u0440\u043a\u0430"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "Khmer": [
+                    "Singulier"
+                ],
+                "Khmers": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kh\u00f4l": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "am": [
+                            "\u12a9\u120d"
+                        ],
+                        "en": [
+                            "kohl"
+                        ],
+                        "ar": [
+                            "\u0643\u062d\u0644",
+                            "\u0625\u062b\u0645\u062f"
+                        ],
+                        "ca": [
+                            "alcofoll"
+                        ],
+                        "da": [
+                            "kohl"
+                        ],
+                        "es": [
+                            "khol",
+                            "kohol",
+                            "alcohol"
+                        ],
+                        "la": [
+                            "\u03c3\u03c4\u03af\u03b2\u03b9",
+                            "\u03c3\u03c4\u03af\u03bc\u03bc\u03b9"
+                        ],
+                        "fa": [
+                            "\u0633\u0631\u0645\u0647"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kh\u00f4l": [
+                    "Singulier"
+                ],
+                "kh\u00f4ls": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "khouligan": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Halbstarker",
+                            "Hooligan"
+                        ],
+                        "en": [
+                            "hooligan"
+                        ],
+                        "bg": [
+                            "\u0445\u0443\u043b\u0438\u0433\u0430\u043d"
+                        ],
+                        "fi": [
+                            "huligaani"
+                        ],
+                        "hu": [
+                            "hulig\u00e1n"
+                        ],
+                        "ru": [
+                            "\u0445\u0443\u043b\u0438\u0433\u0430\u043d"
+                        ],
+                        "cs": [
+                            "chulig\u00e1n"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "khouligan": [
+                    "Singulier"
+                ],
+                "khouligans": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "khouligane": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Halbstarker",
+                            "Hooligan"
+                        ],
+                        "en": [
+                            "hooligan"
+                        ],
+                        "bg": [
+                            "\u0445\u0443\u043b\u0438\u0433\u0430\u043d"
+                        ],
+                        "fi": [
+                            "huligaani"
+                        ],
+                        "hu": [
+                            "hulig\u00e1n"
+                        ],
+                        "ru": [
+                            "\u0445\u0443\u043b\u0438\u0433\u0430\u043d"
+                        ],
+                        "cs": [
+                            "chulig\u00e1n"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "khouligane": [
+                    "Singulier"
+                ],
+                "khouliganes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kia\u00ef": [
+        {
+            "type": "Interjection",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kiai"
+                        ],
+                        "en": [
+                            "kiai"
+                        ],
+                        "ast": [
+                            "kiai"
+                        ],
+                        "ko": [
+                            "\uae30\ud569"
+                        ],
+                        "es": [
+                            "kiai"
+                        ],
+                        "fi": [
+                            "kiai"
+                        ],
+                        "it": [
+                            "kiai"
+                        ],
+                        "ja": [
+                            "\u6c17\u5408"
+                        ],
+                        "nl": [
+                            "kiai"
+                        ],
+                        "fa": [
+                            "\u06a9\u06cc\u0627\u06cc"
+                        ],
+                        "pl": [
+                            "kiai"
+                        ],
+                        "pt": [
+                            "kiai"
+                        ],
+                        "sr": [
+                            "\u043a\u0438\u0458\u0430\u0458"
+                        ],
+                        "sv": [
+                            "kiai"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "kibboutz": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "kibbutz"
+                        ],
+                        "zh": [
+                            "\u57fa\u5e03\u5179"
+                        ],
+                        "ko": [
+                            "\ud0a4\ubd80\uce20"
+                        ],
+                        "es": [
+                            "kibutz"
+                        ],
+                        "eo": [
+                            "kibuco"
+                        ],
+                        "gl": [
+                            "kibbutz"
+                        ],
+                        "el": [
+                            "\u03ba\u03b9\u03bc\u03c0\u03bf\u03cd\u03c4\u03c2"
+                        ],
+                        "ja": [
+                            "\u30ad\u30d6\u30c4"
+                        ],
+                        "pl": [
+                            "kibuc"
+                        ],
+                        "ru": [
+                            "\u043a\u0438\u0431\u0443\u0446"
+                        ],
+                        "sv": [
+                            "kibbutz"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kibboutz": [
+                    "Singulier"
+                ],
+                "kibboutzim": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kiffer": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "Aimer, appr\u00e9cier franchement\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "m\u00f6gen",
+                            "lieben",
+                            "abfahren"
+                        ],
+                        "en": [
+                            "luv",
+                            "dig"
+                        ],
+                        "da": [
+                            "v\u00e6re vild med"
+                        ],
+                        "es": [
+                            "molar"
+                        ],
+                        "pt": [
+                            "adorar"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "kikiriki": [
+        {
+            "type": "Interjection",
+            "translations": [
+                {
+                    "definition": "Onomatop\u00e9e par laquelle on d\u00e9signe le chant du coq",
+                    "translations": {
+                        "sq": [
+                            "kikiriki"
+                        ],
+                        "de": [
+                            "kikeriki"
+                        ],
+                        "en": [
+                            "doo"
+                        ],
+                        "ar": [
+                            "\u0643\u0648\u0643\u0648\u0643\u0639\u0648"
+                        ],
+                        "hy": [
+                            "\u056e\u0578\u0582\u0572\u0580\u0578\u0582\u0572\u0578\u0582"
+                        ],
+                        "eu": [
+                            "kukurruku"
+                        ],
+                        "be": [
+                            "\u043a\u0443\u043a\u0430\u0440\u044d\u043a\u0443"
+                        ],
+                        "bg": [
+                            "\u043a\u0443\u043a\u0443\u0440\u0438\u043a\u0443"
+                        ],
+                        "zh": [
+                            "\u5495\u5495\u5695\u5495\u5495"
+                        ],
+                        "ko": [
+                            "\ucf54\ud0a4\uc694 \ucf54\ucf54"
+                        ],
+                        "hr": [
+                            "kukuriku"
+                        ],
+                        "da": [
+                            "kykliky"
+                        ],
+                        "es": [
+                            "quiquiriqu\u00ed"
+                        ],
+                        "eo": [
+                            "kokeriko"
+                        ],
+                        "fo": [
+                            "kakkul\u00e1rak\u00f3"
+                        ],
+                        "fi": [
+                            "kukko kiekuu"
+                        ],
+                        "ga": [
+                            "du"
+                        ],
+                        "el": [
+                            "\u03ba\u03b9\u03ba\u03b9\u03c1\u03af\u03ba\u03bf\u03c5"
+                        ],
+                        "he": [
+                            "\u05e6\u05e4\u05d4 \u05d1\u05e4\u05e8\u05d5\u05e4\u05d9\u05dc"
+                        ],
+                        "hu": [
+                            "kukurikuu"
+                        ],
+                        "id": [
+                            "kukuruyuk"
+                        ],
+                        "is": [
+                            "gaggalag\u00f3"
+                        ],
+                        "it": [
+                            "chicchirich\u00ec"
+                        ],
+                        "ja": [
+                            "\u30b3\u30b1\u30b3\u30c3\u30b3"
+                        ],
+                        "la": [
+                            "coco coco"
+                        ],
+                        "lv": [
+                            "kikerig\u016b"
+                        ],
+                        "lt": [
+                            "kakariek\u016b"
+                        ],
+                        "mk": [
+                            "\u043a\u0443\u043a\u0443\u0440\u0438\u043a\u0443"
+                        ],
+                        "nl": [
+                            "kukeleku"
+                        ],
+                        "no": [
+                            "kykeliky"
+                        ],
+                        "pl": [
+                            "kukuryku"
+                        ],
+                        "pt": [
+                            "cocoroc\u00f3",
+                            "c\u00f3c\u00f3r\u00f3c\u00f3c\u00f3\u00f3\u00f3\u00f3"
+                        ],
+                        "ro": [
+                            "cucurigu"
+                        ],
+                        "ru": [
+                            "\u043a\u0443\u043a\u0430\u0440\u0435\u043a\u0443"
+                        ],
+                        "sa": [
+                            "\u0915"
+                        ],
+                        "sr": [
+                            "\u043a\u0443\u043a\u0443\u0440\u0438\u043a\u0443"
+                        ],
+                        "sk": [
+                            "kykyryk\u00fd"
+                        ],
+                        "sl": [
+                            "kukuriku"
+                        ],
+                        "sv": [
+                            "kuckeliku"
+                        ],
+                        "tl": [
+                            "kukaok"
+                        ],
+                        "cs": [
+                            "kykyryk\u00fd"
+                        ],
+                        "th": [
+                            "\u0e30\u0e01\u0e40 \u0e40 \u0e30\u0e01\u0e40 \u0e32\u0e01\u0e40"
+                        ],
+                        "tr": [
+                            "kuuu"
+                        ],
+                        "uk": [
+                            "\u043a\u0443\u043a\u0443\u0440\u0456\u043a\u0443"
+                        ],
+                        "vi": [
+                            "o"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "kilo": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Kilogramme",
+                    "translations": {
+                        "en": [
+                            "kilo"
+                        ],
+                        "ko": [
+                            "\ud0ac\ub85c"
+                        ],
+                        "it": [
+                            "chilo"
+                        ],
+                        "ja": [
+                            "\u30ad\u30ed"
+                        ],
+                        "pl": [
+                            "kilo"
+                        ],
+                        "pt": [
+                            "quilo"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kilo": [
+                    "Singulier"
+                ],
+                "kilos": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kiloamp\u00e8re": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kiloampere"
+                        ],
+                        "en": [
+                            "kiloampere",
+                            "amp",
+                            "kiloamp"
+                        ],
+                        "es": [
+                            "kiloamperio"
+                        ],
+                        "gl": [
+                            "quiloamperio",
+                            "quiloampere"
+                        ],
+                        "ru": [
+                            "\u043a\u0438\u043b\u043e\u0430\u043c\u043f\u0435\u0440"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kiloamp\u00e8re": [
+                    "Singulier"
+                ],
+                "kiloamp\u00e8res": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kilocalorie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "kilocalorie"
+                        ],
+                        "zh": [
+                            "\u5343\u5361"
+                        ],
+                        "ko": [
+                            "\ud0ac\ub85c\uce7c\ub85c\ub9ac"
+                        ],
+                        "it": [
+                            "chilocaloria"
+                        ],
+                        "ja": [
+                            "\u30ad\u30ed\u30ab\u30ed\u30ea\u30fc"
+                        ],
+                        "ro": [
+                            "kilocalorie"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kilocalorie": [
+                    "Singulier"
+                ],
+                "kilocalories": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kilocandela": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kilocandela"
+                        ],
+                        "en": [
+                            "kilocandela"
+                        ],
+                        "es": [
+                            "kilocandela"
+                        ],
+                        "gl": [
+                            "quilocandela"
+                        ],
+                        "it": [
+                            "chilocandela",
+                            "kilocandela"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kilocandela": [
+                    "Singulier"
+                ],
+                "kilocandelas": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kilofarad": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kilofarad"
+                        ],
+                        "en": [
+                            "kilofarad"
+                        ],
+                        "es": [
+                            "kilofaradio"
+                        ],
+                        "it": [
+                            "chilofarad",
+                            "kilofarad"
+                        ],
+                        "ja": [
+                            "\u30ad\u30ed\u30d5\u30a1\u30e9\u30c9"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kilofarad": [
+                    "Singulier"
+                ],
+                "kilofarads": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kilogramme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "kilogram"
+                        ],
+                        "sq": [
+                            "kilogram"
+                        ],
+                        "de": [
+                            "Kilogramm"
+                        ],
+                        "en": [
+                            "kilogram",
+                            "kilogramme"
+                        ],
+                        "ca": [
+                            "quilo",
+                            "quilogram"
+                        ],
+                        "zh": [
+                            "\u516c\u65a4"
+                        ],
+                        "ko": [
+                            "\ud0ac\ub85c\uadf8\ub7a8",
+                            "\ud0ac\ub85c"
+                        ],
+                        "da": [
+                            "kilo",
+                            "kilogram"
+                        ],
+                        "es": [
+                            "kilo",
+                            "kilogramo"
+                        ],
+                        "eo": [
+                            "kilogramo"
+                        ],
+                        "fo": [
+                            "kilogramm"
+                        ],
+                        "fi": [
+                            "kilogramma"
+                        ],
+                        "fy": [
+                            "kilo"
+                        ],
+                        "gl": [
+                            "quilogramo"
+                        ],
+                        "el": [
+                            "\u03c7\u03b9\u03bb\u03b9\u03cc\u03b3\u03c1\u03b1\u03bc\u03bc\u03bf"
+                        ],
+                        "hu": [
+                            "kilogramm"
+                        ],
+                        "it": [
+                            "chilogrammo"
+                        ],
+                        "ja": [
+                            "\u30ad\u30ed\u30b0\u30e9\u30e0",
+                            "\u30ad\u30ed"
+                        ],
+                        "ku": [
+                            "k\u00eelogram",
+                            "k\u00eelo",
+                            "k\u00ealo"
+                        ],
+                        "nl": [
+                            "kilo",
+                            "kilogram"
+                        ],
+                        "no": [
+                            "kilo"
+                        ],
+                        "oc": [
+                            "quilogram",
+                            "quilo"
+                        ],
+                        "pl": [
+                            "kilogram"
+                        ],
+                        "pt": [
+                            "quilograma"
+                        ],
+                        "ro": [
+                            "kilogram"
+                        ],
+                        "ru": [
+                            "\u043a\u0438\u043b\u043e\u0433\u0440\u0430\u043c\u043c"
+                        ],
+                        "sv": [
+                            "kilogram"
+                        ],
+                        "sw": [
+                            "kilo"
+                        ],
+                        "tr": [
+                            "kilo"
+                        ],
+                        "zu": [
+                            "ikhilogramu",
+                            "ilikhilogramu"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kilogramme": [
+                    "Singulier"
+                ],
+                "kilogrammes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kilogramme-force": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "force",
+                            "weight",
+                            "kilopond"
+                        ],
+                        "ar": [
+                            "\u0643\u064a\u0644\u0648 \u063a\u0631\u0627\u0645 \u062b\u0642\u0644\u064a"
+                        ],
+                        "ast": [
+                            "quilopondiu"
+                        ],
+                        "bs": [
+                            "kilopond"
+                        ],
+                        "bg": [
+                            "\u0441\u0438\u043b\u0430"
+                        ],
+                        "ca": [
+                            "quilopond"
+                        ],
+                        "zh": [
+                            "\u5343\u514b\u529b"
+                        ],
+                        "ko": [
+                            "\ud0ac\ub85c\uadf8\ub7a8\ud798"
+                        ],
+                        "hr": [
+                            "kilopond"
+                        ],
+                        "da": [
+                            "kilopond"
+                        ],
+                        "es": [
+                            "kilopondio"
+                        ],
+                        "fi": [
+                            "kilopondi"
+                        ],
+                        "gl": [
+                            "quilogramo forza"
+                        ],
+                        "hu": [
+                            "kilopond"
+                        ],
+                        "ia": [
+                            "kilopondio"
+                        ],
+                        "it": [
+                            "chilogrammo forza"
+                        ],
+                        "ja": [
+                            "\u91cd\u91cf\u30ad\u30ed\u30b0\u30e9\u30e0",
+                            "\u30ad\u30ed\u30b0\u30e9\u30e0\u91cd"
+                        ],
+                        "mk": [
+                            "\u043a\u0438\u043b\u043e\u043f\u043e\u043d\u0434"
+                        ],
+                        "nl": [
+                            "kilogramkracht"
+                        ],
+                        "pl": [
+                            "si\u0142a"
+                        ],
+                        "pt": [
+                            "for\u00e7a"
+                        ],
+                        "ru": [
+                            "\u0441\u0438\u043b\u0430"
+                        ],
+                        "sh": [
+                            "kilopond"
+                        ],
+                        "sk": [
+                            "kilopond"
+                        ],
+                        "sl": [
+                            "kilopond"
+                        ],
+                        "sv": [
+                            "kilopond"
+                        ],
+                        "cs": [
+                            "kilopond"
+                        ],
+                        "tr": [
+                            "kuvvet"
+                        ],
+                        "uk": [
+                            "\u0441\u0438\u043b\u0430"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kilogramme-force": [
+                    "Singulier"
+                ],
+                "kilogrammes-force": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kilohenry": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Unit\u00e9 de mesure d\u2019inductance",
+                    "translations": {
+                        "de": [
+                            "Kilohenry"
+                        ],
+                        "en": [
+                            "kilohenry"
+                        ],
+                        "es": [
+                            "kilohenrio"
+                        ],
+                        "gl": [
+                            "quilohenry",
+                            "kilohenry",
+                            "quilohenrio",
+                            "kilohenrio"
+                        ],
+                        "it": [
+                            "chilohenry",
+                            "kilohenry"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kilohenry": [
+                    "Singulier"
+                ],
+                "kilohenrys": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kilohertz": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Unit\u00e9 de mesure de fr\u00e9quence",
+                    "translations": {
+                        "de": [
+                            "Kilohertz"
+                        ],
+                        "en": [
+                            "kilohertz"
+                        ],
+                        "zh": [
+                            "\u5343\u8d6b"
+                        ],
+                        "ko": [
+                            "\ud0ac\ub85c\ud5e4\ub974\uce20"
+                        ],
+                        "es": [
+                            "kilohercio",
+                            "kilohertz",
+                            "kilohertzio"
+                        ],
+                        "eo": [
+                            "kiloherco"
+                        ],
+                        "gl": [
+                            "quilohertz"
+                        ],
+                        "it": [
+                            "chilohertz",
+                            "kilohertz"
+                        ],
+                        "ja": [
+                            "\u30ad\u30ed\u30d8\u30eb\u30c4"
+                        ],
+                        "ro": [
+                            "kilohertz"
+                        ],
+                        "ru": [
+                            "\u0440\u0446"
+                        ],
+                        "sk": [
+                            "kilohertz"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "kilolitre": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kiloliter"
+                        ],
+                        "en": [
+                            "kilolitre"
+                        ],
+                        "ko": [
+                            "\ud0ac\ub85c\ub9ac\ud130"
+                        ],
+                        "gl": [
+                            "quilolitro"
+                        ],
+                        "ja": [
+                            "\u30ad\u30ed\u30ea\u30c3\u30c8\u30eb"
+                        ],
+                        "ru": [
+                            "\u043a\u0438\u043b\u043e\u043b\u0438\u0442\u0440"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kilolitre": [
+                    "Singulier"
+                ],
+                "kilolitres": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kilom\u00e8tre": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Unit\u00e9 de mesure de longueur",
+                    "translations": {
+                        "af": [
+                            "kilometer"
+                        ],
+                        "sq": [
+                            "kilomet\u00ebr"
+                        ],
+                        "de": [
+                            "Kilometer"
+                        ],
+                        "en": [
+                            "kilometre",
+                            "kilometer"
+                        ],
+                        "ar": [
+                            "\u0643\u064a\u0644\u0648\u0645\u062a\u0631"
+                        ],
+                        "ca": [
+                            "quil\u00f2metre"
+                        ],
+                        "zh": [
+                            "\u516c\u91cc",
+                            "\u5343\u7c73"
+                        ],
+                        "da": [
+                            "kilometer"
+                        ],
+                        "es": [
+                            "kil\u00f3metro"
+                        ],
+                        "eo": [
+                            "kilometro"
+                        ],
+                        "et": [
+                            "kilomeeter"
+                        ],
+                        "fi": [
+                            "kilometri"
+                        ],
+                        "el": [
+                            "\u03c7\u03b9\u03bb\u03b9\u03cc\u03bc\u03b5\u03c4\u03c1\u03bf"
+                        ],
+                        "io": [
+                            "kilometro"
+                        ],
+                        "it": [
+                            "chilometro"
+                        ],
+                        "kk": [
+                            "\u0448\u0430\u049b\u044b\u0440\u044b\u043c"
+                        ],
+                        "nl": [
+                            "kilometer"
+                        ],
+                        "oc": [
+                            "quilom\u00e8tre"
+                        ],
+                        "pt": [
+                            "quil\u00f4metro"
+                        ],
+                        "ro": [
+                            "kilometru"
+                        ],
+                        "ru": [
+                            "\u043a\u0438\u043b\u043e\u043c\u0435\u0442\u0440"
+                        ],
+                        "sv": [
+                            "kilometer"
+                        ],
+                        "sw": [
+                            "kilometa"
+                        ],
+                        "cs": [
+                            "kilometr"
+                        ],
+                        "vi": [
+                            "c\u00e2y s\u1ed1",
+                            "ki l\u00f4 m\u00e9t",
+                            "k\u00ed l\u00f4 m\u00e9t"
+                        ],
+                        "zu": [
+                            "ikhilomitha",
+                            "ilikhilomitha"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kilom\u00e8tre": [
+                    "Singulier"
+                ],
+                "kilom\u00e8tres": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kilonewton": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kilonewton"
+                        ],
+                        "en": [
+                            "kilonewton"
+                        ],
+                        "es": [
+                            "kilonewton"
+                        ],
+                        "gl": [
+                            "quilonewton"
+                        ],
+                        "it": [
+                            "chilonewton",
+                            "kilonewton"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kilonewton": [
+                    "Singulier"
+                ],
+                "kilonewtons": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kilooctet": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kilobyte"
+                        ],
+                        "en": [
+                            "kilobyte"
+                        ],
+                        "ko": [
+                            "\ud0ac\ub85c\ubc14\uc774\ud2b8"
+                        ],
+                        "eo": [
+                            "kilobajto",
+                            "kilobitoko"
+                        ],
+                        "ja": [
+                            "\u30ad\u30ed\u30d0\u30a4\u30c8"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kilooctet": [
+                    "Singulier"
+                ],
+                "kilooctets": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kiloparsec": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kiloparsec"
+                        ],
+                        "en": [
+                            "kiloparsec"
+                        ],
+                        "ko": [
+                            "\ud0ac\ub85c\ud30c\uc139"
+                        ],
+                        "eo": [
+                            "kiloparseko"
+                        ],
+                        "it": [
+                            "chiloparsec"
+                        ],
+                        "ja": [
+                            "\u30ad\u30ed\u30d1\u30fc\u30bb\u30af"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kiloparsec": [
+                    "Singulier"
+                ],
+                "kiloparsecs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kilopascal": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Unit\u00e9 de mesure de pression",
+                    "translations": {
+                        "de": [
+                            "Kilopascal"
+                        ],
+                        "en": [
+                            "kilopascal"
+                        ],
+                        "es": [
+                            "kilopascal"
+                        ],
+                        "gl": [
+                            "quilopascal"
+                        ],
+                        "it": [
+                            "chilopascal",
+                            "kilopascal"
+                        ],
+                        "ja": [
+                            "\u30ad\u30ed\u30d1\u30b9\u30ab\u30eb"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kilopascal": [
+                    "Singulier"
+                ],
+                "kilopascals": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kilowatt": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kilowatt"
+                        ],
+                        "en": [
+                            "kilowatt",
+                            "watt"
+                        ],
+                        "da": [
+                            "kilowatt"
+                        ],
+                        "es": [
+                            "kilovatio",
+                            "kilowatt"
+                        ],
+                        "eo": [
+                            "kilovato"
+                        ],
+                        "ia": [
+                            "kilowatt"
+                        ],
+                        "it": [
+                            "chilowatt",
+                            "kilowatt"
+                        ],
+                        "nl": [
+                            "kilowatt"
+                        ],
+                        "ro": [
+                            "kilowatt"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kilowatt": [
+                    "Singulier"
+                ],
+                "kilowatts": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kilt": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "V\u00eatement traditionnel",
+                    "translations": {
+                        "de": [
+                            "Kilt"
+                        ],
+                        "en": [
+                            "kilt"
+                        ],
+                        "da": [
+                            "kilt"
+                        ],
+                        "es": [
+                            "kilt"
+                        ],
+                        "eo": [
+                            "kilto"
+                        ],
+                        "fi": [
+                            "kiltti"
+                        ],
+                        "gd": [
+                            "f\u00e8ileadh",
+                            "f\u00e8ileadh beag",
+                            "f\u00e8ileadh mor"
+                        ],
+                        "io": [
+                            "kilto"
+                        ],
+                        "id": [
+                            "kilt"
+                        ],
+                        "it": [
+                            "kilt"
+                        ],
+                        "ja": [
+                            "\u30ad\u30eb\u30c8"
+                        ],
+                        "nl": [
+                            "kilt"
+                        ],
+                        "no": [
+                            "kilt"
+                        ],
+                        "pl": [
+                            "kilt"
+                        ],
+                        "pt": [
+                            "kilt"
+                        ],
+                        "ru": [
+                            "\u043a\u0438\u043b\u0442"
+                        ],
+                        "sv": [
+                            "kilt"
+                        ],
+                        "cs": [
+                            "kilt"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kilt": [
+                    "Singulier"
+                ],
+                "kilts": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "Kimm\u00e9ridgien": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kimmeridgium"
+                        ],
+                        "en": [
+                            "Kimmeridgian"
+                        ],
+                        "ca": [
+                            "Kimmeridgi\u00e0"
+                        ],
+                        "es": [
+                            "Kimmeridgiense"
+                        ],
+                        "hu": [
+                            "Kimmeridgei"
+                        ],
+                        "it": [
+                            "Kimmeridgiano"
+                        ],
+                        "nl": [
+                            "Kimmeridgien"
+                        ],
+                        "pl": [
+                            "Kimeryd"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "kimono": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kimono"
+                        ],
+                        "en": [
+                            "kimono"
+                        ],
+                        "ca": [
+                            "quimono"
+                        ],
+                        "ko": [
+                            "\uae30\ubaa8\ub178"
+                        ],
+                        "es": [
+                            "kimono"
+                        ],
+                        "it": [
+                            "kimono"
+                        ],
+                        "ja": [
+                            "\u7740\u7269",
+                            "\u548c\u670d"
+                        ],
+                        "cs": [
+                            "kimono"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kimono": [
+                    "Singulier"
+                ],
+                "kimonos": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kin\u00e9siologie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kinesiologie"
+                        ],
+                        "en": [
+                            "kinesiology"
+                        ],
+                        "es": [
+                            "quinesiolog\u00eda",
+                            "kinesiolog\u00eda"
+                        ],
+                        "eo": [
+                            "kinezologio"
+                        ],
+                        "el": [
+                            "\u03ba\u03b9\u03bd\u03b7\u03c3\u03b9\u03bf\u03bb\u03bf\u03b3\u03af\u03b1"
+                        ],
+                        "hu": [
+                            "kineziol\u00f3gia"
+                        ],
+                        "it": [
+                            "chinesiologia"
+                        ],
+                        "ja": [
+                            "\u30ad\u30cd\u30b7\u30aa\u30ed\u30b8\u30fc"
+                        ],
+                        "pl": [
+                            "kinezjologia"
+                        ],
+                        "pt": [
+                            "cinesiologia"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "kin\u00e9sique": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kinesik"
+                        ],
+                        "en": [
+                            "kinesics"
+                        ],
+                        "zh": [
+                            "\u8eab\u52bf\u5b66"
+                        ],
+                        "es": [
+                            "kinesica",
+                            "quinesica"
+                        ],
+                        "hu": [
+                            "kinezika"
+                        ],
+                        "it": [
+                            "cinesica"
+                        ],
+                        "pl": [
+                            "kinezyka"
+                        ],
+                        "sk": [
+                            "kinezika"
+                        ],
+                        "cs": [
+                            "kinezika"
+                        ],
+                        "uk": [
+                            "\u043a\u0456\u043d\u0435\u0441\u0438\u043a\u0430"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kin\u00e9sique": [
+                    "Singulier"
+                ],
+                "kin\u00e9siques": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kin\u00e9sith\u00e9rapeute": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "physiotherapist"
+                        ],
+                        "ar": [
+                            "\u0627\u0644\u0639\u0644\u0627\u062c \u0627\u0644\u0637\u0628\u064a\u0639\u064a"
+                        ],
+                        "gl": [
+                            "fisioterapeuta"
+                        ],
+                        "it": [
+                            "cinesiterapista",
+                            "chinesiterapista",
+                            "kinesiterapista"
+                        ],
+                        "ja": [
+                            "\u7406\u5b66\u7642\u6cd5\u58eb"
+                        ],
+                        "ku": [
+                            "j\u00eemnastek\u00ee"
+                        ],
+                        "la": [
+                            "physiotherapist"
+                        ],
+                        "zh": [
+                            "\u7406\u7597\u5e08",
+                            "\u7269\u7406\u6cbb\u7597\u5e08"
+                        ],
+                        "nl": [
+                            "fysiotherapeut"
+                        ],
+                        "pl": [
+                            "fizjoterapeuta"
+                        ],
+                        "pt": [
+                            "fisioterapeuta"
+                        ],
+                        "ro": [
+                            "chineziterapeut"
+                        ],
+                        "vi": [
+                            "v\u1eadt l\u00fd tr\u1ecb li\u1ec7u"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kin\u00e9sith\u00e9rapeute": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "kin\u00e9sith\u00e9rapeutes": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "kin\u00e9sith\u00e9rapie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Physiotherapie"
+                        ],
+                        "en": [
+                            "physiotherapy",
+                            "physical therapy"
+                        ],
+                        "zh": [
+                            "\u8fd0\u52a8\u7597\u6cd5"
+                        ],
+                        "nl": [
+                            "fysiotherapie"
+                        ],
+                        "vi": [
+                            "v\u1eadt l\u00fd tr\u1ecb li\u1ec7u"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kin\u00e9sith\u00e9rapie": [
+                    "Singulier"
+                ],
+                "kin\u00e9sith\u00e9rapies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "Kinh": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "Kinh"
+                        ],
+                        "zh": [
+                            "\u4eac\u65cf"
+                        ],
+                        "ko": [
+                            "\ud0a8\uc871"
+                        ],
+                        "ja": [
+                            "\u30ad\u30f3\u65cf"
+                        ],
+                        "vi": [
+                            "ng\u01b0\u1eddi Kinh"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "Kinh": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "Kinhs": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "kinkajou": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Potos flavus"
+                        ],
+                        "de": [
+                            "Wickelb\u00e4r"
+                        ],
+                        "en": [
+                            "kinkajou",
+                            "honey bear"
+                        ],
+                        "zh": [
+                            "\u871c\u718a"
+                        ],
+                        "ko": [
+                            "\ud0a8\uce74\uc8fc"
+                        ],
+                        "es": [
+                            "kinkaj\u00fa"
+                        ],
+                        "eo": [
+                            "kinkajuo"
+                        ],
+                        "et": [
+                            "kinkazu"
+                        ],
+                        "fi": [
+                            "kinkaju"
+                        ],
+                        "hu": [
+                            "farksodr\u00f3"
+                        ],
+                        "it": [
+                            "cercoletto"
+                        ],
+                        "ja": [
+                            "\u30ad\u30f3\u30ab\u30b8\u30e5\u30fc"
+                        ],
+                        "pl": [
+                            "kinka\u017cu"
+                        ],
+                        "pt": [
+                            "jupar\u00e1"
+                        ],
+                        "ro": [
+                            "kinkaju"
+                        ],
+                        "ru": [
+                            "\u043a\u0438\u043d\u043a\u0430\u0436\u0443"
+                        ],
+                        "sv": [
+                            "veckelbj\u00f6rn"
+                        ],
+                        "cs": [
+                            "kynka\u017eu"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kinkajou": [
+                    "Singulier"
+                ],
+                "kinkajous": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kiosque": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Kiosque \u00e0 journaux\u00a0(3)",
+                    "translations": {
+                        "de": [
+                            "Zeitungsstand"
+                        ],
+                        "en": [
+                            "newsstand"
+                        ],
+                        "da": [
+                            "kiosk",
+                            "aviskiosk"
+                        ],
+                        "eo": [
+                            "kiosko"
+                        ],
+                        "it": [
+                            "chiosco",
+                            "edicola dei giornali"
+                        ],
+                        "nl": [
+                            "krantenkiosk",
+                            "kiosk"
+                        ],
+                        "no": [
+                            "aviskiosk",
+                            "kiosk"
+                        ],
+                        "ru": [
+                            "\u043a\u0438\u043e\u0441\u043a"
+                        ],
+                        "cs": [
+                            "st\u00e1nek",
+                            "kiosek",
+                            "kiosk"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Pr\u00e9sentoir\u00a0(4)",
+                    "translations": {
+                        "de": [
+                            "Baracke",
+                            "Bude",
+                            "H\u00fctte",
+                            "Scheune",
+                            "Bretterbude",
+                            "Bretterh\u00e4uschen",
+                            "Schuppen",
+                            "Kiosk",
+                            "Verkaufsh\u00e4uschen"
+                        ],
+                        "en": [
+                            "scramble",
+                            "shed",
+                            "stand",
+                            "booth",
+                            "to",
+                            "stall"
+                        ],
+                        "ca": [
+                            "quiosc"
+                        ],
+                        "da": [
+                            "barak"
+                        ],
+                        "es": [
+                            "quiosco",
+                            "aguaducho"
+                        ],
+                        "eo": [
+                            "budo"
+                        ],
+                        "fo": [
+                            "b\u00fa\u00f0"
+                        ],
+                        "fi": [
+                            "huvimaja"
+                        ],
+                        "fy": [
+                            "diske",
+                            "kream"
+                        ],
+                        "el": [
+                            "\u03c0\u03b5\u03c1\u03af\u03c0\u03c4\u03b5\u03c1\u03bf"
+                        ],
+                        "io": [
+                            "kiosko"
+                        ],
+                        "it": [
+                            "granaio"
+                        ],
+                        "nl": [
+                            "stalletje",
+                            "keet",
+                            "kraam",
+                            "loods",
+                            "schuur",
+                            "tent"
+                        ],
+                        "pt": [
+                            "barraca",
+                            "celeiro",
+                            "guarita",
+                            "tenda"
+                        ],
+                        "ro": [
+                            "chio\u0219c"
+                        ],
+                        "ru": [
+                            "\u0431\u0443\u0434\u043a\u0430"
+                        ],
+                        "sv": [
+                            "kiosk"
+                        ],
+                        "tr": [
+                            "k\u00f6\u015fk"
+                        ]
+                    }
+                },
+                {
+                    "definition": "De sous-marin\u00a0(5)",
+                    "translations": {
+                        "de": [
+                            "Kommandoturm"
+                        ],
+                        "en": [
+                            "conning tower"
+                        ],
+                        "da": [
+                            "t\u00e5rn"
+                        ],
+                        "es": [
+                            "torre de mando"
+                        ],
+                        "it": [
+                            "torretta"
+                        ],
+                        "ru": [
+                            "\u0440\u0443\u0431\u043a\u0430"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kiosque": [
+                    "Singulier"
+                ],
+                "kiosques": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kiosquier": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kioskverk\u00e4ufer"
+                        ],
+                        "br": [
+                            "kiosker"
+                        ],
+                        "ca": [
+                            "quiosquer"
+                        ],
+                        "es": [
+                            "quiosquero"
+                        ],
+                        "fi": [
+                            "kioskinpit\u00e4j\u00e4"
+                        ],
+                        "it": [
+                            "giornalaio"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kiosquier": [
+                    "Singulier"
+                ],
+                "kiosquiers": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kippa": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kippa",
+                            "Kippah"
+                        ],
+                        "en": [
+                            "kippah",
+                            "yarmulke",
+                            "skullcap"
+                        ],
+                        "ca": [
+                            "quip\u00e0"
+                        ],
+                        "es": [
+                            "kip\u00e1"
+                        ],
+                        "it": [
+                            "kipp\u00e0",
+                            "kipp\u00e0h",
+                            "chipp\u00e0"
+                        ],
+                        "nl": [
+                            "keppel"
+                        ],
+                        "pl": [
+                            "jarmu\u0142ka",
+                            "mycka",
+                            "kipa"
+                        ],
+                        "pt": [
+                            "quip\u00e1"
+                        ],
+                        "ru": [
+                            "\u043a\u0438\u043f\u0430",
+                            "\u0435\u0440\u043c\u043e\u043b\u043a\u0430"
+                        ],
+                        "sv": [
+                            "kippa"
+                        ],
+                        "cs": [
+                            "jarmulka"
+                        ],
+                        "tr": [
+                            "kippa"
+                        ],
+                        "uk": [
+                            "\u044f\u0440\u043c\u0443\u043b\u043a\u0430"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kippa": [
+                    "Singulier"
+                ],
+                "kippas": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "Kirdi": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kirdi"
+                        ],
+                        "en": [
+                            "Kirdi"
+                        ],
+                        "eo": [
+                            "kirdioj"
+                        ],
+                        "lt": [
+                            "kirdi"
+                        ],
+                        "vi": [
+                            "kirdi"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "Kirdi": [
+                    "Singulier"
+                ],
+                "Kirdis": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kirghiz": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "Kyrgyz",
+                            "Kirghiz"
+                        ],
+                        "gu": [
+                            "\u0a9d"
+                        ],
+                        "it": [
+                            "kirghiso",
+                            "chirghiso"
+                        ],
+                        "kk": [
+                            "\u049b\u044b\u0440\u0493\u044b\u0437"
+                        ],
+                        "pt": [
+                            "quirguiz"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kirghize": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "kirghizes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "Kyrgyz"
+                        ],
+                        "az": [
+                            "q\u0131r\u011f\u0131z dili"
+                        ],
+                        "zh": [
+                            "\u5409\u5c14\u5409\u65af\u8bed"
+                        ],
+                        "fi": [
+                            "kirgiisi"
+                        ],
+                        "gu": [
+                            "\u0a9d"
+                        ],
+                        "it": [
+                            "kirghiso",
+                            "chirghiso"
+                        ],
+                        "kk": [
+                            "\u049b\u044b\u0440\u0493\u044b\u0437 \u0442\u0456\u043b\u0456"
+                        ],
+                        "ky": [
+                            "\u043a\u044b\u0440\u0433\u044b\u0437"
+                        ],
+                        "nl": [
+                            "Kirgizisch"
+                        ],
+                        "pt": [
+                            "quirguiz"
+                        ],
+                        "ru": [
+                            "\u043a\u0438\u0440\u0433\u0438\u0437\u0441\u043a\u0438\u0439"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "Kirghiz": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "Kyrgyz"
+                        ],
+                        "az": [
+                            "q\u0131r\u011f\u0131z"
+                        ],
+                        "eo": [
+                            "kirgizo",
+                            "kirgizi\u0109o",
+                            "kirgizino"
+                        ],
+                        "it": [
+                            "kirghiso",
+                            "kirghisi",
+                            "chirghiso",
+                            "chirghisi"
+                        ],
+                        "kk": [
+                            "\u049b\u044b\u0440\u0493\u044b\u0437"
+                        ],
+                        "pt": [
+                            "quirguiz"
+                        ],
+                        "ru": [
+                            "\u043a\u0438\u0440\u0433\u0438\u0437"
+                        ],
+                        "vo": [
+                            "Kirgist\u00e4nan",
+                            "Kirgist\u00e4nan",
+                            "Kirgist\u00e4nan"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "Kirghiz": [
+                    "Singulier"
+                ],
+                "Kirghizs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kitsch": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "kitschig"
+                        ],
+                        "en": [
+                            "kitschy",
+                            "tacky"
+                        ],
+                        "ca": [
+                            "coent",
+                            "cursi"
+                        ],
+                        "hr": [
+                            "ki\u010d"
+                        ],
+                        "es": [
+                            "cursi",
+                            "cursil\u00f3n"
+                        ],
+                        "eo": [
+                            "ki\u0109a"
+                        ],
+                        "nl": [
+                            "kitsch"
+                        ],
+                        "pl": [
+                            "kiczowaty"
+                        ],
+                        "cs": [
+                            "k\u00fd\u010dovit\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kitsch": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "kitschs": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "kitsche": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "kitsches": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kitsch"
+                        ],
+                        "en": [
+                            "kitsch"
+                        ],
+                        "ca": [
+                            "coentor"
+                        ],
+                        "eo": [
+                            "ki\u0109o"
+                        ],
+                        "it": [
+                            "kitsch"
+                        ],
+                        "pl": [
+                            "kicz"
+                        ],
+                        "cs": [
+                            "k\u00fd\u010d"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "kitsune": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Cr\u00e9ature japonaise",
+                    "translations": {
+                        "en": [
+                            "kitsune"
+                        ],
+                        "ar": [
+                            "\u0643\u064a\u062a\u0633\u0648\u0646\u0647"
+                        ],
+                        "eo": [
+                            "kicuneo"
+                        ],
+                        "ka": [
+                            "\u10d9\u10d8\u10ea\u10e3\u10dc\u10d4"
+                        ],
+                        "el": [
+                            "\u03ba\u03b9\u03c4\u03c3\u03bf\u03cd\u03bd\u03b5"
+                        ],
+                        "hu": [
+                            "kicune"
+                        ],
+                        "it": [
+                            "kitsune"
+                        ],
+                        "lv": [
+                            "kicune"
+                        ],
+                        "fa": [
+                            "\u0643\u064a\u062a\u0633\u0648\u0646\u0647"
+                        ],
+                        "ru": [
+                            "\u043a\u0438\u0446\u0443\u043d\u044d"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kitsune": [
+                    "Singulier"
+                ],
+                "kitsunes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kiwano": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Cucumis metulifer",
+                            "Cucumis metulitiferus"
+                        ],
+                        "en": [
+                            "African horned cucumber",
+                            "kiwano"
+                        ],
+                        "da": [
+                            "Afrika agurk"
+                        ],
+                        "es": [
+                            "kiwano"
+                        ],
+                        "ja": [
+                            "\u30c4\u30ce\u30cb\u30ac\u30a6\u30ea",
+                            "\u30ad\u30ef\u30ce"
+                        ],
+                        "nl": [
+                            "zuiltjesdragende komkommer"
+                        ],
+                        "pt": [
+                            "kiwano",
+                            "pepino africano"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kiwano": [
+                    "Singulier"
+                ],
+                "kiwanos": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kiwi": [
+        {
+            "type": "Nom commun 1",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "kiwi"
+                        ],
+                        "eu": [
+                            "kiwi"
+                        ],
+                        "ca": [
+                            "kiwi"
+                        ],
+                        "ko": [
+                            "\ud0a4\uc704"
+                        ],
+                        "es": [
+                            "kiwi"
+                        ],
+                        "eo": [
+                            "kivo"
+                        ],
+                        "el": [
+                            "\u03b1\u03c0\u03c4\u03ad\u03c1\u03c5\u03be"
+                        ],
+                        "it": [
+                            "kiwi"
+                        ],
+                        "ja": [
+                            "\u30ad\u30fc\u30a6\u30a3"
+                        ],
+                        "oc": [
+                            "kiwi",
+                            "quivi"
+                        ],
+                        "sv": [
+                            "kivi"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kiwi": [
+                    "Singulier"
+                ],
+                "kiwis": [
+                    "Pluriel"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun 2",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Actinidia deliciosa"
+                        ],
+                        "af": [
+                            "kiwirug"
+                        ],
+                        "de": [
+                            "Kiwi"
+                        ],
+                        "en": [
+                            "kiwifruit",
+                            "kiwi",
+                            "Chinese gooseberry"
+                        ],
+                        "eu": [
+                            "kiwi"
+                        ],
+                        "br": [
+                            "kiwi"
+                        ],
+                        "ca": [
+                            "kiwi"
+                        ],
+                        "zh": [
+                            "\u7315\u7334\u6843",
+                            "\u5947\u7570\u679c"
+                        ],
+                        "ko": [
+                            "\ud0a4\uc704"
+                        ],
+                        "es": [
+                            "kiwi"
+                        ],
+                        "eo": [
+                            "kivo"
+                        ],
+                        "fi": [
+                            "kiivi"
+                        ],
+                        "el": [
+                            "\u03b1\u03ba\u03c4\u03b9\u03bd\u03af\u03b4\u03b9\u03bf"
+                        ],
+                        "hu": [
+                            "kivi"
+                        ],
+                        "it": [
+                            "kiwi"
+                        ],
+                        "ja": [
+                            "\u30ad\u30fc\u30a6\u30a3\u30d5\u30eb\u30fc\u30c4",
+                            "\u30ad\u30fc\u30a6\u30a3",
+                            "\u30ad\u30a6\u30a4"
+                        ],
+                        "gv": [
+                            "keewee"
+                        ],
+                        "oc": [
+                            "kiwi",
+                            "quivi"
+                        ],
+                        "pl": [
+                            "kiwi"
+                        ],
+                        "ru": [
+                            "\u043a\u0438\u0432\u0438"
+                        ],
+                        "sv": [
+                            "kiwi",
+                            "kivi"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kiwi": [
+                    "Singulier"
+                ],
+                "kiwis": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kiziak": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "br": [
+                            "glaoued"
+                        ],
+                        "es": [
+                            "kisi\u00e1k"
+                        ],
+                        "ky": [
+                            "\u043a\u0438\u0437\u044f\u043a"
+                        ],
+                        "lv": [
+                            "kizjaks"
+                        ],
+                        "pl": [
+                            "kiziak"
+                        ],
+                        "ru": [
+                            "\u043a\u0438\u0437\u044f\u043a"
+                        ],
+                        "uk": [
+                            "\u043a\u0456\u0437\u044f\u043a"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kiziak": [
+                    "Singulier"
+                ],
+                "kiziaks": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "klaxon": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "horing"
+                        ],
+                        "sq": [
+                            "buri automobili"
+                        ],
+                        "de": [
+                            "Hupe"
+                        ],
+                        "en": [
+                            "klaxon"
+                        ],
+                        "ar": [
+                            "\u0632\u0645\u0627\u0631\u0629"
+                        ],
+                        "bg": [
+                            "\u043a\u043b\u0430\u043a\u0441\u043e\u043d"
+                        ],
+                        "zh": [
+                            "\u6c7d\u8f66\u5587\u53ed"
+                        ],
+                        "da": [
+                            "horn",
+                            "bilhorn"
+                        ],
+                        "es": [
+                            "bocina",
+                            "claxon"
+                        ],
+                        "eo": [
+                            "a\u016dtokorno"
+                        ],
+                        "ga": [
+                            "adharc"
+                        ],
+                        "el": [
+                            "\u03ba\u03bb\u03ac\u03be\u03bf\u03bd"
+                        ],
+                        "it": [
+                            "clacson"
+                        ],
+                        "nl": [
+                            "hoorn"
+                        ],
+                        "pl": [
+                            "klakson"
+                        ],
+                        "ru": [
+                            "\u043a\u043b\u0430\u043a\u0441\u043e\u043d"
+                        ],
+                        "sv": [
+                            "bilhorn",
+                            "biltuta"
+                        ],
+                        "cs": [
+                            "klakson"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "klaxon": [
+                    "Singulier"
+                ],
+                "klaxons": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "klaxonner": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "tuten"
+                        ],
+                        "en": [
+                            "honk"
+                        ],
+                        "br": [
+                            "korna\u00f1"
+                        ],
+                        "zh": [
+                            "\u6309\u6c7d\u8f66\u5587\u53ed"
+                        ],
+                        "es": [
+                            "tocar la bocina",
+                            "tocar el claxon"
+                        ],
+                        "it": [
+                            "clacsonare"
+                        ],
+                        "nl": [
+                            "toeteren"
+                        ],
+                        "pt": [
+                            "buzinar"
+                        ],
+                        "sv": [
+                            "tuta"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "kleptocratie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kleptokratie"
+                        ],
+                        "en": [
+                            "kleptocracy"
+                        ],
+                        "da": [
+                            "kleptokrati"
+                        ],
+                        "es": [
+                            "cleptocracia"
+                        ],
+                        "et": [
+                            "kleptokraatia"
+                        ],
+                        "fi": [
+                            "kleptokratia"
+                        ],
+                        "el": [
+                            "\u03ba\u03bb\u03b5\u03c0\u03c4\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1"
+                        ],
+                        "it": [
+                            "cleptocrazia"
+                        ],
+                        "lb": [
+                            "Kleptokratie"
+                        ],
+                        "nl": [
+                            "kleptocratie"
+                        ],
+                        "no": [
+                            "kleptokrati",
+                            "kleptokrati"
+                        ],
+                        "pl": [
+                            "kleptokracja"
+                        ],
+                        "pt": [
+                            "cleptocracia"
+                        ],
+                        "sv": [
+                            "kleptokrati"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kleptocratie": [
+                    "Singulier"
+                ],
+                "kleptocraties": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kl\u00e9rot\u00e8rion": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kleroterion"
+                        ],
+                        "en": [
+                            "kleroterion"
+                        ],
+                        "es": [
+                            "kleroterion"
+                        ],
+                        "it": [
+                            "kleroterion"
+                        ],
+                        "nl": [
+                            "kleroterion"
+                        ],
+                        "pl": [
+                            "kleroterion"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kl\u00e9rot\u00e8rion": [
+                    "Singulier"
+                ],
+                "kl\u00e9rot\u00e8rions": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "klingon": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "Klingon"
+                        ],
+                        "de": [
+                            "Klingonisch"
+                        ],
+                        "en": [
+                            "Klingon"
+                        ],
+                        "ar": [
+                            "\u0643\u0644\u064a\u0646\u063a\u0648\u0646\u064a\u0629"
+                        ],
+                        "an": [
+                            "klingon"
+                        ],
+                        "nds": [
+                            "Klingoonsche"
+                        ],
+                        "br": [
+                            "klingoneg"
+                        ],
+                        "bg": [
+                            "\u043a\u043b\u0438\u043d\u0433\u043e\u043d\u0441\u043a\u0438"
+                        ],
+                        "ca": [
+                            "klingon\u00e8s",
+                            "kl\u00edngon"
+                        ],
+                        "zh": [
+                            "\u524b\u6797\u8d21\u8bed"
+                        ],
+                        "da": [
+                            "Klingon",
+                            "klingonsk"
+                        ],
+                        "es": [
+                            "klingon"
+                        ],
+                        "eo": [
+                            "klingona",
+                            "klingona lingvo"
+                        ],
+                        "et": [
+                            "klingoni"
+                        ],
+                        "fi": [
+                            "klingonin"
+                        ],
+                        "ga": [
+                            "Tliong\u00e1inis"
+                        ],
+                        "cy": [
+                            "klingon"
+                        ],
+                        "el": [
+                            "\u03b3\u03bb\u03ce\u03c3\u03c3\u03b1 \u039a\u03bb\u03af\u03b3\u03ba\u03bf\u03bd"
+                        ],
+                        "he": [
+                            "\u05e7\u05dc\u05d9\u05e0\u05d2\u05d5\u05e0\u05d9\u05ea"
+                        ],
+                        "id": [
+                            "bahasa Klingon"
+                        ],
+                        "is": [
+                            "kling\u00f3nska"
+                        ],
+                        "it": [
+                            "lingua klingon"
+                        ],
+                        "ja": [
+                            "\u30af\u30ea\u30f3\u30b4\u30f3\u8a9e"
+                        ],
+                        "la": [
+                            "lingua Klingonica"
+                        ],
+                        "li": [
+                            "Klingon"
+                        ],
+                        "jbo": [
+                            "bangrklingo",
+                            "klingon"
+                        ],
+                        "ms": [
+                            "bahasa Klingon"
+                        ],
+                        "nl": [
+                            "Klingon"
+                        ],
+                        "no": [
+                            "Klingon",
+                            "klingonsk",
+                            "klingon"
+                        ],
+                        "pl": [
+                            "klingo\u0144ski"
+                        ],
+                        "pt": [
+                            "klingon"
+                        ],
+                        "ro": [
+                            "klingonian\u0103"
+                        ],
+                        "ru": [
+                            "\u043a\u043b\u0438\u043d\u0433\u043e\u043d\u0441\u043a\u0438\u0439"
+                        ],
+                        "sl": [
+                            "klingon\u0161\u010dina",
+                            "klingonski"
+                        ],
+                        "st": [
+                            "Setlhingone"
+                        ],
+                        "sv": [
+                            "klingonska"
+                        ],
+                        "sw": [
+                            "Kiklingon"
+                        ],
+                        "ss": [
+                            "siKlingoni"
+                        ],
+                        "cs": [
+                            "klingon\u0161tina"
+                        ],
+                        "tn": [
+                            "Setlhingone"
+                        ],
+                        "tr": [
+                            "Klingonca"
+                        ],
+                        "zu": [
+                            "isiHlingoni"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "Klingon": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "Klingon"
+                        ],
+                        "de": [
+                            "Klingone"
+                        ],
+                        "en": [
+                            "Klingon"
+                        ],
+                        "nds": [
+                            "Klingoon"
+                        ],
+                        "bs": [
+                            "Klingoni"
+                        ],
+                        "bg": [
+                            "\u041a\u043b\u0438\u043d\u0433\u043e\u043d\u0446\u0438"
+                        ],
+                        "ca": [
+                            "kl\u00edngon"
+                        ],
+                        "da": [
+                            "Klingon"
+                        ],
+                        "es": [
+                            "Klingon"
+                        ],
+                        "eo": [
+                            "Klingono"
+                        ],
+                        "et": [
+                            "klingonid"
+                        ],
+                        "fi": [
+                            "klingonit"
+                        ],
+                        "el": [
+                            "\u039a\u03bb\u03af\u03b3\u03ba\u03bf\u03bd"
+                        ],
+                        "hi": [
+                            "\u0928"
+                        ],
+                        "id": [
+                            "Klingon"
+                        ],
+                        "it": [
+                            "Klingon"
+                        ],
+                        "ja": [
+                            "\u30af\u30ea\u30f3\u30b4\u30f3\u4eba"
+                        ],
+                        "li": [
+                            "Klingon"
+                        ],
+                        "jbo": [
+                            "klingon"
+                        ],
+                        "ms": [
+                            "Klingon"
+                        ],
+                        "nl": [
+                            "Klingon"
+                        ],
+                        "no": [
+                            "Klingon",
+                            "klingon"
+                        ],
+                        "pl": [
+                            "Klingoni"
+                        ],
+                        "pt": [
+                            "Klingon"
+                        ],
+                        "ro": [
+                            "klingonian"
+                        ],
+                        "ru": [
+                            "\u041a\u043b\u0438\u043d\u0433\u043e\u043d\u044b"
+                        ],
+                        "sl": [
+                            "Klingoni"
+                        ],
+                        "sv": [
+                            "klingon"
+                        ],
+                        "cs": [
+                            "Klingoni"
+                        ],
+                        "tr": [
+                            "Klingon"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "Klingon": [
+                    "Singulier"
+                ],
+                "Klingons": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "knout": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Knute"
+                        ],
+                        "en": [
+                            "knout"
+                        ],
+                        "pl": [
+                            "bat",
+                            "batog"
+                        ],
+                        "ru": [
+                            "\u043a\u043d\u0443\u0442"
+                        ],
+                        "cs": [
+                            "knuta"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "knout": [
+                    "Singulier"
+                ],
+                "knouts": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "koala": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Phascolarctos cinereus"
+                        ],
+                        "de": [
+                            "Koala"
+                        ],
+                        "en": [
+                            "koala"
+                        ],
+                        "ar": [
+                            "\u0643\u0648\u0627\u0644\u0627"
+                        ],
+                        "zh": [
+                            "\u65e0\u5c3e\u718a",
+                            "\u8003\u62c9"
+                        ],
+                        "ko": [
+                            "\ucf54\uc54c\ub77c"
+                        ],
+                        "hr": [
+                            "koala"
+                        ],
+                        "da": [
+                            "koala"
+                        ],
+                        "es": [
+                            "koala"
+                        ],
+                        "eo": [
+                            "koalo"
+                        ],
+                        "fi": [
+                            "koala"
+                        ],
+                        "el": [
+                            "\u03ba\u03bf\u03ac\u03bb\u03b1"
+                        ],
+                        "he": [
+                            "\u05e7\u05d5\u05d0\u05dc\u05d4"
+                        ],
+                        "hu": [
+                            "koala"
+                        ],
+                        "io": [
+                            "koalo"
+                        ],
+                        "id": [
+                            "koala"
+                        ],
+                        "ia": [
+                            "koala"
+                        ],
+                        "is": [
+                            "pokabj\u00f6rn"
+                        ],
+                        "it": [
+                            "koala"
+                        ],
+                        "ja": [
+                            "\u30b3\u30a2\u30e9"
+                        ],
+                        "lt": [
+                            "koala"
+                        ],
+                        "nl": [
+                            "koala"
+                        ],
+                        "no": [
+                            "koala",
+                            "koala"
+                        ],
+                        "oc": [
+                            "coal\u00e0"
+                        ],
+                        "fa": [
+                            "\u06a9\u0648\u0622\u0644\u0627"
+                        ],
+                        "pl": [
+                            "koala"
+                        ],
+                        "pt": [
+                            "coala",
+                            "koala"
+                        ],
+                        "ro": [
+                            "koala"
+                        ],
+                        "ru": [
+                            "\u043a\u043e\u0430\u043b\u0430"
+                        ],
+                        "sl": [
+                            "koala"
+                        ],
+                        "sv": [
+                            "koala"
+                        ],
+                        "cs": [
+                            "koala"
+                        ],
+                        "tr": [
+                            "koala"
+                        ],
+                        "vi": [
+                            "koala"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "koala": [
+                    "Singulier"
+                ],
+                "koalas": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kolkhoze": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kolkhos"
+                        ],
+                        "en": [
+                            "kolkhoz"
+                        ],
+                        "bg": [
+                            "\u043a\u043e\u043b\u0445\u043e\u0437"
+                        ],
+                        "pl": [
+                            "ko\u0142choz"
+                        ],
+                        "ru": [
+                            "\u043a\u043e\u043b\u0445\u043e\u0437"
+                        ],
+                        "sv": [
+                            "kolchos"
+                        ],
+                        "cs": [
+                            "kolchoz"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kolkhoze": [
+                    "Singulier"
+                ],
+                "kolkhozes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kombucha": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kombucha"
+                        ],
+                        "en": [
+                            "kombucha"
+                        ],
+                        "zh": [
+                            "\u7ea2\u8336\u83cc"
+                        ],
+                        "ja": [
+                            "\u7d05\u8336\u30ad\u30ce\u30b3",
+                            "\u30b3\u30f3\u30d6\u30c1\u30e3"
+                        ],
+                        "pl": [
+                            "kombucza"
+                        ],
+                        "ru": [
+                            "\u0447\u0430\u0439\u043d\u044b\u0439 \u0433\u0440\u0438\u0431"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kombucha": [
+                    "Singulier"
+                ],
+                "kombuchas": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "komse": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Komse"
+                        ],
+                        "en": [
+                            "komse",
+                            "Lapp cradle"
+                        ],
+                        "fi": [
+                            "komsio",
+                            "lappalainen kehto",
+                            "kietka"
+                        ],
+                        "no": [
+                            "komse",
+                            "samisk vogge"
+                        ],
+                        "sv": [
+                            "lappsk vagga"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "komse": [
+                    "Singulier"
+                ],
+                "komses": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "konak": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "konak"
+                        ],
+                        "bs": [
+                            "konak"
+                        ],
+                        "hr": [
+                            "konak"
+                        ],
+                        "es": [
+                            "konak"
+                        ],
+                        "sr": [
+                            "\u043a\u043e\u043d\u0430\u043a"
+                        ],
+                        "sh": [
+                            "konak"
+                        ],
+                        "tr": [
+                            "konak"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "konak": [
+                    "Singulier"
+                ],
+                "konaks": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "konjac": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Teufelszunge"
+                        ],
+                        "zh": [
+                            "\u849f\u84bb"
+                        ],
+                        "ko": [
+                            "\uace4\uc57d"
+                        ],
+                        "es": [
+                            "konjak",
+                            "konjaku"
+                        ],
+                        "ja": [
+                            "\u849f\u84bb",
+                            "\u83ce\u84bb",
+                            "\u3053\u3093\u306b\u3083\u304f"
+                        ],
+                        "la": [
+                            "Amorphophallus konjac"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "konjac": [
+                    "Singulier"
+                ],
+                "konjacs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kontakion": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kontakion"
+                        ],
+                        "en": [
+                            "kontakion",
+                            "kondakion"
+                        ],
+                        "el": [
+                            "\u03ba\u03bf\u03bd\u03c4\u03ac\u03ba\u03b9\u03bf"
+                        ],
+                        "la": [
+                            "contacium"
+                        ],
+                        "ru": [
+                            "\u043a\u043e\u043d\u0434\u0430\u043a"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kontakion": [
+                    "Singulier"
+                ],
+                "kontakions": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kopeck": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kopeke"
+                        ],
+                        "en": [
+                            "kopek"
+                        ],
+                        "ar": [
+                            "\u0643\u0648\u067e\u0643",
+                            "\u0643\u0648\u0628\u064a\u0643"
+                        ],
+                        "hy": [
+                            "\u056f\u0578\u057a\u0565\u056f"
+                        ],
+                        "be": [
+                            "\u043a\u0430\u043f\u0435\u0439\u043a\u0430"
+                        ],
+                        "ca": [
+                            "copec"
+                        ],
+                        "zh": [
+                            "\u6208\u6bd4"
+                        ],
+                        "ko": [
+                            "\ucf54\ud398\uc774\uce74"
+                        ],
+                        "eo": [
+                            "kopeko"
+                        ],
+                        "et": [
+                            "kopikas"
+                        ],
+                        "fi": [
+                            "kopeekka"
+                        ],
+                        "it": [
+                            "copeco"
+                        ],
+                        "ja": [
+                            "\u30b3\u30da\u30a4\u30ab"
+                        ],
+                        "kk": [
+                            "\u0442\u0438\u044b\u043d"
+                        ],
+                        "fa": [
+                            "\u06a9\u0648\u067e\u06a9"
+                        ],
+                        "pl": [
+                            "kopiejka"
+                        ],
+                        "pt": [
+                            "copeque"
+                        ],
+                        "ro": [
+                            "copeic\u0103"
+                        ],
+                        "ru": [
+                            "\u043a\u043e\u043f\u0435\u0439\u043a\u0430"
+                        ],
+                        "tr": [
+                            "kopek"
+                        ],
+                        "uk": [
+                            "\u043a\u043e\u043f\u0456\u0439\u043a\u0430"
+                        ],
+                        "vo": [
+                            "kopek"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kopeck": [
+                    "Singulier"
+                ],
+                "kopecks": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "korat": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Koratkatze"
+                        ],
+                        "en": [
+                            "korat"
+                        ],
+                        "es": [
+                            "gato de la suerte"
+                        ],
+                        "it": [
+                            "gatto Korat"
+                        ],
+                        "pl": [
+                            "korat"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "korat": [
+                    "Singulier"
+                ],
+                "korats": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kotava": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kotava"
+                        ],
+                        "en": [
+                            "Kotava"
+                        ],
+                        "ko": [
+                            "\ucf54\ud0c0\ubc14"
+                        ],
+                        "es": [
+                            "kotava"
+                        ],
+                        "eo": [
+                            "Kotavao"
+                        ],
+                        "gl": [
+                            "kotava"
+                        ],
+                        "el": [
+                            "\u03ba\u03bf\u03c4\u03ac\u03b2\u03b1"
+                        ],
+                        "hi": [
+                            "\u0924\u0935"
+                        ],
+                        "it": [
+                            "kotava"
+                        ],
+                        "ja": [
+                            "\u30b3\u30bf\u30fc\u30d0"
+                        ],
+                        "ln": [
+                            "Kotava"
+                        ],
+                        "nl": [
+                            "Kotava"
+                        ],
+                        "pt": [
+                            "kotava"
+                        ],
+                        "ro": [
+                            "kotava"
+                        ],
+                        "ru": [
+                            "\u043a\u043e\u0442\u0430\u0432\u0430"
+                        ],
+                        "sw": [
+                            "kikotava"
+                        ],
+                        "tr": [
+                            "kotava"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "koudou": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Tragelaphus"
+                        ],
+                        "de": [
+                            "Kudu"
+                        ],
+                        "en": [
+                            "kudu"
+                        ],
+                        "es": [
+                            "kud\u00fa"
+                        ],
+                        "it": [
+                            "cud\u00f9"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "koudou": [
+                    "Singulier"
+                ],
+                "koudous": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "koulak": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kulak"
+                        ],
+                        "en": [
+                            "kulak"
+                        ],
+                        "hu": [
+                            "kul\u00e1k"
+                        ],
+                        "pl": [
+                            "ku\u0142ak"
+                        ],
+                        "ru": [
+                            "\u043a\u0443\u043b\u0430\u043a"
+                        ],
+                        "cs": [
+                            "kulak"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "koulak": [
+                    "Singulier"
+                ],
+                "koulaks": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kouligan": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Halbstarker",
+                            "Hooligan"
+                        ],
+                        "en": [
+                            "hooligan"
+                        ],
+                        "bg": [
+                            "\u0445\u0443\u043b\u0438\u0433\u0430\u043d"
+                        ],
+                        "fi": [
+                            "huligaani"
+                        ],
+                        "hu": [
+                            "hulig\u00e1n"
+                        ],
+                        "ru": [
+                            "\u0445\u0443\u043b\u0438\u0433\u0430\u043d"
+                        ],
+                        "cs": [
+                            "chulig\u00e1n"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kouligan": [
+                    "Singulier"
+                ],
+                "kouligans": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kouligane": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Halbstarker",
+                            "Hooligan"
+                        ],
+                        "en": [
+                            "hooligan"
+                        ],
+                        "bg": [
+                            "\u0445\u0443\u043b\u0438\u0433\u0430\u043d"
+                        ],
+                        "fi": [
+                            "huligaani"
+                        ],
+                        "hu": [
+                            "hulig\u00e1n"
+                        ],
+                        "ru": [
+                            "\u0445\u0443\u043b\u0438\u0433\u0430\u043d"
+                        ],
+                        "cs": [
+                            "chulig\u00e1n"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kouligane": [
+                    "Singulier"
+                ],
+                "kouliganes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "koumis": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "kumiss"
+                        ],
+                        "az": [
+                            "q\u0131m\u0131z"
+                        ],
+                        "zh": [
+                            "\u9a6c\u5976\u9152"
+                        ],
+                        "kk": [
+                            "\u049b\u044b\u043c\u044b\u0437"
+                        ],
+                        "ky": [
+                            "\u043a\u044b\u043c\u044b\u0437"
+                        ],
+                        "mn": [
+                            "\u0430\u0439\u0440\u0430\u0433"
+                        ],
+                        "ru": [
+                            "\u043a\u0443\u043c\u044b\u0441"
+                        ],
+                        "tt": [
+                            "\u043a\u044b\u043c\u044b\u0437"
+                        ],
+                        "tr": [
+                            "k\u0131m\u0131z"
+                        ],
+                        "tk": [
+                            "gymyz"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "koumyk": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "Kumyk"
+                        ],
+                        "kk": [
+                            "\u049b\u04b1\u043c\u044b\u049b \u0442\u0456\u043b\u0456"
+                        ],
+                        "ru": [
+                            "\u043a\u0443\u043c\u044b\u043a\u0441\u043a\u0438\u0439"
+                        ],
+                        "tr": [
+                            "Kumuk\u00e7a"
+                        ],
+                        "tk": [
+                            "gumuk dili"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "Koungourien": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kungurium"
+                        ],
+                        "en": [
+                            "Kungurian"
+                        ],
+                        "ca": [
+                            "Kunguri\u00e0"
+                        ],
+                        "es": [
+                            "Kunguriense"
+                        ],
+                        "hu": [
+                            "Kunguri"
+                        ],
+                        "it": [
+                            "Kunguriano"
+                        ],
+                        "nl": [
+                            "Kungurien"
+                        ],
+                        "pl": [
+                            "Kungur"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "kourtchatovium": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kurtschatowium",
+                            "Kurchatovium"
+                        ],
+                        "en": [
+                            "kurchatovium"
+                        ],
+                        "hy": [
+                            "\u056f\u0578\u0582\u0580\u0579\u0561\u057f\u0578\u057e\u056b\u0578\u0582\u0574"
+                        ],
+                        "ast": [
+                            "kurchatovio"
+                        ],
+                        "be": [
+                            "\u043a\u0443\u0440\u0447\u0430\u0442\u043e\u0432i\u0439",
+                            "\u043a\u0443\u0440\u0447\u0430\u0442\u043e\u0432\u0456\u0439"
+                        ],
+                        "ca": [
+                            "kurchatovi"
+                        ],
+                        "hr": [
+                            "kur\u010datovij"
+                        ],
+                        "da": [
+                            "kurchatovium"
+                        ],
+                        "es": [
+                            "kurchatovio"
+                        ],
+                        "et": [
+                            "kurt\u0161atoovium"
+                        ],
+                        "fi": [
+                            "kurchatovium"
+                        ],
+                        "gd": [
+                            "kurchatovium"
+                        ],
+                        "ga": [
+                            "cuirtseat\u00f3iviam"
+                        ],
+                        "gl": [
+                            "kurchatovio"
+                        ],
+                        "ka": [
+                            "\u10d9\u10e3\u10e0\u10e9\u10d0\u10e2\u10dd\u10d5\u10d8\u10e3\u10db\u10d8"
+                        ],
+                        "hu": [
+                            "kurcsatovium"
+                        ],
+                        "id": [
+                            "kurchatovium"
+                        ],
+                        "is": [
+                            "kurchatov\u00edn"
+                        ],
+                        "it": [
+                            "kurchatovio",
+                            "rutherfordio",
+                            "unnilquadio"
+                        ],
+                        "kk": [
+                            "\u043a\u0443\u0440\u0447\u0430\u0442\u043e\u0432\u0438\u0439"
+                        ],
+                        "lt": [
+                            "kur\u010diatovis"
+                        ],
+                        "zh": [
+                            "\u9fb2"
+                        ],
+                        "mn": [
+                            "\u043a\u0443\u0440\u0447\u0430\u0442\u043e\u0431\u0438"
+                        ],
+                        "nl": [
+                            "kurchatovium"
+                        ],
+                        "no": [
+                            "kurchatovium"
+                        ],
+                        "ru": [
+                            "\u043a\u0443\u0440\u0447\u0430\u0442\u043e\u0432\u0438\u0439"
+                        ],
+                        "sh": [
+                            "\u0432\u0438\u0458",
+                            "kur\u010dat\u020fvij"
+                        ],
+                        "sl": [
+                            "kur\u010datovij"
+                        ],
+                        "tr": [
+                            "kur\u00e7atovyum"
+                        ],
+                        "uk": [
+                            "\u043a\u0443\u0440\u0447\u0430\u0442\u043e\u0432\u0456\u0439"
+                        ],
+                        "vi": [
+                            "kusatovi"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kourtchatovium": [
+                    "Singulier"
+                ],
+                "kourtchatoviums": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "krach": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Krach"
+                        ],
+                        "en": [
+                            "crash"
+                        ],
+                        "ko": [
+                            "\ud3ed\ub77d",
+                            "\ub300\ud3ed\ub77d"
+                        ],
+                        "ja": [
+                            "\u66b4\u843d",
+                            "\u5927\u66b4\u843d"
+                        ],
+                        "nl": [
+                            "krach"
+                        ],
+                        "cs": [
+                            "krach"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "krach": [
+                    "Singulier"
+                ],
+                "krachs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kra\u00ef": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "krai"
+                        ],
+                        "es": [
+                            "krai"
+                        ],
+                        "eo": [
+                            "regiono"
+                        ],
+                        "pl": [
+                            "kraj"
+                        ],
+                        "ru": [
+                            "\u043a\u0440\u0430\u0439"
+                        ],
+                        "sk": [
+                            "kraj"
+                        ],
+                        "cs": [
+                            "kraj"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kra\u00ef": [
+                    "Singulier"
+                ],
+                "kra\u00efs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kraken": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Cr\u00e9ature fantastique",
+                    "translations": {
+                        "de": [
+                            "Krake"
+                        ],
+                        "en": [
+                            "kraken"
+                        ],
+                        "zh": [
+                            "\u632a\u5a01\u6d77\u602a"
+                        ],
+                        "da": [
+                            "kraken"
+                        ],
+                        "it": [
+                            "kraken"
+                        ],
+                        "ru": [
+                            "\u043a\u0440\u0430\u043a\u0435\u043d"
+                        ],
+                        "sv": [
+                            "kraken"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kraken": [
+                    "Singulier"
+                ],
+                "krakens": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "Kraken": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Cr\u00e9ature fantastique",
+                    "translations": {
+                        "de": [
+                            "Kraken"
+                        ],
+                        "en": [
+                            "Kraken"
+                        ],
+                        "zh": [
+                            "\u632a\u5a01\u6d77\u602a"
+                        ],
+                        "da": [
+                            "Kraken"
+                        ],
+                        "it": [
+                            "Kraken"
+                        ],
+                        "ru": [
+                            "\u041a\u0440\u0430\u043a\u0435\u043d"
+                        ],
+                        "sv": [
+                            "Kraken"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "kreuzer": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kreuzer"
+                        ],
+                        "en": [
+                            "kreuzer"
+                        ],
+                        "be": [
+                            "\u043a\u0440\u044d\u0439\u0446\u0430\u0440"
+                        ],
+                        "bg": [
+                            "\u043a\u0440\u043e\u0439\u0446\u0435\u0440"
+                        ],
+                        "hr": [
+                            "krajcar"
+                        ],
+                        "eo": [
+                            "krejcero"
+                        ],
+                        "et": [
+                            "kroitser"
+                        ],
+                        "fi": [
+                            "kreuzer"
+                        ],
+                        "el": [
+                            "\u03ba\u03c1\u03cc\u03b9\u03c4\u03c3\u03b5\u03c1"
+                        ],
+                        "hu": [
+                            "krajc\u00e1r"
+                        ],
+                        "it": [
+                            "kreuzer"
+                        ],
+                        "ja": [
+                            "\u30af\u30ed\u30a4\u30c4\u30a1\u30fc"
+                        ],
+                        "lt": [
+                            "kreiceris"
+                        ],
+                        "ms": [
+                            "kreuzer"
+                        ],
+                        "pl": [
+                            "krajcar"
+                        ],
+                        "pt": [
+                            "kreuzer"
+                        ],
+                        "ro": [
+                            "crei\u021bar"
+                        ],
+                        "ru": [
+                            "\u043a\u0440\u0435\u0439\u0446\u0435\u0440"
+                        ],
+                        "sr": [
+                            "\u043a\u0440\u0430\u0458\u0446\u0435\u0440"
+                        ],
+                        "sk": [
+                            "grajciar"
+                        ],
+                        "sv": [
+                            "kreuzer"
+                        ],
+                        "cs": [
+                            "krejcar"
+                        ],
+                        "uk": [
+                            "\u043a\u0440\u0435\u0439\u0446\u0435\u0440"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "kreuzer": [
+                    "Singulier"
+                ],
+                "kreuzers": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "krigeage": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Kriging"
+                        ],
+                        "en": [
+                            "Kriging",
+                            "kriging"
+                        ],
+                        "es": [
+                            "krigeaje"
+                        ],
+                        "it": [
+                            "kriging"
+                        ],
+                        "pt": [
+                            "Kriging",
+                            "Krigagem"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "krigeage": [
+                    "Singulier"
+                ],
+                "krigeages": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "krill": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "planktonkrefie"
+                        ],
+                        "de": [
+                            "Leuchtgarnelen",
+                            "Krill"
+                        ],
+                        "en": [
+                            "krill"
+                        ],
+                        "eu": [
+                            "krill"
+                        ],
+                        "bs": [
+                            "kril"
+                        ],
+                        "br": [
+                            "krill"
+                        ],
+                        "bg": [
+                            "\u043a\u0440\u0438\u043b"
+                        ],
+                        "ca": [
+                            "krill"
+                        ],
+                        "hr": [
+                            "kril"
+                        ],
+                        "da": [
+                            "krill",
+                            "lyskrebs"
+                        ],
+                        "es": [
+                            "kril"
+                        ],
+                        "eo": [
+                            "krilo"
+                        ],
+                        "fi": [
+                            "krillit",
+                            "loistoravut"
+                        ],
+                        "el": [
+                            "\u03ba\u03c1\u03b9\u03bb"
+                        ],
+                        "hu": [
+                            "krill",
+                            "vil\u00e1g\u00edt\u00f3r\u00e1kok"
+                        ],
+                        "id": [
+                            "kril"
+                        ],
+                        "is": [
+                            "lj\u00f3s\u00e1ta"
+                        ],
+                        "it": [
+                            "krill"
+                        ],
+                        "ja": [
+                            "\u30aa\u30ad\u30a2\u30df"
+                        ],
+                        "jv": [
+                            "krill"
+                        ],
+                        "kk": [
+                            "\u043a\u0440\u0438\u043b\u044c"
+                        ],
+                        "lv": [
+                            "krili"
+                        ],
+                        "lt": [
+                            "krilis"
+                        ],
+                        "nl": [
+                            "krill"
+                        ],
+                        "no": [
+                            "krill"
+                        ],
+                        "pl": [
+                            "szcz\u0119tki"
+                        ],
+                        "pt": [
+                            "krill"
+                        ],
+                        "ro": [
+                            "krill"
+                        ],
+                        "sr": [
+                            "\u043a\u0440\u0438\u043b"
+                        ],
+                        "sh": [
+                            "kril"
+                        ],
+                        "sl": [
+                            "kril"
+                        ],
+                        "sv": [
+                            "lysr\u00e4kor",
+                            "krill"
+                        ],
+                        "tl": [
+                            "alamang"
+                        ],
+                        "cs": [
+                            "kril"
+                        ],
+                        "tr": [
+                            "kril"
+                        ],
+                        "uk": [
+                            "\u043a\u0440\u0438\u043b\u044c"
+                        ],
+                        "vi": [
+                            "moi l\u00e2n"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "krill": [
+                    "Singulier"
+                ],
+                "krills": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "kriss": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "kris"
+                        ],
+                        "en": [
+                            "kris"
+                        ],
+                        "bn": [
+                            "\u099a"
+                        ],
+                        "be": [
+                            "\u043a\u0440\u044b\u0441"
+                        ],
+                        "es": [
+                            "kris"
+                        ],
+                        "eo": [
+                            "kriso"
+                        ],
+                        "fi": [
+                            "kris"
+                        ],
+                        "hu": [
+                            "kris"
+                        ],
+                        "ia": [
+                            "kris"
+                        ],
+                        "is": [
+                            "kris"
+                        ],
+                        "it": [
+                            "kriss"
+                        ],
+                        "jv": [
+                            "keris"
+                        ],
+                        "lv": [
+                            "kriss"
+                        ],
+                        "lt": [
+                            "krisas"
+                        ],
+                        "mr": [
+                            "\u0938"
+                        ],
+                        "nl": [
+                            "kris"
+                        ],
+                        "pl": [
+                            "kris"
+                        ],
+                        "pt": [
+                            "kris"
+                        ],
+                        "ru": [
+                            "\u043a\u0440\u0438\u0441"
+                        ],
+                        "sv": [
+                            "kris"
+                        ],
+                        "cs": [
+                            "kris"
+                        ],
+                        "th": [
+                            "\u0e0a"
+                        ],
+                        "uk": [
+                            "\u043a\u0440\u0438\u0441"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "krugerrand": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "Krugerrand"
+                        ],
+                        "de": [
+                            "Krugerrand"
+                        ],
+                        "en": [
+                            "Krugerrand"
+                        ],
+                        "zh": [
+                            "\u514b\u9c81\u683c\u91d1\u5e01"
+                        ],
+                        "ko": [
+                            "\ud06c\ub8e8\uac70\ub79c\ub4dc"
+                        ],
+                        "es": [
+                            "Krugerrand"
+                        ],
+                        "it": [
+                            "Krugerrand"
+                        ],
+                        "ja": [
+                            "\u30af\u30eb\u30fc\u30ac\u30fc\u30e9\u30f3\u30c9\u91d1\u8ca8"
+                        ],
+                        "lv": [
+                            "Kr\u016bgerrands"
+                        ],
+                        "nl": [
+                            "Krugerrand"
+                        ],
+                        "no": [
+                            "Krugerrand"
+                        ],
+                        "pl": [
+                            "Krugerrand"
+                        ],
+                        "ru": [
+                            "\u043a\u0440\u044e\u0433\u0435\u0440\u0440\u0430\u043d\u0434"
+                        ],
+                        "sv": [
+                            "Krugerrand"
+                        ],
+                        "uk": [
+                            "\u041a\u0440\u044e\u0491\u0435\u0440\u0440\u0430\u043d\u0434"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "krugerrand": [
+                    "Singulier"
+                ],
+                "krugerrands": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "krypton": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Krypton"
+                        ],
+                        "en": [
+                            "krypton"
+                        ],
+                        "bg": [
+                            "\u043a\u0440\u0438\u043f\u0442\u043e\u043d"
+                        ],
+                        "ca": [
+                            "cript\u00f3"
+                        ],
+                        "zh": [
+                            "\u6c2a"
+                        ],
+                        "ko": [
+                            "\ud06c\ub9bd\ud1a4"
+                        ],
+                        "da": [
+                            "krypton"
+                        ],
+                        "es": [
+                            "cript\u00f3n",
+                            "kript\u00f3n"
+                        ],
+                        "eo": [
+                            "kriptono"
+                        ],
+                        "et": [
+                            "kr\u00fcptoon"
+                        ],
+                        "fi": [
+                            "krypton"
+                        ],
+                        "el": [
+                            "\u03ba\u03c1\u03c5\u03c0\u03c4\u03cc"
+                        ],
+                        "hu": [
+                            "kripton"
+                        ],
+                        "io": [
+                            "kriptono"
+                        ],
+                        "it": [
+                            "krypton"
+                        ],
+                        "ja": [
+                            "\u30af\u30ea\u30d7\u30c8\u30f3"
+                        ],
+                        "lv": [
+                            "kriptons"
+                        ],
+                        "lt": [
+                            "kriptonas"
+                        ],
+                        "mt": [
+                            "kripton"
+                        ],
+                        "mn": [
+                            "\u043a\u0440\u0438\u043f\u0442\u043e\u043d"
+                        ],
+                        "nl": [
+                            "krypton"
+                        ],
+                        "pl": [
+                            "krypton"
+                        ],
+                        "pt": [
+                            "kr\u00edpton"
+                        ],
+                        "ro": [
+                            "kripton"
+                        ],
+                        "sk": [
+                            "krypt\u00f3n"
+                        ],
+                        "sl": [
+                            "kripton"
+                        ],
+                        "sv": [
+                            "krypton"
+                        ],
+                        "cs": [
+                            "krypton"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "ku": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "qu"
+                        ],
+                        "en": [
+                            "cue"
+                        ],
+                        "ko": [
+                            "\ud050"
+                        ],
+                        "eo": [
+                            "kuo"
+                        ],
+                        "ja": [
+                            "\u30ad\u30e5\u30fc"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ku": [
+                    "Singulier"
+                ],
+                "kus": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ]
+}
