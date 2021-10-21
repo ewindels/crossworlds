@@ -175,16 +175,22 @@ class WordPattern(ABC):
     def set_length(self, length: int) -> None:
         if length > self.length:
             for index in range(self.length, length):
-                if (
-                    self.get_content(index + 1) is None
-                    or (
+                if self.get_content(index + 1) is None:
+                    self.valid_word_lengths.add(index + 1)
+                elif (
                         self.get_content(index + 1) == EMPTY_TOKEN
                         and self.get_content(index + 3) != DEF_TOKEN
                         and self.get_content_orthogonal(index + 1, 2) != DEF_TOKEN
                         and self.get_content_orthogonal(index + 1, -2) not in (DEF_TOKEN, None)
-                        )
                 ):
-                    self.valid_word_lengths.add(index + 1)
+                    if self.get_content(index + 2) is None:
+                        if (
+                            self.get_content_orthogonal(index + 1, 1) not in (DEF_TOKEN, None)
+                            and self.get_content_orthogonal(index + 1, 2) not in (DEF_TOKEN, None)
+                        ):
+                            self.valid_word_lengths.add(index + 1)
+                    else:
+                        self.valid_word_lengths.add(index + 1)
                 self.update_crossing_word_patterns(index)
         else:
             for valid_length in self.valid_word_lengths.copy():
