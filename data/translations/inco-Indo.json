@@ -1,0 +1,5765 @@
+{
+    "inconsid\u00e9r\u00e9": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Qui parle ou agit sans consid\u00e9ration",
+                    "translations": {
+                        "de": [
+                            "leichtsinnig",
+                            "leichtfertig"
+                        ],
+                        "en": [
+                            "inconsiderate"
+                        ],
+                        "es": [
+                            "inconsiderado"
+                        ],
+                        "eo": [
+                            "senpripensa"
+                        ],
+                        "id": [
+                            "gegabah"
+                        ],
+                        "it": [
+                            "inconsiderato"
+                        ],
+                        "ro": [
+                            "nechibzuit",
+                            "nesocotit"
+                        ],
+                        "ru": [
+                            "\u043e\u043f\u0440\u043e\u043c\u0435\u0442\u0447\u0438\u0432\u044b\u0439",
+                            "\u043d\u0435\u043e\u0431\u0434\u0443\u043c\u0430\u043d\u043d\u044b\u0439"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "inconsid\u00e9r\u00e9": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "inconsid\u00e9r\u00e9s": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "inconsid\u00e9r\u00e9e": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "inconsid\u00e9r\u00e9es": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "inconsid\u00e9r\u00e9ment": [
+        {
+            "type": "Adverbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "mindlessly",
+                            "rashly",
+                            "thoughtlessly"
+                        ],
+                        "es": [
+                            "inconsideradamente"
+                        ],
+                        "eo": [
+                            "senpripense"
+                        ],
+                        "it": [
+                            "inconsideratamente",
+                            "sconsideratamente"
+                        ],
+                        "la": [
+                            "improvide",
+                            "inconsiderate",
+                            "inconsideranter",
+                            "inconsulte",
+                            "inconsulto"
+                        ],
+                        "ru": [
+                            "\u043e\u043f\u0440\u043e\u043c\u0435\u0442\u0447\u0438\u0432\u043e",
+                            "\u043d\u0435\u043e\u0431\u0434\u0443\u043c\u0430\u043d\u043d\u043e"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "inconsolable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "inconsolable"
+                        ],
+                        "fi": [
+                            "lohduton"
+                        ],
+                        "io": [
+                            "nekonsolacebla"
+                        ],
+                        "it": [
+                            "inconsolabile"
+                        ],
+                        "oc": [
+                            "inconsolable"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "inconsolable": [
+                    "Singulier"
+                ],
+                "inconsolables": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "inconstitutionnel": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "verfassungswidrig"
+                        ],
+                        "en": [
+                            "unconstitutional"
+                        ],
+                        "io": [
+                            "nekonstitucala"
+                        ],
+                        "it": [
+                            "incostituzionale"
+                        ],
+                        "ja": [
+                            "\u9055\u61b2"
+                        ],
+                        "pt": [
+                            "inconstitucional"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "inconstitutionnel": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "inconstitutionnels": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "inconstitutionnelle": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "inconstitutionnelles": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "incontestabilit\u00e9": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "incontestability",
+                            "indisputability"
+                        ],
+                        "es": [
+                            "incontestabilidad"
+                        ],
+                        "it": [
+                            "incontestabilit\u00e0"
+                        ],
+                        "pt": [
+                            "incontestabilidade"
+                        ],
+                        "sv": [
+                            "obestridlighet"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incontestabilit\u00e9": [
+                    "Singulier"
+                ],
+                "incontestabilit\u00e9s": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "incontestable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "onteenseglik"
+                        ],
+                        "en": [
+                            "incontestable"
+                        ],
+                        "fi": [
+                            "ep\u00e4\u00e4m\u00e4t\u00f6n"
+                        ],
+                        "it": [
+                            "incontestabile"
+                        ],
+                        "nl": [
+                            "ontegenzeglijk"
+                        ],
+                        "sv": [
+                            "obestridlig"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incontestable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "incontestables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "incontr\u00f4lable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "unverifiable",
+                            "uncontrollable"
+                        ],
+                        "it": [
+                            "incontrollabile"
+                        ],
+                        "oc": [
+                            "incontrolable"
+                        ],
+                        "sv": [
+                            "okontrollerbar"
+                        ],
+                        "cs": [
+                            "nep\u0159\u00ed\u010detn\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incontr\u00f4lable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "incontr\u00f4lables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "inconvenant": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "inconvenient"
+                        ],
+                        "es": [
+                            "inconveniente",
+                            "maleducado"
+                        ],
+                        "eo": [
+                            "maldeca"
+                        ],
+                        "ka": [
+                            "\u10db\u10dd\u10e3\u10ee\u10d4\u10e0\u10ee\u10d4\u10d1\u10d4\u10da\u10d8"
+                        ],
+                        "el": [
+                            "\u03b1\u03c0\u03c1\u03b5\u03c0\u03ae\u03c2"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "inconvenant": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "inconvenants": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "inconvenante": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "inconvenantes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "inconv\u00e9nient": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Ce qui survient de f\u00e2cheux dans une affaire, ce qui r\u00e9sulte de f\u00e2cheux d\u2019un parti qu\u2019on prend.\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "Nachteil",
+                            "Ungemach"
+                        ],
+                        "en": [
+                            "inconvenience"
+                        ],
+                        "ha": [
+                            "\u0199untatawa"
+                        ],
+                        "nl": [
+                            "ongemak",
+                            "hinder"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u0443\u0434\u043e\u0431\u0441\u0442\u0432\u043e"
+                        ]
+                    }
+                },
+                {
+                    "definition": "D\u00e9savantages attach\u00e9s \u00e0 une chose, des r\u00e9sultats f\u00e2cheux qu\u2019elle doit n\u00e9cessairement produire.\u00a0(2)",
+                    "translations": {
+                        "de": [
+                            "Nachteil"
+                        ],
+                        "en": [
+                            "disadvantage"
+                        ],
+                        "fi": [
+                            "haitta"
+                        ],
+                        "ha": [
+                            "\u0199untatawa"
+                        ],
+                        "it": [
+                            "svantaggio"
+                        ],
+                        "nl": [
+                            "nadeel"
+                        ]
+                    }
+                },
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "annoyance",
+                            "bother",
+                            "encumbrance",
+                            "impediment",
+                            "inconvenience",
+                            "drawback"
+                        ],
+                        "da": [
+                            "ulempe"
+                        ],
+                        "eo": [
+                            "maloportuneco",
+                            "\u011dena\u0135o",
+                            "malavanta\u011do"
+                        ],
+                        "io": [
+                            "desavantajo"
+                        ],
+                        "id": [
+                            "mudarat"
+                        ],
+                        "is": [
+                            "galli"
+                        ],
+                        "no": [
+                            "ulempe"
+                        ],
+                        "pl": [
+                            "wada"
+                        ],
+                        "sv": [
+                            "nackdel"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "inconv\u00e9nient": [
+                    "Singulier"
+                ],
+                "inconv\u00e9nients": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "inconventionnel": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "unkonventionell"
+                        ],
+                        "en": [
+                            "unconventional"
+                        ],
+                        "it": [
+                            "inconvenzionale"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u0448\u0430\u0431\u043b\u043e\u043d\u043d\u044b\u0439"
+                        ],
+                        "cs": [
+                            "nekonven\u010dn\u00ed"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "inconventionnel": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "inconventionnels": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "inconventionnelle": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "inconventionnelles": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "incorporation": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Einberufung"
+                        ],
+                        "en": [
+                            "intake",
+                            "incorporation"
+                        ],
+                        "es": [
+                            "incorporaci\u00f3n"
+                        ],
+                        "el": [
+                            "\u03b5\u03bd\u03c3\u03c9\u03bc\u03ac\u03c4\u03c9\u03c3\u03b7"
+                        ],
+                        "io": [
+                            "enkorpigo"
+                        ],
+                        "it": [
+                            "incorporazione"
+                        ],
+                        "ja": [
+                            "\u5408\u4f53"
+                        ],
+                        "cs": [
+                            "v\u010dlen\u011bn\u00ed",
+                            "inkorporace"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incorporation": [
+                    "Singulier"
+                ],
+                "incorporations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "incorporer": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "to incorporate"
+                        ],
+                        "hr": [
+                            "integrirati"
+                        ],
+                        "el": [
+                            "\u03b5\u03bd\u03c3\u03c9\u03bc\u03b1\u03c4\u03ce\u03bd\u03c9"
+                        ],
+                        "fa": [
+                            "\u062f\u0631 \u0647\u0645 \u0622\u0645\u06cc\u062e\u062a\u0646"
+                        ],
+                        "it": [
+                            "incorporare"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "incorrect": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Qui n\u2019est pas correct.\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "unrecht"
+                        ],
+                        "en": [
+                            "incorrect"
+                        ],
+                        "es": [
+                            "incorrecto"
+                        ],
+                        "eo": [
+                            "mal\u011dusta"
+                        ],
+                        "it": [
+                            "incorretto"
+                        ],
+                        "pt": [
+                            "incorrecto"
+                        ],
+                        "ro": [
+                            "incorect"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incorrect": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "incorrects": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "incorrecte": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "incorrectes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "incorrigible": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "incorrigible"
+                        ],
+                        "eo": [
+                            "nekorektebla"
+                        ],
+                        "el": [
+                            "\u03b1\u03b4\u03b9\u03cc\u03c1\u03b8\u03c9\u03c4\u03bf\u03c2"
+                        ],
+                        "it": [
+                            "incorreggibile"
+                        ],
+                        "pl": [
+                            "niepoprawny"
+                        ],
+                        "cs": [
+                            "nenapraviteln\u00fd"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "incorruptibilit\u00e9": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Unbestechlichkeit"
+                        ],
+                        "en": [
+                            "incorruptibility"
+                        ],
+                        "es": [
+                            "incorruptilidad"
+                        ],
+                        "io": [
+                            "nekoruptebleso"
+                        ],
+                        "it": [
+                            "incorruttibilit\u00e0"
+                        ],
+                        "oc": [
+                            "incorruptibilitat"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incorruptibilit\u00e9": [
+                    "Singulier"
+                ],
+                "incorruptibilit\u00e9s": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "incorruptible": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "incorruptible"
+                        ],
+                        "el": [
+                            "\u03b1\u03b4\u03b9\u03ac\u03c6\u03b8\u03bf\u03c1\u03bf\u03c2"
+                        ],
+                        "io": [
+                            "nekoruptebla"
+                        ],
+                        "it": [
+                            "incorruttibile"
+                        ],
+                        "la": [
+                            "incorruptibilis",
+                            "incoinquinabilis"
+                        ],
+                        "cs": [
+                            "nepodplatiteln\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incorruptible": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "incorruptibles": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "incr\u00e9mentation": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Inkrement"
+                        ],
+                        "en": [
+                            "increment"
+                        ],
+                        "it": [
+                            "incrementazione"
+                        ],
+                        "ja": [
+                            "\u30a4\u30f3\u30af\u30ea\u30e1\u30f3\u30c8"
+                        ],
+                        "oc": [
+                            "incrementacion"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incr\u00e9mentation": [
+                    "Singulier"
+                ],
+                "incr\u00e9mentations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "incriminer": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "incriminate"
+                        ],
+                        "br": [
+                            "karezi\u00f1"
+                        ],
+                        "el": [
+                            "\u03b5\u03bd\u03bf\u03c7\u03bf\u03c0\u03bf\u03b9\u03ce"
+                        ],
+                        "it": [
+                            "incriminare"
+                        ],
+                        "sv": [
+                            "anklaga",
+                            "\u00e5tala",
+                            "p\u00e5tala"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "incroyable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Qui ne peut \u00eatre cru, ou qui est difficile \u00e0 croire.\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "unglaublich"
+                        ],
+                        "en": [
+                            "unbelievable"
+                        ],
+                        "br": [
+                            "digredus"
+                        ],
+                        "ca": [
+                            "incre\u00efble"
+                        ],
+                        "es": [
+                            "incre\u00edble"
+                        ],
+                        "eo": [
+                            "nekredebla"
+                        ],
+                        "hu": [
+                            "hihetetlen"
+                        ],
+                        "io": [
+                            "nekredebla"
+                        ],
+                        "it": [
+                            "incredibile"
+                        ],
+                        "la": [
+                            "incredibilis"
+                        ],
+                        "no": [
+                            "utrolig"
+                        ],
+                        "pt": [
+                            "inacredit\u00e1vel",
+                            "incr\u00edvel"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u044b\u0439"
+                        ],
+                        "sk": [
+                            "neuverite\u013en\u00fd"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Qui est excessif, extraordinaire, qui passe la croyance.\u00a0(2)",
+                    "translations": {
+                        "de": [
+                            "unglaublich"
+                        ],
+                        "en": [
+                            "unbelievable",
+                            "incredible"
+                        ],
+                        "eo": [
+                            "nekredebla"
+                        ],
+                        "la": [
+                            "incredibilis"
+                        ],
+                        "pt": [
+                            "incr\u00edvel"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u044b\u0439"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incroyable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "incroyables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "incroyablement": [
+        {
+            "type": "Adverbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "amazingly",
+                            "unbelievably",
+                            "improbably",
+                            "inconceivably"
+                        ],
+                        "eo": [
+                            "nekredeble"
+                        ],
+                        "el": [
+                            "\u03b1\u03c0\u03af\u03c3\u03c4\u03b5\u03c5\u03c4\u03b1"
+                        ],
+                        "it": [
+                            "incredibilmente"
+                        ],
+                        "sv": [
+                            "otroligt"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "incrustation": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "insertion d\u2019un effet sp\u00e9cial",
+                    "translations": {
+                        "de": [
+                            "Technik"
+                        ],
+                        "en": [
+                            "chroma key"
+                        ],
+                        "bg": [
+                            "\u0441\u0438\u043d \u0435\u043a\u0440\u0430\u043d"
+                        ],
+                        "ca": [
+                            "croma"
+                        ],
+                        "zh": [
+                            "\u8272\u952e"
+                        ],
+                        "ko": [
+                            "\ud06c\ub85c\ub9c8 \ud0a4"
+                        ],
+                        "da": [
+                            "chroma key"
+                        ],
+                        "es": [
+                            "croma"
+                        ],
+                        "fi": [
+                            "chroma key"
+                        ],
+                        "hu": [
+                            "bluebox technika"
+                        ],
+                        "id": [
+                            "kunci kroma"
+                        ],
+                        "is": [
+                            "bl\u00e1tjald"
+                        ],
+                        "it": [
+                            "chroma key"
+                        ],
+                        "ja": [
+                            "\u30d6\u30eb\u30fc\u30d0\u30c3\u30af"
+                        ],
+                        "nl": [
+                            "chroma key"
+                        ],
+                        "no": [
+                            "bluescreen"
+                        ],
+                        "pl": [
+                            "blue box"
+                        ],
+                        "pt": [
+                            "chroma key"
+                        ],
+                        "ru": [
+                            "\u0445\u0440\u043e\u043c\u0430\u043a\u0435\u0439"
+                        ],
+                        "sv": [
+                            "chroma key"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incrustation": [
+                    "Singulier"
+                ],
+                "incrustations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "incubateur": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Inkubator"
+                        ],
+                        "en": [
+                            "incubator"
+                        ],
+                        "ar": [
+                            "\u062d\u0627\u0636\u0646\u0629"
+                        ],
+                        "ro": [
+                            "incubator"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u043a\u0443\u0431\u0430\u0442\u043e\u0440"
+                        ],
+                        "sv": [
+                            "inkubator"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incubateur": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "incubateurs": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "incubatrice": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "incubatrices": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "incubation": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Inkubation"
+                        ],
+                        "en": [
+                            "incubation"
+                        ],
+                        "eu": [
+                            "inkubazio",
+                            "txitatze"
+                        ],
+                        "io": [
+                            "kovo",
+                            "inkubaco"
+                        ],
+                        "it": [
+                            "incubazione"
+                        ],
+                        "cs": [
+                            "inkubace"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incubation": [
+                    "Singulier"
+                ],
+                "incubations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "incube": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Alp",
+                            "Inkubus"
+                        ],
+                        "en": [
+                            "incubus"
+                        ],
+                        "ca": [
+                            "\u00edncube"
+                        ],
+                        "zh": [
+                            "\u68a6\u9b47"
+                        ],
+                        "ko": [
+                            "\uc545\ub9c8"
+                        ],
+                        "es": [
+                            "\u00edncubo"
+                        ],
+                        "eo": [
+                            "inkubon",
+                            "incubo",
+                            "inkubo"
+                        ],
+                        "el": [
+                            "\u03b5\u03c6\u03b9\u03ac\u03bb\u03c4\u03b7\u03c2",
+                            "\u03af\u03bd\u03ba\u03bf\u03c5\u03bc\u03c0\u03bf\u03c5\u03c2"
+                        ],
+                        "hu": [
+                            "lid\u00e9rc"
+                        ],
+                        "it": [
+                            "incubo"
+                        ],
+                        "ja": [
+                            "\u30a4\u30f3\u30ad\u30e5\u30d0\u30b9"
+                        ],
+                        "pt": [
+                            "pesadelo",
+                            "\u00edncubo"
+                        ],
+                        "ro": [
+                            "spirit r\u0103u",
+                            "co\u0219mar",
+                            "incub"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u043a\u0443\u0431"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incube": [
+                    "Singulier"
+                ],
+                "incubes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "inculpation": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Anklage"
+                        ],
+                        "gl": [
+                            "inculpaci\u00f3n"
+                        ],
+                        "io": [
+                            "akuzo"
+                        ],
+                        "it": [
+                            "incolpazione",
+                            "accusa"
+                        ],
+                        "nl": [
+                            "tenlastelegging"
+                        ],
+                        "cs": [
+                            "ob\u017ealoba"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "inculpation": [
+                    "Singulier"
+                ],
+                "inculpations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "inculp\u00e9": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "defendant"
+                        ],
+                        "es": [
+                            "demandado"
+                        ],
+                        "nl": [
+                            "beklaagde"
+                        ],
+                        "no": [
+                            "den beskyldte"
+                        ],
+                        "ru": [
+                            "\u043e\u0442\u0432\u0435\u0442\u0447\u0438\u043a"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "inculp\u00e9": [
+                    "Singulier"
+                ],
+                "inculp\u00e9s": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "inculper": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "charge"
+                        ],
+                        "es": [
+                            "inculpar"
+                        ],
+                        "no": [
+                            "beskylde"
+                        ],
+                        "pt": [
+                            "inculpar"
+                        ],
+                        "sv": [
+                            "\u00e5tala",
+                            "anklaga",
+                            "beskylla"
+                        ],
+                        "cs": [
+                            "obvinit",
+                            "obvi\u0148ovat"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "inculquer": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "einimpfen"
+                        ],
+                        "en": [
+                            "to inculcate",
+                            "to drill",
+                            "inculcate"
+                        ],
+                        "hu": [
+                            "belenevel",
+                            "bev\u00e9s"
+                        ],
+                        "nl": [
+                            "inprenten"
+                        ],
+                        "sv": [
+                            "insk\u00e4rpa"
+                        ],
+                        "cs": [
+                            "v\u0161t\u011bpovat",
+                            "v\u0161t\u00edpit"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "inculte": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "uncultivated",
+                            "untilled"
+                        ],
+                        "ar": [
+                            "\u064a",
+                            "\u063a\u064a\u0631 \u0645\u062a\u0639\u0644\u0645"
+                        ],
+                        "br": [
+                            "fraost"
+                        ],
+                        "es": [
+                            "inculto"
+                        ],
+                        "it": [
+                            "incolto"
+                        ],
+                        "kk": [
+                            "\u0431\u0456\u043b\u0456\u043c\u0441\u0456\u0437",
+                            "\u043e\u049b\u044b\u043c\u0430\u0493\u0430\u043d"
+                        ],
+                        "la": [
+                            "incultus",
+                            "aphanticus"
+                        ],
+                        "pt": [
+                            "inculto"
+                        ],
+                        "sv": [
+                            "oodlad",
+                            "obildad"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "inculte": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "incultes": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "inculturation": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Inkulturation"
+                        ],
+                        "en": [
+                            "inculturation",
+                            "enculturation"
+                        ],
+                        "es": [
+                            "inculturaci\u00f3n"
+                        ],
+                        "it": [
+                            "inculturazione"
+                        ],
+                        "la": [
+                            "inculturatio"
+                        ],
+                        "pl": [
+                            "inkulturacja"
+                        ],
+                        "pt": [
+                            "incultura\u00e7\u00e3o"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "inculturation": [
+                    "Singulier"
+                ],
+                "inculturations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "incunable": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Inkunabel"
+                        ],
+                        "en": [
+                            "incunable",
+                            "incunabulum"
+                        ],
+                        "bs": [
+                            "inkunabula"
+                        ],
+                        "ca": [
+                            "incunable"
+                        ],
+                        "da": [
+                            "inkunabel"
+                        ],
+                        "es": [
+                            "incunable"
+                        ],
+                        "eo": [
+                            "inkunablo"
+                        ],
+                        "et": [
+                            "inkunaabel"
+                        ],
+                        "fi": [
+                            "inkunaabeli"
+                        ],
+                        "io": [
+                            "inkunablo"
+                        ],
+                        "it": [
+                            "incunabolo"
+                        ],
+                        "nl": [
+                            "incunabel"
+                        ],
+                        "no": [
+                            "inkunabel"
+                        ],
+                        "pl": [
+                            "inkunabu\u0142"
+                        ],
+                        "pt": [
+                            "incun\u00e1bulo"
+                        ],
+                        "sh": [
+                            "inkunabula"
+                        ],
+                        "sl": [
+                            "inkunabula"
+                        ],
+                        "sv": [
+                            "inkunabel"
+                        ],
+                        "cs": [
+                            "inkun\u00e1bule"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incunable": [
+                    "Singulier"
+                ],
+                "incunables": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "incurable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "1 unheilbar",
+                            "2 unverbesserlich"
+                        ],
+                        "en": [
+                            "incurable"
+                        ],
+                        "io": [
+                            "neremediebla"
+                        ],
+                        "it": [
+                            "incurabile"
+                        ],
+                        "nl": [
+                            "ongeneesbaar"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u0438\u0437\u043b\u0435\u0447\u0438\u043c\u044b\u0439"
+                        ],
+                        "cs": [
+                            "nevyl\u00e9\u010diteln\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incurable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "incurables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "incurie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Unbek\u00fcmmertheit"
+                        ],
+                        "en": [
+                            "carelessness",
+                            "negligence"
+                        ],
+                        "da": [
+                            "ligegyldighed"
+                        ],
+                        "eo": [
+                            "malzorgo",
+                            "senzorgeco"
+                        ],
+                        "it": [
+                            "incurie"
+                        ],
+                        "nl": [
+                            "zorgeloosheid",
+                            "slordigheid"
+                        ],
+                        "no": [
+                            "inkurie",
+                            "uaktsomhet"
+                        ],
+                        "oc": [
+                            "incuria"
+                        ],
+                        "sv": [
+                            "likgiltighet",
+                            "slarv"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "incurie": [
+                    "Singulier"
+                ],
+                "incuries": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9cence": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Unanst\u00e4ndigkeit"
+                        ],
+                        "en": [
+                            "indecency"
+                        ],
+                        "br": [
+                            "dizereadegezh",
+                            "dizonestiz"
+                        ],
+                        "ca": [
+                            "indec\u00e8ncia"
+                        ],
+                        "es": [
+                            "indecencia"
+                        ],
+                        "el": [
+                            "\u03b1\u03c0\u03c1\u03ad\u03c0\u03b5\u03b9\u03b1"
+                        ],
+                        "it": [
+                            "indecenza"
+                        ],
+                        "pt": [
+                            "indec\u00eancia"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9cence": [
+                    "Singulier"
+                ],
+                "ind\u00e9cences": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9cent": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "schamlos",
+                            "unanst\u00e4ndig"
+                        ],
+                        "en": [
+                            "indecent",
+                            "crass"
+                        ],
+                        "zh": [
+                            "\u4e0b\u6d41"
+                        ],
+                        "eo": [
+                            "maldeca"
+                        ],
+                        "fi": [
+                            "rietas",
+                            "ruokoton",
+                            "sopimaton"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03b1\u03be\u03b9\u03bf\u03c0\u03c1\u03b5\u03c0\u03ae\u03c2"
+                        ],
+                        "io": [
+                            "nedecanta"
+                        ],
+                        "it": [
+                            "indecente"
+                        ],
+                        "ja": [
+                            "\u4e0b\u5351"
+                        ],
+                        "pt": [
+                            "indecente"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u043f\u0440\u0438\u043b\u0438\u0447\u043d\u044b\u0439"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9cent": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "ind\u00e9cents": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "ind\u00e9cente": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "ind\u00e9centes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9cidable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Sens 1",
+                    "translations": {
+                        "en": [
+                            "undecidable"
+                        ],
+                        "ca": [
+                            "indecidible"
+                        ],
+                        "es": [
+                            "indecidible"
+                        ],
+                        "it": [
+                            "indecifrabile"
+                        ],
+                        "oc": [
+                            "indecidible"
+                        ],
+                        "cs": [
+                            "nerozhodnuteln\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9cidable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "ind\u00e9cidables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9cis": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "unentschieden"
+                        ],
+                        "en": [
+                            "undecided",
+                            "vague",
+                            "indecisive"
+                        ],
+                        "eu": [
+                            "erabakigabea"
+                        ],
+                        "br": [
+                            "arvarus"
+                        ],
+                        "ca": [
+                            "indec\u00eds",
+                            "indecisa"
+                        ],
+                        "oc": [
+                            "indec\u00eds",
+                            "indecisa"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9cise": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "ind\u00e9cises": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9clinable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "indeclinable"
+                        ],
+                        "eo": [
+                            "nedeklinaciebla"
+                        ],
+                        "fi": [
+                            "taipumaton"
+                        ],
+                        "el": [
+                            "\u03ac\u03ba\u03bb\u03b9\u03c4\u03bf\u03c2"
+                        ],
+                        "is": [
+                            "\u00f3beygjanlegur"
+                        ],
+                        "pl": [
+                            "nieodmienny"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u0441\u043a\u043b\u043e\u043d\u044f\u0435\u043c\u044b\u0439"
+                        ],
+                        "sk": [
+                            "nesklonn\u00fd"
+                        ],
+                        "cs": [
+                            "nesklonn\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9clinable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "ind\u00e9clinables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9fendable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "indefensible"
+                        ],
+                        "eo": [
+                            "nedefendebla"
+                        ],
+                        "it": [
+                            "indifendibile"
+                        ],
+                        "sk": [
+                            "neobh\u00e1jite\u013en\u00fd"
+                        ],
+                        "cs": [
+                            "neobhajiteln\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9fendable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "ind\u00e9fendables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9fini": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "unbestimmt"
+                        ],
+                        "en": [
+                            "undefined",
+                            "indefinite"
+                        ],
+                        "es": [
+                            "indefinido"
+                        ],
+                        "eo": [
+                            "nedifinita"
+                        ],
+                        "io": [
+                            "nefinita"
+                        ],
+                        "it": [
+                            "indefinito"
+                        ],
+                        "la": [
+                            "indefinitus"
+                        ],
+                        "nl": [
+                            "ongedefinieerd",
+                            "willekeurig"
+                        ],
+                        "pl": [
+                            "nieokre\u015blony"
+                        ],
+                        "cs": [
+                            "neur\u010dit\u00fd"
+                        ],
+                        "vi": [
+                            "b\u1ea5t \u0111\u1ecbnh"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9fini": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "ind\u00e9finis": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "ind\u00e9finie": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "ind\u00e9finies": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9hiscent": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Qui ne s\u2019ouvre pas spontan\u00e9ment \u00e0 la maturit\u00e9\u00a0(1)",
+                    "translations": {
+                        "en": [
+                            "indehiscent"
+                        ],
+                        "br": [
+                            "andishilius"
+                        ],
+                        "it": [
+                            "indeiscente"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u0440\u0430\u0441\u0442\u0440\u0435\u0441\u043a\u0438\u0432\u0430\u044e\u0449\u0438\u0439\u0441\u044f"
+                        ],
+                        "cs": [
+                            "nepukav\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9hiscent": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "ind\u00e9hiscents": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "ind\u00e9hiscente": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "ind\u00e9hiscentes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9l\u00e9bile": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "unausl\u00f6schlich",
+                            "bleibend"
+                        ],
+                        "en": [
+                            "indelible"
+                        ],
+                        "io": [
+                            "efacebla"
+                        ],
+                        "it": [
+                            "indelebile"
+                        ],
+                        "nl": [
+                            "onuitwisbaar"
+                        ],
+                        "ro": [
+                            "indelebil",
+                            "de ne\u0219ters"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9l\u00e9bile": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "ind\u00e9l\u00e9biles": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indemne": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "unverletzt",
+                            "unversehrt",
+                            "unbeschadet"
+                        ],
+                        "en": [
+                            "unhurt",
+                            "unharmed"
+                        ],
+                        "br": [
+                            "dibistig"
+                        ],
+                        "eo": [
+                            "nedifektita",
+                            "nevundita"
+                        ],
+                        "el": [
+                            "\u03b1\u03ba\u03ad\u03c1\u03b1\u03b9\u03bf\u03c2",
+                            "\u03b1\u03b2\u03bb\u03b1\u03b2\u03ae\u03c2"
+                        ],
+                        "it": [
+                            "indenne"
+                        ],
+                        "nl": [
+                            "ongedeerd"
+                        ],
+                        "pt": [
+                            "indemne",
+                            "ileso",
+                            "inc\u00f3lume"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indemne": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "indemnes": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indemnisation": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "compensation"
+                        ],
+                        "ast": [
+                            "indemnizaci\u00f3n"
+                        ],
+                        "es": [
+                            "indemnizaci\u00f3n"
+                        ],
+                        "gl": [
+                            "indemnizaci\u00f3n"
+                        ],
+                        "it": [
+                            "indennizzazione"
+                        ],
+                        "pl": [
+                            "odszkodowanie",
+                            "indemnizacja"
+                        ],
+                        "pt": [
+                            "indemniza\u00e7\u00e3o"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indemnisation": [
+                    "Singulier"
+                ],
+                "indemnisations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "indemniser": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "entsch\u00e4digen",
+                            "verg\u00fcten"
+                        ],
+                        "en": [
+                            "indemnify"
+                        ],
+                        "ar": [
+                            "\u0639\u0648\u0636"
+                        ],
+                        "br": [
+                            "dic\u02bchaoui\u00f1"
+                        ],
+                        "it": [
+                            "indennizzare"
+                        ],
+                        "nl": [
+                            "vergoeden"
+                        ],
+                        "pt": [
+                            "indemnizar"
+                        ],
+                        "sv": [
+                            "h\u00e5lla skadesl\u00f6s"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "indemnit\u00e9": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Ce qu\u2019on alloue \u00e0 quelqu\u2019un en vue de l\u2019indemniser\u00a0(1)",
+                    "translations": {
+                        "en": [
+                            "indemnity"
+                        ],
+                        "fi": [
+                            "korvaus"
+                        ],
+                        "io": [
+                            "indemno"
+                        ],
+                        "it": [
+                            "indennit\u00e0"
+                        ],
+                        "pt": [
+                            "indemnidade"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indemnit\u00e9": [
+                    "Singulier"
+                ],
+                "indemnit\u00e9s": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9niable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Que l\u2019on ne peut d\u00e9nier",
+                    "translations": {
+                        "de": [
+                            "unleugbar"
+                        ],
+                        "en": [
+                            "undeniable"
+                        ],
+                        "es": [
+                            "innegable"
+                        ],
+                        "io": [
+                            "nenegebla"
+                        ],
+                        "it": [
+                            "innegabile"
+                        ],
+                        "sv": [
+                            "oneklig"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9niable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "ind\u00e9niables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9nombrable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Qu\u2019on ne peut d\u00e9nombrer",
+                    "translations": {
+                        "en": [
+                            "uncountable"
+                        ],
+                        "ca": [
+                            "incomptable"
+                        ],
+                        "it": [
+                            "innumerabile"
+                        ],
+                        "oc": [
+                            "indenombrable"
+                        ],
+                        "ro": [
+                            "nenum\u0103rabil",
+                            "inombrabil"
+                        ],
+                        "cs": [
+                            "nevy\u010d\u00edsliteln\u00fd"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Grammaire",
+                    "translations": {
+                        "en": [
+                            "uncountable",
+                            "count"
+                        ],
+                        "ko": [
+                            "\ubd88\uac00\uc0b0"
+                        ],
+                        "ja": [
+                            "\u4e0d\u53ef\u7b97"
+                        ],
+                        "oc": [
+                            "indenombrable"
+                        ],
+                        "ro": [
+                            "nenum\u0103rabil"
+                        ],
+                        "cs": [
+                            "nepo\u010ditateln\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9nombrable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "ind\u00e9nombrables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9pendamment": [
+        {
+            "type": "Adverbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "independently"
+                        ],
+                        "es": [
+                            "independientemente"
+                        ],
+                        "eo": [
+                            "sendepende"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03b5\u03be\u03b1\u03c1\u03c4\u03ae\u03c4\u03c9\u03c2"
+                        ],
+                        "io": [
+                            "nedependante",
+                            "dependante"
+                        ],
+                        "it": [
+                            "indipendentemente"
+                        ],
+                        "nl": [
+                            "onafhankelijk"
+                        ],
+                        "oc": [
+                            "independentament"
+                        ],
+                        "cs": [
+                            "nez\u00e1visle",
+                            "samostatn\u011b"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "ind\u00e9pendance": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "onafhanklikheid"
+                        ],
+                        "sq": [
+                            "pavar\u00ebsi"
+                        ],
+                        "de": [
+                            "Unabh\u00e4ngigkeit"
+                        ],
+                        "en": [
+                            "independence"
+                        ],
+                        "ar": [
+                            "\u0627\u0633\u062a\u0642\u0644\u0627\u0644"
+                        ],
+                        "hy": [
+                            "\u0561\u0576\u056f\u0561\u056d\u0578\u0582\u0569\u0575\u0578\u0582\u0576"
+                        ],
+                        "az": [
+                            "istiqlal"
+                        ],
+                        "eu": [
+                            "independentzia"
+                        ],
+                        "be": [
+                            "\u043d\u0435\u0437\u0430\u043b\u0435\u0436\u043d\u0430\u0441\u0446\u044c"
+                        ],
+                        "bg": [
+                            "\u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442"
+                        ],
+                        "ca": [
+                            "independ\u00e8ncia"
+                        ],
+                        "zh": [
+                            "\u7368\u7acb",
+                            "\u72ec\u7acb"
+                        ],
+                        "ko": [
+                            "\ub3c5\ub9bd"
+                        ],
+                        "hr": [
+                            "nezavisnost"
+                        ],
+                        "da": [
+                            "uafh\u00e6ngighed",
+                            "selvst\u00e6ndighed"
+                        ],
+                        "es": [
+                            "independencia"
+                        ],
+                        "et": [
+                            "iseseisvus"
+                        ],
+                        "fi": [
+                            "itsen\u00e4isyys",
+                            "omintakeisuus"
+                        ],
+                        "gl": [
+                            "independencia"
+                        ],
+                        "ka": [
+                            "\u10d3\u10d0\u10db\u10dd\u10e3\u10d9\u10d8\u10d3\u10d4\u10d1\u10da\u10dd\u10d1\u10d0"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03b5\u03be\u03b1\u03c1\u03c4\u03b7\u03c3\u03af\u03b1"
+                        ],
+                        "he": [
+                            "\u05e2\u05e6\u05de\u05d0\u05d5\u05ea"
+                        ],
+                        "hu": [
+                            "f\u00fcggetlens\u00e9g"
+                        ],
+                        "id": [
+                            "kemerdekaan"
+                        ],
+                        "is": [
+                            "sj\u00e1lfst\u00e6\u00f0i"
+                        ],
+                        "it": [
+                            "indipendenza"
+                        ],
+                        "ja": [
+                            "\u72ec\u7acb"
+                        ],
+                        "kk": [
+                            "\u0442\u04d9\u0443\u0435\u043b\u0441\u0456\u0437\u0434\u0456\u043a"
+                        ],
+                        "la": [
+                            "libertas"
+                        ],
+                        "lv": [
+                            "neatkar\u012bba"
+                        ],
+                        "lt": [
+                            "nepriklausomyb\u0117"
+                        ],
+                        "mk": [
+                            "\u043d\u0435\u0437\u0430\u0432\u0438\u0441\u043d\u043e\u0441\u0442"
+                        ],
+                        "ms": [
+                            "kemerdekaan"
+                        ],
+                        "mt": [
+                            "indipendenza"
+                        ],
+                        "nl": [
+                            "onafhankelijkheid"
+                        ],
+                        "no": [
+                            "uavhengighet",
+                            "selvstendighet",
+                            "sj\u00f8lstendighet",
+                            "sj\u00f8lvstendighet"
+                        ],
+                        "oc": [
+                            "independ\u00e9ncia"
+                        ],
+                        "uz": [
+                            "erk",
+                            "mustaqillik"
+                        ],
+                        "fa": [
+                            "\u0627\u0633\u062a\u0642\u0644\u0627\u0644"
+                        ],
+                        "pl": [
+                            "niepodleg\u0142o\u015b\u0107"
+                        ],
+                        "pt": [
+                            "independ\u00eancia"
+                        ],
+                        "ro": [
+                            "independen\u021b\u0103"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044c"
+                        ],
+                        "sr": [
+                            "\u043d\u0435\u0437\u0430\u0432\u0438\u0441\u043d\u043e\u0441\u0442"
+                        ],
+                        "sk": [
+                            "nez\u00e1vislos\u0165"
+                        ],
+                        "sl": [
+                            "neodvisnost"
+                        ],
+                        "sv": [
+                            "sj\u00e4lvst\u00e4ndighet"
+                        ],
+                        "tg": [
+                            "\u0438\u0441\u0442\u0438\u049b\u043b\u043e\u043b"
+                        ],
+                        "cs": [
+                            "nez\u00e1vislost",
+                            "samostatnost"
+                        ],
+                        "th": [
+                            "\u0e40\u0e2d\u0e01\u0e23\u0e32\u0e0a"
+                        ],
+                        "tr": [
+                            "istiklal"
+                        ],
+                        "tk": [
+                            "gara\u015fsyzlyk"
+                        ],
+                        "uk": [
+                            "\u043d\u0435\u0437\u0430\u043b\u0435\u0436\u043d\u0456\u0441\u0442\u044c"
+                        ],
+                        "vi": [
+                            "\u0111\u1ed9c l\u1eadp"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9pendance": [
+                    "Singulier"
+                ],
+                "ind\u00e9pendances": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9pendant": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Qui ne d\u00e9pend pas de telle personne ou de telle chose, qui ne lui est pas subordonn\u00e9.\u00a0(1)",
+                    "translations": {
+                        "sq": [
+                            "t\u00eb paradur"
+                        ],
+                        "de": [
+                            "selbst\u00e4ndig"
+                        ],
+                        "en": [
+                            "independent"
+                        ],
+                        "fi": [
+                            "itsen\u00e4inen"
+                        ],
+                        "it": [
+                            "indipendente"
+                        ],
+                        "kk": [
+                            "\u0442\u04d9\u0443\u0435\u043b\u0441\u0456\u0437"
+                        ],
+                        "pl": [
+                            "niezale\u017cny",
+                            "niezale\u017cna"
+                        ],
+                        "pt": [
+                            "independente"
+                        ]
+                    }
+                },
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "onafhanklik"
+                        ],
+                        "de": [
+                            "unabh\u00e4ngig"
+                        ],
+                        "ca": [
+                            "independent"
+                        ],
+                        "da": [
+                            "selvst\u00e6ndig",
+                            "uafh\u00e6ngig"
+                        ],
+                        "es": [
+                            "independiente"
+                        ],
+                        "eo": [
+                            "memstara",
+                            "sendependa"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03b5\u03be\u03ac\u03c1\u03c4\u03b7\u03c4\u03bf\u03c2"
+                        ],
+                        "io": [
+                            "nedependanta"
+                        ],
+                        "is": [
+                            "\u00f3h\u00e1\u00f0ur",
+                            "sj\u00e1lfst\u00e6\u00f0ur"
+                        ],
+                        "nl": [
+                            "onafhankelijk",
+                            "zelfstandig"
+                        ],
+                        "no": [
+                            "selvstendig",
+                            "sj\u00f8lvstendig",
+                            "uavhengig"
+                        ],
+                        "oc": [
+                            "independent"
+                        ],
+                        "pt": [
+                            "aut\u00f4nomo",
+                            "independente"
+                        ],
+                        "ro": [
+                            "independent"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u044b\u0439",
+                            "\u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u044b\u0439"
+                        ],
+                        "sv": [
+                            "oberoende",
+                            "sj\u00e4lvst\u00e4ndig"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9pendant": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "ind\u00e9pendants": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "ind\u00e9pendante": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "ind\u00e9pendantes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9pendantisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "ca": [
+                            "independentisme"
+                        ],
+                        "es": [
+                            "independentismo"
+                        ],
+                        "eo": [
+                            "sendependismo"
+                        ],
+                        "gl": [
+                            "independentismo"
+                        ],
+                        "it": [
+                            "indipendentismo"
+                        ],
+                        "pt": [
+                            "independentismo"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9pendantisme": [
+                    "Singulier"
+                ],
+                "ind\u00e9pendantismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9pendantiste": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Unabh\u00e4ngigkeitsk\u00e4mpfer",
+                            "Unabh\u00e4ngigkeitsk\u00e4mpferin"
+                        ],
+                        "eu": [
+                            "independentista"
+                        ],
+                        "ca": [
+                            "independentista"
+                        ],
+                        "es": [
+                            "independentista"
+                        ],
+                        "eo": [
+                            "sendependisto"
+                        ],
+                        "gl": [
+                            "independentista"
+                        ],
+                        "it": [
+                            "indipendentista"
+                        ],
+                        "pt": [
+                            "independentista"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9pendantiste": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "ind\u00e9pendantistes": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indescriptible": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "indescribable"
+                        ],
+                        "eo": [
+                            "nepriskribebla"
+                        ],
+                        "it": [
+                            "indescrivibile"
+                        ],
+                        "pt": [
+                            "indescrit\u00edvel"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u043e\u043f\u0438\u0441\u0443\u0435\u043c\u044b\u0439"
+                        ],
+                        "sv": [
+                            "obeskrivlig"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indescriptible": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "indescriptibles": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9sirable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "unerw\u00fcnscht"
+                        ],
+                        "en": [
+                            "undesirable"
+                        ],
+                        "ca": [
+                            "indesitjable"
+                        ],
+                        "es": [
+                            "indeseable"
+                        ],
+                        "fi": [
+                            "ep\u00e4mieluinen",
+                            "ep\u00e4mieluisa"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03b5\u03c0\u03b9\u03b8\u03cd\u03bc\u03b7\u03c4\u03bf\u03c2"
+                        ],
+                        "hu": [
+                            "nemk\u00edv\u00e1natos"
+                        ],
+                        "it": [
+                            "indesiderabile"
+                        ],
+                        "ja": [
+                            "\u671b\u307e\u3057\u304f\u306a\u3044"
+                        ],
+                        "nl": [
+                            "ongewenst"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u0436\u0435\u043b\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439"
+                        ],
+                        "cs": [
+                            "ne\u017e\u00e1douc\u00ed",
+                            "nev\u00edtan\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9sirable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "ind\u00e9sirables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indestructible": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "unzerst\u00f6rbar"
+                        ],
+                        "en": [
+                            "indestructible"
+                        ],
+                        "es": [
+                            "indestructible"
+                        ],
+                        "eo": [
+                            "nedetruebla"
+                        ],
+                        "et": [
+                            "h\u00e4vimatu"
+                        ],
+                        "fi": [
+                            "tuhoutumaton"
+                        ],
+                        "el": [
+                            "\u03ac\u03c6\u03b8\u03b1\u03c1\u03c4\u03bf\u03c2"
+                        ],
+                        "it": [
+                            "indistruttibile"
+                        ],
+                        "la": [
+                            "inconsumptibilis"
+                        ],
+                        "pl": [
+                            "niezniszczalny"
+                        ],
+                        "pt": [
+                            "indestrut\u00edvel"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u0440\u0430\u0437\u0440\u0443\u0448\u0438\u043c\u044b\u0439"
+                        ],
+                        "sv": [
+                            "of\u00f6rst\u00f6rbar",
+                            "outpl\u00e5nelig"
+                        ],
+                        "cs": [
+                            "nezni\u010diteln\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indestructible": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "indestructibles": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "ind\u00e9termin\u00e9": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "(Didactique) Qui n\u2019est pas fix\u00e9\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "unbestimmt"
+                        ],
+                        "en": [
+                            "undetermined",
+                            "indeterminate",
+                            "undetermined"
+                        ],
+                        "da": [
+                            "ubestemt"
+                        ],
+                        "es": [
+                            "indeterminado"
+                        ],
+                        "it": [
+                            "indeterminato"
+                        ],
+                        "la": [
+                            "indeterminatus"
+                        ],
+                        "pl": [
+                            "nieokre\u015blony"
+                        ],
+                        "cs": [
+                            "neur\u010dit\u00fd",
+                            "indeterminovan\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "ind\u00e9termin\u00e9": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "ind\u00e9termin\u00e9s": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "ind\u00e9termin\u00e9e": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "ind\u00e9termin\u00e9es": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "index": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Table d\u2019un texte\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "Index",
+                            "Sachregister",
+                            "W\u00f6rterverzeichnis"
+                        ],
+                        "en": [
+                            "index"
+                        ],
+                        "eu": [
+                            "aurkibide"
+                        ],
+                        "ca": [
+                            "\u00edndex"
+                        ],
+                        "zh": [
+                            "\u7d22\u5f15"
+                        ],
+                        "es": [
+                            "\u00edndice"
+                        ],
+                        "eo": [
+                            "indekso",
+                            "montrofingro"
+                        ],
+                        "id": [
+                            "telunjuk"
+                        ],
+                        "it": [
+                            "indice"
+                        ],
+                        "ja": [
+                            "\u7d22\u5f15"
+                        ],
+                        "ks": [
+                            "\u06a9"
+                        ],
+                        "nl": [
+                            "index"
+                        ],
+                        "oc": [
+                            "index"
+                        ],
+                        "pl": [
+                            "indeks"
+                        ],
+                        "pt": [
+                            "\u00edndice"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Doigt\u00a0(4)",
+                    "translations": {
+                        "de": [
+                            "Zeigefinger"
+                        ],
+                        "en": [
+                            "forefinger",
+                            "index finger",
+                            "pointer"
+                        ],
+                        "ar": [
+                            "\u0633\u0628\u0627\u0628\u0629"
+                        ],
+                        "eu": [
+                            "erakusle"
+                        ],
+                        "br": [
+                            "yod"
+                        ],
+                        "ca": [
+                            "\u00edndex"
+                        ],
+                        "zh": [
+                            "\u98df\u6307"
+                        ],
+                        "ko": [
+                            "\uc9d1\uac8c\uc190\uac00\ub77d"
+                        ],
+                        "co": [
+                            "indice"
+                        ],
+                        "da": [
+                            "pegefinger"
+                        ],
+                        "es": [
+                            "\u00edndice"
+                        ],
+                        "eo": [
+                            "montrofingro"
+                        ],
+                        "fi": [
+                            "etusormi"
+                        ],
+                        "iu": [
+                            "\u144e\u146d\u1585"
+                        ],
+                        "it": [
+                            "indice"
+                        ],
+                        "ja": [
+                            "\u4eba\u5dee\u3057\u6307"
+                        ],
+                        "kk": [
+                            "\u0441\u04b1\u049b \u0441\u0430\u0443\u0441\u0430\u049b"
+                        ],
+                        "ky": [
+                            "\u0441\u04e9\u04e9\u043c\u04e9\u0439"
+                        ],
+                        "mg": [
+                            "fanondro"
+                        ],
+                        "mn": [
+                            "\u0434\u043e\u043b\u043e\u043e\u0432\u043e\u0440 \u0445\u0443\u0440\u0443\u0443"
+                        ],
+                        "nl": [
+                            "wijsvinger"
+                        ],
+                        "pl": [
+                            "palec wskazuj\u0105cy"
+                        ],
+                        "ru": [
+                            "\u0443\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043f\u0430\u043b\u0435\u0446"
+                        ],
+                        "cs": [
+                            "ukazov\u00e1k"
+                        ],
+                        "tr": [
+                            "i\u015faret parma\u011f\u0131"
+                        ],
+                        "tk": [
+                            "s\u00fc\u00fdem barmak"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "indexer": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "index"
+                        ],
+                        "ca": [
+                            "indexar"
+                        ],
+                        "pt": [
+                            "indexar"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0434\u0435\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u0442\u044c"
+                        ],
+                        "sv": [
+                            "indexera"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "indic": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Informateur de la police (1)",
+                    "translations": {
+                        "de": [
+                            "Informant"
+                        ],
+                        "en": [
+                            "informant",
+                            "informer",
+                            "snitch",
+                            "nark"
+                        ],
+                        "es": [
+                            "sopl\u00f3n",
+                            "delator"
+                        ],
+                        "fy": [
+                            "ynformant"
+                        ],
+                        "pl": [
+                            "konfident"
+                        ],
+                        "ru": [
+                            "\u0434\u043e\u043d\u043e\u0441\u0447\u0438\u043a",
+                            "\u0441\u0442\u0443\u043a\u0430\u0447"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indic": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "indics": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indicatif": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "(grammaire)",
+                    "translations": {
+                        "en": [
+                            "indicative"
+                        ],
+                        "br": [
+                            "diskl\u00earia\u00f1"
+                        ],
+                        "eo": [
+                            "indikativo"
+                        ],
+                        "fi": [
+                            "indikatiivi",
+                            "tositapa"
+                        ],
+                        "io": [
+                            "indikativo"
+                        ],
+                        "kk": [
+                            "\u0430\u0448\u044b\u049b \u0440\u0430\u0439"
+                        ],
+                        "ug": [
+                            "\u0628\u0627\u064a\u0627\u0646 \u0631\u0627\u064a\u0649"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indicatif": [
+                    "Singulier"
+                ],
+                "indicatifs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "indication": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Angabe"
+                        ],
+                        "ca": [
+                            "indicaci\u00f3"
+                        ],
+                        "es": [
+                            "indicaci\u00f3n"
+                        ],
+                        "eo": [
+                            "indiko"
+                        ],
+                        "el": [
+                            "\u03ad\u03bd\u03b4\u03b5\u03b9\u03be\u03b7"
+                        ],
+                        "io": [
+                            "indiko"
+                        ],
+                        "it": [
+                            "indicazione"
+                        ],
+                        "nl": [
+                            "indicatie",
+                            "teken"
+                        ],
+                        "oc": [
+                            "indicacion"
+                        ],
+                        "ro": [
+                            "indica\u021bie"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indication": [
+                    "Singulier"
+                ],
+                "indications": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "indicible": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "indescribable",
+                            "unutterable"
+                        ],
+                        "eo": [
+                            "nedirebla"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03b5\u03af\u03c0\u03c9\u03c4\u03bf\u03c2"
+                        ],
+                        "it": [
+                            "indicibile"
+                        ],
+                        "nl": [
+                            "onuitsprekelijk",
+                            "onzegbaar"
+                        ],
+                        "pt": [
+                            "indescrit\u00edvel"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indicible": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "indicibles": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indiction": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Indiktion"
+                        ],
+                        "en": [
+                            "indiction"
+                        ],
+                        "bg": [
+                            "\u0438\u043d\u0434\u0438\u043a\u0442"
+                        ],
+                        "it": [
+                            "indizione"
+                        ],
+                        "cs": [
+                            "indikce"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indiction": [
+                    "Singulier"
+                ],
+                "indictions": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "indien": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Relatif \u00e0 l\u2019Inde",
+                    "translations": {
+                        "de": [
+                            "indisch"
+                        ],
+                        "en": [
+                            "Indian",
+                            "Asian Indian"
+                        ],
+                        "ar": [
+                            "\u0647\u0646\u062f\u064a"
+                        ],
+                        "az": [
+                            "hindli"
+                        ],
+                        "bg": [
+                            "\u0438\u043d\u0434\u0438\u0439\u0441\u043a\u0438"
+                        ],
+                        "ca": [
+                            "indi"
+                        ],
+                        "da": [
+                            "indisk"
+                        ],
+                        "es": [
+                            "indiano",
+                            "indio"
+                        ],
+                        "et": [
+                            "india"
+                        ],
+                        "fi": [
+                            "intialainen",
+                            "Intian"
+                        ],
+                        "gl": [
+                            "indio"
+                        ],
+                        "el": [
+                            "\u03b9\u03bd\u03b4\u03b9\u03ba\u03cc\u03c2"
+                        ],
+                        "hu": [
+                            "indiai"
+                        ],
+                        "it": [
+                            "indiano"
+                        ],
+                        "ja": [
+                            "\u30a4\u30f3\u30c9\u306e"
+                        ],
+                        "lv": [
+                            "indie\u0161u"
+                        ],
+                        "lt": [
+                            "ind\u0117n\u0173",
+                            "ind\u0173"
+                        ],
+                        "nl": [
+                            "Indisch",
+                            "Indiaas"
+                        ],
+                        "no": [
+                            "indisk"
+                        ],
+                        "pl": [
+                            "indyjski"
+                        ],
+                        "pt": [
+                            "indiano"
+                        ],
+                        "ro": [
+                            "indian"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0434\u0438\u0439\u0441\u043a\u0438\u0439"
+                        ],
+                        "sk": [
+                            "indick\u00fd"
+                        ],
+                        "sl": [
+                            "indijski"
+                        ],
+                        "sv": [
+                            "indisk"
+                        ],
+                        "cs": [
+                            "indick\u00fd"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Am\u00e9rindien",
+                    "translations": {
+                        "de": [
+                            "indianisch"
+                        ],
+                        "en": [
+                            "Indian",
+                            "American Indian"
+                        ],
+                        "ar": [
+                            "\u0647\u0646\u062f\u064a \u0623\u062d\u0645\u0631"
+                        ],
+                        "da": [
+                            "indiansk"
+                        ],
+                        "es": [
+                            "indio",
+                            "ind\u00edgena"
+                        ],
+                        "fi": [
+                            "intiaani",
+                            "inkkari"
+                        ],
+                        "gl": [
+                            "indio"
+                        ],
+                        "el": [
+                            "\u03b9\u03bd\u03b4\u03b9\u03ac\u03bd\u03b9\u03ba\u03bf\u03c2"
+                        ],
+                        "hu": [
+                            "indi\u00e1n"
+                        ],
+                        "it": [
+                            "indiano",
+                            "indio"
+                        ],
+                        "nl": [
+                            "Indiaans"
+                        ],
+                        "no": [
+                            "indiansk"
+                        ],
+                        "pl": [
+                            "india\u0144ski"
+                        ],
+                        "pt": [
+                            "\u00edndio",
+                            "ind\u00edgena"
+                        ],
+                        "ro": [
+                            "indian"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0434\u0435\u0439\u0441\u043a\u0438\u0439"
+                        ],
+                        "sl": [
+                            "indijanski"
+                        ],
+                        "sv": [
+                            "indiansk"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indien": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "indiens": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "indienne": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "indiennes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "Indien": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Habitant de l\u2019Inde",
+                    "translations": {
+                        "de": [
+                            "Inder"
+                        ],
+                        "en": [
+                            "Indian",
+                            "Asian Indian"
+                        ],
+                        "ar": [
+                            "\u0647\u0646\u062f\u064a",
+                            "\u0647\u0646\u062f\u064a\u0629"
+                        ],
+                        "bg": [
+                            "\u0438\u043d\u0434\u0438\u0435\u0446",
+                            "\u0438\u043d\u0434\u0438\u0439\u043a\u0430"
+                        ],
+                        "ca": [
+                            "indi"
+                        ],
+                        "zh": [
+                            "\u5370\u5ea6\u4eba"
+                        ],
+                        "ko": [
+                            "\uc778\ub3c4\uc778",
+                            "\uc778\ub3c4 \uc0ac\ub78c"
+                        ],
+                        "da": [
+                            "inder"
+                        ],
+                        "es": [
+                            "indio"
+                        ],
+                        "eo": [
+                            "baratano",
+                            "baratani\u0109o",
+                            "baratanino"
+                        ],
+                        "et": [
+                            "indialane"
+                        ],
+                        "fi": [
+                            "intialainen"
+                        ],
+                        "el": [
+                            "\u0399\u03bd\u03b4\u03cc\u03c2"
+                        ],
+                        "hu": [
+                            "indiai"
+                        ],
+                        "it": [
+                            "indiano"
+                        ],
+                        "ja": [
+                            "\u30a4\u30f3\u30c9\u4eba"
+                        ],
+                        "kk": [
+                            "\u04af\u043d\u0434\u0456"
+                        ],
+                        "lv": [
+                            "indietis",
+                            "indiete"
+                        ],
+                        "lt": [
+                            "indas",
+                            "ind\u0117"
+                        ],
+                        "nl": [
+                            "Indi\u00ebr"
+                        ],
+                        "no": [
+                            "inder",
+                            "indar"
+                        ],
+                        "pl": [
+                            "Hindus",
+                            "Hinduska"
+                        ],
+                        "pt": [
+                            "Indiano"
+                        ],
+                        "ro": [
+                            "indian"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0434\u0438\u0435\u0446",
+                            "\u0438\u043d\u0434\u0438\u0430\u043d\u043a\u0430"
+                        ],
+                        "sk": [
+                            "Ind",
+                            "Indka"
+                        ],
+                        "sl": [
+                            "Indijec",
+                            "Indijka"
+                        ],
+                        "sv": [
+                            "indier"
+                        ],
+                        "cs": [
+                            "Ind",
+                            "Indka"
+                        ],
+                        "tr": [
+                            "Hint"
+                        ],
+                        "vo": [
+                            "Lind\u00e4nan",
+                            "Lind\u00e4nan",
+                            "Lind\u00e4nan"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "Indien": [
+                    "Singulier"
+                ],
+                "Indiens": [
+                    "Pluriel"
+                ]
+            }
+        },
+        {
+            "type": "Nom propre",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Indianer"
+                        ],
+                        "en": [
+                            "Indus"
+                        ],
+                        "zh": [
+                            "\u5370\u7b2c\u5b89\u5ea7"
+                        ],
+                        "ko": [
+                            "\uc778\ub514\uc5b8\uc790\ub9ac"
+                        ],
+                        "gl": [
+                            "Indio"
+                        ],
+                        "ja": [
+                            "\u30a4\u30f3\u30c7\u30a3\u30a2\u30f3\u5ea7"
+                        ],
+                        "la": [
+                            "Indus"
+                        ],
+                        "pl": [
+                            "Indianin"
+                        ],
+                        "pt": [
+                            "Hindu"
+                        ],
+                        "ru": [
+                            "\u0418\u043d\u0434\u0435\u0435\u0446"
+                        ],
+                        "tr": [
+                            "Hintli"
+                        ],
+                        "vi": [
+                            "\u1ea4n \u0110\u1ec7 An"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "indiff\u00e9remment": [
+        {
+            "type": "Adverbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "indifferently"
+                        ],
+                        "it": [
+                            "indifferentemente"
+                        ],
+                        "la": [
+                            "indifferenter"
+                        ],
+                        "lt": [
+                            "abejingai"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0434\u0438\u0444\u0444\u0435\u0440\u0435\u043d\u0442\u043d\u043e"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "indiff\u00e9rence": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "\u00e9tat d\u2019une personne indiff\u00e9rente",
+                    "translations": {
+                        "de": [
+                            "Gleichg\u00fcltigkeit"
+                        ],
+                        "en": [
+                            "indifference"
+                        ],
+                        "eu": [
+                            "ezaxola"
+                        ],
+                        "br": [
+                            "digasted"
+                        ],
+                        "es": [
+                            "indiferencia"
+                        ],
+                        "el": [
+                            "\u03b1\u03b4\u03b9\u03b1\u03c6\u03bf\u03c1\u03af\u03b1"
+                        ],
+                        "id": [
+                            "ketakacuhan"
+                        ],
+                        "it": [
+                            "indifferenza"
+                        ],
+                        "lt": [
+                            "abejingumas"
+                        ],
+                        "nl": [
+                            "onverschilligheid"
+                        ],
+                        "pt": [
+                            "indiferen\u00e7a"
+                        ],
+                        "ru": [
+                            "\u0440\u0430\u0432\u043d\u043e\u0434\u0443\u0448\u0438\u0435"
+                        ],
+                        "sv": [
+                            "likgiltighet"
+                        ],
+                        "cs": [
+                            "lhostejnost"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indiff\u00e9rence": [
+                    "Singulier"
+                ],
+                "indiff\u00e9rences": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "indiff\u00e9rent": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "gleichg\u00fcltig",
+                            "indifferent"
+                        ],
+                        "en": [
+                            "immaterial",
+                            "indifferent",
+                            "casual",
+                            "cavalier",
+                            "dismissive",
+                            "hand"
+                        ],
+                        "br": [
+                            "digas",
+                            "dizamant"
+                        ],
+                        "ca": [
+                            "indiferent"
+                        ],
+                        "es": [
+                            "indiferente"
+                        ],
+                        "eo": [
+                            "indiferenta"
+                        ],
+                        "fo": [
+                            "l\u00edkas\u00e6lur"
+                        ],
+                        "fi": [
+                            "v\u00e4linpit\u00e4m\u00e4t\u00f6n"
+                        ],
+                        "el": [
+                            "\u03b1\u03b4\u03b9\u03ac\u03c6\u03bf\u03c1\u03bf\u03c2"
+                        ],
+                        "io": [
+                            "indiferenta"
+                        ],
+                        "it": [
+                            "indifferente"
+                        ],
+                        "lt": [
+                            "abejingas"
+                        ],
+                        "nl": [
+                            "lauw",
+                            "onverschillig"
+                        ],
+                        "oc": [
+                            "indiferent"
+                        ],
+                        "pt": [
+                            "indiferente"
+                        ],
+                        "ru": [
+                            "\u0431\u0435\u0437\u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0439",
+                            "\u0440\u0430\u0432\u043d\u043e\u0434\u0443\u0448\u043d\u044b\u0439",
+                            "\u0438\u043d\u0434\u0438\u0444\u0444\u0435\u0440\u0435\u043d\u0442\u043d\u044b\u0439"
+                        ],
+                        "sv": [
+                            "likgiltig",
+                            "likn\u00f6jd"
+                        ],
+                        "cs": [
+                            "lhostejn\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indiff\u00e9rent": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "indiff\u00e9rents": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "indiff\u00e9rente": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "indiff\u00e9rentes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indigence": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "es": [
+                            "indigencia"
+                        ],
+                        "eo": [
+                            "senhaveco"
+                        ],
+                        "el": [
+                            "\u03ad\u03bd\u03b4\u03b5\u03b9\u03b1"
+                        ],
+                        "it": [
+                            "indigenza"
+                        ],
+                        "nl": [
+                            "behoeftigheid",
+                            "armoede"
+                        ],
+                        "no": [
+                            "armod",
+                            "fattigdom"
+                        ],
+                        "oc": [
+                            "indig\u00e9ncia"
+                        ],
+                        "sv": [
+                            "armod",
+                            "fattigdom"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indigence": [
+                    "Singulier"
+                ],
+                "indigences": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "indig\u00e8ne": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "indigenous"
+                        ],
+                        "es": [
+                            "ind\u00edgena"
+                        ],
+                        "eo": [
+                            "pralo\u011danta"
+                        ],
+                        "el": [
+                            "\u03b9\u03b8\u03b1\u03b3\u03b5\u03bd\u03ae\u03c2"
+                        ],
+                        "it": [
+                            "indigeno"
+                        ],
+                        "ru": [
+                            "\u0430\u0432\u0442\u043e\u0445\u0442\u043e\u043d\u043d\u044b\u0439"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indig\u00e8ne": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "indig\u00e8nes": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indig\u00e9nisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "indigenism"
+                        ],
+                        "ca": [
+                            "indigenisme"
+                        ],
+                        "es": [
+                            "indigenismo"
+                        ],
+                        "it": [
+                            "indigenismo"
+                        ],
+                        "oc": [
+                            "indigenisme"
+                        ],
+                        "pt": [
+                            "indigenismo"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indig\u00e9nisme": [
+                    "Singulier"
+                ],
+                "indig\u00e9nismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "indigent": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "indigent",
+                            "destitute",
+                            "penurious"
+                        ],
+                        "br": [
+                            "berrek",
+                            "ezhommek"
+                        ],
+                        "eo": [
+                            "senhava"
+                        ],
+                        "fi": [
+                            "h\u00e4d\u00e4nalainen",
+                            "k\u00f6yh\u00e4"
+                        ],
+                        "el": [
+                            "\u03ac\u03c0\u03bf\u03c1\u03bf\u03c2"
+                        ],
+                        "he": [
+                            "\u05e0\u05d6\u05e7\u05e7"
+                        ],
+                        "it": [
+                            "indigente"
+                        ],
+                        "nl": [
+                            "arm"
+                        ],
+                        "sv": [
+                            "utblottad",
+                            "utfattig"
+                        ],
+                        "tr": [
+                            "yoksul"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indigent": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "indigents": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "indigente": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "indigentes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Bed\u00fcrftiger"
+                        ],
+                        "en": [
+                            "pauper",
+                            "needy",
+                            "indigent",
+                            "poor",
+                            "beggar"
+                        ],
+                        "br": [
+                            "ezhommeg"
+                        ],
+                        "eo": [
+                            "senhavulo"
+                        ],
+                        "et": [
+                            "kerjus"
+                        ],
+                        "nl": [
+                            "pauper",
+                            "arme"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indigent": [
+                    "Singulier"
+                ],
+                "indigents": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "indigeste": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Difficile \u00e0 dig\u00e9rer",
+                    "translations": {
+                        "en": [
+                            "indigestible"
+                        ],
+                        "br": [
+                            "stambouc\u02bchus"
+                        ],
+                        "eo": [
+                            "nedigestebla"
+                        ],
+                        "el": [
+                            "\u03b4\u03cd\u03c3\u03c0\u03b5\u03c0\u03c4\u03bf\u03c2"
+                        ],
+                        "it": [
+                            "indigesto"
+                        ],
+                        "sv": [
+                            "h\u00e5rdsm\u00e4lt"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indigeste": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "indigestes": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indigestion": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "indigestion"
+                        ],
+                        "es": [
+                            "indigesti\u00f3n",
+                            "empacho"
+                        ],
+                        "io": [
+                            "nedigesto"
+                        ],
+                        "it": [
+                            "indigestione"
+                        ],
+                        "pt": [
+                            "indigest\u00e3o"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indigestion": [
+                    "Singulier"
+                ],
+                "indigestions": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "indignation": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Emp\u00f6rung",
+                            "Indignation",
+                            "Entr\u00fcstung"
+                        ],
+                        "en": [
+                            "indignation"
+                        ],
+                        "br": [
+                            "taeroni"
+                        ],
+                        "ca": [
+                            "indignaci\u00f3"
+                        ],
+                        "es": [
+                            "indignaci\u00f3n"
+                        ],
+                        "fi": [
+                            "n\u00e4rk\u00e4stys"
+                        ],
+                        "it": [
+                            "indignazione"
+                        ],
+                        "nl": [
+                            "verontwaardiging"
+                        ],
+                        "no": [
+                            "harme"
+                        ],
+                        "pt": [
+                            "indigna\u00e7\u00e3o"
+                        ],
+                        "ro": [
+                            "indignare"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u0433\u043e\u0434\u043e\u0432\u0430\u043d\u0438\u0435",
+                            "\u0432\u043e\u0437\u043c\u0443\u0449\u0435\u043d\u0438\u0435"
+                        ],
+                        "sv": [
+                            "harm",
+                            "f\u00f6rtrytelse"
+                        ],
+                        "cs": [
+                            "nevole"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indignation": [
+                    "Singulier"
+                ],
+                "indignations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "indigne": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "unw\u00fcrdig"
+                        ],
+                        "en": [
+                            "unworthy",
+                            "unfit"
+                        ],
+                        "da": [
+                            "uv\u00e6rdig"
+                        ],
+                        "eo": [
+                            "malinda"
+                        ],
+                        "fo": [
+                            "\u00f3verdur",
+                            "\u00f3verdigur"
+                        ],
+                        "io": [
+                            "blaminda"
+                        ],
+                        "it": [
+                            "indegno"
+                        ],
+                        "nl": [
+                            "mensonterend",
+                            "onwaardig"
+                        ],
+                        "pt": [
+                            "indigno"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indigne": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "indignes": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indign\u00e9": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "indignant"
+                        ],
+                        "es": [
+                            "indignado"
+                        ],
+                        "it": [
+                            "indignato"
+                        ],
+                        "la": [
+                            "indignabundus"
+                        ],
+                        "pt": [
+                            "indignado"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indign\u00e9": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "indign\u00e9s": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "indign\u00e9e": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "indign\u00e9es": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indigner": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "Remplir d\u2019indignation",
+                    "translations": {
+                        "en": [
+                            "to make indignant",
+                            "to fill with indignation"
+                        ],
+                        "ca": [
+                            "se"
+                        ],
+                        "da": [
+                            "plage"
+                        ],
+                        "es": [
+                            "indignar"
+                        ],
+                        "eo": [
+                            "indigni"
+                        ],
+                        "grc": [
+                            "\u1f00\u03b3\u03b1\u03bd\u03b1\u03ba\u03c4\u03ad\u03c9"
+                        ],
+                        "io": [
+                            "indignigar"
+                        ],
+                        "it": [
+                            "indignare"
+                        ],
+                        "nl": [
+                            "ergeren",
+                            "verontwaardigen"
+                        ],
+                        "sv": [
+                            "harma",
+                            "harmas"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "indigo": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "indigo"
+                        ],
+                        "ca": [
+                            "indi",
+                            "anyil"
+                        ],
+                        "ko": [
+                            "\ub0a8\uc0c9"
+                        ],
+                        "es": [
+                            "a\u00f1il",
+                            "\u00edndigo"
+                        ],
+                        "eo": [
+                            "indigo"
+                        ],
+                        "it": [
+                            "indaco"
+                        ],
+                        "ja": [
+                            "\u85cd\u8272"
+                        ],
+                        "avk": [
+                            "kadulukada"
+                        ],
+                        "pt": [
+                            "\u00edndigo"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0434\u0438\u0433\u043e"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indigo": [
+                    "Singulier"
+                ],
+                "indigos": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "indigotier": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Indigopflanze"
+                        ],
+                        "en": [
+                            "true indigo"
+                        ],
+                        "es": [
+                            "a\u00f1il"
+                        ],
+                        "it": [
+                            "indaco dei tintori"
+                        ],
+                        "pt": [
+                            "anil"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indigotier": [
+                    "Singulier"
+                ],
+                "indigotiers": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "indirect": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "indirekt"
+                        ],
+                        "en": [
+                            "indirect"
+                        ],
+                        "ca": [
+                            "indirecte"
+                        ],
+                        "zh": [
+                            "\u95f4\u63a5"
+                        ],
+                        "ko": [
+                            "\uac04\uc811"
+                        ],
+                        "es": [
+                            "indirecto"
+                        ],
+                        "fi": [
+                            "ep\u00e4suora"
+                        ],
+                        "io": [
+                            "nedireta"
+                        ],
+                        "ja": [
+                            "\u9593\u63a5",
+                            "\u9593\u63a5\u7684"
+                        ],
+                        "oc": [
+                            "indir\u00e8cte"
+                        ],
+                        "ro": [
+                            "indirect"
+                        ],
+                        "vi": [
+                            "gi\u00e1n ti\u1ebfp"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indirect": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "indirects": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "indirecte": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "indirectes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indiscipline": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Disziplinlosigkeit"
+                        ],
+                        "en": [
+                            "indiscipline"
+                        ],
+                        "es": [
+                            "indisciplina"
+                        ],
+                        "it": [
+                            "indisciplina"
+                        ],
+                        "la": [
+                            "indisciplinatio"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indiscipline": [
+                    "Singulier"
+                ],
+                "indisciplines": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "indisciplin\u00e9": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "disziplinlos"
+                        ],
+                        "en": [
+                            "undisciplined",
+                            "unruly"
+                        ],
+                        "es": [
+                            "indisciplinado"
+                        ],
+                        "io": [
+                            "nediciplinita"
+                        ],
+                        "it": [
+                            "indisciplinato"
+                        ],
+                        "la": [
+                            "indisciplinatus",
+                            "indisciplinosus"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indisciplin\u00e9": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "indisciplin\u00e9s": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "indisciplin\u00e9e": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "indisciplin\u00e9es": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indiscret": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "indiscreet",
+                            "nosy"
+                        ],
+                        "eo": [
+                            "maldiskreto"
+                        ],
+                        "io": [
+                            "nediskreta"
+                        ],
+                        "it": [
+                            "indiscreto"
+                        ],
+                        "nl": [
+                            "indiscreet"
+                        ],
+                        "sv": [
+                            "taktl\u00f6s"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indiscret": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "indiscrets": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "indiscr\u00e8te": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "indiscr\u00e8tes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indispensable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Dont on ne peut se dispenser.",
+                    "translations": {
+                        "de": [
+                            "unerl\u00e4sslich",
+                            "unentbehrlich",
+                            "unbedingt",
+                            "unabdingbar"
+                        ],
+                        "en": [
+                            "indispensable"
+                        ],
+                        "es": [
+                            "imprescindible",
+                            "indispensable"
+                        ],
+                        "eo": [
+                            "nemalhavebla"
+                        ],
+                        "ka": [
+                            "\u10d0\u10e3\u10ea\u10d8\u10da\u10d4\u10d1\u10d4\u10da\u10d8"
+                        ],
+                        "el": [
+                            "\u03b1\u03c0\u03b1\u03c1\u03b1\u03af\u03c4\u03b7\u03c4\u03bf\u03c2"
+                        ],
+                        "hu": [
+                            "n\u00e9lk\u00fcl\u00f6zhetetlen",
+                            "elengedhetetlen"
+                        ],
+                        "io": [
+                            "nekareebla"
+                        ],
+                        "it": [
+                            "indispensabile"
+                        ],
+                        "nl": [
+                            "onmisbaar"
+                        ],
+                        "pt": [
+                            "indispens\u00e1vel"
+                        ],
+                        "ro": [
+                            "indispensabil"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0439",
+                            "\u043d\u0435\u043f\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439"
+                        ],
+                        "sv": [
+                            "oumb\u00e4rlig"
+                        ],
+                        "uk": [
+                            "\u043d\u0435\u043e\u0431\u0445\u0456\u0434\u043d\u0438\u0439",
+                            "\u044f\u0437\u043a\u043e\u0432\u0438\u0439"
+                        ],
+                        "wo": [
+                            "lou meunoul gnake"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indispensable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "indispensables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indisposer": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "verstimmen",
+                            "verstellen",
+                            "falsch einstellen",
+                            "unscharf einstellen"
+                        ],
+                        "en": [
+                            "feel ill",
+                            "upset",
+                            "irritate",
+                            "annoy"
+                        ],
+                        "es": [
+                            "indisponer"
+                        ],
+                        "eo": [
+                            "misagordi",
+                            "malagordi"
+                        ],
+                        "io": [
+                            "molestar"
+                        ],
+                        "nl": [
+                            "ontstemmen"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "indium": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "\u00c9l\u00e9ment chimique",
+                    "translations": {
+                        "af": [
+                            "indium"
+                        ],
+                        "sq": [
+                            "indium"
+                        ],
+                        "de": [
+                            "Indium"
+                        ],
+                        "en": [
+                            "indium"
+                        ],
+                        "ar": [
+                            "\u0627\u0646\u062f\u064a\u0648\u0645"
+                        ],
+                        "hy": [
+                            "\u056b\u0576\u0564\u056b\u0578\u0582\u0574"
+                        ],
+                        "eu": [
+                            "indio"
+                        ],
+                        "bn": [
+                            "\u09ae"
+                        ],
+                        "be": [
+                            "i\u043d\u0434\u044b\u0439"
+                        ],
+                        "bs": [
+                            "indijum"
+                        ],
+                        "br": [
+                            "indiom"
+                        ],
+                        "bg": [
+                            "\u0438\u043d\u0434\u0438\u0439"
+                        ],
+                        "ca": [
+                            "indi"
+                        ],
+                        "zh": [
+                            "\u94df"
+                        ],
+                        "ko": [
+                            "\uc778\ub4d0"
+                        ],
+                        "kw": [
+                            "eyndyum"
+                        ],
+                        "co": [
+                            "indiu"
+                        ],
+                        "hr": [
+                            "indij"
+                        ],
+                        "da": [
+                            "indium"
+                        ],
+                        "es": [
+                            "indio"
+                        ],
+                        "eo": [
+                            "indio"
+                        ],
+                        "et": [
+                            "indium"
+                        ],
+                        "fo": [
+                            "indium"
+                        ],
+                        "fi": [
+                            "indium"
+                        ],
+                        "fy": [
+                            "indium"
+                        ],
+                        "ga": [
+                            "indiam"
+                        ],
+                        "gl": [
+                            "indio"
+                        ],
+                        "cy": [
+                            "indiwm"
+                        ],
+                        "ka": [
+                            "\u10d8\u10dc\u10d3\u10d8\u10e3\u10db\u10d8"
+                        ],
+                        "el": [
+                            "\u03af\u03bd\u03b4\u03b9\u03bf"
+                        ],
+                        "he": [
+                            "\u05d0\u05d9\u05e0\u05d3\u05d9\u05d5\u05dd"
+                        ],
+                        "hi": [
+                            "\u092f\u092e"
+                        ],
+                        "hu": [
+                            "indium"
+                        ],
+                        "io": [
+                            "indio"
+                        ],
+                        "id": [
+                            "indium"
+                        ],
+                        "ia": [
+                            "indium"
+                        ],
+                        "is": [
+                            "ind\u00edn"
+                        ],
+                        "it": [
+                            "indio"
+                        ],
+                        "ja": [
+                            "\u30a4\u30f3\u30b8\u30a6\u30e0"
+                        ],
+                        "jv": [
+                            "indium"
+                        ],
+                        "ks": [
+                            "\u0645"
+                        ],
+                        "kk": [
+                            "\u0438\u043d\u0434\u0438\u0439"
+                        ],
+                        "ku": [
+                            "\u00eendiy\u00fbm"
+                        ],
+                        "la": [
+                            "indium"
+                        ],
+                        "lv": [
+                            "indijs"
+                        ],
+                        "li": [
+                            "indium"
+                        ],
+                        "lt": [
+                            "indis"
+                        ],
+                        "jbo": [
+                            "blajinme"
+                        ],
+                        "lb": [
+                            "Indium"
+                        ],
+                        "mk": [
+                            "\u0438\u043d\u0434\u0438\u0443\u043c"
+                        ],
+                        "ms": [
+                            "indium"
+                        ],
+                        "mt": [
+                            "indju",
+                            "indjum"
+                        ],
+                        "gv": [
+                            "indjum"
+                        ],
+                        "mr": [
+                            "\u092f\u092e"
+                        ],
+                        "mn": [
+                            "\u0438\u043d\u0434\u0438"
+                        ],
+                        "nl": [
+                            "indium"
+                        ],
+                        "no": [
+                            "indium",
+                            "indium"
+                        ],
+                        "oc": [
+                            "indi"
+                        ],
+                        "uz": [
+                            "\u0438\u043d\u0434\u0438\u0439",
+                            "indiy"
+                        ],
+                        "fa": [
+                            "\u0627\u06cc\u0646\u062f\u06cc\u0648\u0645"
+                        ],
+                        "pl": [
+                            "ind"
+                        ],
+                        "pt": [
+                            "\u00edndio"
+                        ],
+                        "qu": [
+                            "indyu"
+                        ],
+                        "ro": [
+                            "indiu"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0434\u0438\u0439"
+                        ],
+                        "sr": [
+                            "\u0438\u043d\u0434\u0438j\u0443\u043c",
+                            "indijum"
+                        ],
+                        "sh": [
+                            "indijum"
+                        ],
+                        "scn": [
+                            "\u00ecndiu"
+                        ],
+                        "sk": [
+                            "indium"
+                        ],
+                        "sl": [
+                            "indij"
+                        ],
+                        "sv": [
+                            "indium"
+                        ],
+                        "sw": [
+                            "indi"
+                        ],
+                        "cs": [
+                            "indium"
+                        ],
+                        "th": [
+                            "\u0e22\u0e21"
+                        ],
+                        "tr": [
+                            "indiyum"
+                        ],
+                        "uk": [
+                            "i\u043d\u0434i\u0439"
+                        ],
+                        "vi": [
+                            "indi"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "individu": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Einzelwesen",
+                            "Individuum",
+                            "Einzelne"
+                        ],
+                        "en": [
+                            "individual",
+                            "person",
+                            "fellow",
+                            "guy",
+                            "chap"
+                        ],
+                        "ang": [
+                            "ceorl"
+                        ],
+                        "ca": [
+                            "individu"
+                        ],
+                        "da": [
+                            "individ"
+                        ],
+                        "es": [
+                            "individuo"
+                        ],
+                        "eo": [
+                            "individuo",
+                            "ulo"
+                        ],
+                        "fo": [
+                            "einstaklingur"
+                        ],
+                        "fi": [
+                            "yksil\u00f6"
+                        ],
+                        "fy": [
+                            "yndividu"
+                        ],
+                        "io": [
+                            "individuo"
+                        ],
+                        "is": [
+                            "einstaklingur"
+                        ],
+                        "nl": [
+                            "kerel",
+                            "knul",
+                            "persoon",
+                            "snuiter",
+                            "sujet",
+                            "vent",
+                            "enkeling",
+                            "individu",
+                            "sujet"
+                        ],
+                        "no": [
+                            "individ"
+                        ],
+                        "oc": [
+                            "individ\u00fa"
+                        ],
+                        "pl": [
+                            "osobnik",
+                            "istota",
+                            "jednostka"
+                        ],
+                        "pt": [
+                            "indiv\u00edduo",
+                            "pessoa",
+                            "sujeito"
+                        ],
+                        "ro": [
+                            "individ"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0443\u043c"
+                        ],
+                        "sg": [
+                            "zo"
+                        ],
+                        "sv": [
+                            "individ"
+                        ],
+                        "vi": [
+                            "c\u00e1 th\u1ec3"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "individu": [
+                    "Singulier"
+                ],
+                "individus": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "individualisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Individualismus"
+                        ],
+                        "en": [
+                            "individualism"
+                        ],
+                        "ca": [
+                            "individualisme"
+                        ],
+                        "ko": [
+                            "\uac1c\uc778\uc8fc\uc758"
+                        ],
+                        "es": [
+                            "individualismo"
+                        ],
+                        "et": [
+                            "individualism"
+                        ],
+                        "fi": [
+                            "individualismi"
+                        ],
+                        "el": [
+                            "\u03b1\u03c4\u03bf\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1"
+                        ],
+                        "it": [
+                            "individualismo"
+                        ],
+                        "ja": [
+                            "\u500b\u4eba\u4e3b\u7fa9"
+                        ],
+                        "nl": [
+                            "individualisme"
+                        ],
+                        "oc": [
+                            "individualisme"
+                        ],
+                        "pt": [
+                            "individualismo"
+                        ],
+                        "ro": [
+                            "individualism"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u0438\u0437\u043c"
+                        ],
+                        "cs": [
+                            "individualismus"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "individualisme": [
+                    "Singulier"
+                ],
+                "individualismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "individuel": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "individual"
+                        ],
+                        "ca": [
+                            "individual"
+                        ],
+                        "es": [
+                            "individual"
+                        ],
+                        "fi": [
+                            "yksil\u00f6llinen"
+                        ],
+                        "oc": [
+                            "individual"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0439"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "individuel": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "individuels": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "individuelle": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "individuelles": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "individuellement": [
+        {
+            "type": "Adverbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "individually",
+                            "separately"
+                        ],
+                        "ca": [
+                            "individualment"
+                        ],
+                        "es": [
+                            "individualmente"
+                        ],
+                        "it": [
+                            "individualmente"
+                        ],
+                        "oc": [
+                            "individualament"
+                        ],
+                        "sv": [
+                            "individuellt"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "indivisaire": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Miteigent\u00fcmer"
+                        ],
+                        "en": [
+                            "tenant in common"
+                        ],
+                        "es": [
+                            "comunero"
+                        ],
+                        "nl": [
+                            "eigenaar"
+                        ],
+                        "pt": [
+                            "indivis\u00e1rio"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indivisaire": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "indivisaires": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indivisible": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "indivisible"
+                        ],
+                        "ja": [
+                            "\u4e0d\u53ef\u5206"
+                        ],
+                        "la": [
+                            "impertilis",
+                            "indispertibilis",
+                            "indivisibilis"
+                        ],
+                        "nl": [
+                            "ondeelbaar"
+                        ],
+                        "sv": [
+                            "odelbar"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indivisible": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "indivisibles": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indivision": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "1. Copropri\u00e9t\u00e9 indivise fractionn\u00e9e en quotes-parts id\u00e9ales",
+                    "translations": {
+                        "af": [
+                            "eiendom"
+                        ],
+                        "de": [
+                            "Miteigentum",
+                            "Miteigentum nach Bruchteilen"
+                        ],
+                        "en": [
+                            "tenancy in common"
+                        ],
+                        "es": [
+                            "comunidad romana",
+                            "proindivisi\u00f3n"
+                        ],
+                        "it": [
+                            "indiviso"
+                        ],
+                        "nl": [
+                            "eigendom",
+                            "onverdeeldheid"
+                        ],
+                        "pt": [
+                            "indivis\u00e3o"
+                        ],
+                        "ro": [
+                            "indiviziune"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indivision": [
+                    "Singulier"
+                ],
+                "indivisions": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "indo-europ\u00e9en": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "indogermanisch",
+                            "indoeurop\u00e4isch"
+                        ],
+                        "en": [
+                            "European",
+                            "Indoeuropean"
+                        ],
+                        "br": [
+                            "indezeuropek"
+                        ],
+                        "ca": [
+                            "indoeuropeu"
+                        ],
+                        "da": [
+                            "indoeurop\u00e6isk"
+                        ],
+                        "es": [
+                            "indoeuropeo"
+                        ],
+                        "eo": [
+                            "hinde\u016dropa"
+                        ],
+                        "ka": [
+                            "\u10d8\u10dc\u10d3\u10dd\u10d4\u10d5\u10e0\u10dd\u10de\u10e3\u10da\u10d8"
+                        ],
+                        "el": [
+                            "\u03b9\u03bd\u03b4\u03bf\u03b5\u03c5\u03c1\u03c9\u03c0\u03b1\u03ca\u03ba\u03cc\u03c2"
+                        ],
+                        "it": [
+                            "indoeuropeo"
+                        ],
+                        "kk": [
+                            "\u04af\u043d\u0434\u0456\u0435\u0443\u0440\u043e\u043f\u0430",
+                            "\u04af\u043d\u0434\u0456\u0435\u0443\u0440\u043e\u043f\u0430\u043b\u044b\u049b"
+                        ],
+                        "nl": [
+                            "Europees"
+                        ],
+                        "pl": [
+                            "indoeuropejski"
+                        ],
+                        "ru": [
+                            "\u0439\u0441\u043a\u0438\u0439"
+                        ],
+                        "sk": [
+                            "indoeur\u00f3psky"
+                        ],
+                        "sv": [
+                            "indoeuropeisk"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indo-europ\u00e9en": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "indo-europ\u00e9ens": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "indo-europ\u00e9enne": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "indo-europ\u00e9ennes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "indogermanische Sprache"
+                        ],
+                        "en": [
+                            "European",
+                            "Indoeuropean",
+                            "European"
+                        ],
+                        "ro": [
+                            "european"
+                        ],
+                        "sk": [
+                            "indoeur\u00f3p\u010dina"
+                        ],
+                        "sv": [
+                            "indoeuropeiska"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "indolore": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "schmerzfrei",
+                            "schmerzlos"
+                        ],
+                        "en": [
+                            "painless"
+                        ],
+                        "be": [
+                            "\u0431\u044f\u0437\u0431\u043e\u043b\u044c\u043d\u044b"
+                        ],
+                        "eo": [
+                            "sendolora"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03ce\u03b4\u03c5\u03bd\u03bf\u03c2"
+                        ],
+                        "hu": [
+                            "f\u00e1jdalommentes"
+                        ],
+                        "it": [
+                            "indolore"
+                        ],
+                        "pl": [
+                            "bezbolesny"
+                        ],
+                        "ru": [
+                            "\u0431\u0435\u0437\u0431\u043e\u043b\u0435\u0437\u043d\u0435\u043d\u043d\u044b\u0439"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indolore": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "indolores": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indomptable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "indomitable"
+                        ],
+                        "io": [
+                            "nedomtebla"
+                        ],
+                        "la": [
+                            "indomabilis",
+                            "indomitabilis"
+                        ],
+                        "pt": [
+                            "indom\u00e1vel"
+                        ],
+                        "sv": [
+                            "okuvlig",
+                            "ob\u00e4ndig"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indomptable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "indomptables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "indon\u00e9sien": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "Indonesies"
+                        ],
+                        "de": [
+                            "indonesisch"
+                        ],
+                        "en": [
+                            "Indonesian"
+                        ],
+                        "az": [
+                            "indoneziyal\u0131"
+                        ],
+                        "nds": [
+                            "indoneessch"
+                        ],
+                        "ca": [
+                            "indonesi"
+                        ],
+                        "da": [
+                            "indonesisk"
+                        ],
+                        "es": [
+                            "indon\u00e9sico",
+                            "indonesio"
+                        ],
+                        "eo": [
+                            "indonezia"
+                        ],
+                        "el": [
+                            "\u03b9\u03bd\u03b4\u03bf\u03bd\u03b7\u03c3\u03b9\u03b1\u03ba\u03cc\u03c2"
+                        ],
+                        "it": [
+                            "indonesiano"
+                        ],
+                        "nl": [
+                            "Indisch",
+                            "Indonesisch"
+                        ],
+                        "pt": [
+                            "indon\u00e9sio"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u0439\u0441\u043a\u0438\u0439"
+                        ],
+                        "sk": [
+                            "indon\u00e9zsky"
+                        ],
+                        "sl": [
+                            "indonezijski"
+                        ],
+                        "sv": [
+                            "indonesisk"
+                        ],
+                        "cs": [
+                            "indon\u00e9sk\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "indon\u00e9sien": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "indon\u00e9siens": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "indon\u00e9sienne": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "indon\u00e9siennes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Langue officielle de l\u2019Indon\u00e9sie",
+                    "translations": {
+                        "en": [
+                            "Indonesian"
+                        ],
+                        "nds": [
+                            "Indoneessch"
+                        ],
+                        "eu": [
+                            "indonesiera"
+                        ],
+                        "ca": [
+                            "indonesi"
+                        ],
+                        "es": [
+                            "indonesio"
+                        ],
+                        "fi": [
+                            "indonesia"
+                        ],
+                        "hi": [
+                            "\u092f\u0928"
+                        ],
+                        "id": [
+                            "bahasa Indonesia"
+                        ],
+                        "it": [
+                            "indonesiano"
+                        ],
+                        "nl": [
+                            "Indonesisch"
+                        ],
+                        "oc": [
+                            "indonesian"
+                        ],
+                        "pt": [
+                            "indon\u00e9sio"
+                        ],
+                        "sk": [
+                            "indon\u00e9z\u0161tina"
+                        ],
+                        "sv": [
+                            "indonesiska"
+                        ],
+                        "cs": [
+                            "indon\u00e9\u0161tina"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "Indon\u00e9sien": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Habitant de l\u2019Indon\u00e9sie",
+                    "translations": {
+                        "de": [
+                            "Indonesier"
+                        ],
+                        "en": [
+                            "Indonesian"
+                        ],
+                        "az": [
+                            "indoneziyal\u0131"
+                        ],
+                        "es": [
+                            "indonesio",
+                            "indonesia"
+                        ],
+                        "eo": [
+                            "indoneziano"
+                        ],
+                        "id": [
+                            "Orang indonesia"
+                        ],
+                        "it": [
+                            "indonesiano",
+                            "indonesiana"
+                        ],
+                        "ja": [
+                            "\u30a4\u30f3\u30c9\u30cd\u30b7\u30a2\u4eba"
+                        ],
+                        "pt": [
+                            "indon\u00e9sio",
+                            "indon\u00e9sia"
+                        ],
+                        "sk": [
+                            "Indon\u00e9zan"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "Indon\u00e9sien": [
+                    "Singulier"
+                ],
+                "Indon\u00e9siens": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ]
+}

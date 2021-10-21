@@ -1,0 +1,5946 @@
+{
+    "insinc\u00e9rit\u00e9": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "insincerity"
+                        ],
+                        "es": [
+                            "insinceridad"
+                        ],
+                        "it": [
+                            "insincerit\u00e0"
+                        ],
+                        "oc": [
+                            "insinceritat"
+                        ],
+                        "fa": [
+                            "\u0628\u06cc \u0635\u062f\u0627\u0642\u062a\u06cc"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insinc\u00e9rit\u00e9": [
+                    "Singulier"
+                ],
+                "insinc\u00e9rit\u00e9s": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "insinuation": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Adresse par laquelle on donne \u00e0 entendre qqchose",
+                    "translations": {
+                        "en": [
+                            "innuendo",
+                            "insinuation"
+                        ],
+                        "ar": [
+                            "\u062a\u0644\u0645\u064a\u062d"
+                        ],
+                        "da": [
+                            "insinuation"
+                        ],
+                        "es": [
+                            "insinuaci\u00f3n"
+                        ],
+                        "it": [
+                            "insinuazione"
+                        ],
+                        "nl": [
+                            "insinuatie"
+                        ],
+                        "pl": [
+                            "insynuacja"
+                        ],
+                        "pt": [
+                            "insinua\u00e7\u00e3o"
+                        ],
+                        "ro": [
+                            "insinuare"
+                        ],
+                        "sh": [
+                            "insinuacija"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insinuation": [
+                    "Singulier"
+                ],
+                "insinuations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "insinuer": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "anspielen",
+                            "anspielen auf",
+                            "versteckt hinweisen",
+                            "andeuten"
+                        ],
+                        "en": [
+                            "insinuate",
+                            "worm"
+                        ],
+                        "ca": [
+                            "alludir",
+                            "insinuar"
+                        ],
+                        "es": [
+                            "aludir",
+                            "insinuar"
+                        ],
+                        "eo": [
+                            "subkomprenigi",
+                            "aludi"
+                        ],
+                        "fo": [
+                            "sipa til",
+                            "benda \u00e1",
+                            "reka fram undir"
+                        ],
+                        "fi": [
+                            "viitata"
+                        ],
+                        "el": [
+                            "\u03c5\u03c0\u03b1\u03b9\u03bd\u03af\u03c3\u03c3\u03bf\u03bc\u03b1\u03b9"
+                        ],
+                        "io": [
+                            "insinuar"
+                        ],
+                        "it": [
+                            "alludere"
+                        ],
+                        "nl": [
+                            "zinspelen",
+                            "alluderen",
+                            "toespelen",
+                            "een toespeling maken"
+                        ],
+                        "oc": [
+                            "insinuar",
+                            "suggerir"
+                        ],
+                        "pt": [
+                            "insinuar",
+                            "sugerir"
+                        ],
+                        "ro": [
+                            "insinua"
+                        ],
+                        "sv": [
+                            "alludera",
+                            "anspela"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "insipide": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "geschmacklos",
+                            "fad"
+                        ],
+                        "en": [
+                            "flavourless",
+                            "flavorless"
+                        ],
+                        "ca": [
+                            "ins\u00edpid",
+                            "insuls"
+                        ],
+                        "es": [
+                            "insulso",
+                            "ins\u00edpido",
+                            "soso"
+                        ],
+                        "io": [
+                            "dessapora"
+                        ],
+                        "nl": [
+                            "smakeloos",
+                            "oninterssant"
+                        ],
+                        "oc": [
+                            "insipid"
+                        ],
+                        "ru": [
+                            "\u0431\u0435\u0437\u0432\u043a\u0443\u0441\u043d\u044b\u0439"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insipide": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "insipides": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "insistance": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "aksent"
+                        ],
+                        "de": [
+                            "Akzent",
+                            "Betonung",
+                            "Ton",
+                            "Taktschwerpunkt",
+                            "Klankf\u00e4rbung",
+                            "Nachdruck"
+                        ],
+                        "en": [
+                            "accent",
+                            "stress",
+                            "emphasis"
+                        ],
+                        "ar": [
+                            "\u0625\u0644\u062d\u0627\u062d",
+                            "\u0625\u0635\u0631\u0627\u0631"
+                        ],
+                        "ca": [
+                            "insist\u00e8ncia"
+                        ],
+                        "da": [
+                            "accent",
+                            "betoning"
+                        ],
+                        "es": [
+                            "insistencia"
+                        ],
+                        "eo": [
+                            "akcento"
+                        ],
+                        "fo": [
+                            "her\u00f0ing"
+                        ],
+                        "fy": [
+                            "aksint"
+                        ],
+                        "hu": [
+                            "hangs\u00faly"
+                        ],
+                        "io": [
+                            "insisto"
+                        ],
+                        "it": [
+                            "accento"
+                        ],
+                        "la": [
+                            "accentus"
+                        ],
+                        "nl": [
+                            "accent",
+                            "klemtoon",
+                            "nadruk",
+                            "druk",
+                            "pressie"
+                        ],
+                        "oc": [
+                            "insist\u00e9ncia"
+                        ],
+                        "pt": [
+                            "acento"
+                        ],
+                        "ru": [
+                            "\u0430\u043a\u0446\u0435\u043d\u0442"
+                        ],
+                        "sv": [
+                            "accent"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insistance": [
+                    "Singulier"
+                ],
+                "insistances": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "insister": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "insistieren",
+                            "auf etwas bestehen"
+                        ],
+                        "en": [
+                            "insist"
+                        ],
+                        "ca": [
+                            "insistir"
+                        ],
+                        "es": [
+                            "insistir",
+                            "enfatizar"
+                        ],
+                        "eo": [
+                            "insisti"
+                        ],
+                        "he": [
+                            "\u05dc\u05d4\u05ea\u05e2\u05e7\u05e9"
+                        ],
+                        "io": [
+                            "insistar"
+                        ],
+                        "it": [
+                            "insistere"
+                        ],
+                        "oc": [
+                            "insistir"
+                        ],
+                        "pt": [
+                            "insistir"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "insociable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "menschenscheu",
+                            "ungesellig",
+                            "asozial",
+                            "antisozial",
+                            "randst\u00e4ndig",
+                            "nicht integrierbar"
+                        ],
+                        "en": [
+                            "unsociable"
+                        ],
+                        "br": [
+                            "diskrevedat",
+                            "digevredus",
+                            "diskevredat"
+                        ],
+                        "io": [
+                            "nesociema"
+                        ],
+                        "oc": [
+                            "insociable"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insociable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "insociables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "insolation": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "hyperthermie",
+                    "translations": {
+                        "en": [
+                            "sunstroke"
+                        ],
+                        "ca": [
+                            "insolaci\u00f3",
+                            "assolellada"
+                        ],
+                        "es": [
+                            "insolaci\u00f3n"
+                        ],
+                        "gl": [
+                            "insolaci\u00f3n"
+                        ],
+                        "it": [
+                            "insolazione"
+                        ],
+                        "nl": [
+                            "zonnesteek",
+                            "aantal uren zonneschijn",
+                            "blootstellen aan de zonnestralen"
+                        ],
+                        "cs": [
+                            "\u00fa\u017eeh"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insolation": [
+                    "Singulier"
+                ],
+                "insolations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "insolence": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Frechheit"
+                        ],
+                        "en": [
+                            "insolence"
+                        ],
+                        "es": [
+                            "insolencia"
+                        ],
+                        "el": [
+                            "\u03b1\u03c5\u03b8\u03ac\u03b4\u03b5\u03b9\u03b1"
+                        ],
+                        "io": [
+                            "insolenteso"
+                        ],
+                        "it": [
+                            "insolenza"
+                        ],
+                        "nl": [
+                            "onbeschoftheid",
+                            "onbeschaamdheid"
+                        ],
+                        "pl": [
+                            "bezczelno\u015b\u0107",
+                            "zuchwa\u0142o\u015b\u0107"
+                        ],
+                        "ro": [
+                            "obr\u0103znicie"
+                        ],
+                        "ru": [
+                            "\u043d\u0430\u0433\u043b\u043e\u0441\u0442\u044c"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insolence": [
+                    "Singulier"
+                ],
+                "insolences": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "insolent": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "frech",
+                            "dreist",
+                            "anma\u00dfend",
+                            "\u00fcberheblich",
+                            "unversch\u00e4mt",
+                            "ungeb\u00fchrlich",
+                            "respektlos",
+                            "unverfroren",
+                            "aufreizend"
+                        ],
+                        "en": [
+                            "insolent"
+                        ],
+                        "ca": [
+                            "insolent",
+                            "descarat"
+                        ],
+                        "es": [
+                            "insolente",
+                            "chulo",
+                            "descarado",
+                            "sinverg\u00fcenza"
+                        ],
+                        "eo": [
+                            "malrespekta"
+                        ],
+                        "el": [
+                            "\u03b1\u03c5\u03b8\u03ac\u03b4\u03b7\u03c2"
+                        ],
+                        "io": [
+                            "insolenta"
+                        ],
+                        "id": [
+                            "angkara"
+                        ],
+                        "it": [
+                            "petulante"
+                        ],
+                        "nl": [
+                            "onbeschoft"
+                        ],
+                        "oc": [
+                            "insolent",
+                            "descarat",
+                            "desvergonhat"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insolent": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "insolents": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "insolente": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "insolentes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "insolite": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Qui surprend parce qu\u2019il sort de l\u2019usage.",
+                    "translations": {
+                        "de": [
+                            "ungew\u00f6hnlich"
+                        ],
+                        "en": [
+                            "unusual",
+                            "unexpected",
+                            "uncanny"
+                        ],
+                        "da": [
+                            "us\u00e6dvanlig"
+                        ],
+                        "es": [
+                            "ins\u00f3lito"
+                        ],
+                        "io": [
+                            "nekustumata"
+                        ],
+                        "it": [
+                            "insolito"
+                        ],
+                        "nl": [
+                            "vreemd",
+                            "ongebruikelijk",
+                            "ongewoon",
+                            "eigenaardig"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u043e\u0431\u044b\u0447\u043d\u044b\u0439"
+                        ],
+                        "sw": [
+                            "geni"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insolite": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "insolites": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "insomniaque": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "insomniac"
+                        ],
+                        "es": [
+                            "insomne"
+                        ],
+                        "eo": [
+                            "sendorma"
+                        ],
+                        "el": [
+                            "\u03ac\u03c5\u03c0\u03bd\u03bf\u03c2",
+                            "\u03ac\u03b3\u03c1\u03c5\u03c0\u03bd\u03bf\u03c2"
+                        ],
+                        "it": [
+                            "insonne"
+                        ],
+                        "la": [
+                            "insomnis",
+                            "indormitabilis"
+                        ],
+                        "ru": [
+                            "\u0431\u0435\u0441\u0441\u043e\u043d\u043d\u044b\u0439"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insomniaque": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "insomniaques": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "insomnie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "privation de sommeil",
+                    "translations": {
+                        "de": [
+                            "Insomnie"
+                        ],
+                        "en": [
+                            "insomnia"
+                        ],
+                        "br": [
+                            "anhun"
+                        ],
+                        "ca": [
+                            "insomni",
+                            "agr\u00edpnia"
+                        ],
+                        "kw": [
+                            "anhun"
+                        ],
+                        "da": [
+                            "s\u00f8vnl\u00f8shed"
+                        ],
+                        "es": [
+                            "insomnio"
+                        ],
+                        "eo": [
+                            "sendormeco"
+                        ],
+                        "cy": [
+                            "anhun"
+                        ],
+                        "el": [
+                            "\u03b1\u03cb\u03c0\u03bd\u03af\u03b1"
+                        ],
+                        "hu": [
+                            "\u00e1lmatlans\u00e1g"
+                        ],
+                        "it": [
+                            "insonnia"
+                        ],
+                        "nl": [
+                            "slapeloosheid"
+                        ],
+                        "no": [
+                            "s\u00f8vnl\u00f8yse",
+                            "s\u00f8vnl\u00f8shet",
+                            "svevnl\u00f8yse",
+                            "s\u00f8vnl\u00f8yse"
+                        ],
+                        "pl": [
+                            "bezsenno\u015b\u0107"
+                        ],
+                        "pt": [
+                            "ins\u00f4nia"
+                        ],
+                        "ru": [
+                            "\u0431\u0435\u0441\u0441\u043e\u043d\u043d\u0438\u0446\u0430"
+                        ],
+                        "sv": [
+                            "s\u00f6mnl\u00f6shet"
+                        ],
+                        "cs": [
+                            "nespavost",
+                            "insomnie"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insomnie": [
+                    "Singulier"
+                ],
+                "insomnies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "insouciance": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "insouciance",
+                            "lack of care",
+                            "lack of worry"
+                        ],
+                        "br": [
+                            "digasted"
+                        ],
+                        "ca": [
+                            "despreocupaci\u00f3"
+                        ],
+                        "es": [
+                            "despreocupaci\u00f3n"
+                        ],
+                        "fi": [
+                            "huolettomuus"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insouciance": [
+                    "Singulier"
+                ],
+                "insouciances": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "insouciant": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "unbek\u00fcmmert",
+                            "leichtlebig"
+                        ],
+                        "en": [
+                            "carefree",
+                            "free",
+                            "lucky"
+                        ],
+                        "br": [
+                            "dibreder",
+                            "digas"
+                        ],
+                        "bg": [
+                            "\u0431\u0435\u0437\u0433\u0440\u0438\u0436\u0435\u043d"
+                        ],
+                        "ca": [
+                            "despreocupat"
+                        ],
+                        "es": [
+                            "despreocupado"
+                        ],
+                        "eo": [
+                            "facilanima"
+                        ],
+                        "fi": [
+                            "varomaton",
+                            "huoleton"
+                        ],
+                        "io": [
+                            "sensucia"
+                        ],
+                        "li": [
+                            "\u00f3nbez\u00f6rg"
+                        ],
+                        "nl": [
+                            "onbekwaam"
+                        ],
+                        "pt": [
+                            "despreocupado"
+                        ],
+                        "ru": [
+                            "\u0431\u0435\u0437\u0437\u0430\u0431\u043e\u0442\u043d\u044b\u0439"
+                        ],
+                        "sh": [
+                            "\u0431\u0435\u0437\u0431\u0440\u0438\u0436\u0430\u043d",
+                            "bezbri\u017ean"
+                        ],
+                        "sl": [
+                            "brezskrben"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insouciant": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "insouciants": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "insouciante": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "insouciantes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "insoumis": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Qui n\u2019est pas soumis\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "aufs\u00e4ssig",
+                            "widerspenstig"
+                        ],
+                        "en": [
+                            "rebellious"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c5\u03c0\u03cc\u03c4\u03b1\u03ba\u03c4\u03bf\u03c2"
+                        ],
+                        "it": [
+                            "non sottomesso",
+                            "non assoggettato",
+                            "ribelle"
+                        ],
+                        "sv": [
+                            "okuvad",
+                            "olydig",
+                            "uppstudsig"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insoumise": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "insoumises": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "insoup\u00e7onn\u00e9": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "unsuspected"
+                        ],
+                        "ar": [
+                            "\u063a\u064a\u0631 \u0645\u062a\u0647\u0645"
+                        ],
+                        "it": [
+                            "insospettato"
+                        ],
+                        "pt": [
+                            "insuspeito"
+                        ],
+                        "sv": [
+                            "oanad"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insoup\u00e7onn\u00e9": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "insoup\u00e7onn\u00e9s": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "insoup\u00e7onn\u00e9e": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "insoup\u00e7onn\u00e9es": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "inspecter": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "beaufsichtigen",
+                            "inspizieren",
+                            "mustern"
+                        ],
+                        "en": [
+                            "inspect",
+                            "review",
+                            "scrutinize",
+                            "check through"
+                        ],
+                        "ca": [
+                            "inspeccionar"
+                        ],
+                        "es": [
+                            "inspeccionar"
+                        ],
+                        "eo": [
+                            "inspekti"
+                        ],
+                        "fi": [
+                            "tarkastaa"
+                        ],
+                        "io": [
+                            "inspektar"
+                        ],
+                        "nl": [
+                            "inspecteren",
+                            "inspectie houden",
+                            "schouwen",
+                            "visiteren"
+                        ],
+                        "no": [
+                            "besiktige"
+                        ],
+                        "pt": [
+                            "fiscalizar",
+                            "inspecionar",
+                            "vistoriar"
+                        ],
+                        "sv": [
+                            "besiktiga",
+                            "inspektera"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "inspecteur": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "inspekteur"
+                        ],
+                        "de": [
+                            "Inspektor",
+                            "Inspektorin",
+                            "Aufseher",
+                            "Aufseherin"
+                        ],
+                        "en": [
+                            "inspector"
+                        ],
+                        "br": [
+                            "enseller"
+                        ],
+                        "co": [
+                            "ispittore"
+                        ],
+                        "es": [
+                            "inspector"
+                        ],
+                        "eo": [
+                            "inspektisto"
+                        ],
+                        "el": [
+                            "\u03b5\u03c0\u03b9\u03b8\u03b5\u03c9\u03c1\u03b7\u03c4\u03ae\u03c2"
+                        ],
+                        "io": [
+                            "inspektero",
+                            "inspektisto"
+                        ],
+                        "it": [
+                            "ispettore"
+                        ],
+                        "nl": [
+                            "inspecteur",
+                            "opzichter"
+                        ],
+                        "pt": [
+                            "inspector",
+                            "inspetor"
+                        ],
+                        "ro": [
+                            "inspector"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0441\u043f\u0435\u043a\u0442\u043e\u0440"
+                        ],
+                        "sv": [
+                            "besiktningsman",
+                            "inspektor"
+                        ],
+                        "sw": [
+                            "msimamizi"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "inspecteur": [
+                    "Singulier"
+                ],
+                "inspecteurs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "inspection": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Besichtigung"
+                        ],
+                        "en": [
+                            "inspection"
+                        ],
+                        "ca": [
+                            "inspecci\u00f3"
+                        ],
+                        "ko": [
+                            "\uac80\uc0ac"
+                        ],
+                        "es": [
+                            "inspecci\u00f3n"
+                        ],
+                        "it": [
+                            "ispezione"
+                        ],
+                        "ja": [
+                            "\u691c\u67fb"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "inspection": [
+                    "Singulier"
+                ],
+                "inspections": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "inspectrice": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "celle qui inspecte",
+                    "translations": {
+                        "de": [
+                            "Inspektorin",
+                            "Aufseherin"
+                        ],
+                        "en": [
+                            "inspectrix",
+                            "inspectress"
+                        ],
+                        "bg": [
+                            "\u0438\u043d\u0441\u043f\u0435\u043a\u0442\u043e\u0440\u043a\u0430"
+                        ],
+                        "ca": [
+                            "inspectora"
+                        ],
+                        "es": [
+                            "inspectora"
+                        ],
+                        "eo": [
+                            "inspektistino"
+                        ],
+                        "el": [
+                            "\u03b5\u03c0\u03b9\u03b8\u03b5\u03c9\u03c1\u03ae\u03c4\u03c1\u03b9\u03b1"
+                        ],
+                        "it": [
+                            "ispettrice",
+                            "ispettora"
+                        ],
+                        "la": [
+                            "inspectrix"
+                        ],
+                        "nl": [
+                            "inspectrice"
+                        ],
+                        "pt": [
+                            "inspectora",
+                            "inspetora"
+                        ],
+                        "ro": [
+                            "inspectoare"
+                        ],
+                        "cs": [
+                            "inspektorka"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "inspectrice": [
+                    "Singulier"
+                ],
+                "inspectrices": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "inspiration": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "inhalation"
+                        ],
+                        "es": [
+                            "inspiraci\u00f3n"
+                        ],
+                        "fi": [
+                            "sis\u00e4\u00e4nhengitys"
+                        ],
+                        "el": [
+                            "\u03b5\u03b9\u03c3\u03c0\u03bd\u03bf\u03ae",
+                            "\u03ad\u03bc\u03c0\u03bd\u03b5\u03c5\u03c3\u03b7"
+                        ],
+                        "io": [
+                            "aspiro"
+                        ],
+                        "it": [
+                            "ispirazione",
+                            "inspirazione"
+                        ],
+                        "ja": [
+                            "\u611f\u6fc0"
+                        ],
+                        "kk": [
+                            "\u0448\u0430\u0431\u044b\u0442"
+                        ],
+                        "mt": [
+                            "ispirazzjoni"
+                        ],
+                        "nl": [
+                            "inspiratie"
+                        ],
+                        "oc": [
+                            "inspiracion"
+                        ],
+                        "cs": [
+                            "inspirace"
+                        ],
+                        "tr": [
+                            "\u00fcflemek",
+                            "ilham",
+                            "vahiy"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "inspiration": [
+                    "Singulier"
+                ],
+                "inspirations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "inspirer": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "bepraat",
+                            "begeester",
+                            "besiel",
+                            "inasem"
+                        ],
+                        "de": [
+                            "begeistern",
+                            "einfl\u00f6\u00dfen",
+                            "eingeben",
+                            "inspirieren",
+                            "hineinblasen"
+                        ],
+                        "en": [
+                            "breathe",
+                            "inhale",
+                            "inspire",
+                            "suggest",
+                            "advance",
+                            "hint",
+                            "propound",
+                            "persuade",
+                            "convince",
+                            "dissuade",
+                            "induce",
+                            "infuse",
+                            "prompt"
+                        ],
+                        "ca": [
+                            "suggerir",
+                            "inspirar"
+                        ],
+                        "da": [
+                            "overtale"
+                        ],
+                        "es": [
+                            "inspirar",
+                            "sugerir",
+                            "persuadir"
+                        ],
+                        "eo": [
+                            "sugesti",
+                            "persvadi",
+                            "pensigi",
+                            "inspiri",
+                            "enspiri",
+                            "enblovi"
+                        ],
+                        "fo": [
+                            "studla",
+                            "elva",
+                            "f\u00e1a til",
+                            "anda inn"
+                        ],
+                        "fi": [
+                            "suostuttaa"
+                        ],
+                        "el": [
+                            "\u03b5\u03b9\u03c3\u03c0\u03bd\u03ad\u03c9",
+                            "\u03b5\u03bc\u03c0\u03bd\u03ad\u03c9"
+                        ],
+                        "la": [
+                            "persuadere"
+                        ],
+                        "ms": [
+                            "membujuk"
+                        ],
+                        "nl": [
+                            "een wenk geven",
+                            "influisteren",
+                            "opperen",
+                            "suggereren",
+                            "bepraten",
+                            "overhalen",
+                            "overreden",
+                            "te denken geven",
+                            "bezielen",
+                            "inboezemen",
+                            "inspireren",
+                            "inademen",
+                            "ophalen",
+                            "inblazen"
+                        ],
+                        "pl": [
+                            "sugerowa\u0107"
+                        ],
+                        "pt": [
+                            "incutir",
+                            "lembrar",
+                            "sugerir",
+                            "persuadir",
+                            "infundir",
+                            "inspirar",
+                            "aspirar",
+                            "inalar"
+                        ],
+                        "ro": [
+                            "inspira"
+                        ],
+                        "ru": [
+                            "\u0432\u043d\u0443\u0448\u0430\u0442\u044c"
+                        ],
+                        "sv": [
+                            "inspirera",
+                            "inandas",
+                            "ingiva",
+                            "r\u00e5da"
+                        ],
+                        "zu": [
+                            "phakamisa",
+                            "donsa umoya"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "instabilit\u00e9": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "instability"
+                        ],
+                        "ar": [
+                            "\u0639\u062f\u0645 \u0627\u0644\u0627\u0633\u062a\u0642\u0631\u0627\u0631"
+                        ],
+                        "es": [
+                            "inestabilidad"
+                        ],
+                        "el": [
+                            "\u03b1\u03c3\u03c4\u03ac\u03b8\u03b5\u03b9\u03b1"
+                        ],
+                        "it": [
+                            "instabilit\u00e0"
+                        ],
+                        "la": [
+                            "instabilitas",
+                            "inconstabilitio"
+                        ],
+                        "no": [
+                            "labilitet"
+                        ],
+                        "oc": [
+                            "instabilitat"
+                        ],
+                        "cs": [
+                            "labilita"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "instabilit\u00e9": [
+                    "Singulier"
+                ],
+                "instabilit\u00e9s": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "instable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "unstet"
+                        ],
+                        "en": [
+                            "unstable",
+                            "shaky",
+                            "unsteady"
+                        ],
+                        "es": [
+                            "inestable"
+                        ],
+                        "fi": [
+                            "ep\u00e4vakaa",
+                            "kiikker\u00e4"
+                        ],
+                        "el": [
+                            "\u03ac\u03c3\u03c4\u03b1\u03c4\u03bf\u03c2"
+                        ],
+                        "io": [
+                            "nestabila"
+                        ],
+                        "it": [
+                            "instabile"
+                        ],
+                        "no": [
+                            "labil"
+                        ],
+                        "oc": [
+                            "instable"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "instable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "instables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "installation": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Installation",
+                            "Ausstattung"
+                        ],
+                        "en": [
+                            "installation"
+                        ],
+                        "ca": [
+                            "laci\u00f3"
+                        ],
+                        "ko": [
+                            "\uc124\uce58"
+                        ],
+                        "es": [
+                            "instalaci\u00f3n"
+                        ],
+                        "eo": [
+                            "instalado"
+                        ],
+                        "el": [
+                            "\u03b5\u03b3\u03ba\u03b1\u03c4\u03ac\u03c3\u03c4\u03b1\u03c3\u03b7"
+                        ],
+                        "io": [
+                            "instalo"
+                        ],
+                        "id": [
+                            "pelantikan"
+                        ],
+                        "it": [
+                            "istallazione"
+                        ],
+                        "ja": [
+                            "\u8a2d\u7f6e",
+                            "\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb"
+                        ],
+                        "nl": [
+                            "installatie"
+                        ],
+                        "oc": [
+                            "installacion"
+                        ],
+                        "pl": [
+                            "instalacja"
+                        ],
+                        "ru": [
+                            "\u0431\u0430\u0437\u0438\u0440\u043e\u0432\u043a\u0430"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "installation": [
+                    "Singulier"
+                ],
+                "installations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "installer": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "Mettre solennellement en possession...\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "einf\u00fchren",
+                            "einsetzen",
+                            "installieren"
+                        ],
+                        "en": [
+                            "install",
+                            "place"
+                        ],
+                        "ca": [
+                            "lar"
+                        ],
+                        "ko": [
+                            "\uc124\uce58\ud558\ub2e4",
+                            "\uae54\ub2e4"
+                        ],
+                        "da": [
+                            "indrette"
+                        ],
+                        "es": [
+                            "instalar"
+                        ],
+                        "eo": [
+                            "instali"
+                        ],
+                        "id": [
+                            "lantik",
+                            "melantik"
+                        ],
+                        "is": [
+                            "innr\u00e9tta"
+                        ],
+                        "ja": [
+                            "\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3059\u308b"
+                        ],
+                        "nl": [
+                            "aanleggen",
+                            "fitten",
+                            "installeren"
+                        ],
+                        "no": [
+                            "innrede"
+                        ],
+                        "ro": [
+                            "instala"
+                        ],
+                        "sv": [
+                            "inreda",
+                            "inst\u00e4lla"
+                        ]
+                    }
+                },
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "settle"
+                        ],
+                        "gl": [
+                            "instalar"
+                        ],
+                        "io": [
+                            "instalar"
+                        ],
+                        "it": [
+                            "installare"
+                        ],
+                        "lb": [
+                            "abauen"
+                        ],
+                        "oc": [
+                            "installar"
+                        ],
+                        "pt": [
+                            "instalar"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "instant": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Courte p\u00e9riode",
+                    "translations": {
+                        "de": [
+                            "Augenblick"
+                        ],
+                        "en": [
+                            "instant"
+                        ],
+                        "ar": [
+                            "\u0638\u0629"
+                        ],
+                        "br": [
+                            "frapad"
+                        ],
+                        "is": [
+                            "andartak"
+                        ],
+                        "it": [
+                            "istante"
+                        ],
+                        "no": [
+                            "\u00f8yeblikk",
+                            "augeblikk",
+                            "augeblink"
+                        ],
+                        "pt": [
+                            "instante"
+                        ],
+                        "ro": [
+                            "clip\u0103",
+                            "moment"
+                        ],
+                        "ru": [
+                            "\u043c\u0438\u0433",
+                            "\u043c\u043d\u0433\u043d\u043e\u0432\u0435\u043d\u0438\u0435"
+                        ],
+                        "sv": [
+                            "\u00f6gonblick"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "instant": [
+                    "Singulier"
+                ],
+                "instants": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "instantan\u00e9": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Qui ne dure qu\u2019un instant\u00a0(1)",
+                    "translations": {
+                        "en": [
+                            "instantaneous"
+                        ],
+                        "ca": [
+                            "instantani"
+                        ],
+                        "es": [
+                            "instant\u00e1neo"
+                        ],
+                        "el": [
+                            "\u03c3\u03c4\u03b9\u03b3\u03bc\u03b9\u03b1\u03af\u03bf\u03c2"
+                        ],
+                        "it": [
+                            "istantaneo"
+                        ],
+                        "cs": [
+                            "okam\u017eit\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "instantan\u00e9": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "instantan\u00e9s": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "instantan\u00e9e": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "instantan\u00e9es": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Photographie d\u2019une action, d\u2019un \u00e9v\u00e8nement\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "Schnappschuss"
+                        ],
+                        "en": [
+                            "snapshot"
+                        ],
+                        "fi": [
+                            "valokuva"
+                        ],
+                        "el": [
+                            "\u03c3\u03c4\u03b9\u03b3\u03bc\u03b9\u03cc\u03c4\u03c5\u03c0\u03bf"
+                        ],
+                        "it": [
+                            "istantanea"
+                        ],
+                        "nl": [
+                            "momentopname"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "instantan\u00e9": [
+                    "Singulier"
+                ],
+                "instantan\u00e9s": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "instinct": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Instinkt"
+                        ],
+                        "en": [
+                            "instinct"
+                        ],
+                        "ar": [
+                            "\u063a\u0631\u064a\u0632\u0629"
+                        ],
+                        "ca": [
+                            "instint"
+                        ],
+                        "es": [
+                            "instinto"
+                        ],
+                        "eo": [
+                            "instinkto"
+                        ],
+                        "el": [
+                            "\u03ad\u03bd\u03c3\u03c4\u03b9\u03ba\u03c4\u03bf"
+                        ],
+                        "it": [
+                            "istinto"
+                        ],
+                        "ja": [
+                            "\u672c\u80fd"
+                        ],
+                        "sv": [
+                            "instinkt"
+                        ],
+                        "cs": [
+                            "pud",
+                            "instinkt"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "instinct": [
+                    "Singulier"
+                ],
+                "instincts": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "instinctif": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "instinctive"
+                        ],
+                        "el": [
+                            "\u03b5\u03bd\u03c3\u03c4\u03b9\u03ba\u03c4\u03ce\u03b4\u03b7\u03c2"
+                        ],
+                        "id": [
+                            "naluriah"
+                        ],
+                        "it": [
+                            "istintivo"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0441\u0442\u0438\u043d\u043a\u0442\u0438\u0432\u043d\u044b\u0439"
+                        ],
+                        "sv": [
+                            "instinktm\u00e4ssig"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "instinctif": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "instinctifs": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "instinctive": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "instinctives": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "instituer": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "instituieren"
+                        ],
+                        "en": [
+                            "institute"
+                        ],
+                        "es": [
+                            "instituir"
+                        ],
+                        "it": [
+                            "istituire"
+                        ],
+                        "pt": [
+                            "instituir"
+                        ],
+                        "cs": [
+                            "instituovat"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "institut": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Institut"
+                        ],
+                        "en": [
+                            "institute"
+                        ],
+                        "ar": [
+                            "\u0645\u0639\u0647\u062f"
+                        ],
+                        "ca": [
+                            "institut"
+                        ],
+                        "es": [
+                            "instituto"
+                        ],
+                        "fi": [
+                            "laitos"
+                        ],
+                        "io": [
+                            "instituto"
+                        ],
+                        "it": [
+                            "istituto"
+                        ],
+                        "nl": [
+                            "instituut"
+                        ],
+                        "oc": [
+                            "institut"
+                        ],
+                        "pt": [
+                            "instituto"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0442",
+                            "\u0443\u0447\u0438\u043b\u0438\u0449\u0435"
+                        ],
+                        "cs": [
+                            "\u00fastav"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "institut": [
+                    "Singulier"
+                ],
+                "instituts": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "instituteur": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Enseignant d\u2019\u00e9cole primaire.",
+                    "translations": {
+                        "af": [
+                            "onderwyser"
+                        ],
+                        "sq": [
+                            "m\u00ebsues"
+                        ],
+                        "de": [
+                            "Lehrer"
+                        ],
+                        "en": [
+                            "educator",
+                            "instructor",
+                            "teacher",
+                            "master"
+                        ],
+                        "eu": [
+                            "errient"
+                        ],
+                        "ang": [
+                            "lareow"
+                        ],
+                        "br": [
+                            "skol",
+                            "skolaer"
+                        ],
+                        "ca": [
+                            "mestre"
+                        ],
+                        "co": [
+                            "stututore"
+                        ],
+                        "da": [
+                            "l\u00e6rer"
+                        ],
+                        "es": [
+                            "maestro"
+                        ],
+                        "eo": [
+                            "instruisto",
+                            "instruisti\u0109o"
+                        ],
+                        "fo": [
+                            "l\u00e6rari",
+                            "kennari"
+                        ],
+                        "fy": [
+                            "learaar"
+                        ],
+                        "ka": [
+                            "\u10db\u10d0\u10e1\u10ec\u10d0\u10d5\u10da\u10d4\u10d1\u10d4\u10da\u10d8"
+                        ],
+                        "hu": [
+                            "tan\u00e1r",
+                            "tan\u00edt\u00f3"
+                        ],
+                        "io": [
+                            "instruktisto"
+                        ],
+                        "it": [
+                            "maestro"
+                        ],
+                        "ja": [
+                            "\u6559\u5e2b"
+                        ],
+                        "kk": [
+                            "\u043c\u04b1\u0493\u0430\u043b\u0456\u043c",
+                            "\u043e\u049b\u044b\u0442\u0443\u0448\u044b"
+                        ],
+                        "ku": [
+                            "mamoste",
+                            "dersdar"
+                        ],
+                        "ms": [
+                            "pengajar"
+                        ],
+                        "nl": [
+                            "instructeur",
+                            "leraar",
+                            "onderwijzer",
+                            "meester"
+                        ],
+                        "no": [
+                            "l\u00e6rer"
+                        ],
+                        "oc": [
+                            "regent"
+                        ],
+                        "pl": [
+                            "nauczyciel"
+                        ],
+                        "pt": [
+                            "professor",
+                            "professora"
+                        ],
+                        "ru": [
+                            "\u0443\u0447\u0438\u0442\u0435\u043b\u044c"
+                        ],
+                        "sv": [
+                            "folkskoll\u00e4rare"
+                        ],
+                        "sw": [
+                            "mwalimu"
+                        ],
+                        "tl": [
+                            "gur\u00f2",
+                            "ma\u00e9stra"
+                        ],
+                        "cs": [
+                            "u\u010ditel"
+                        ],
+                        "vo": [
+                            "tidan",
+                            "hitidan"
+                        ],
+                        "zu": [
+                            "uthisha"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "instituteur": [
+                    "Singulier"
+                ],
+                "instituteurs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "institution": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Einrichtung"
+                        ],
+                        "en": [
+                            "institution"
+                        ],
+                        "ast": [
+                            "instituci\u00f3n"
+                        ],
+                        "eu": [
+                            "erakunde"
+                        ],
+                        "ca": [
+                            "instituci\u00f3"
+                        ],
+                        "es": [
+                            "instituci\u00f3n"
+                        ],
+                        "fi": [
+                            "laitos"
+                        ],
+                        "gl": [
+                            "instituci\u00f3n"
+                        ],
+                        "el": [
+                            "\u03af\u03b4\u03c1\u03c5\u03bc\u03b1"
+                        ],
+                        "io": [
+                            "edukerio"
+                        ],
+                        "it": [
+                            "istituzione"
+                        ],
+                        "cs": [
+                            "\u00fastav",
+                            "instituce"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "institution": [
+                    "Singulier"
+                ],
+                "institutions": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "institutionnalisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Sens 1",
+                    "translations": {
+                        "de": [
+                            "Institutionalismus"
+                        ],
+                        "en": [
+                            "institutionalism"
+                        ],
+                        "es": [
+                            "institucionalismo"
+                        ],
+                        "it": [
+                            "istituzionalismo"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0446\u0438\u043e\u043d\u0430\u043b\u0438\u0437\u043c"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "institutionnalisme": [
+                    "Singulier"
+                ],
+                "institutionnalismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "institutionnel": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Relatif \u00e0 une institution",
+                    "translations": {
+                        "de": [
+                            "institutionell"
+                        ],
+                        "en": [
+                            "institutional"
+                        ],
+                        "ca": [
+                            "institucional"
+                        ],
+                        "es": [
+                            "institucional"
+                        ],
+                        "eo": [
+                            "institucia"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "institutionnel": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "institutionnels": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "institutionnelle": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "institutionnelles": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "institutrice": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "onderwyseres"
+                        ],
+                        "sq": [
+                            "m\u00ebsuese"
+                        ],
+                        "de": [
+                            "Grundschullehrerin",
+                            "Lehrerin"
+                        ],
+                        "br": [
+                            "skolaerez"
+                        ],
+                        "en": [
+                            "teacher",
+                            "educator",
+                            "instructor",
+                            "master",
+                            "institutress",
+                            "instutrix"
+                        ],
+                        "eu": [
+                            "andere\u00f1o"
+                        ],
+                        "bg": [
+                            "\u0434\u0430\u0441\u043a\u0430\u043b\u0438\u0446\u0430"
+                        ],
+                        "ca": [
+                            "mestra"
+                        ],
+                        "es": [
+                            "maestra"
+                        ],
+                        "eo": [
+                            "instruistino"
+                        ],
+                        "fy": [
+                            "learares"
+                        ],
+                        "nl": [
+                            "schooljuffrouw",
+                            "instructrice",
+                            "lerares",
+                            "onderwijzeres"
+                        ],
+                        "pl": [
+                            "nauczycielka"
+                        ],
+                        "pt": [
+                            "mestra"
+                        ],
+                        "ru": [
+                            "\u0443\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u0438\u0446\u0430"
+                        ],
+                        "sk": [
+                            "u\u010dite\u013eka"
+                        ],
+                        "sv": [
+                            "folkskoll\u00e4rarinna",
+                            "l\u00e4rarinna"
+                        ],
+                        "vi": [
+                            "b\u00e0 th\u1ea7y"
+                        ],
+                        "vo": [
+                            "tidan",
+                            "jitidan"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "institutrice": [
+                    "Singulier"
+                ],
+                "institutrices": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "instructif": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "lehrreich"
+                        ],
+                        "en": [
+                            "instructive",
+                            "informative",
+                            "informatory"
+                        ],
+                        "es": [
+                            "instructivo",
+                            "informativo"
+                        ],
+                        "eo": [
+                            "instrua"
+                        ],
+                        "fi": [
+                            "valistava",
+                            "opettavainen"
+                        ],
+                        "io": [
+                            "instruktiva"
+                        ],
+                        "nl": [
+                            "instructief",
+                            "leerrijk",
+                            "leerzaam"
+                        ],
+                        "ro": [
+                            "instructiv"
+                        ],
+                        "sv": [
+                            "l\u00e4rorik"
+                        ],
+                        "cs": [
+                            "pou\u010dn\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "instructif": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "instructifs": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "instructive": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "instructives": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "instruction": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Belehrung"
+                        ],
+                        "en": [
+                            "instruction",
+                            "tuition",
+                            "knowledge"
+                        ],
+                        "ar": [
+                            "\u062a\u0647\u0630\u064a\u0628",
+                            "\u064a\u0645",
+                            "\u0634\u0627\u062f"
+                        ],
+                        "br": [
+                            "deskoni"
+                        ],
+                        "eo": [
+                            "instruisteco"
+                        ],
+                        "fi": [
+                            "sivistys",
+                            "s\u00e4\u00e4nt\u00f6"
+                        ],
+                        "ka": [
+                            "\u10d2\u10d0\u10dc\u10d0\u10d7\u10da\u10d4\u10d1\u10d0"
+                        ],
+                        "io": [
+                            "instrukto"
+                        ],
+                        "it": [
+                            "istruzione"
+                        ],
+                        "ro": [
+                            "instruire",
+                            "instruc\u021bie",
+                            "instruc\u021biune"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "instruction": [
+                    "Singulier"
+                ],
+                "instructions": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "instructrice": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Ausbilderin",
+                            "Lehrende",
+                            "Lehrerin",
+                            "Dozentin"
+                        ],
+                        "en": [
+                            "instructor",
+                            "instructress"
+                        ],
+                        "ca": [
+                            "instructora"
+                        ],
+                        "es": [
+                            "instructora"
+                        ],
+                        "it": [
+                            "istruttrice"
+                        ],
+                        "nl": [
+                            "instructrice",
+                            "leermeesteres"
+                        ],
+                        "pt": [
+                            "instrutora"
+                        ],
+                        "ro": [
+                            "instructoare"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0442\u043e\u0440\u0448\u0430",
+                            "\u0443\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u0438\u0446\u0430",
+                            "\u0442\u0440\u0435\u043d\u0435\u0440\u0448\u0430"
+                        ],
+                        "sv": [
+                            "instruktris",
+                            "handledarinna",
+                            "l\u00e4rarinna"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "instructrice": [
+                    "Singulier"
+                ],
+                "instructrices": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "instruire": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "brief"
+                        ],
+                        "ar": [
+                            "\u062a\u062b\u0642\u0641"
+                        ],
+                        "fi": [
+                            "opettaa"
+                        ],
+                        "io": [
+                            "instruktar"
+                        ],
+                        "id": [
+                            "ajar",
+                            "mengajar"
+                        ],
+                        "it": [
+                            "istruire"
+                        ],
+                        "pl": [
+                            "kszta\u0142ci\u0107",
+                            "naucza\u0107",
+                            "uczy\u0107"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "instruit": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "educated",
+                            "informed",
+                            "be well versed"
+                        ],
+                        "br": [
+                            "abil",
+                            "anaoudek",
+                            "desket"
+                        ],
+                        "es": [
+                            "le\u00eddo"
+                        ],
+                        "it": [
+                            "istruito"
+                        ],
+                        "kk": [
+                            "\u0431\u0456\u043b\u0456\u043c\u0434\u0456"
+                        ],
+                        "ro": [
+                            "erudit"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "instruit": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "instruits": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "instruite": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "instruites": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "instrument": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "1. Objet permettant d'ex\u00e9cuter une action.",
+                    "translations": {
+                        "de": [
+                            "Werkzeug",
+                            "Instrument"
+                        ],
+                        "en": [
+                            "instrument"
+                        ],
+                        "es": [
+                            "instrumento"
+                        ],
+                        "fi": [
+                            "ty\u00f6kalu",
+                            "v\u00e4line",
+                            "instrumentti"
+                        ],
+                        "ga": [
+                            "acra",
+                            "acar",
+                            "acaire"
+                        ],
+                        "el": [
+                            "\u03cc\u03c1\u03b3\u03b1\u03bd\u03bf"
+                        ],
+                        "id": [
+                            "alat",
+                            "aparat"
+                        ],
+                        "ro": [
+                            "instrument"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442",
+                            "\u043f\u0440\u0438\u0431\u043e\u0440",
+                            "\u043f\u0440\u0438\u0441\u043f\u043e\u0441\u043e\u0431\u043b\u0435\u043d\u0438\u0435",
+                            "\u0433\u0430\u0434\u0436\u0435\u0442"
+                        ]
+                    }
+                },
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Mittel",
+                            "Werkzeug"
+                        ],
+                        "en": [
+                            "instrument",
+                            "means",
+                            "tool",
+                            "agent",
+                            "gadget",
+                            "implement",
+                            "utensil"
+                        ],
+                        "bg": [
+                            "\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442"
+                        ],
+                        "ca": [
+                            "instrument"
+                        ],
+                        "co": [
+                            "strumente",
+                            "ardignu",
+                            "arnese",
+                            "farru"
+                        ],
+                        "da": [
+                            "redskab",
+                            "v\u00e6rkt\u00f8j"
+                        ],
+                        "eo": [
+                            "ilo"
+                        ],
+                        "fo": [
+                            "ambo\u00f0"
+                        ],
+                        "fi": [
+                            "koje"
+                        ],
+                        "ga": [
+                            "adhbh cheoil"
+                        ],
+                        "io": [
+                            "instrumento"
+                        ],
+                        "it": [
+                            "arnese",
+                            "strumento"
+                        ],
+                        "kk": [
+                            "\u0430\u0441\u043f\u0430\u043f"
+                        ],
+                        "ku": [
+                            "am\u00fbr"
+                        ],
+                        "ms": [
+                            "alat",
+                            "perkakas"
+                        ],
+                        "nl": [
+                            "middel",
+                            "werktuig",
+                            "stuk gereedschap",
+                            "apparaat"
+                        ],
+                        "no": [
+                            "middel"
+                        ],
+                        "oc": [
+                            "instrument"
+                        ],
+                        "pl": [
+                            "narz\u0119dzie",
+                            "instrument",
+                            "przyrz\u0105d"
+                        ],
+                        "pt": [
+                            "ferramenta",
+                            "instrumento"
+                        ],
+                        "sv": [
+                            "instrument",
+                            "tyg",
+                            "verktyg"
+                        ],
+                        "tr": [
+                            "alet",
+                            "ara\u00e7",
+                            "ayg\u0131t"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "instrument": [
+                    "Singulier"
+                ],
+                "instruments": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "instrumental": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "instrumental",
+                            "instrumental case"
+                        ],
+                        "br": [
+                            "tro da betra",
+                            "troad vinviaouel",
+                            "troad instrumentel"
+                        ],
+                        "fi": [
+                            "instrumentaali"
+                        ],
+                        "el": [
+                            "\u03bf\u03c1\u03b3\u03b1\u03bd\u03b9\u03ba\u03ae"
+                        ],
+                        "it": [
+                            "strumentale"
+                        ],
+                        "ja": [
+                            "\u5177\u683c"
+                        ],
+                        "kk": [
+                            "\u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441 \u0441\u0435\u043f\u0442\u0456\u043a"
+                        ],
+                        "pl": [
+                            "narz\u0119dnik"
+                        ],
+                        "ru": [
+                            "\u0442\u0432\u043e\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043f\u0430\u0434\u0435\u0436",
+                            "\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u0430\u043b\u0438\u0441"
+                        ],
+                        "sl": [
+                            "instrumental",
+                            "orodnik"
+                        ],
+                        "cs": [
+                            "instrument\u00e1l",
+                            "sedm\u00fd p\u00e1d"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "instrumentaliser": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "instrumentalisieren"
+                        ],
+                        "en": [
+                            "manipulate",
+                            "exploit",
+                            "politicise",
+                            "ou politicize"
+                        ],
+                        "ca": [
+                            "instrumentalitzar"
+                        ],
+                        "es": [
+                            "instrumentalizar"
+                        ],
+                        "gl": [
+                            "instrumentalizar"
+                        ],
+                        "it": [
+                            "strumentalizzare"
+                        ],
+                        "pt": [
+                            "instrumentalizar"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "instrumentiste": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Celui, celle qui joue d\u2019un instrument de musique.",
+                    "translations": {
+                        "de": [
+                            "Instrumentalmusiker",
+                            "Instrumentalmusikerin"
+                        ],
+                        "en": [
+                            "instrumentist",
+                            "instrumentalist"
+                        ],
+                        "es": [
+                            "instrumentalista"
+                        ],
+                        "it": [
+                            "strumentista"
+                        ],
+                        "cs": [
+                            "instrumentalista",
+                            "instrumentalistka"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "instrumentiste": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "instrumentistes": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "insubordination": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Insubordination"
+                        ],
+                        "en": [
+                            "insubordination"
+                        ],
+                        "gl": [
+                            "insubordinaci\u00f3n"
+                        ],
+                        "io": [
+                            "obediemeso"
+                        ],
+                        "it": [
+                            "insubordinazione"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insubordination": [
+                    "Singulier"
+                ],
+                "insubordinations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "insucc\u00e8s": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Misserfolg",
+                            "Misslingen"
+                        ],
+                        "en": [
+                            "failure",
+                            "flop"
+                        ],
+                        "es": [
+                            "fracaso"
+                        ],
+                        "io": [
+                            "falio",
+                            "nesuceso"
+                        ],
+                        "it": [
+                            "insuccesso"
+                        ],
+                        "pl": [
+                            "niepowodzenie"
+                        ],
+                        "pt": [
+                            "fracasso"
+                        ],
+                        "ro": [
+                            "insucces"
+                        ],
+                        "cs": [
+                            "ne\u00fasp\u011bch"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "insuffisamment": [
+        {
+            "type": "Adverbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "unzul\u00e4nglich"
+                        ],
+                        "en": [
+                            "insufficiently"
+                        ],
+                        "eo": [
+                            "nesufi\u0109e"
+                        ],
+                        "it": [
+                            "insufficientemente"
+                        ],
+                        "ja": [
+                            "\u4e0d\u5341\u5206"
+                        ],
+                        "pt": [
+                            "insuficientemente"
+                        ],
+                        "sv": [
+                            "otillr\u00e4ckligt"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "insuffisance": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Fehlen",
+                            "Fehler",
+                            "Manko"
+                        ],
+                        "en": [
+                            "shortfall",
+                            "inadequacy",
+                            "insufficiency",
+                            "scarcity",
+                            "absence",
+                            "lack",
+                            "shortage",
+                            "shortcoming",
+                            "deficiency",
+                            "defect",
+                            "flaw",
+                            "gap",
+                            "want"
+                        ],
+                        "da": [
+                            "mangel"
+                        ],
+                        "es": [
+                            "falta"
+                        ],
+                        "eo": [
+                            "nesufi\u0109o",
+                            "nesufi\u0109eco",
+                            "manko"
+                        ],
+                        "fy": [
+                            "brekme"
+                        ],
+                        "io": [
+                            "nesufico"
+                        ],
+                        "it": [
+                            "mancanza"
+                        ],
+                        "nl": [
+                            "afwezigheid",
+                            "euvel",
+                            "gebrek",
+                            "tekortkoming",
+                            "gemis",
+                            "tekort",
+                            "manco",
+                            "mankement"
+                        ],
+                        "pl": [
+                            "brak"
+                        ],
+                        "pt": [
+                            "car\u00eancia",
+                            "falha",
+                            "falta"
+                        ],
+                        "sv": [
+                            "brist",
+                            "lyte",
+                            "saknad"
+                        ],
+                        "tr": [
+                            "a\u00e7\u0131k"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insuffisance": [
+                    "Singulier"
+                ],
+                "insuffisances": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "insuffisant": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "karig"
+                        ],
+                        "de": [
+                            "karg",
+                            "schmal",
+                            "d\u00fcrftig",
+                            "k\u00e4rglich",
+                            "Untergewicht"
+                        ],
+                        "en": [
+                            "insufficient",
+                            "in short supply",
+                            "scant",
+                            "scanty",
+                            "scarce",
+                            "few",
+                            "poor",
+                            "thin",
+                            "sparse"
+                        ],
+                        "eu": [
+                            "eskas"
+                        ],
+                        "es": [
+                            "escaso"
+                        ],
+                        "eo": [
+                            "manka",
+                            "malabunda"
+                        ],
+                        "io": [
+                            "nesuficanta"
+                        ],
+                        "it": [
+                            "insufficiente"
+                        ],
+                        "nl": [
+                            "karig",
+                            "schaars",
+                            "schraal",
+                            "schriel"
+                        ],
+                        "pt": [
+                            "escasso",
+                            "insuficiente",
+                            "raro"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u044b\u0439"
+                        ],
+                        "sv": [
+                            "otillr\u00e4cklig",
+                            "odudlig"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insuffisant": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "insuffisants": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "insuffisante": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "insuffisantes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "insuffler": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "infuse"
+                        ],
+                        "ca": [
+                            "insuflar"
+                        ],
+                        "es": [
+                            "insuflar"
+                        ],
+                        "gl": [
+                            "insuflar"
+                        ],
+                        "io": [
+                            "ensuflar"
+                        ],
+                        "oc": [
+                            "insuflar"
+                        ],
+                        "pt": [
+                            "insuflar"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "insulaire": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Inselbewohner"
+                        ],
+                        "en": [
+                            "insular"
+                        ],
+                        "eo": [
+                            "insula"
+                        ],
+                        "gl": [
+                            "insular"
+                        ],
+                        "el": [
+                            "\u03bd\u03b7\u03c3\u03b9\u03ce\u03c4\u03b9\u03ba\u03bf\u03c2",
+                            "\u03bd\u03b7\u03c3\u03b9\u03c9\u03c4\u03b9\u03ba\u03cc\u03c2"
+                        ],
+                        "io": [
+                            "insulana"
+                        ],
+                        "it": [
+                            "insulare"
+                        ],
+                        "pt": [
+                            "insular"
+                        ],
+                        "sk": [
+                            "ostrovn\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insulaire": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "insulaires": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "islander"
+                        ],
+                        "eo": [
+                            "insulano"
+                        ],
+                        "fi": [
+                            "saarelainen"
+                        ],
+                        "gl": [
+                            "insular"
+                        ],
+                        "el": [
+                            "\u03bd\u03b7\u03c3\u03b9\u03ce\u03c4\u03b7\u03c2",
+                            "\u03bd\u03b7\u03c3\u03b9\u03ce\u03c4\u03b9\u03c3\u03c3\u03b1"
+                        ],
+                        "no": [
+                            "\u00f8yboer",
+                            "\u00f8ybuar"
+                        ],
+                        "pt": [
+                            "insular"
+                        ],
+                        "sk": [
+                            "ostrovan"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insulaire": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "insulaires": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "insularit\u00e9": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "insularity"
+                        ],
+                        "ca": [
+                            "insularitat"
+                        ],
+                        "es": [
+                            "insularidad"
+                        ],
+                        "gl": [
+                            "insularidade"
+                        ],
+                        "it": [
+                            "insularit\u00e0"
+                        ],
+                        "pt": [
+                            "insularidade"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insularit\u00e9": [
+                    "Singulier"
+                ],
+                "insularit\u00e9s": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "insuline": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "sq": [
+                            "insulina"
+                        ],
+                        "de": [
+                            "Insulin"
+                        ],
+                        "en": [
+                            "insulin"
+                        ],
+                        "ar": [
+                            "\u0623\u0646\u0633\u0648\u0644\u064a\u0646"
+                        ],
+                        "ast": [
+                            "insulina"
+                        ],
+                        "bs": [
+                            "inzulin"
+                        ],
+                        "bg": [
+                            "\u0438\u043d\u0441\u0443\u043b\u0438\u043d"
+                        ],
+                        "ca": [
+                            "insulina"
+                        ],
+                        "zh": [
+                            "\u80f0\u5c9b\u7d20"
+                        ],
+                        "hr": [
+                            "inzulin"
+                        ],
+                        "da": [
+                            "insulin"
+                        ],
+                        "es": [
+                            "insulina"
+                        ],
+                        "eo": [
+                            "insulino"
+                        ],
+                        "et": [
+                            "insuliin"
+                        ],
+                        "fi": [
+                            "insuliini"
+                        ],
+                        "el": [
+                            "\u03b9\u03bd\u03c3\u03bf\u03c5\u03bb\u03af\u03bd\u03b7"
+                        ],
+                        "he": [
+                            "\u05d0\u05d9\u05e0\u05e1\u05d5\u05dc\u05d9\u05df"
+                        ],
+                        "io": [
+                            "insulino"
+                        ],
+                        "id": [
+                            "insulin"
+                        ],
+                        "it": [
+                            "insulina"
+                        ],
+                        "ja": [
+                            "\u30a4\u30f3\u30b9\u30ea\u30f3"
+                        ],
+                        "lt": [
+                            "insulinas"
+                        ],
+                        "ms": [
+                            "insulin"
+                        ],
+                        "no": [
+                            "insulin",
+                            "insulin"
+                        ],
+                        "pl": [
+                            "insulina"
+                        ],
+                        "pt": [
+                            "insulina"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0441\u0443\u043b\u0438\u043d"
+                        ],
+                        "sr": [
+                            "\u0438\u043d\u0441\u0443\u043b\u0438\u043d"
+                        ],
+                        "sk": [
+                            "inzul\u00edn"
+                        ],
+                        "sl": [
+                            "insulin"
+                        ],
+                        "su": [
+                            "insulin"
+                        ],
+                        "sv": [
+                            "insulin"
+                        ],
+                        "cs": [
+                            "inzul\u00edn"
+                        ],
+                        "tr": [
+                            "ins\u00fclin"
+                        ],
+                        "vi": [
+                            "insulin"
+                        ],
+                        "yi": [
+                            "\u05d0\u05d9\u05e0\u05e1\u05d0\u05dc\u05d9\u05df"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insuline": [
+                    "Singulier"
+                ],
+                "insulines": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "insulinoth\u00e9rapie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Insulintherapie",
+                            "Insulinbehandlung"
+                        ],
+                        "en": [
+                            "insulin therapy"
+                        ],
+                        "da": [
+                            "insulinbehandling"
+                        ],
+                        "es": [
+                            "insulinoterapia"
+                        ],
+                        "fi": [
+                            "insuliinihoito"
+                        ],
+                        "it": [
+                            "insulinoterapia"
+                        ],
+                        "nl": [
+                            "insulinetherapie",
+                            "insulinebehandeling"
+                        ],
+                        "pt": [
+                            "insulinoterapia"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0441\u0443\u043b\u0438\u043d\u043e\u0442\u0435\u0440\u0430\u043f\u0438\u044f"
+                        ],
+                        "sv": [
+                            "insulinbehandling"
+                        ],
+                        "uk": [
+                            "\u0456\u043d\u0441\u0443\u043b\u0456\u043d\u043e\u0442\u0435\u0440\u0430\u043f\u0456\u044f"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insulinoth\u00e9rapie": [
+                    "Singulier"
+                ],
+                "insulinoth\u00e9rapies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "insulte": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "insult",
+                            "slur"
+                        ],
+                        "ca": [
+                            "insult"
+                        ],
+                        "es": [
+                            "insulto"
+                        ],
+                        "ga": [
+                            "achas\u00e1n"
+                        ],
+                        "el": [
+                            "\u03c0\u03c1\u03bf\u03c3\u03b2\u03bf\u03bb\u03ae"
+                        ],
+                        "nl": [
+                            "belediging"
+                        ],
+                        "oc": [
+                            "insulte"
+                        ],
+                        "sv": [
+                            "skymf",
+                            "f\u00f6rn\u00e4rmelse",
+                            "h\u00e5n"
+                        ],
+                        "cs": [
+                            "ur\u00e1\u017eka"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insulte": [
+                    "Singulier"
+                ],
+                "insultes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "insulter": [
+        {
+            "type": "Verbe 2",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "beledig"
+                        ],
+                        "de": [
+                            "beleidigen",
+                            "schelten",
+                            "schimpfen",
+                            "beschimpfen"
+                        ],
+                        "en": [
+                            "abuse",
+                            "insult",
+                            "offend",
+                            "curse",
+                            "revile",
+                            "affront"
+                        ],
+                        "ca": [
+                            "insultar"
+                        ],
+                        "zh": [
+                            "\u4fae\u8fb1"
+                        ],
+                        "hr": [
+                            "vrije\u0111ati"
+                        ],
+                        "da": [
+                            "forn\u00e6rme",
+                            "sk\u00e6lde"
+                        ],
+                        "es": [
+                            "insultar"
+                        ],
+                        "eo": [
+                            "insulti"
+                        ],
+                        "fi": [
+                            "haukkua"
+                        ],
+                        "fy": [
+                            "rache"
+                        ],
+                        "el": [
+                            "\u03b2\u03c1\u03af\u03b6\u03c9"
+                        ],
+                        "io": [
+                            "insultar"
+                        ],
+                        "is": [
+                            "skamma"
+                        ],
+                        "it": [
+                            "insultare",
+                            "offendere"
+                        ],
+                        "mg": [
+                            "manopa"
+                        ],
+                        "nl": [
+                            "affronteren",
+                            "beledigen",
+                            "krenken"
+                        ],
+                        "no": [
+                            "skjelle ut"
+                        ],
+                        "oc": [
+                            "insultar"
+                        ],
+                        "pt": [
+                            "injuriar",
+                            "insultar"
+                        ],
+                        "ru": [
+                            "\u0431\u0440\u0430\u043d\u0438\u0442\u044c"
+                        ],
+                        "cs": [
+                            "urazit"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Outrager de fait ou de parole, avec dessein pr\u00e9m\u00e9dit\u00e9 d\u2019offenser.",
+                    "translations": {
+                        "de": [
+                            "schm\u00e4hen"
+                        ],
+                        "en": [
+                            "insult"
+                        ],
+                        "mg": [
+                            "manasaha"
+                        ],
+                        "sv": [
+                            "f\u00f6rol\u00e4mpa"
+                        ],
+                        "sw": [
+                            "kutukana"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "insulteur": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Beleidiger"
+                        ],
+                        "en": [
+                            "insulter"
+                        ],
+                        "la": [
+                            "insultator"
+                        ],
+                        "ln": [
+                            "mof\u00edngi"
+                        ],
+                        "nl": [
+                            "belediger"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insulteur": [
+                    "Singulier"
+                ],
+                "insulteurs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "insupportable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "unbearable"
+                        ],
+                        "eo": [
+                            "neeltenebla"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c5\u03c0\u03cc\u03c6\u03bf\u03c1\u03bf\u03c2"
+                        ],
+                        "it": [
+                            "insopportabile"
+                        ],
+                        "pt": [
+                            "insuport\u00e1vel"
+                        ],
+                        "ru": [
+                            "\u043d\u0435\u0432\u044b\u043d\u043e\u0441\u0438\u043c\u044b\u0439"
+                        ],
+                        "sv": [
+                            "outh\u00e4rdlig"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insupportable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "insupportables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "insurger": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "sich erheben"
+                        ],
+                        "en": [
+                            "rise up",
+                            "rebel"
+                        ],
+                        "ca": [
+                            "insurgir"
+                        ],
+                        "es": [
+                            "insurgir"
+                        ],
+                        "fi": [
+                            "nousta kapinaan"
+                        ],
+                        "el": [
+                            "\u03b5\u03be\u03b5\u03b3\u03b5\u03af\u03c1\u03bf\u03bc\u03b1\u03b9"
+                        ],
+                        "it": [
+                            "insorgere"
+                        ],
+                        "pt": [
+                            "insurgir"
+                        ],
+                        "cs": [
+                            "povstat"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "insurmontable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Qu\u2019on ne peut surmonter\u00a0(1)",
+                    "translations": {
+                        "en": [
+                            "insurmountable",
+                            "insuperable"
+                        ],
+                        "es": [
+                            "insuperable"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03c5\u03c0\u03ad\u03c1\u03b2\u03bb\u03b7\u03c4\u03bf\u03c2"
+                        ],
+                        "it": [
+                            "insormontabile"
+                        ],
+                        "nl": [
+                            "onoverkomelijk"
+                        ],
+                        "sv": [
+                            "o\u00f6verstiglig"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insurmontable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "insurmontables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "insurrection": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Aufstand"
+                        ],
+                        "en": [
+                            "insurrection"
+                        ],
+                        "es": [
+                            "insurrecci\u00f3n"
+                        ],
+                        "gl": [
+                            "insurrecci\u00f3n"
+                        ],
+                        "it": [
+                            "insurrezione"
+                        ],
+                        "nl": [
+                            "opstand"
+                        ],
+                        "pt": [
+                            "insurrei\u00e7\u00e3o"
+                        ],
+                        "ro": [
+                            "insurec\u021bie"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "insurrection": [
+                    "Singulier"
+                ],
+                "insurrections": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "intact": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "intact",
+                            "unscathed"
+                        ],
+                        "ca": [
+                            "l\u00e8s"
+                        ],
+                        "es": [
+                            "intacto",
+                            "ileso"
+                        ],
+                        "eo": [
+                            "bonstata",
+                            "nedifektita",
+                            "sendifekta",
+                            "netu\u015dita"
+                        ],
+                        "el": [
+                            "\u03b1\u03bd\u03ad\u03c0\u03b1\u03c6\u03bf\u03c2"
+                        ],
+                        "io": [
+                            "netushita"
+                        ],
+                        "it": [
+                            "intatto"
+                        ],
+                        "la": [
+                            "intactus",
+                            "indestrictus"
+                        ],
+                        "nl": [
+                            "intact"
+                        ],
+                        "cs": [
+                            "nedot\u010den\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intact": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "intacts": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "intacte": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "intactes": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "intangible": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Impalpable",
+                    "translations": {
+                        "de": [
+                            "untastbar"
+                        ],
+                        "en": [
+                            "intangible"
+                        ],
+                        "eo": [
+                            "netu\u015debla"
+                        ],
+                        "el": [
+                            "\u03b1\u03c0\u03b1\u03c1\u03b1\u03b2\u03af\u03b1\u03c3\u03c4\u03bf\u03c2"
+                        ],
+                        "it": [
+                            "intangibile"
+                        ],
+                        "nl": [
+                            "ontastbaar"
+                        ],
+                        "pl": [
+                            "niematerialny"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intangible": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "intangibles": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "intarissable": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "unersch\u00f6pflich"
+                        ],
+                        "en": [
+                            "inexhaustible"
+                        ],
+                        "es": [
+                            "inagotable"
+                        ],
+                        "el": [
+                            "\u03b1\u03c3\u03c4\u03b5\u03af\u03c1\u03b5\u03c5\u03c4\u03bf\u03c2"
+                        ],
+                        "it": [
+                            "inesauribile"
+                        ],
+                        "cs": [
+                            "nevy\u010derpateln\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intarissable": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "intarissables": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "int\u00e9gral": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "relatif \u00e0 l\u2019int\u00e9gration math\u00e9mathique",
+                    "translations": {
+                        "de": [
+                            "integral"
+                        ],
+                        "en": [
+                            "integral"
+                        ],
+                        "ar": [
+                            "\u062a\u0643\u0627\u0645\u0644"
+                        ],
+                        "ca": [
+                            "integral"
+                        ],
+                        "es": [
+                            "integral"
+                        ],
+                        "it": [
+                            "integrale"
+                        ],
+                        "fa": [
+                            "\u0627\u0646\u062a\u06af\u0631\u0627\u0644"
+                        ],
+                        "pl": [
+                            "ca\u0142kowy"
+                        ],
+                        "pt": [
+                            "integral"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u043b"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "int\u00e9gral": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "int\u00e9graux": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "int\u00e9grale": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "int\u00e9grales": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "int\u00e9grale": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "(Math\u00e9matiques) Int\u00e9grale d\u2019une fonction f\u00a0(2)",
+                    "translations": {
+                        "en": [
+                            "integral"
+                        ],
+                        "ca": [
+                            "integral"
+                        ],
+                        "es": [
+                            "integral"
+                        ],
+                        "it": [
+                            "integrale"
+                        ],
+                        "pl": [
+                            "ca\u0142ka"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u043b"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "int\u00e9grale": [
+                    "Singulier"
+                ],
+                "int\u00e9grales": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "int\u00e9gralement": [
+        {
+            "type": "Adverbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "completely",
+                            "wholly",
+                            "fully"
+                        ],
+                        "bg": [
+                            "\u0446\u044f\u043b\u043e\u0441\u0442\u043d\u043e"
+                        ],
+                        "ca": [
+                            "integralment"
+                        ],
+                        "it": [
+                            "integralmente"
+                        ],
+                        "oc": [
+                            "integralament"
+                        ],
+                        "wa": [
+                            "integr\u00e5lmint"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "int\u00e9grande": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Fonction qui est int\u00e9gr\u00e9e\u00a0(1)",
+                    "translations": {
+                        "en": [
+                            "integrand"
+                        ],
+                        "eu": [
+                            "integrakizun"
+                        ],
+                        "ca": [
+                            "integrand"
+                        ],
+                        "es": [
+                            "integrando"
+                        ],
+                        "it": [
+                            "integrando"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "int\u00e9grande": [
+                    "Singulier"
+                ],
+                "int\u00e9grandes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "int\u00e9grer": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "integrate"
+                        ],
+                        "es": [
+                            "integrar"
+                        ],
+                        "fi": [
+                            "integroida"
+                        ],
+                        "ia": [
+                            "integrar"
+                        ],
+                        "it": [
+                            "integrare"
+                        ],
+                        "pt": [
+                            "integrar"
+                        ],
+                        "sv": [
+                            "integrera"
+                        ],
+                        "cs": [
+                            "integrovat"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "intellect": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Intellekt"
+                        ],
+                        "en": [
+                            "intellect"
+                        ],
+                        "ar": [
+                            "\u0645\u062b\u0642\u0641"
+                        ],
+                        "es": [
+                            "intelecto"
+                        ],
+                        "eo": [
+                            "intelekto"
+                        ],
+                        "io": [
+                            "intelekto"
+                        ],
+                        "it": [
+                            "intelletto"
+                        ],
+                        "oc": [
+                            "intell\u00e8cte"
+                        ],
+                        "pl": [
+                            "intelekt"
+                        ],
+                        "pt": [
+                            "intelecto"
+                        ],
+                        "ro": [
+                            "intelect"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442"
+                        ],
+                        "sv": [
+                            "intellekt"
+                        ],
+                        "cs": [
+                            "um",
+                            "rozum",
+                            "intelekt"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "intellection": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "intellection"
+                        ],
+                        "ca": [
+                            "lecci\u00f3"
+                        ],
+                        "es": [
+                            "intelleci\u00f3n"
+                        ],
+                        "it": [
+                            "intellezione"
+                        ],
+                        "pt": [
+                            "intelec\u00e7\u00e3o",
+                            "intele\u00e7\u00e3o"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intellection": [
+                    "Singulier"
+                ],
+                "intellections": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "intellectualisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Intellektualismus"
+                        ],
+                        "en": [
+                            "intellectualism"
+                        ],
+                        "fi": [
+                            "intellektualismi"
+                        ],
+                        "it": [
+                            "intellettualismo"
+                        ],
+                        "oc": [
+                            "intellectualisme"
+                        ],
+                        "pl": [
+                            "intelektualizm"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intellectualisme": [
+                    "Singulier"
+                ],
+                "intellectualismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "intellectuel": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "intellektuell"
+                        ],
+                        "en": [
+                            "mental",
+                            "intellectual"
+                        ],
+                        "ar": [
+                            "\u0645\u0640\u062b\u0640\u0642\u0640\u0641"
+                        ],
+                        "zh": [
+                            "\u77e5\u8bc6\u5206\u5b50",
+                            "\u4e66\u751f"
+                        ],
+                        "es": [
+                            "mental"
+                        ],
+                        "eo": [
+                            "mensa",
+                            "intelekta"
+                        ],
+                        "io": [
+                            "intelektala"
+                        ],
+                        "it": [
+                            "intellettuale"
+                        ],
+                        "ja": [
+                            "\u77e5\u7684"
+                        ],
+                        "nl": [
+                            "geestelijk",
+                            "mentaal",
+                            "intellectueel",
+                            "verstandelijk"
+                        ],
+                        "pt": [
+                            "mental",
+                            "intelectual",
+                            "inteligente"
+                        ],
+                        "ro": [
+                            "intelectual"
+                        ],
+                        "ru": [
+                            "\u0443\u043c\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+                            "\u0438\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439"
+                        ],
+                        "sv": [
+                            "andlig"
+                        ],
+                        "tr": [
+                            "akli"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intellectuel": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "intellectuels": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "intellectuelle": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "intellectuelles": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "sq": [
+                            "intelektuali"
+                        ],
+                        "de": [
+                            "Intellektueller"
+                        ],
+                        "en": [
+                            "intellectual"
+                        ],
+                        "ar": [
+                            "\u0645\u0641\u0643\u0631"
+                        ],
+                        "az": [
+                            "intellektual"
+                        ],
+                        "ca": [
+                            "lectual"
+                        ],
+                        "zh": [
+                            "\u4e66\u751f"
+                        ],
+                        "ko": [
+                            "\uc9c0\uc2dd\uc778"
+                        ],
+                        "hr": [
+                            "intelektualac"
+                        ],
+                        "da": [
+                            "intellektuel"
+                        ],
+                        "es": [
+                            "intellectual"
+                        ],
+                        "eo": [
+                            "intelektulo"
+                        ],
+                        "fi": [
+                            "\u00e4lymyst\u00f6"
+                        ],
+                        "gl": [
+                            "intelectual"
+                        ],
+                        "he": [
+                            "\u05d0\u05d9\u05e0\u05d8\u05dc\u05e7\u05d8\u05d5\u05d0\u05dc"
+                        ],
+                        "id": [
+                            "cendekiawan"
+                        ],
+                        "it": [
+                            "intellettuale"
+                        ],
+                        "ja": [
+                            "\u77e5\u8b58\u4eba",
+                            "\u30a4\u30f3\u30c6\u30ea"
+                        ],
+                        "lt": [
+                            "intelektualas"
+                        ],
+                        "ms": [
+                            "intelektual"
+                        ],
+                        "nl": [
+                            "intellectueel"
+                        ],
+                        "no": [
+                            "intellektuell",
+                            "intellektuell"
+                        ],
+                        "fa": [
+                            "\u0641\u06a9\u0631\u06cc"
+                        ],
+                        "pl": [
+                            "intelektualista"
+                        ],
+                        "pt": [
+                            "intelectual"
+                        ],
+                        "ro": [
+                            "intelectual"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0443\u0430\u043b",
+                            "\u0438\u043d\u0442\u0435\u043b\u043b\u0438\u0433\u0435\u043d\u0442"
+                        ],
+                        "sr": [
+                            "\u0438\u043d\u0442\u0435\u043b\u0435\u043a\u0442\u0443\u0430\u043b\u0438\u0437\u0430\u043c"
+                        ],
+                        "sh": [
+                            "intelektualac"
+                        ],
+                        "sk": [
+                            "intelektu\u00e1l"
+                        ],
+                        "sv": [
+                            "intellektuell"
+                        ],
+                        "cs": [
+                            "intelektu\u00e1l"
+                        ],
+                        "tr": [
+                            "entelekt\u00fcel"
+                        ],
+                        "uk": [
+                            "\u0456\u043d\u0442\u0435\u043b\u0435\u043a\u0442\u0443\u0430\u043b"
+                        ],
+                        "vi": [
+                            "tr\u00ed th\u1ee9c"
+                        ],
+                        "yi": [
+                            "\u05d3\u05e2\u05e0\u05e7\u05e2\u05e8"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intellectuel": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "intellectuels": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "intellectuelle": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "intellectuelles": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "intellectuelle": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Intellektuelle"
+                        ],
+                        "en": [
+                            "intellectual"
+                        ],
+                        "ca": [
+                            "lectual"
+                        ],
+                        "ro": [
+                            "intelectual\u0103"
+                        ],
+                        "sl": [
+                            "intelektualka"
+                        ],
+                        "cs": [
+                            "intelektu\u00e1lka"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intellectuelle": [
+                    "Singulier"
+                ],
+                "intellectuelles": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "intelligence": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Intelligenz",
+                            "Verstand",
+                            "Information"
+                        ],
+                        "en": [
+                            "intelligence",
+                            "smarts"
+                        ],
+                        "ast": [
+                            "intelixencia"
+                        ],
+                        "eu": [
+                            "adimen"
+                        ],
+                        "bs": [
+                            "inteligencija"
+                        ],
+                        "br": [
+                            "speredegezh"
+                        ],
+                        "ca": [
+                            "lig\u00e8ncia"
+                        ],
+                        "hr": [
+                            "inteligencija"
+                        ],
+                        "da": [
+                            "intelligens"
+                        ],
+                        "es": [
+                            "inteligencia"
+                        ],
+                        "eo": [
+                            "koluzio",
+                            "inteligenteco",
+                            "inteligento",
+                            "intelekto"
+                        ],
+                        "et": [
+                            "intelligentsus"
+                        ],
+                        "gl": [
+                            "intelixencia"
+                        ],
+                        "el": [
+                            "\u03b5\u03be\u03c5\u03c0\u03bd\u03ac\u03b4\u03b1",
+                            "\u03bd\u03bf\u03b7\u03bc\u03bf\u03c3\u03cd\u03bd\u03b7"
+                        ],
+                        "hu": [
+                            "intelligencia"
+                        ],
+                        "io": [
+                            "intelekto"
+                        ],
+                        "id": [
+                            "akal"
+                        ],
+                        "is": [
+                            "vit"
+                        ],
+                        "it": [
+                            "intelligenza"
+                        ],
+                        "kk": [
+                            "\u0430\u049b\u044b\u043b"
+                        ],
+                        "ln": [
+                            "l\u025b"
+                        ],
+                        "ms": [
+                            "akal"
+                        ],
+                        "nl": [
+                            "intelligentie",
+                            "snuggerheid",
+                            "geheime afspraak",
+                            "bevattingsvermogen",
+                            "knapheid"
+                        ],
+                        "no": [
+                            "intelligens"
+                        ],
+                        "oc": [
+                            "intellig\u00e9ncia"
+                        ],
+                        "pl": [
+                            "inteligencja"
+                        ],
+                        "pt": [
+                            "intelig\u00eancia"
+                        ],
+                        "ro": [
+                            "inteligen\u021b\u0103"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442",
+                            "\u0443\u043c"
+                        ],
+                        "sr": [
+                            "\u0438\u043d\u0442\u0435\u043b\u0438\u0433\u0435\u043d\u0446\u0438\u0458\u0430"
+                        ],
+                        "sh": [
+                            "inteligencija"
+                        ],
+                        "scn": [
+                            "ntilliggenza"
+                        ],
+                        "sk": [
+                            "inteligencia"
+                        ],
+                        "sv": [
+                            "intelligens"
+                        ],
+                        "cs": [
+                            "inteligence"
+                        ],
+                        "tr": [
+                            "ak\u0131l",
+                            "ak\u0131ll\u0131"
+                        ],
+                        "vi": [
+                            "tr\u00ed tu\u1ec7",
+                            "tr\u00ed n\u0103ng",
+                            "tr\u00ed th\u00f4ng minh"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intelligence": [
+                    "Singulier"
+                ],
+                "intelligences": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "intelligentsia": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Intelligenzija"
+                        ],
+                        "en": [
+                            "intelligentsia"
+                        ],
+                        "bg": [
+                            "\u0438\u043d\u0442\u0435\u043b\u0438\u0433\u0435\u043d\u0446\u0438\u044f"
+                        ],
+                        "it": [
+                            "intellighenzia"
+                        ],
+                        "nl": [
+                            "intelligentsia"
+                        ],
+                        "pl": [
+                            "inteligencja"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0442\u0435\u043b\u043b\u0438\u0433\u0435\u043d\u0446\u0438\u044f"
+                        ],
+                        "sv": [
+                            "intelligentia"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intelligentsia": [
+                    "Singulier"
+                ],
+                "intelligentsias": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "intelligible": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "verst\u00e4ndlich",
+                            "vernehmbar"
+                        ],
+                        "en": [
+                            "intelligible"
+                        ],
+                        "ca": [
+                            "ligible"
+                        ],
+                        "es": [
+                            "inteligible"
+                        ],
+                        "io": [
+                            "komprenebla"
+                        ],
+                        "it": [
+                            "intelligibile",
+                            "intellegibile"
+                        ],
+                        "nl": [
+                            "begrijpelijk",
+                            "verstaanbaar"
+                        ],
+                        "pt": [
+                            "intelig\u00edvel"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intelligible": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "intelligibles": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "intello": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "intarbeiter"
+                        ],
+                        "en": [
+                            "interworker"
+                        ],
+                        "ar": [
+                            "\u0639\u0628\u064a\u0637"
+                        ],
+                        "es": [
+                            "interfera"
+                        ],
+                        "hu": [
+                            "entellekt\u00fcel"
+                        ],
+                        "it": [
+                            "interferrani"
+                        ],
+                        "tr": [
+                            "yhokudi",
+                            "yhutchida"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intello": [
+                    "Singulier"
+                ],
+                "intellos": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "intendance": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "stewardship"
+                        ],
+                        "da": [
+                            "forvaltning",
+                            "overopsyn"
+                        ],
+                        "eo": [
+                            "administra ofico"
+                        ],
+                        "io": [
+                            "intendanco"
+                        ],
+                        "nl": [
+                            "rentmeesterschap"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intendance": [
+                    "Singulier"
+                ],
+                "intendances": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "intense": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "extr\u00eame en degr\u00e9",
+                    "translations": {
+                        "de": [
+                            "heftig"
+                        ],
+                        "en": [
+                            "intense"
+                        ],
+                        "ar": [
+                            "\u064a\u062f"
+                        ],
+                        "az": [
+                            "g\u0259rgin"
+                        ],
+                        "bg": [
+                            "\u0438\u043d\u0442\u0435\u043d\u0437\u0438\u0432\u0435\u043d"
+                        ],
+                        "ca": [
+                            "intens"
+                        ],
+                        "es": [
+                            "intenso"
+                        ],
+                        "eo": [
+                            "intensa"
+                        ],
+                        "fi": [
+                            "ylenpalttinen",
+                            "hurja",
+                            "ylet\u00f6n",
+                            "huima",
+                            "huikea",
+                            "kova",
+                            "raju"
+                        ],
+                        "ga": [
+                            "dian"
+                        ],
+                        "gl": [
+                            "intenso"
+                        ],
+                        "el": [
+                            "\u03ad\u03bd\u03c4\u03bf\u03bd\u03bf\u03c2"
+                        ],
+                        "grc": [
+                            "\u03c3\u03c6\u03bf\u03b4\u03c1\u03cc\u03c2",
+                            "\u03c3\u03cd\u03bd\u03c4\u03bf\u03bd\u03bf\u03c2"
+                        ],
+                        "io": [
+                            "intensa"
+                        ],
+                        "it": [
+                            "intenso"
+                        ],
+                        "ms": [
+                            "amat"
+                        ],
+                        "mi": [
+                            "kitakita",
+                            "t\u012bwerawera",
+                            "m\u0101taratara",
+                            "ngoto"
+                        ],
+                        "no": [
+                            "intensiv",
+                            "intensiv"
+                        ],
+                        "pt": [
+                            "intenso"
+                        ],
+                        "ro": [
+                            "intens"
+                        ],
+                        "ru": [
+                            "\u043d\u0430\u043f\u0440\u044f\u0436\u0451\u043d\u043d\u044b\u0439"
+                        ],
+                        "se": [
+                            "stuoris"
+                        ],
+                        "sa": [
+                            "\u0923"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intense": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "intenses": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "intens\u00e9ment": [
+        {
+            "type": "Adverbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "intensely"
+                        ],
+                        "eo": [
+                            "intense"
+                        ],
+                        "fi": [
+                            "laajalti"
+                        ],
+                        "el": [
+                            "\u03ad\u03bd\u03c4\u03bf\u03bd\u03b1"
+                        ],
+                        "it": [
+                            "acutamente",
+                            "intensamente"
+                        ],
+                        "no": [
+                            "intenst"
+                        ],
+                        "pl": [
+                            "intensywnie"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "intensif": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "intensiv"
+                        ],
+                        "en": [
+                            "intensive"
+                        ],
+                        "es": [
+                            "intensivo"
+                        ],
+                        "io": [
+                            "intensa"
+                        ],
+                        "it": [
+                            "intensivo"
+                        ],
+                        "oc": [
+                            "intensiu"
+                        ],
+                        "pl": [
+                            "intensywny"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0442\u0435\u043d\u0441\u0438\u0432\u043d\u044b\u0439"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intensif": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "intensifs": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "intensive": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "intensives": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "intensit\u00e9": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Intensit\u00e4t"
+                        ],
+                        "en": [
+                            "intensity"
+                        ],
+                        "ar": [
+                            "\u0634\u062f\u0629"
+                        ],
+                        "ca": [
+                            "intensitat"
+                        ],
+                        "zh": [
+                            "\u5f37\u5ea6"
+                        ],
+                        "es": [
+                            "intensidad"
+                        ],
+                        "ia": [
+                            "intensitate"
+                        ],
+                        "it": [
+                            "intensit\u00e0"
+                        ],
+                        "ja": [
+                            "\u5f37\u5ea6"
+                        ],
+                        "pl": [
+                            "intensywno\u015b\u0107",
+                            "nat\u0119\u017cenie"
+                        ],
+                        "pt": [
+                            "intensidade"
+                        ],
+                        "ro": [
+                            "intensitate"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0442\u0435\u043d\u0441\u0438\u0432\u043d\u043e\u0441\u0442\u044c"
+                        ],
+                        "cs": [
+                            "intenzita"
+                        ],
+                        "tr": [
+                            "yo\u011funluk"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Intensit\u00e9 \u00e9lectrique\u00a0(4)",
+                    "translations": {
+                        "de": [
+                            "Stromst\u00e4rke"
+                        ],
+                        "en": [
+                            "current"
+                        ],
+                        "ast": [
+                            "intensid\u00e1"
+                        ],
+                        "nds": [
+                            "Stromst\u00e4rk"
+                        ],
+                        "eu": [
+                            "intentsitate"
+                        ],
+                        "es": [
+                            "intensidad"
+                        ],
+                        "et": [
+                            "tugevus",
+                            "voolutugevus"
+                        ],
+                        "ka": [
+                            "\u10d3\u10d4\u10dc\u10d8"
+                        ],
+                        "ia": [
+                            "intensitate electric"
+                        ],
+                        "it": [
+                            "intensit\u00e0"
+                        ],
+                        "lb": [
+                            "Stroumst\u00e4erkt"
+                        ],
+                        "pl": [
+                            "nat\u0119\u017cenie pr\u0105du"
+                        ],
+                        "ro": [
+                            "intensitate"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intensit\u00e9": [
+                    "Singulier"
+                ],
+                "intensit\u00e9s": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "intention": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Mouvement de l\u2019\u00e2me par lequel on tend \u00e0 quelque fin",
+                    "translations": {
+                        "de": [
+                            "Absicht",
+                            "Wunsch",
+                            "Wille"
+                        ],
+                        "en": [
+                            "intention"
+                        ],
+                        "ar": [
+                            "\u062f",
+                            "\u0627\u0644\u0646\u064a\u0629"
+                        ],
+                        "ca": [
+                            "intenci\u00f3"
+                        ],
+                        "es": [
+                            "intenci\u00f3n"
+                        ],
+                        "it": [
+                            "intenzione"
+                        ],
+                        "nl": [
+                            "voornemen"
+                        ],
+                        "pt": [
+                            "inten\u00e7\u00e3o"
+                        ],
+                        "ro": [
+                            "inten\u021bie"
+                        ],
+                        "sv": [
+                            "avsikt",
+                            "mening"
+                        ],
+                        "cs": [
+                            "intence"
+                        ]
+                    }
+                },
+                {
+                    "definition": "But, destination, dessein",
+                    "translations": {
+                        "de": [
+                            "Absicht",
+                            "Plan",
+                            "Intention",
+                            "f\u00fcr"
+                        ],
+                        "eu": [
+                            "asmo"
+                        ],
+                        "ca": [
+                            "intenci\u00f3"
+                        ],
+                        "fi": [
+                            "aikomus"
+                        ],
+                        "sv": [
+                            "avsikt",
+                            "mening"
+                        ]
+                    }
+                },
+                {
+                    "definition": "Traductions \u00e0 trier suivant le sens",
+                    "translations": {
+                        "af": [
+                            "plan",
+                            "bedoeling"
+                        ],
+                        "br": [
+                            "dezev",
+                            "dezo"
+                        ],
+                        "hr": [
+                            "namjera"
+                        ],
+                        "da": [
+                            "hensigt"
+                        ],
+                        "eo": [
+                            "intenco"
+                        ],
+                        "fi": [
+                            "aikomus"
+                        ],
+                        "fy": [
+                            "doel",
+                            "foarnimmen"
+                        ],
+                        "el": [
+                            "\u03c0\u03c1\u03cc\u03b8\u03b5\u03c3\u03b7"
+                        ],
+                        "io": [
+                            "intenco"
+                        ],
+                        "ku": [
+                            "niyet",
+                            "fir\u00fbz"
+                        ],
+                        "ms": [
+                            "maksud"
+                        ],
+                        "nl": [
+                            "intentie",
+                            "bedoeling",
+                            "strekking",
+                            "plan",
+                            "toeleg",
+                            "voornemen",
+                            "zin"
+                        ],
+                        "pl": [
+                            "zamiar"
+                        ],
+                        "tl": [
+                            "b\u00e1lak",
+                            "hang\u00e1rin"
+                        ],
+                        "tr": [
+                            "ama\u00e7"
+                        ],
+                        "zu": [
+                            "injongo"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intention": [
+                    "Singulier"
+                ],
+                "intentions": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "intentionnalit\u00e9": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Intentionalit\u00e4t"
+                        ],
+                        "en": [
+                            "intentionality"
+                        ],
+                        "es": [
+                            "intencionalidad"
+                        ],
+                        "it": [
+                            "intenzionalit\u00e0"
+                        ],
+                        "la": [
+                            "intentionalitas"
+                        ],
+                        "ro": [
+                            "inten\u021bionalitate"
+                        ],
+                        "ru": [
+                            "\u0438\u043d\u0442\u0435\u043d\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u044c"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intentionnalit\u00e9": [
+                    "Singulier"
+                ],
+                "intentionnalit\u00e9s": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "intentionnel": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "Qui appartient \u00e0 l\u2019intention\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "vors\u00e4tzlich"
+                        ],
+                        "en": [
+                            "intentional"
+                        ],
+                        "ca": [
+                            "intencional"
+                        ],
+                        "kw": [
+                            "borpos"
+                        ],
+                        "it": [
+                            "intenzionale"
+                        ],
+                        "cs": [
+                            "z\u00e1m\u011brn\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intentionnel": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "intentionnels": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "intentionnelle": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "intentionnelles": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "intentionnellement": [
+        {
+            "type": "Adverbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "absichtlich",
+                            "mit Absicht",
+                            "vors\u00e4tzlich"
+                        ],
+                        "en": [
+                            "consciously",
+                            "deliberately",
+                            "intentionally"
+                        ],
+                        "kw": [
+                            "borpos"
+                        ],
+                        "es": [
+                            "intencionalmente"
+                        ],
+                        "fi": [
+                            "erityisesti"
+                        ],
+                        "gl": [
+                            "intencionalmente"
+                        ],
+                        "it": [
+                            "intenzionalmente"
+                        ],
+                        "kk": [
+                            "\u04d9\u0434\u0435\u0439\u0456",
+                            "\u0436\u043e\u0440\u0442\u0430",
+                            "\u049b\u0430\u0441\u0430\u049b\u0430\u043d\u0430"
+                        ],
+                        "nl": [
+                            "opzettelijk"
+                        ],
+                        "pt": [
+                            "intencionalmente"
+                        ],
+                        "sv": [
+                            "med flit"
+                        ],
+                        "sw": [
+                            "kwa kukusudia"
+                        ],
+                        "cs": [
+                            "z\u00e1m\u011brn\u011b"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "interactif": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "interactive"
+                        ],
+                        "zh": [
+                            "\u4e92\u52a8"
+                        ],
+                        "eo": [
+                            "interreagema"
+                        ],
+                        "el": [
+                            "\u03b4\u03b9\u03b1\u03b4\u03c1\u03b1\u03c3\u03c4\u03b9\u03ba\u03cc\u03c2"
+                        ],
+                        "is": [
+                            "gagnvirkur"
+                        ],
+                        "it": [
+                            "interattivo"
+                        ],
+                        "nl": [
+                            "interactief"
+                        ],
+                        "sv": [
+                            "interaktiv"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "interactif": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "interactifs": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "interactive": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "interactives": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "interaction": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Interaktion"
+                        ],
+                        "en": [
+                            "interaction"
+                        ],
+                        "ast": [
+                            "interacci\u00f3n"
+                        ],
+                        "ca": [
+                            "interacci\u00f3"
+                        ],
+                        "ko": [
+                            "\uc0c1\ud638\uc791\uc6a9"
+                        ],
+                        "hr": [
+                            "interakcija"
+                        ],
+                        "da": [
+                            "interaktion"
+                        ],
+                        "es": [
+                            "interacci\u00f3n"
+                        ],
+                        "eo": [
+                            "interago"
+                        ],
+                        "fi": [
+                            "vuorovaikutus"
+                        ],
+                        "gl": [
+                            "interacci\u00f3n"
+                        ],
+                        "el": [
+                            "\u03b1\u03bb\u03bb\u03b7\u03bb\u03b5\u03c0\u03af\u03b4\u03c1\u03b1\u03c3\u03b7"
+                        ],
+                        "io": [
+                            "interago"
+                        ],
+                        "id": [
+                            "interaksi"
+                        ],
+                        "it": [
+                            "interazione"
+                        ],
+                        "ja": [
+                            "\u76f8\u4e92\u4f5c\u7528"
+                        ],
+                        "jv": [
+                            "interaksi"
+                        ],
+                        "mk": [
+                            "\u0438\u043d\u0442\u0435\u0440\u0430\u043a\u0446\u0438\u0458\u0430"
+                        ],
+                        "ms": [
+                            "interaksi"
+                        ],
+                        "nl": [
+                            "interactie"
+                        ],
+                        "oc": [
+                            "interaccion"
+                        ],
+                        "pl": [
+                            "interakcja"
+                        ],
+                        "pt": [
+                            "intera\u00e7\u00e3o"
+                        ],
+                        "sr": [
+                            "\u0438\u043d\u0442\u0435\u0440\u0430\u043a\u0446\u0438\u0458\u0430"
+                        ],
+                        "sl": [
+                            "interakcija"
+                        ],
+                        "su": [
+                            "interaksi"
+                        ],
+                        "sv": [
+                            "interaktion"
+                        ],
+                        "cs": [
+                            "interakce"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "interaction": [
+                    "Singulier"
+                ],
+                "interactions": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "interagir": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "interagieren"
+                        ],
+                        "en": [
+                            "interact"
+                        ],
+                        "da": [
+                            "interagere"
+                        ],
+                        "it": [
+                            "interagire"
+                        ],
+                        "cs": [
+                            "interagovat"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "intercalaire": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "leap",
+                            "intercalary"
+                        ],
+                        "ca": [
+                            "intercalar"
+                        ],
+                        "da": [
+                            "indskudt"
+                        ],
+                        "la": [
+                            "intercalaris",
+                            "intercalarius"
+                        ],
+                        "pt": [
+                            "intercalar"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intercalaire": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "intercalaires": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "intercaler": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "einf\u00fcgen"
+                        ],
+                        "en": [
+                            "insert"
+                        ],
+                        "ca": [
+                            "intercalar"
+                        ],
+                        "da": [
+                            "inds\u00e6tte",
+                            "indf\u00f8je"
+                        ],
+                        "es": [
+                            "intercalar"
+                        ],
+                        "nl": [
+                            "tussenvoegen"
+                        ],
+                        "pt": [
+                            "intercalar"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "interc\u00e9der": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "intercede"
+                        ],
+                        "es": [
+                            "interceder"
+                        ],
+                        "io": [
+                            "intercesar"
+                        ],
+                        "it": [
+                            "intercedere"
+                        ],
+                        "la": [
+                            "intercedo"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "intercepter": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "prendre quelque chose au passage",
+                    "translations": {
+                        "en": [
+                            "intercept"
+                        ],
+                        "hy": [
+                            "\u056f\u0561\u0576\u0563\u0576\u0565\u0581\u0576\u0565\u056c"
+                        ],
+                        "ca": [
+                            "interceptar"
+                        ],
+                        "es": [
+                            "interceptar"
+                        ],
+                        "la": [
+                            "intercipio"
+                        ],
+                        "oc": [
+                            "interceptar"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "interception": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "interception"
+                        ],
+                        "ca": [
+                            "intercepci\u00f3"
+                        ],
+                        "io": [
+                            "haltigo"
+                        ],
+                        "it": [
+                            "intercezione",
+                            "intercettazione",
+                            "intercetto"
+                        ],
+                        "sv": [
+                            "avsk\u00e4rande",
+                            "uppsnappande"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "interception": [
+                    "Singulier"
+                ],
+                "interceptions": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "intercesseuse": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "F\u00fcrsprecherin"
+                        ],
+                        "en": [
+                            "intercessor"
+                        ],
+                        "ca": [
+                            "intercessora"
+                        ],
+                        "es": [
+                            "intercesora"
+                        ],
+                        "it": [
+                            "interceditrice",
+                            "intercessora"
+                        ],
+                        "pt": [
+                            "intercessora"
+                        ],
+                        "ro": [
+                            "mijlocitoare"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "intercesseuse": [
+                    "Singulier"
+                ],
+                "intercesseuses": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "interchangeabilit\u00e9": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Austauschbarkeit"
+                        ],
+                        "en": [
+                            "interchangeability"
+                        ],
+                        "es": [
+                            "intercambiabilidad"
+                        ],
+                        "it": [
+                            "intercambiabilit\u00e0",
+                            "interscambiabilit\u00e0"
+                        ],
+                        "ja": [
+                            "\u4ea4\u63db\u53ef\u80fd\u6027",
+                            "\u53ef\u63db\u6027"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "interchangeabilit\u00e9": [
+                    "Singulier"
+                ],
+                "interchangeabilit\u00e9s": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ]
+}
