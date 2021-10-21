@@ -12,7 +12,8 @@ from lookup import init_vocab
     (3, 3, {'arc', 'cv', 'ara', 'a'}, 0),
     (3, 3, {'are', 'ara', 'en', 'an'}, 2),
     (4, 4, {'aube', 'bus', 'but', 'beta', 'des', 'cube'}, 0),
-    (4, 4, {'aube', 'bus', 'but', 'beta', 'desa', 'cube'}, 4)
+    (4, 4, {'aube', 'bus', 'but', 'beta', 'desa', 'cube'}, 4),
+    (4, 4, {'clan', 'aléa', 'ému', 'ami', 'bai', 'an'}, 0)
 ])
 def test_search(width, height, vocab, expected):
     found_grids = get_full_grids(width, height, vocab)
