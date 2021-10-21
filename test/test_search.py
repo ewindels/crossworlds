@@ -13,19 +13,9 @@ from lookup import init_vocab
     (3, 3, {'are', 'ara', 'en', 'an'}, 2),
     (4, 4, {'aube', 'bus', 'but', 'beta', 'des', 'cube'}, 0),
     (4, 4, {'aube', 'bus', 'but', 'beta', 'desa', 'cube'}, 4),
-    (4, 4, {'clan', 'aléa', 'ému', 'ami', 'bai', 'an'}, 0)
+    (4, 4, {'clan', 'aléa', 'ému', 'ami', 'bai', 'an'}, 0),
+    (4, 4, {'huit', 'judo', 'do', 'ion', 'con', 'et'}, 0)
 ])
 def test_search(width, height, vocab, expected):
     found_grids = get_full_grids(width, height, vocab)
     assert len(found_grids) == expected
-
-
-@pytest.fixture
-def vocab():
-    return init_vocab()
-
-
-@pytest.mark.parametrize("width,height", [(2, 2), (3, 3)])
-def test_vocab_search(width, height, vocab):
-    found_grids = get_full_grids(width, height, vocab)
-    assert found_grids
