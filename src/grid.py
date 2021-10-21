@@ -108,13 +108,13 @@ class WordPattern(ABC):
     def update_orthogonal_word_patterns_length(self, index: int) -> None:
         coor = self.get_coor(index)
         if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
-            length = crossed_word_pattern.get_index(*coor) - 1
+            length = crossed_word_pattern.get_index(*coor)
             crossed_word_pattern.set_length(length)
 
     def unset_orthogonal_word_patterns_length(self, index: int) -> None:
         coor = self.get_coor(index)
         if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
-            length = crossed_word_pattern.get_index(*coor) - 1
+            length = crossed_word_pattern.get_index(*coor)
             crossed_word_pattern.set_length(length)
 
     def set_aligned_word_pattern(self, def_index: int) -> None:
@@ -123,7 +123,7 @@ class WordPattern(ABC):
                 and self.get_content(def_index + 1) != DEF_TOKEN
         ):
             row, col = self.get_coor(def_index + 1)
-            new_length = self.length - def_index
+            new_length = self.length - def_index - 1
             new_aligned_word_pattern = self.create_pattern_aligned(row, col, new_length)
             self.set_length(def_index - 1)
             for new_index in range(new_length):
