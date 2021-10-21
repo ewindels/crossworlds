@@ -230,14 +230,14 @@ class WordPattern(ABC):
             self.set_aligned_word_pattern(def_index)
             self.set_orthogonal_word_pattern(def_index)
 
-    def remove_word(self) -> None:
+    def remove_word(self, word: str) -> None:
         self.grid.words_dict.pop(self)
         self.grid.word_patterns.add(self)
         for index in self.linked_letters_indices:
             self.set_content(index, EMPTY_TOKEN)
             self.unset_orthogonal_word_pattern_letters(index)
         self.linked_letters_indices = set()
-        def_index = self.length + 1
+        def_index = len(word)
         if self.get_content(def_index) == DEF_TOKEN:
             self.set_content(def_index, EMPTY_TOKEN)
             self.unset_orthogonal_word_patterns_length(def_index)

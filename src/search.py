@@ -16,7 +16,7 @@ def recursive_search(words_lookups_dict: LookupDict,
         vocab_length_dict[len(word)].discard(word)
         word_pattern.set_word(word)
         recursive_search(words_lookups_dict, vocab_length_dict, grid, found_grids)
-        word_pattern.remove_word()
+        word_pattern.remove_word(word)
         vocab_length_dict[len(word)].add(word)
 
 
