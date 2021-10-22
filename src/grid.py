@@ -55,11 +55,7 @@ class WordPattern(ABC):
         self.filled = False
 
     @abstractmethod
-    def get_coor(self, index: int) -> tuple[int, int]:
-        pass
-
-    @abstractmethod
-    def get_coor_orthogonal(self, index: int, orthogonal_offset: int) -> tuple[int, int]:
+    def get_coor(self, index: int, orthogonal_offset: int = 0) -> tuple[int, int]:
         pass
 
     @abstractmethod
@@ -78,7 +74,7 @@ class WordPattern(ABC):
         return self.grid.get_content(*self.get_coor(index))
 
     def get_content_orthogonal(self, index: int, orthogonal_offset: int) -> Union[None, str]:
-        return self.grid.get_content(*self.get_coor_orthogonal(index, orthogonal_offset))
+        return self.grid.get_content(*self.get_coor(index, orthogonal_offset))
 
     def set_content(self, index: int, content: str) -> None:
         row, col = self.get_coor(index)
@@ -146,7 +142,7 @@ class WordPattern(ABC):
                 and self.get_content_orthogonal(def_index, 1) != DEF_TOKEN
                 and (orthogonal_word_pattern := self.get_orthogonal_word_pattern(def_index))
         ):
-            row, col = self.get_coor_orthogonal(def_index, 1)
+            row, col = self.get_coor(def_index, 1)
             orthogonal_length = orthogonal_word_pattern.length
             orthogonal_def_index = orthogonal_word_pattern.get_index(*self.get_coor(def_index))
             new_length = orthogonal_length - orthogonal_def_index
@@ -159,9 +155,9 @@ class WordPattern(ABC):
             self.grid.word_patterns.add(new_orthogonal_word_pattern)
 
     def unset_orthogonal_word_pattern(self, def_index: int) -> None:
-        coor = self.get_coor_orthogonal(def_index, 1)
+        coor = self.get_coor(def_index, 1)
         if orthogonal_word_pattern := self.grid.crossing_word_patterns[coor].get_orthogonal(self):
-            coor_prev = self.get_coor_orthogonal(def_index, -1)
+            coor_prev = self.get_coor(def_index, -1)
             if prev_orthogonal_word_pattern := self.grid.crossing_word_patterns[coor_prev].get_orthogonal(self):
                 previous_length = orthogonal_word_pattern.length + prev_orthogonal_word_pattern.length + 1
                 prev_orthogonal_word_pattern.set_length(previous_length)
@@ -258,10 +254,7 @@ class WordPatternHorizontal(WordPattern):
     def __str__(self) -> str:
         return f'H({self.row}, {self.col})'
 
-    def get_coor(self, index: int) -> tuple[int, int]:
-        return self.row, self.col + index
-
-    def get_coor_orthogonal(self, index: int, orthogonal_offset: int) -> tuple[int, int]:
+    def get_coor(self, index: int, orthogonal_offset: int = 0) -> tuple[int, int]:
         return self.row + orthogonal_offset, self.col + index
 
     def get_index(self, row: int, col: int):
@@ -287,10 +280,7 @@ class WordPatternVertical(WordPattern):
     def __str__(self) -> str:
         return f'V({self.row}, {self.col})'
 
-    def get_coor(self, index: int) -> tuple[int, int]:
-        return self.row + index, self.col
-
-    def get_coor_orthogonal(self, index: int, orthogonal_offset: int) -> tuple[int, int]:
+    def get_coor(self, index: int, orthogonal_offset: int = 0) -> tuple[int, int]:
         return self.row + index, self.col + orthogonal_offset
 
     def get_index(self, row: int, col: int):

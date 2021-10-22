@@ -5,16 +5,16 @@ from lookup import init_vocab
 
 
 @pytest.mark.parametrize("width,height,vocab,expected", [
-    (2, 2, {'ab', 'bb'}, 2),
-    (2, 2, {'ab', 'dd'}, 0),
-    (2, 2, {'ab', 'bb', 'cb', 'dd'}, 6),
-    (3, 3, {'abc', 'bbb', 'ba', 'ca', 'ddd', 'dd'}, 2),
-    (3, 3, {'arc', 'cv', 'ara', 'a'}, 0),
-    (3, 3, {'are', 'ara', 'en', 'an'}, 2),
-    (4, 4, {'aube', 'bus', 'but', 'beta', 'des', 'cube'}, 0),
-    (4, 4, {'aube', 'bus', 'but', 'beta', 'desa', 'cube'}, 4),
-    (4, 4, {'clan', 'aléa', 'ému', 'ami', 'bai', 'an'}, 0),
-    (4, 4, {'huit', 'judo', 'do', 'ion', 'con', 'et'}, 0)
+    (2, 2, {'AB': set(), 'BB': set()}, 2),
+    (2, 2, {'AB': set(), 'DD': set()}, 0),
+    (2, 2, {'AB': set(), 'BB': set(), 'CB': set(), 'DD': set()}, 6),
+    (3, 3, {'ABC': set(), 'BBB': set(), 'BA': set(), 'CA': set(), 'DDD': set(), 'DD': set()}, 2),
+    (3, 3, {'ARC': set(), 'CV': set(), 'ARA': set(), 'A': set()}, 0),
+    (3, 3, {'ARE': set(), 'ARA': set(), 'EN': set(), 'AN': set()}, 2),
+    (4, 4, {'AUBE': set(), 'BUS': set(), 'BUT': set(), 'BETA': set(), 'DES': set(), 'CUBE': set()}, 0),
+    (4, 4, {'AUBE': set(), 'BUS': set(), 'BUT': set(), 'BETA': set(), 'DESA': set(), 'CUBE': set()}, 4),
+    (4, 4, {'CLAN': set(), 'ALEA': set(), 'EMU': set(), 'AMI': set(), 'BAI': set(), 'AN': set()}, 0),
+    (4, 4, {'HUIT': set(), 'JUDO': set(), 'DO': set(), 'ION': set(), 'CON': set(), 'ET': set()}, 0)
 ])
 def test_search(width, height, vocab, expected):
     found_grids = get_full_grids(width, height, vocab)
