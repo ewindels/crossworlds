@@ -1,15 +1,15 @@
-13200 words in vocabulary
-         17146009 function calls (16990410 primitive calls) in 9.986 seconds
+13759 words in vocabulary
+13000 words in sub vocab
+         13450957 function calls (13323223 primitive calls) in 7.899 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-   144199    2.281    0.000    3.598    0.000 grid.py:212(match_lookups)
-   213401    0.810    0.000    0.810    0.000 {method 'intersection' of 'set' objects}
-  1101928    0.666    0.000    1.205    0.000 grid.py:77(get_content)
-   155454    0.584    0.000    3.003    0.000 grid.py:224(set_word)
- 155455/1    0.497    0.000    9.583    9.583 search.py:6(recursive_search)
-   589324    0.375    0.000    0.858    0.000 grid.py:90(get_orthogonal_word_pattern)
-   155454    0.366    0.000    1.801    0.000 grid.py:239(remove_word)
-  1931485    0.365    0.000    0.365    0.000 grid.py:261(get_coor)
-   294662    0.342    0.000    0.927    0.000 grid.py:101(unset_orthogonal_word_pattern_letters)
+   120704    1.812    0.000    2.876    0.000 grid.py:208(match_lookups)
+   172529    0.642    0.000    0.642    0.000 {method 'intersection' of 'set' objects}
+   901022    0.555    0.000    1.002    0.000 grid.py:73(get_content)
+   127589    0.444    0.000    2.089    0.000 grid.py:220(set_word)
+ 127590/1    0.408    0.000    7.437    7.437 search.py:7(recursive_search)
+   491520    0.321    0.000    0.720    0.000 grid.py:86(get_orthogonal_word_pattern)
+   127589    0.308    0.000    1.529    0.000 grid.py:235(remove_word)
+   245760    0.296    0.000    0.793    0.000 grid.py:97(unset_orthogonal_word_pattern_letters)

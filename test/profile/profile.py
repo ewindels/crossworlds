@@ -6,4 +6,12 @@
 from search import get_full_grids
 from lookup import init_vocab
 
-found_grids = get_full_grids(4, 4, init_vocab())
+vocab = init_vocab()
+sub_vocab = {}
+limit = 13_000
+for i, word in enumerate(sorted(vocab)):
+    sub_vocab[word] = set()
+    if i == limit:
+        break
+print(f'{limit} words in sub vocab')
+found_grids = get_full_grids(4, 4, sub_vocab)
