@@ -14,14 +14,15 @@ class WordsLookup:
 LookupDict = dict[tuple[int, str], WordsLookup]
 
 
-def init_vocab() -> set[str]:
-    vocab_set = set()
+def init_vocab() -> dict[str, set[str]]:
+    vocab_dict = defaultdict(set)
     translations_dir = os.path.join('data', 'translations')
     for vocab_json in os.listdir(translations_dir):
         with open(os.path.join(translations_dir, vocab_json), 'r', encoding='utf-8') as fp:
-            vocab_set.update(json.load(fp))
-    print(f'{len(vocab_set)} words in vocabulary')
-    return vocab_set
+            for word in json.load(fp):
+                vocab_dict[normalize(word)].add(word)
+    print(f'{len(vocab_dict)} words in vocabulary')
+    return vocab_dict
 
 
 def normalize(string: str) -> str:
@@ -36,7 +37,7 @@ def update_lookups(words_lookups_dict: LookupDict, word: str) -> None:
             words_lookups_dict[(index, letter)] = words_lookup
 
 
-def build_lookups(vocab: set[str]) -> tuple[LookupDict, dict[int, set[str]]]:
+def build_lookups(vocab: dict[str, set[str]]) -> tuple[LookupDict, dict[int, set[str]]]:
     words_lookups_dict = {}
     vocab_length_dict = defaultdict(set)
     for word in vocab:

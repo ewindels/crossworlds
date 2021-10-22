@@ -20,7 +20,7 @@ def recursive_search(words_lookups_dict: LookupDict,
         vocab_length_dict[len(word)].add(word)
 
 
-def get_full_grids(width: int, height: int, vocab: set[str]) -> list[dict]:
+def get_full_grids(width: int, height: int, vocab: dict[str, set[str]]) -> list[dict]:
     words_lookups_dict, vocab_length_dict = build_lookups(vocab)
     grid = Grid(width, height)
     found_grids = []
