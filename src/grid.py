@@ -11,8 +11,7 @@ class Grid:
             if col % 2:
                 return False
             elif (
-                    (1, col - 1) in self.values
-                    or (1, col - 2) in self.values
+                    (1, col - 2) in self.values
                     or (3, col) in self.values
             ):
                 return False
@@ -20,8 +19,7 @@ class Grid:
             if row % 2:
                 return False
             elif (
-                    (row - 1, 1) in self.values
-                    or (row - 2, 1) in self.values
+                    (row - 2, 1) in self.values
                     or (row, 3) in self.values
             ):
                 return False
