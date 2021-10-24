@@ -35,7 +35,7 @@ class Grid:
                 return False
         return True
 
-    def expand(self, direction: str)  -> list[Coor]:
+    def expand(self, direction: str) -> list[Coor]:
         if direction == 'vertical':
             self.height += 1
         elif direction == 'horizontal':
