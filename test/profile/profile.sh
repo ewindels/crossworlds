@@ -1,1 +1,0 @@
-python -m cProfile -s tottime test/profile/profile.py | head -15 > test/profile/profile.txt
