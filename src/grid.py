@@ -86,9 +86,4 @@ class Grid:
         return valid_grids
 
     def to_string(self) -> str:
-        grid_string = ['0' for _ in range((self.height * (self.width + 1)))]
-        for row, col in self.values:
-            grid_string[row * (self.width + 1) + col] = '1'
-        for row in range(self.height):
-            grid_string[row * (self.width + 1) + self.width] = '\n'
-        return ''.join(grid_string)
+        return '|'.join(map(str, self.values))
