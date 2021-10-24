@@ -8,7 +8,7 @@ from grid import Grid
 
 def main():
     for height in range(4, 8):
-        for width in range(4, 8):
+        for width in range(4, 9):
             for expansion in ['horizontal', 'vertical']:
                 new_grids = []
                 with open(f'output/{height}x{width}.grids', 'r') as fp:
