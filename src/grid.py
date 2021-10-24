@@ -44,8 +44,6 @@ class Grid:
                     or (row, col - 1) in self.values
                     or (row - 2, col) in self.values
                     or (row, col - 2) in self.values
-                    or (row, col + 2) in self.values
-                    or (row + 2, col) in self.values
             ):
                 return False
         return True

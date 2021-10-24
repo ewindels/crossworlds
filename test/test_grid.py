@@ -9,7 +9,7 @@ def grid_3_3():
 
 def test_load_from_string(grid_3_3):
     grid_3_3.load_from_string('101\n000\n101')
-    assert grid_3_3.values[(2, 2)]
+    assert (2, 2) in grid_3_3.values
 
 
 @pytest.fixture()

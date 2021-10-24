@@ -1,15 +1,15 @@
-         1908100 function calls (1623341 primitive calls) in 1.204 seconds
+         1908100 function calls (1623341 primitive calls) in 1.163 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-    87208    0.300    0.000    0.472    0.000 grid.py:97(to_string)
-298076/13318    0.278    0.000    0.945    0.000 grid.py:78(find_valid_grids)
-    87208    0.123    0.000    0.123    0.000 grid.py:98(<listcomp>)
-   210868    0.110    0.000    0.110    0.000 grid.py:22(is_switch_valid)
-    13318    0.079    0.000    0.100    0.000 grid.py:16(load_from_string)
-    87242    0.049    0.000    0.049    0.000 {method 'join' of 'str' objects}
-   318138    0.038    0.000    0.038    0.000 {method 'add' of 'set' objects}
+    87208    0.295    0.000    0.462    0.000 grid.py:95(to_string)
+298076/13318    0.273    0.000    0.910    0.000 grid.py:76(find_valid_grids)
+    87208    0.119    0.000    0.119    0.000 grid.py:96(<listcomp>)
+   210868    0.091    0.000    0.091    0.000 grid.py:22(is_switch_valid)
+    13318    0.077    0.000    0.098    0.000 grid.py:16(load_from_string)
+    87242    0.048    0.000    0.048    0.000 {method 'join' of 'str' objects}
+   318138    0.037    0.000    0.037    0.000 {method 'add' of 'set' objects}
    298076    0.034    0.000    0.034    0.000 {method 'append' of 'list' objects}
-   210868    0.030    0.000    0.030    0.000 {method 'pop' of 'list' objects}
-    13318    0.030    0.000    0.042    0.000 grid.py:10(_init_grid)
+   210868    0.029    0.000    0.029    0.000 {method 'pop' of 'list' objects}
+    13318    0.029    0.000    0.041    0.000 grid.py:10(_init_grid)
