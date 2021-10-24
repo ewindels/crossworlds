@@ -1,5 +1,4 @@
 from copy import copy
-from typing import Union
 from grid import Grid
 from lookup import LookupDict, build_lookups
 
