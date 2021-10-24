@@ -1,27 +1,36 @@
-import pytest
 from grid import Grid
 
 
-@pytest.fixture()
-def grid_3_3():
-    return Grid(3, 3)
-
-
-def test_load_from_string(grid_3_3):
-    grid_3_3.load_from_string('101\n000\n101')
-    assert (2, 2) in grid_3_3.values
-
-
-@pytest.fixture()
-def grid_4_4():
-    return Grid(4, 4)
-
-
-def test_find_valid_grids_4_4(grid_4_4):
-    grid_4_4.load_from_string('1010\n0000\n1000\n0000')
+def test_find_valid_grids_4_4():
+    grid = Grid(5, 5, set())
     expansion = 'vertical'
-    grid_4_4.expand(expansion)
-    switchable_values = grid_4_4.switchable_values(expansion)
+    switchable_values = grid.expand(expansion)
     valid_grids = []
-    grid_4_4.find_valid_grids(switchable_values, valid_grids)
-    assert valid_grids == ['1010\n0000\n1000\n0000\n1000\n', '1010\n0000\n1001\n0000\n1000\n']
+    grid.find_valid_grids(switchable_values, valid_grids)
+    assert valid_grids == [set(),
+                           {(5, 2)},
+                           {(3, 4)},
+                           {(3, 4), (5, 2)},
+                           {(3, 3)},
+                           {(3, 3), (5, 2)},
+                           {(4, 1)},
+                           {(4, 1), (5, 2)},
+                           {(4, 1), (3, 4)},
+                           {(4, 1), (3, 4), (5, 2)},
+                           {(3, 3), (4, 1)},
+                           {(3, 3), (4, 1), (5, 2)}]
+
+
+def test_parse_str():
+    with open(f'output/5x5.grids', 'r') as fp:
+        for values_str in fp.read().splitlines():
+            _ = Grid(5, 5, Grid.parse_str(values_str))
+
+
+def test_switchable_values():
+    grid = Grid(5, 5, set())
+    expansion = 'horizontal'
+    switchable_values = grid.expand(expansion)
+    valid_grids = []
+    grid.find_valid_grids(switchable_values, valid_grids)
+    assert (3, 5) not in switchable_values

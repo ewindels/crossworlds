@@ -12,9 +12,8 @@ def main():
     expansion = 'horizontal'
     new_grids = []
     with open(f'output/{height}x{width}.grids', 'r') as fp:
-        for grid_string in fp.read().split('-\n'):
-            grid = Grid(height, width)
-            grid.load_from_string(grid_string)
+        for values_str in fp.read().splitlines():
+            grid = Grid(height, width, Grid.parse_str(values_str))
             new_grids.extend(grid.find_valid_grids_expansion(expansion))
 
 
