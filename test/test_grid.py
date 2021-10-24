@@ -3,12 +3,24 @@ from grid import Grid
 
 
 @pytest.fixture()
-def grid():
+def grid_3_3():
     return Grid(3, 3)
 
 
-def test_set_word_letter_indices(grid):
-    word_pattern = grid.crossing_word_patterns[1, 1].horizontal
-    word_pattern.set_word('abc')
-    assert grid.crossing_word_patterns[1, 1].vertical.letters_indices == {1}
-    assert grid.crossing_word_patterns[1, 2].vertical.letters_indices == {0}
+def test_load_from_string(grid_3_3):
+    grid_3_3.load_from_string('101\n000\n101')
+    assert grid_3_3.values[(2, 2)]
+
+
+@pytest.fixture()
+def grid_4_4():
+    return Grid(4, 4)
+
+
+def test_find_valid_grids_4_4(grid_4_4):
+    expansion = 'vertical'
+    grid_4_4.expand(expansion)
+    switchable_values = grid_4_4.switchable_values(expansion)
+    valid_grids = []
+    grid_4_4.find_valid_grids(switchable_values, valid_grids)
+    assert valid_grids == ['1010\n0000\n1000\n0000\n1000\n', '1010\n0000\n1001\n0000\n1000\n']
