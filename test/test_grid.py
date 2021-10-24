@@ -18,6 +18,7 @@ def grid_4_4():
 
 
 def test_find_valid_grids_4_4(grid_4_4):
+    grid_4_4.load_from_string('1010\n0000\n1000\n0000')
     expansion = 'vertical'
     grid_4_4.expand(expansion)
     switchable_values = grid_4_4.switchable_values(expansion)

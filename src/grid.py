@@ -5,13 +5,6 @@ class Grid:
     def __init__(self, height: int, width: int):
         self.height, self.width = height, width
         self.values = set()
-        self._init_grid()
-
-    def _init_grid(self) -> None:
-        for row in range(0, self.height, 2):
-            self.values.add((row, 0))
-        for col in range(0, self.width, 2):
-            self.values.add((0, col))
 
     def load_from_string(self, string: str):
         for row, row_val in enumerate(string.splitlines()):
