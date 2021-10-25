@@ -132,7 +132,7 @@ class Grid:
                 (
                     (row - 4, col) in self.values
                     and (
-                        row < 7
+                        row < 8
                         or (row - 8, col) in self.values
                         or (row - 7, col) in self.values
                     )
@@ -140,9 +140,21 @@ class Grid:
                 or (
                     (row, col - 4) in self.values
                     and (
-                        col < 7
+                        col < 8
                         or (row, col - 8) in self.values
                         or (row, col - 7) in self.values
+                    )
+                ) or (
+                    (row, col - 3) in self.values
+                    and (
+                        col < 7
+                        or (row, col - 7) in self.values
+                    )
+                ) or (
+                    (row - 3, col) in self.values
+                    and (
+                        row < 7
+                        or (row - 7, col) in self.values
                     )
                 )
             ):
