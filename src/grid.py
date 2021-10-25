@@ -63,6 +63,10 @@ class Grid:
                 if (
                         (row + 1, col - 1) in self.values
                         or (row + 1, col + 1) in self.values
+                        or (
+                            col == 4
+                            and (row, 1) in self.values
+                        )
                 ):
                     return False
             if col == 2:
@@ -82,6 +86,10 @@ class Grid:
                 if (
                         (row - 1, col + 1) in self.values
                         or (row + 1, col + 1) in self.values
+                        or (
+                            row == 4
+                            and (1, col) in self.values
+                        )
                 ):
                     return False
             if (
