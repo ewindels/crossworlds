@@ -3,7 +3,7 @@ from grid import Grid
 
 
 def main():
-    for height in range(5, 8):
+    for height in range(5, 9):
         for width in range(height, 9):
             for expansion in ['horizontal', 'vertical']:
                 new_grids = []
