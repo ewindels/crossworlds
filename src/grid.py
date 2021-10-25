@@ -16,6 +16,7 @@ class Grid:
                     or (1, col - 4) in self.values
                     or (3, col) in self.values
                     or (2, col - 1) in self.values
+                    or (2, col + 1) in self.values
             ):
                 return False
         elif col == 1:
@@ -27,6 +28,7 @@ class Grid:
                     or (row - 4, 1) in self.values
                     or (row, 3) in self.values
                     or (row - 1, 2) in self.values
+                    or (row + 1, 2) in self.values
             ):
                 return False
         else:
@@ -52,6 +54,7 @@ class Grid:
                 if (
                         col % 2 == 0
                         or (1, col - 1) in self.values
+                        # or (1, col + 1) in self.values
                 ):
                     return False
             elif row == self.height - 1:
@@ -75,6 +78,7 @@ class Grid:
                 if (
                         row % 2 == 0
                         or (row - 1, 1) in self.values
+                        # or (row + 1, 1) in self.values
                 ):
                     return False
             elif col == self.width - 1:
@@ -108,11 +112,11 @@ class Grid:
             if (
                     (
                         row == 5
-                        and (row - 4, col) in self.values
+                        and (1, col) in self.values
                     )
                     or (
                         col == 5
-                        and (row, col - 4) in self.values
+                        and (row, 1) in self.values
                     )
             ):
                 return False
