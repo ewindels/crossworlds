@@ -142,15 +142,15 @@ class Grid:
                 switchable_values.extend([(self.height - 1, col), (self.height - 2, col)])
             switchable_values.extend([(self.height - 3, self.width - 1),
                                       (self.height - 3, self.width - 2)])
-            if self.height % 2 == 0 and self.height > 4:
-                switchable_values.append((self.height - 4, 1))
+            if self.height % 2 == 0 and self.height > 5:
+                switchable_values.append((self.height - 5, 1))
         elif direction == 'horizontal':
             for row in range(self.height - 3, 1, -1):
                 switchable_values.extend([(row, self.width - 1), (row, self.width - 2)])
             switchable_values.extend([(self.height - 1, self.width - 3),
                                       (self.height - 2, self.width - 3)])
-            if self.width % 2 == 0 and self.width > 4:
-                switchable_values.append((1, self.width - 4))
+            if self.width % 2 == 0 and self.width > 5:
+                switchable_values.append((1, self.width - 5))
         return switchable_values
 
     def find_valid_grids(self, switchable_values: list[Coor], valid_grids: list[set[Coor]]) -> None:
