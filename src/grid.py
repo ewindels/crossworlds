@@ -56,6 +56,7 @@ class Grid:
                 if (
                         (row - 1, col - 1) in self.values
                         or (row - 1, col + 1) in self.values
+                        or col < 4
                 ):
                     return False
             elif row == self.height - 2:
@@ -74,6 +75,7 @@ class Grid:
                 if (
                         (row - 1, col - 1) in self.values
                         or (row + 1, col - 1) in self.values
+                        or row < 4
                 ):
                     return False
             elif col == self.width - 2:
