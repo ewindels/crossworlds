@@ -84,6 +84,17 @@ class Grid:
                     )
             ):
                 return False
+            if (
+                    (row - 1, col - 1) in self.values
+                    and (row - 2, col - 2) in self.values
+            ):
+                return False
+            elif (
+                    (row - 1, col + 1) in self.values
+                    and (row - 2, col + 2) in self.values
+            ):
+                return False
+
         return True
 
     def expand(self, direction: str) -> list[Coor]:
