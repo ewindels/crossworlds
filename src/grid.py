@@ -27,17 +27,43 @@ class Grid:
                     or (row - 1, 2) in self.values
             ):
                 return False
-        elif row == 2:
-            if (
-                (1, col - 1) in self.values
-            ):
-                return False
-        elif col == 2:
-            if (
-                (row - 1, 1) in self.values
-            ):
-                return False
         else:
+            if row == 2:
+                if (
+                        col % 2 == 0
+                        or (1, col - 1) in self.values
+                ):
+                    return False
+            elif col == 2:
+                if (
+                        row % 2 == 0
+                        or (row - 1, 1) in self.values
+                ):
+                    return False
+            if row == self.height - 1:
+                if (
+                    (row - 1, col - 1) in self.values
+                    or (row - 1, col + 1) in self.values
+                ):
+                    return False
+            elif col == self.width - 1:
+                if (
+                    (row - 1, col - 1) in self.values
+                    or (row + 1, col - 1) in self.values
+                ):
+                    return False
+            if row == self.height - 2:
+                if (
+                    (row + 1, col - 1) in self.values
+                    or (row + 1, col + 1) in self.values
+                ):
+                    return False
+            elif col == self.width - 2:
+                if (
+                    (row - 1, col + 1) in self.values
+                    or (row + 1, col + 1) in self.values
+                ):
+                    return False
             if (
                     (row - 1, col) in self.values
                     or (row - 2, col) in self.values
@@ -70,13 +96,15 @@ class Grid:
     def get_switchable_values(self, direction: str) -> list[Coor]:
         switchable_values = []
         if direction == 'vertical':
-            switchable_values.extend([(self.height - 1, col) for col in range(self.width - 3, 1, -1)])
+            for col in range(self.width - 3, 1, -1):
+                switchable_values.extend([(self.height - 1, col), (self.height - 2, col)])
             switchable_values.extend([(self.height - 3, self.width - 1),
                                       (self.height - 3, self.width - 2)])
             if self.height % 2 == 0:
                 switchable_values.append((self.height - 2, 1))
         elif direction == 'horizontal':
-            switchable_values.extend([(row, self.width - 1) for row in range(self.height - 3, 1, -1)])
+            for row in range(self.height - 3, 1, -1):
+                switchable_values.extend([(row, self.width - 1), (row, self.width - 2)])
             switchable_values.extend([(self.height - 1, self.width - 3),
                                       (self.height - 2, self.width - 3)])
             if self.width % 2 == 0:
