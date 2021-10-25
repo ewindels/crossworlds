@@ -1,15 +1,15 @@
-         68026692 function calls (53716733 primitive calls) in 38.011 seconds
+         68026656 function calls (53716697 primitive calls) in 39.639 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-14634158/324200   14.683    0.000   32.507    0.000 grid.py:136(find_valid_grids)
- 11341033    9.585    0.000    9.585    0.000 grid.py:9(is_switch_valid)
-  3293125    4.381    0.000    4.381    0.000 {method 'copy' of 'set' objects}
-   324200    1.574    0.000    2.080    0.000 grid.py:154(parse_str)
- 14634158    1.569    0.000    1.569    0.000 {method 'append' of 'list' objects}
- 11341033    1.502    0.000    1.502    0.000 {method 'pop' of 'list' objects}
-   324200    1.499    0.000    1.685    0.000 grid.py:118(get_switchable_values)
-        1    0.627    0.627   38.011   38.011 profile.py:6(<module>)
-  4446168    0.572    0.000    0.572    0.000 {method 'add' of 'set' objects}
-        1    0.559    0.559   37.381   37.381 profile.py:9(main)
+14634158/324200   15.123    0.000   34.501    0.000 grid.py:134(find_valid_grids)
+ 11341033   10.766    0.000   10.766    0.000 grid.py:9(is_switch_valid)
+  3293125    4.635    0.000    4.635    0.000 {method 'copy' of 'set' objects}
+   324200    1.741    0.000    2.265    0.000 grid.py:152(parse_str)
+ 14634158    1.627    0.000    1.627    0.000 {method 'append' of 'list' objects}
+ 11341033    1.544    0.000    1.544    0.000 {method 'pop' of 'list' objects}
+   324200    0.934    0.000    1.118    0.000 grid.py:116(get_switchable_values)
+        1    0.631    0.631   39.639   39.639 profile.py:6(<module>)
+  4446168    0.589    0.000    0.589    0.000 {method 'add' of 'set' objects}
+        1    0.571    0.571   39.008   39.008 profile.py:9(main)
