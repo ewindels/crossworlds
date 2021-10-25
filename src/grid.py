@@ -31,6 +31,19 @@ class Grid:
                     or (row, col - 2) in self.values
             ):
                 return False
+            if (
+                    (
+                        row > 5
+                        or col > 5
+                        or row < self.height - 6
+                        or col < self.width - 6
+                    )
+                    and (
+                        (row - 3, col) in self.values
+                        or (row, col - 3) in self.values
+                    )
+            ):
+                return False
         return True
 
     def expand(self, direction: str) -> list[Coor]:
