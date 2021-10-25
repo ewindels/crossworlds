@@ -112,11 +112,17 @@ class Grid:
             if (
                     (
                         row == 5
-                        and (1, col) in self.values
+                        and (
+                            (1, col) in self.values
+                            or (2, col) in self.values
+                        )
                     )
                     or (
                         col == 5
-                        and (row, 1) in self.values
+                        and (
+                            (row, 1) in self.values
+                            or (row, 2) in self.values
+                        )
                     )
             ):
                 return False
