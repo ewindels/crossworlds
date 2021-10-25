@@ -7,7 +7,7 @@ from grid import Grid
 
 
 def main():
-    height = 8
+    height = 9
     width = 9
     expansion = 'horizontal'
     new_grids = []

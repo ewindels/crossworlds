@@ -4,7 +4,7 @@ from grid import Grid
 
 def main():
     for height in range(5, 9):
-        for width in range(height, 9):
+        for width in range(height, 10):
             for expansion in ['horizontal', 'vertical']:
                 new_grids = []
                 with open(f'output/{height}x{width}.grids', 'r') as fp:
