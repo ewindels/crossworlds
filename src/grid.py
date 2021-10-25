@@ -128,6 +128,25 @@ class Grid:
                     )
             ):
                 return False
+            if (
+                (
+                    (row - 4, col) in self.values
+                    and (
+                        row < 7
+                        or (row - 8, col) in self.values
+                        or (row - 7, col) in self.values
+                    )
+                )
+                or (
+                    (row, col - 4) in self.values
+                    and (
+                        col < 7
+                        or (row, col - 8) in self.values
+                        or (row, col - 7) in self.values
+                    )
+                )
+            ):
+                return False
         return True
 
     def expand(self, direction: str) -> list[Coor]:
