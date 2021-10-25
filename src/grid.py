@@ -28,6 +28,13 @@ class Grid:
             ):
                 return False
         else:
+            if (
+                    (row - 1, col) in self.values
+                    or (row, col - 1) in self.values
+                    or (row - 2, col) in self.values
+                    or (row, col - 2) in self.values
+            ):
+                return False
             if row == 2:
                 if (
                         col % 2 == 0
@@ -42,35 +49,28 @@ class Grid:
                     return False
             if row == self.height - 1:
                 if (
-                    (row - 1, col - 1) in self.values
-                    or (row - 1, col + 1) in self.values
+                        (row - 1, col - 1) in self.values
+                        or (row - 1, col + 1) in self.values
                 ):
                     return False
             elif col == self.width - 1:
                 if (
-                    (row - 1, col - 1) in self.values
-                    or (row + 1, col - 1) in self.values
+                        (row - 1, col - 1) in self.values
+                        or (row + 1, col - 1) in self.values
                 ):
                     return False
             if row == self.height - 2:
                 if (
-                    (row + 1, col - 1) in self.values
-                    or (row + 1, col + 1) in self.values
+                        (row + 1, col - 1) in self.values
+                        or (row + 1, col + 1) in self.values
                 ):
                     return False
             elif col == self.width - 2:
                 if (
-                    (row - 1, col + 1) in self.values
-                    or (row + 1, col + 1) in self.values
+                        (row - 1, col + 1) in self.values
+                        or (row + 1, col + 1) in self.values
                 ):
                     return False
-            if (
-                    (row - 1, col) in self.values
-                    or (row - 2, col) in self.values
-                    or (row, col - 1) in self.values
-                    or (row, col - 2) in self.values
-            ):
-                return False
             if (
                     (
                         row > 5
@@ -85,16 +85,27 @@ class Grid:
             ):
                 return False
             if (
-                    (row - 1, col - 1) in self.values
-                    and (row - 2, col - 2) in self.values
+                    (
+                        (row - 1, col - 1) in self.values
+                        and (row - 2, col - 2) in self.values
+                    )
+                    or (
+                        (row - 1, col + 1) in self.values
+                        and (row - 2, col + 2) in self.values
+                    )
             ):
                 return False
-            elif (
-                    (row - 1, col + 1) in self.values
-                    and (row - 2, col + 2) in self.values
+            if (
+                    (
+                        row == 5
+                        and (row - 4, col) in self.values
+                    )
+                    or (
+                        col == 5
+                        and (row, col - 4) in self.values
+                    )
             ):
                 return False
-
         return True
 
     def expand(self, direction: str) -> list[Coor]:
