@@ -1,2 +1,2 @@
-# crosswords-coop
+# crossworsds
  
