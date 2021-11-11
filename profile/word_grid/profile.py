@@ -7,10 +7,7 @@ def main():
     width = 5
     definitions = {}
     vocab = init_vocab()
-    found_grids = get_full_grids(height, width, definitions, vocab)
-    found_grids_str = ''
-    for word_dict, pretty_grid in found_grids:
-        found_grids_str += pretty_grid
+    get_full_grids(height, width, definitions, vocab)
 
 
 if __name__ == '__main__':

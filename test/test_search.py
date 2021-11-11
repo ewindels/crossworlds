@@ -16,12 +16,12 @@ from crossworlds.search import get_full_grids
     (4, 4, {'HUIT': set(), 'JUDO': set(), 'DO': set(), 'ION': set(), 'CON': set(), 'ET': set()}, 0)
 ])
 def test_search(height, width, vocab, expected):
-    found_grids = get_full_grids(height, width, {}, vocab)
+    found_grids = get_full_grids(height, width, {}, vocab, False)
     assert len(found_grids) == expected
 
 
 def test_prettify():
-    found_grids = get_full_grids(2, 2, {}, {'AB': set(), 'BB': set()})
-    pretty_grids = {pretty_grid for _, pretty_grid in found_grids}
+    found_grids = get_full_grids(2, 2, {}, {'AB': set(), 'BB': set()}, True)
+    pretty_grids = set(found_grids)
     assert pretty_grids ==  {'┌───┬───┐\n│   │ B │\n├───┼───┤\n│ A │ B │\n└───┴───┘\n',
                              '┌───┬───┐\n│   │ A │\n├───┼───┤\n│ B │ B │\n└───┴───┘\n'}

@@ -4,14 +4,15 @@ from crossworlds.search import get_full_grids
 
 
 def main():
-    height = 5
-    width = 6
+    height = 3
+    width = 3
     definitions = {}
     vocab = init_vocab()
-    found_grids = get_full_grids(height, width, definitions, vocab)
+    output_pretty = True
+    found_grids = get_full_grids(height, width, definitions, vocab, output_pretty)
     print(f'Found {len(found_grids)} grids')
     found_grids_str = ''
-    for _, pretty_grid in sorted(found_grids, key=lambda x: x[1]):
+    for pretty_grid in sorted(found_grids):
         found_grids_str += pretty_grid
     with open(f'output/word_grids/{height}x{width}.wordgrids', 'w', encoding='utf-8') as fp:
         fp.write(found_grids_str)
