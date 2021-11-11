@@ -320,6 +320,21 @@ class WordGrid(Grid):
     def best_word_pattern(self) -> WordPattern:
         return max(self.word_patterns, key=self.score_pattern)
 
+    def prettify(self):
+        grid_str = '┌──' + ('─┬──' * (self.width - 1)) + '─┐\n'
+        for row in range(self.height):
+            for col in range(self.width):
+                if letter := self.get_content(row, col):
+                    grid_str += f'│ {letter} '
+                else:
+                    grid_str += '│   '
+            grid_str += '│\n'
+            if row < self.height - 1:
+                grid_str += '├──' + ('─┼──' * (self.width - 1)) + '─┤\n'
+            else:
+                grid_str += '└──' + ('─┴──' * (self.width - 1)) + '─┘\n'
+        return grid_str
+
 
 class WordPattern(ABC):
     def __init__(self,
