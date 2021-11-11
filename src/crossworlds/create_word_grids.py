@@ -9,11 +9,9 @@ def main():
     definitions = {}
     vocab = init_vocab()
     output_pretty = True
-    found_grids = get_full_grids(height, width, definitions, vocab, output_pretty)
+    found_grids = sorted(get_full_grids(height, width, definitions, vocab, output_pretty))
     print(f'Found {len(found_grids)} grids')
-    found_grids_str = ''
-    for pretty_grid in sorted(found_grids):
-        found_grids_str += pretty_grid
+    found_grids_str = ''.join(found_grids)
     with open(f'output/word_grids/{height}x{width}.wordgrids', 'w', encoding='utf-8') as fp:
         fp.write(found_grids_str)
     with open('output/word_grids/sizes.json', 'r', encoding='utf-8') as fp:

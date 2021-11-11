@@ -7,7 +7,8 @@ def main():
     width = 5
     definitions = {}
     vocab = init_vocab()
-    get_full_grids(height, width, definitions, vocab)
+    for _ in get_full_grids(height, width, definitions, vocab):
+        pass
 
 
 if __name__ == '__main__':
