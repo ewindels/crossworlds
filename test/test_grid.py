@@ -30,23 +30,23 @@ def test_switchable_values_2():
 
 
 @pytest.mark.parametrize("grid,expected_word_patterns", [
-    (WordGrid(3, 3, set()), {
-        WordPatternVertical(0, 1, 3, WordGrid(3, 3, set())),
-        WordPatternVertical(1, 2, 2, WordGrid(3, 3, set())),
-        WordPatternHorizontal(1, 0, 3, WordGrid(3, 3, set())),
-        WordPatternHorizontal(2, 1, 2, WordGrid(3, 3, set())),
+    (WordGrid(3, 3, set(), {}), {
+        WordPatternVertical(0, 1, 3, WordGrid(3, 3, set(), {})),
+        WordPatternVertical(1, 2, 2, WordGrid(3, 3, set(), {})),
+        WordPatternHorizontal(1, 0, 3, WordGrid(3, 3, set(), {})),
+        WordPatternHorizontal(2, 1, 2, WordGrid(3, 3, set(), {})),
     }),
-    (WordGrid(5, 5, {(2, 2)}), {
-        WordPatternVertical(0, 1, 5, WordGrid(5, 5, {(2, 2)})),
-        WordPatternVertical(1, 2, 4, WordGrid(5, 5, {(2, 2)})),
-        WordPatternVertical(0, 3, 5, WordGrid(5, 5, {(2, 2)})),
-        WordPatternVertical(1, 4, 4, WordGrid(5, 5, {(2, 2)})),
-        WordPatternHorizontal(1, 0, 5, WordGrid(5, 5, {(2, 2)})),
-        WordPatternHorizontal(2, 1, 4, WordGrid(5, 5, {(2, 2)})),
-        WordPatternHorizontal(3, 0, 5, WordGrid(5, 5, {(2, 2)})),
-        WordPatternHorizontal(4, 1, 4, WordGrid(5, 5, {(2, 2)})),
-        WordPatternVertical(3, 2, 2, WordGrid(5, 5, {(2, 2)})),
-        WordPatternHorizontal(2, 3, 2, WordGrid(5, 5, {(2, 2)})),
+    (WordGrid(5, 5, {(2, 2)}, {}), {
+        WordPatternVertical(0, 1, 5, WordGrid(5, 5, {(2, 2)}, {})),
+        WordPatternVertical(1, 2, 4, WordGrid(5, 5, {(2, 2)}, {})),
+        WordPatternVertical(0, 3, 5, WordGrid(5, 5, {(2, 2)}, {})),
+        WordPatternVertical(1, 4, 4, WordGrid(5, 5, {(2, 2)}, {})),
+        WordPatternHorizontal(1, 0, 5, WordGrid(5, 5, {(2, 2)}, {})),
+        WordPatternHorizontal(2, 1, 4, WordGrid(5, 5, {(2, 2)}, {})),
+        WordPatternHorizontal(3, 0, 5, WordGrid(5, 5, {(2, 2)}, {})),
+        WordPatternHorizontal(4, 1, 4, WordGrid(5, 5, {(2, 2)}, {})),
+        WordPatternVertical(3, 2, 2, WordGrid(5, 5, {(2, 2)}, {})),
+        WordPatternHorizontal(2, 3, 2, WordGrid(5, 5, {(2, 2)}, {})),
     }),
 ])
 def test_init_word_patterns(grid, expected_word_patterns):

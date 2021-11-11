@@ -1,15 +1,15 @@
 16114 words in vocabulary
-         105151350 function calls (102187588 primitive calls) in 64.460 seconds
+         94754093 function calls (91996984 primitive calls) in 61.770 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-  1431170    9.140    0.000    9.140    0.000 {method 'intersection' of 'set' objects}
-   533253    6.513    0.000    6.513    0.000 {method 'copy' of 'set' objects}
-   533253    5.191    0.000   23.181    0.000 grid.py:368(match_lookups)
-  7851333    4.964    0.000   10.280    0.000 grid.py:365(get_content)
-  1394711    3.859    0.000   10.898    0.000 grid.py:423(complexity_score)
-  9774597    3.091    0.000    4.350    0.000 grid.py:299(get_content)
-   653862    2.701    0.000   13.227    0.000 grid.py:390(set_word)
- 653863/1    2.460    0.000   63.117   63.117 search.py:6(recursive_search)
- 15273149    2.140    0.000    2.140    0.000 {method 'get' of 'dict' objects}
+  1448331    9.424    0.000    9.424    0.000 {method 'intersection' of 'set' objects}
+   540026    6.614    0.000    6.614    0.000 {method 'copy' of 'set' objects}
+   540026    5.423    0.000   23.882    0.000 grid.py:372(match_lookups)
+  6184192    4.061    0.000    8.425    0.000 grid.py:369(get_content)
+   660747    2.712    0.000   13.652    0.000 grid.py:392(set_word)
+  8107456    2.710    0.000    3.786    0.000 grid.py:303(get_content)
+  1403726    2.605    0.000    6.604    0.000 grid.py:428(complexity_score)
+ 660748/1    2.394    0.000   60.386   60.386 search.py:5(recursive_search)
+  2736630    1.916    0.000    5.472    0.000 grid.py:410(get_orthogonal_word_pattern)
