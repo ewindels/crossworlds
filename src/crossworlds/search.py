@@ -8,7 +8,9 @@ def recursive_search(words_lookups_dict: LookupDict,
                      grid: WordGrid,
                      found_grids: list[tuple[dict, str]]) -> None:
     if grid.word_patterns:
-        word_pattern = grid.best_word_pattern
+        word_pattern = grid.best_word_pattern(words_lookups_dict, vocab_length_dict)
+        if word_pattern.complexity_score(words_lookups_dict, vocab_length_dict) == 0:
+            return
     else:
         found_grids.append((copy(grid.words_dict), grid.prettify()))
         return

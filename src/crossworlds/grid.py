@@ -316,9 +316,10 @@ class WordGrid(Grid):
     def score_pattern(pattern: WordPattern) -> tuple[int, int, int]:
         return len(pattern.letters_indices), -pattern.col, -pattern.row
 
-    @property
-    def best_word_pattern(self) -> WordPattern:
-        return max(self.word_patterns, key=self.score_pattern)
+    def best_word_pattern(self,
+                          words_lookups_dict: LookupDict(),
+                          vocab_length_dict: dict[int, set[str]]) -> WordPattern:
+        return min(self.word_patterns, key=lambda x: x.complexity_score(words_lookups_dict, vocab_length_dict))
 
     def prettify(self):
         grid_str = '┌──' + ('─┬──' * (self.width - 1)) + '─┐\n'
@@ -370,8 +371,7 @@ class WordPattern(ABC):
         matching_words = vocab_length_dict[self.length].copy()
         for index in self.letters_indices:
             letter = self.get_content(index)
-            if not (lookup := words_lookups_dict.get((index, letter))):
-                return {}
+            lookup = words_lookups_dict.get((index, letter))
             matching_words = matching_words.intersection(lookup.vocab)
             if not matching_words:
                 return {}
@@ -419,6 +419,17 @@ class WordPattern(ABC):
         if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
             index = crossed_word_pattern.get_index(*coor)
             crossed_word_pattern.letters_indices.remove(index)
+
+    def complexity_score(self,
+                         words_lookups_dict: LookupDict,
+                         vocab_length_dict: dict[int, set[str]]) -> int:
+        score = len(vocab_length_dict[self.length])
+        for index in self.letters_indices:
+            letter = self.get_content(index)
+            if not (lookup := words_lookups_dict.get((index, letter))):
+                return 0
+            score = min(len(lookup.vocab), score)
+        return score
 
 
 class WordPatternHorizontal(WordPattern):

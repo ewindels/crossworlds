@@ -14,7 +14,7 @@ def main():
     for word_dict, pretty_grid in found_grids:
         found_grids_str += pretty_grid
         found_grids_str += str(word_dict) + '\n'
-    with open('output/word_grids/{height}x{width}.wordgrids', 'w', encoding='utf-8') as fp:
+    with open(f'output/word_grids/{height}x{width}.wordgrids', 'w', encoding='utf-8') as fp:
         fp.write(found_grids_str)
     with open('output/word_grids/sizes.json', 'r', encoding='utf-8') as fp:
         size_dict = json.load(fp)
