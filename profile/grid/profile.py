@@ -3,7 +3,7 @@
 # sort time
 # stats 10
 
-from grid import Grid
+from crossworlds.grid import Grid
 
 
 def main():
@@ -11,7 +11,7 @@ def main():
     width = 9
     expansion = 'horizontal'
     new_grids = []
-    with open(f'output/{height}x{width}.grids', 'r') as fp:
+    with open(f'output/grids/{height}x{width}.grids', 'r') as fp:
         for values_str in fp.read().splitlines():
             grid = Grid(height, width, Grid.parse_str(values_str))
             new_grids.extend(grid.find_valid_grids_expansion(expansion))
