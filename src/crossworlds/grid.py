@@ -256,13 +256,15 @@ class WordGrid(Grid):
                  definitions: set[Coor],
                  vocab: dict[str, set[str]]) -> None:
         super().__init__(height, width, definitions)
+        words_lookups_dict, vocab_length_dict = build_lookups(vocab)
+        self.words_lookups_dict = words_lookups_dict
+        self.vocab_length_dict = vocab_length_dict
         self.word_patterns = self._init_word_patterns()
         self.letters = {}
         self.words_dict = {}
         self.crossing_word_patterns = self._init_crossing_word_patterns()
-        words_lookups_dict, vocab_length_dict = build_lookups(vocab)
-        self.words_lookups_dict = words_lookups_dict
-        self.vocab_length_dict = vocab_length_dict
+        self.candidates_cache = {}
+        self.used_words = set()
 
     def _init_word_patterns(self) -> set[WordPattern]:
         word_patterns = set()
@@ -316,13 +318,9 @@ class WordGrid(Grid):
                        col: int) -> None:
         self.letters.pop((row, col), None)
 
-    @staticmethod
-    def score_pattern(pattern: WordPattern) -> tuple[int, int, int]:
-        return len(pattern.letters_indices), -pattern.col, -pattern.row
-
     @property
     def best_word_pattern(self) -> WordPattern:
-        return min(self.word_patterns, key=lambda x: x.complexity_score)
+        return min(self.word_patterns, key=lambda x: len(x.candidates))
 
     def prettify(self):
         grid_str = '┌──' + ('─┬──' * (self.width - 1)) + '─┐\n'
@@ -352,7 +350,7 @@ class WordPattern(ABC):
         self.grid = grid
         self.letters_indices = set()
         self.linked_letters_indices = set()
-        self._complexity_score = None
+        self._candidates = grid.vocab_length_dict[length]
 
     @abstractmethod
     def get_coor(self,
@@ -368,16 +366,6 @@ class WordPattern(ABC):
 
     def get_content(self, index: int) -> Optional[str]:
         return self.grid.get_content(*self.get_coor(index))
-
-    def match_lookups(self) -> set[str]:
-        matching_words = self.grid.vocab_length_dict[self.length].copy()
-        for index in self.letters_indices:
-            letter = self.get_content(index)
-            lookup = self.grid.words_lookups_dict.get((index, letter))
-            matching_words = matching_words.intersection(lookup.vocab)
-            if not matching_words:
-                return {}
-        return matching_words
 
     def set_content(self,
                     index: int,
@@ -404,7 +392,6 @@ class WordPattern(ABC):
         for index in self.linked_letters_indices:
             self.remove_content(index)
             self.unset_orthogonal_word_pattern_letters(index)
-        self.reset_complexity_score()
         self.linked_letters_indices = set()
 
     def get_orthogonal_word_pattern(self, index: int) -> Optional[WordPattern]:
@@ -416,30 +403,31 @@ class WordPattern(ABC):
         if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
             index = crossed_word_pattern.get_index(*coor)
             crossed_word_pattern.letters_indices.add(index)
-            crossed_word_pattern.reset_complexity_score()
+            crossed_word_pattern.update_candidates(index)
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
         coor = self.get_coor(index)
         if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
             index = crossed_word_pattern.get_index(*coor)
             crossed_word_pattern.letters_indices.remove(index)
-            crossed_word_pattern.reset_complexity_score()
+            crossed_word_pattern.update_candidates()
+
+    def update_candidates(self, index: Optional[int] = None) -> None:
+        if self.letters_indices:
+            cache_key = (self.length, tuple((i, self.get_content(i)) for i in sorted(self.letters_indices)))
+            if cache_key not in self.grid.candidates_cache:
+                if index is not None:
+                    if lookup := self.grid.words_lookups_dict.get((index, self.get_content(index))):
+                        self.grid.candidates_cache[cache_key] = self._candidates.intersection(lookup.vocab)
+                    else:
+                        self.grid.candidates_cache[cache_key] = set()
+            self._candidates = self.grid.candidates_cache[cache_key]
+        else:
+            self._candidates = self.grid.vocab_length_dict[self.length]
 
     @property
-    def complexity_score(self) -> int:
-        if self._complexity_score is None:
-            score = len(self.grid.vocab_length_dict[self.length])
-            for index in self.letters_indices:
-                letter = self.get_content(index)
-                if not (lookup := self.grid.words_lookups_dict.get((index, letter))):
-                    score = 0
-                    break
-                score = min(len(lookup.vocab), score)
-            self._complexity_score = score
-        return self._complexity_score
-
-    def reset_complexity_score(self):
-        self._complexity_score = None
+    def candidates(self) -> set[str]:
+        return self._candidates - self.grid.used_words
 
 
 class WordPatternHorizontal(WordPattern):

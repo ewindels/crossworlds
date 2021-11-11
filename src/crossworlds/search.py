@@ -6,17 +6,17 @@ def recursive_search(grid: WordGrid,
                      found_grids: list[tuple[dict, str]]) -> None:
     if grid.word_patterns:
         word_pattern = grid.best_word_pattern
-        if word_pattern.complexity_score == 0:
+        if not word_pattern.candidates:
             return
     else:
         found_grids.append((copy(grid.words_dict), grid.prettify()))
         return
-    for word in word_pattern.match_lookups():
-        grid.vocab_length_dict[len(word)].discard(word)
+    for word in word_pattern.candidates:
+        grid.used_words.add(word)
         word_pattern.set_word(word)
         recursive_search(grid, found_grids)
         word_pattern.remove_word()
-        grid.vocab_length_dict[len(word)].add(word)
+        grid.used_words.remove(word)
 
 
 def get_full_grids(height: int,
