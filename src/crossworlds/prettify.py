@@ -1,4 +1,4 @@
-from grid import Grid
+from crossworlds.grid import Grid
 
 
 def main():

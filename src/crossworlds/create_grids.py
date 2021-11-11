@@ -16,10 +16,10 @@ def main():
                 new_width = width + (expansion == 'horizontal')
                 with open(f'output/grids/{new_height}x{new_width}.grids', 'w') as fp:
                     fp.write(Grid.to_str(new_grids))
-                with open(f'output/grids/sizes.json', 'r') as fp:
+                with open('output/grids/sizes.json', 'r') as fp:
                     size_dict = json.load(fp)
                 size_dict[f'{new_height}x{new_width}'] = len(new_grids)
-                with open(f'output/grids/sizes.json', 'w') as fp:
+                with open('output/grids/sizes.json', 'w') as fp:
                     json.dump(size_dict, fp, indent=4, sort_keys=True)
 
 

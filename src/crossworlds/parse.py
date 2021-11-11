@@ -1,3 +1,4 @@
+"""
 from collections import defaultdict
 import os
 from typing import Union
@@ -233,3 +234,4 @@ def parse(file: str) -> dict[Coordinates, np.ndarray]:
     fill_missing_corners(grid_dict, n_rows, n_cols)
     grid_img_dict = reconstruct_grid_img(grid_dict, img_arr, n_rows, n_cols)
     return grid_img_dict
+"""
