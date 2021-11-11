@@ -5,7 +5,6 @@
 ├───┼───┼───┤
 │   │ E │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'EN', WordPatternV(1, 2 | 2): 'AN', WordPatternH(1, 0 | 3): 'ARA', WordPatternV(0, 1 | 3): 'ARE'}
 ┌───┬───┬───┐
 │   │ A │   │
 ├───┼───┼───┤
@@ -13,7 +12,6 @@
 ├───┼───┼───┤
 │   │ A │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AN', WordPatternV(1, 2 | 2): 'EN', WordPatternV(0, 1 | 3): 'ARA', WordPatternH(1, 0 | 3): 'ARE'}
 ┌───┬───┬───┐
 │   │ A │   │
 ├───┼───┼───┤
@@ -21,7 +19,6 @@
 ├───┼───┼───┤
 │   │ A │ L │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AL', WordPatternV(1, 2 | 2): 'IL', WordPatternV(0, 1 | 3): 'ARA', WordPatternH(1, 0 | 3): 'CRI'}
 ┌───┬───┬───┐
 │   │ A │   │
 ├───┼───┼───┤
@@ -29,7 +26,6 @@
 ├───┼───┼───┤
 │   │ C │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CF', WordPatternV(1, 2 | 2): 'IF', WordPatternV(0, 1 | 3): 'ARC', WordPatternH(1, 0 | 3): 'CRI'}
 ┌───┬───┬───┐
 │   │ A │   │
 ├───┼───┼───┤
@@ -37,7 +33,6 @@
 ├───┼───┼───┤
 │   │ A │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AN', WordPatternV(1, 2 | 2): 'EN', WordPatternV(0, 1 | 3): 'ARA', WordPatternH(1, 0 | 3): 'ERE'}
 ┌───┬───┬───┐
 │   │ A │   │
 ├───┼───┼───┤
@@ -45,7 +40,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'GE', WordPatternH(1, 0 | 3): 'ERG', WordPatternV(0, 1 | 3): 'ARC'}
 ┌───┬───┬───┐
 │   │ A │   │
 ├───┼───┼───┤
@@ -53,7 +47,6 @@
 ├───┼───┼───┤
 │   │ A │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AN', WordPatternV(1, 2 | 2): 'EN', WordPatternV(0, 1 | 3): 'ARA', WordPatternH(1, 0 | 3): 'GRE'}
 ┌───┬───┬───┐
 │   │ A │   │
 ├───┼───┼───┤
@@ -61,7 +54,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'HIC', WordPatternV(0, 1 | 3): 'AIL'}
 ┌───┬───┬───┐
 │   │ A │   │
 ├───┼───┼───┤
@@ -69,7 +61,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'OU', WordPatternH(1, 0 | 3): 'IDO', WordPatternV(0, 1 | 3): 'ADN'}
 ┌───┬───┬───┐
 │   │ A │   │
 ├───┼───┼───┤
@@ -77,7 +68,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'DE', WordPatternH(1, 0 | 3): 'NID', WordPatternV(0, 1 | 3): 'AIL'}
 ┌───┬───┬───┐
 │   │ A │   │
 ├───┼───┼───┤
@@ -85,7 +75,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'ARC', WordPatternH(1, 0 | 3): 'ORL'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -93,7 +82,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'HE', WordPatternH(1, 0 | 3): 'BAH', WordPatternV(0, 1 | 3): 'BAL'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -101,7 +89,6 @@
 ├───┼───┼───┤
 │   │ H │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'HE', WordPatternV(0, 1 | 3): 'BAH', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'BAL'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -109,7 +96,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'AU', WordPatternH(1, 0 | 3): 'BOA', WordPatternV(0, 1 | 3): 'BON'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -117,7 +103,6 @@
 ├───┼───┼───┤
 │   │ A │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AU', WordPatternV(0, 1 | 3): 'BOA', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'BON'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -125,7 +110,6 @@
 ├───┼───┼───┤
 │   │ H │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'HE', WordPatternV(0, 1 | 3): 'BAH', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'CAL'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -133,7 +117,6 @@
 ├───┼───┼───┤
 │   │ A │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AU', WordPatternV(0, 1 | 3): 'BOA', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'CON'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -141,7 +124,6 @@
 ├───┼───┼───┤
 │   │ A │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AU', WordPatternV(0, 1 | 3): 'BOA', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'DON'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -149,7 +131,6 @@
 ├───┼───┼───┤
 │   │ A │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AU', WordPatternV(0, 1 | 3): 'BOA', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'EON'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -157,7 +138,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'FOC', WordPatternV(0, 1 | 3): 'BOL'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -165,7 +145,6 @@
 ├───┼───┼───┤
 │   │ N │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NI', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'FOC', WordPatternV(0, 1 | 3): 'BON'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -173,7 +152,6 @@
 ├───┼───┼───┤
 │   │ A │ L │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AL', WordPatternV(1, 2 | 2): 'IL', WordPatternV(0, 1 | 3): 'BOA', WordPatternH(1, 0 | 3): 'FOI'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -181,7 +159,6 @@
 ├───┼───┼───┤
 │   │ H │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'HE', WordPatternV(0, 1 | 3): 'BAH', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'GAL'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -189,7 +166,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'BEC', WordPatternH(1, 0 | 3): 'GEL'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -197,7 +173,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'BEC', WordPatternH(1, 0 | 3): 'IEL'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -205,7 +180,6 @@
 ├───┼───┼───┤
 │   │ A │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AU', WordPatternV(0, 1 | 3): 'BOA', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'ION'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -213,7 +187,6 @@
 ├───┼───┼───┤
 │   │ A │ S │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AS', WordPatternV(1, 2 | 2): 'BS', WordPatternH(1, 0 | 3): 'JOB', WordPatternV(0, 1 | 3): 'BOA'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -221,7 +194,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'BE', WordPatternH(1, 0 | 3): 'JOB', WordPatternV(0, 1 | 3): 'BOL'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -229,7 +201,6 @@
 ├───┼───┼───┤
 │   │ H │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'HE', WordPatternV(0, 1 | 3): 'BAH', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'LAC'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -237,7 +208,6 @@
 ├───┼───┼───┤
 │   │ I │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'IF', WordPatternV(1, 2 | 2): 'CF', WordPatternH(1, 0 | 3): 'LAC', WordPatternV(0, 1 | 3): 'BAI'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -245,7 +215,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'LAC', WordPatternV(0, 1 | 3): 'BAL'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -253,7 +222,6 @@
 ├───┼───┼───┤
 │   │ A │ L │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AL', WordPatternV(1, 2 | 2): 'IL', WordPatternV(0, 1 | 3): 'BOA', WordPatternH(1, 0 | 3): 'LOI'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -261,7 +229,6 @@
 ├───┼───┼───┤
 │   │ H │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'HE', WordPatternV(0, 1 | 3): 'BAH', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'MAL'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -269,7 +236,6 @@
 ├───┼───┼───┤
 │   │ A │ L │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AL', WordPatternV(1, 2 | 2): 'IL', WordPatternV(0, 1 | 3): 'BOA', WordPatternH(1, 0 | 3): 'MOI'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -277,7 +243,6 @@
 ├───┼───┼───┤
 │   │ A │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AU', WordPatternV(0, 1 | 3): 'BOA', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'MON'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -285,7 +250,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'FI', WordPatternH(1, 0 | 3): 'NEF', WordPatternV(0, 1 | 3): 'BEC'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -293,7 +257,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'ME', WordPatternH(1, 0 | 3): 'NEM', WordPatternV(0, 1 | 3): 'BEC'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -301,7 +264,6 @@
 ├───┼───┼───┤
 │   │ A │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AU', WordPatternV(0, 1 | 3): 'BOA', WordPatternV(1, 2 | 2): 'MU', WordPatternH(1, 0 | 3): 'NOM'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -309,7 +271,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'ME', WordPatternH(1, 0 | 3): 'NOM', WordPatternV(0, 1 | 3): 'BOL'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -317,7 +278,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'MU', WordPatternH(1, 0 | 3): 'NOM', WordPatternV(0, 1 | 3): 'BON'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -325,7 +285,6 @@
 ├───┼───┼───┤
 │   │ A │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AU', WordPatternV(0, 1 | 3): 'BOA', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'NON'}
 ┌───┬───┬───┐
 │   │ B │   │
 ├───┼───┼───┤
@@ -333,7 +292,6 @@
 ├───┼───┼───┤
 │   │ H │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'HE', WordPatternV(0, 1 | 3): 'BAH', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'PAL'}
 ┌───┬───┬───┐
 │   │ C │   │
 ├───┼───┼───┤
@@ -341,7 +299,6 @@
 ├───┼───┼───┤
 │   │ I │ L │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'IL', WordPatternV(1, 2 | 2): 'AL', WordPatternH(1, 0 | 3): 'ARA', WordPatternV(0, 1 | 3): 'CRI'}
 ┌───┬───┬───┐
 │   │ C │   │
 ├───┼───┼───┤
@@ -349,7 +306,6 @@
 ├───┼───┼───┤
 │   │ I │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'IF', WordPatternV(1, 2 | 2): 'CF', WordPatternH(1, 0 | 3): 'ARC', WordPatternV(0, 1 | 3): 'CRI'}
 ┌───┬───┬───┐
 │   │ C │   │
 ├───┼───┼───┤
@@ -357,7 +313,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'HE', WordPatternH(1, 0 | 3): 'BAH', WordPatternV(0, 1 | 3): 'CAL'}
 ┌───┬───┬───┐
 │   │ C │   │
 ├───┼───┼───┤
@@ -365,7 +320,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'AU', WordPatternH(1, 0 | 3): 'BOA', WordPatternV(0, 1 | 3): 'CON'}
 ┌───┬───┬───┐
 │   │ C │   │
 ├───┼───┼───┤
@@ -373,7 +327,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'DUC', WordPatternV(0, 1 | 3): 'CUL'}
 ┌───┬───┬───┐
 │   │ C │   │
 ├───┼───┼───┤
@@ -381,7 +334,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'HE', WordPatternH(1, 0 | 3): 'EUH', WordPatternV(0, 1 | 3): 'CUL'}
 ┌───┬───┬───┐
 │   │ C │   │
 ├───┼───┼───┤
@@ -389,7 +341,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'FOC', WordPatternV(0, 1 | 3): 'COL'}
 ┌───┬───┬───┐
 │   │ C │   │
 ├───┼───┼───┤
@@ -397,7 +348,6 @@
 ├───┼───┼───┤
 │   │ N │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NI', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'FOC', WordPatternV(0, 1 | 3): 'CON'}
 ┌───┬───┬───┐
 │   │ C │   │
 ├───┼───┼───┤
@@ -405,7 +355,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'HIC', WordPatternV(0, 1 | 3): 'CIL'}
 ┌───┬───┬───┐
 │   │ C │   │
 ├───┼───┼───┤
@@ -413,7 +362,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'BE', WordPatternH(1, 0 | 3): 'JOB', WordPatternV(0, 1 | 3): 'COL'}
 ┌───┬───┬───┐
 │   │ C │   │
 ├───┼───┼───┤
@@ -421,7 +369,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'LAC', WordPatternV(0, 1 | 3): 'CAL'}
 ┌───┬───┬───┐
 │   │ C │   │
 ├───┼───┼───┤
@@ -429,7 +376,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'DE', WordPatternH(1, 0 | 3): 'NID', WordPatternV(0, 1 | 3): 'CIL'}
 ┌───┬───┬───┐
 │   │ C │   │
 ├───┼───┼───┤
@@ -437,7 +383,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'ME', WordPatternH(1, 0 | 3): 'NOM', WordPatternV(0, 1 | 3): 'COL'}
 ┌───┬───┬───┐
 │   │ C │   │
 ├───┼───┼───┤
@@ -445,7 +390,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'MU', WordPatternH(1, 0 | 3): 'NOM', WordPatternV(0, 1 | 3): 'CON'}
 ┌───┬───┬───┐
 │   │ C │   │
 ├───┼───┼───┤
@@ -453,7 +397,6 @@
 ├───┼───┼───┤
 │   │ I │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'IF', WordPatternV(1, 2 | 2): 'CF', WordPatternH(1, 0 | 3): 'ORC', WordPatternV(0, 1 | 3): 'CRI'}
 ┌───┬───┬───┐
 │   │ D │   │
 ├───┼───┼───┤
@@ -461,7 +404,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'AU', WordPatternH(1, 0 | 3): 'BOA', WordPatternV(0, 1 | 3): 'DON'}
 ┌───┬───┬───┐
 │   │ D │   │
 ├───┼───┼───┤
@@ -469,7 +411,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'DUC', WordPatternH(1, 0 | 3): 'CUL'}
 ┌───┬───┬───┐
 │   │ D │   │
 ├───┼───┼───┤
@@ -477,7 +418,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'HE', WordPatternH(1, 0 | 3): 'EUH', WordPatternV(0, 1 | 3): 'DUC'}
 ┌───┬───┬───┐
 │   │ D │   │
 ├───┼───┼───┤
@@ -485,7 +425,6 @@
 ├───┼───┼───┤
 │   │ N │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NI', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'FOC', WordPatternV(0, 1 | 3): 'DON'}
 ┌───┬───┬───┐
 │   │ D │   │
 ├───┼───┼───┤
@@ -493,7 +432,6 @@
 ├───┼───┼───┤
 │   │ O │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'ON', WordPatternV(1, 2 | 2): 'EN', WordPatternV(0, 1 | 3): 'DUO', WordPatternH(1, 0 | 3): 'GUE'}
 ┌───┬───┬───┐
 │   │ D │   │
 ├───┼───┼───┤
@@ -501,7 +439,6 @@
 ├───┼───┼───┤
 │   │ C │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CF', WordPatternV(1, 2 | 2): 'IF', WordPatternV(0, 1 | 3): 'DUC', WordPatternH(1, 0 | 3): 'GUI'}
 ┌───┬───┬───┐
 │   │ D │   │
 ├───┼───┼───┤
@@ -509,7 +446,6 @@
 ├───┼───┼───┤
 │   │ O │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'ON', WordPatternV(1, 2 | 2): 'EN', WordPatternV(0, 1 | 3): 'DUO', WordPatternH(1, 0 | 3): 'HUE'}
 ┌───┬───┬───┐
 │   │ D │   │
 ├───┼───┼───┤
@@ -517,7 +453,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'NI', WordPatternV(0, 1 | 3): 'DUC', WordPatternH(1, 0 | 3): 'HUN'}
 ┌───┬───┬───┐
 │   │ D │   │
 ├───┼───┼───┤
@@ -525,7 +460,6 @@
 ├───┼───┼───┤
 │   │ O │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'OU', WordPatternV(0, 1 | 3): 'DUO', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'HUN'}
 ┌───┬───┬───┐
 │   │ D │   │
 ├───┼───┼───┤
@@ -533,7 +467,6 @@
 ├───┼───┼───┤
 │   │ C │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CF', WordPatternV(1, 2 | 2): 'IF', WordPatternV(0, 1 | 3): 'DUC', WordPatternH(1, 0 | 3): 'LUI'}
 ┌───┬───┬───┐
 │   │ D │   │
 ├───┼───┼───┤
@@ -541,7 +474,6 @@
 ├───┼───┼───┤
 │   │ O │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'ON', WordPatternV(1, 2 | 2): 'EN', WordPatternV(0, 1 | 3): 'DUO', WordPatternH(1, 0 | 3): 'MUE'}
 ┌───┬───┬───┐
 │   │ D │   │
 ├───┼───┼───┤
@@ -549,7 +481,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'MU', WordPatternH(1, 0 | 3): 'NOM', WordPatternV(0, 1 | 3): 'DON'}
 ┌───┬───┬───┐
 │   │ D │   │
 ├───┼───┼───┤
@@ -557,7 +488,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'DUC', WordPatternH(1, 0 | 3): 'NUL'}
 ┌───┬───┬───┐
 │   │ D │   │
 ├───┼───┼───┤
@@ -565,7 +495,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'FI', WordPatternH(1, 0 | 3): 'OUF', WordPatternV(0, 1 | 3): 'DUC'}
 ┌───┬───┬───┐
 │   │ D │   │
 ├───┼───┼───┤
@@ -573,7 +502,6 @@
 ├───┼───┼───┤
 │   │ C │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CF', WordPatternV(1, 2 | 2): 'IF', WordPatternV(0, 1 | 3): 'DUC', WordPatternH(1, 0 | 3): 'OUI'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -581,7 +509,6 @@
 ├───┼───┼───┤
 │   │ E │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'EN', WordPatternV(1, 2 | 2): 'AN', WordPatternH(1, 0 | 3): 'ARA', WordPatternV(0, 1 | 3): 'ERE'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -589,7 +516,6 @@
 ├───┼───┼───┤
 │   │ G │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'GE', WordPatternV(0, 1 | 3): 'ERG', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'ARC'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -597,7 +523,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'AU', WordPatternH(1, 0 | 3): 'BOA', WordPatternV(0, 1 | 3): 'EON'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -605,7 +530,6 @@
 ├───┼───┼───┤
 │   │ H │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'HE', WordPatternV(0, 1 | 3): 'EUH', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'CUL'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -613,7 +537,6 @@
 ├───┼───┼───┤
 │   │ H │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'HE', WordPatternV(0, 1 | 3): 'EUH', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'DUC'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -621,7 +544,6 @@
 ├───┼───┼───┤
 │   │ E │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'EN', WordPatternV(1, 2 | 2): 'AN', WordPatternH(1, 0 | 3): 'ETA', WordPatternV(0, 1 | 3): 'ETE'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -629,7 +551,6 @@
 ├───┼───┼───┤
 │   │ A │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AN', WordPatternV(1, 2 | 2): 'EN', WordPatternV(0, 1 | 3): 'ETA', WordPatternH(1, 0 | 3): 'ETE'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -637,7 +558,6 @@
 ├───┼───┼───┤
 │   │ N │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NI', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'FOC', WordPatternV(0, 1 | 3): 'EON'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -645,7 +565,6 @@
 ├───┼───┼───┤
 │   │ A │ H │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AH', WordPatternV(1, 2 | 2): 'OH', WordPatternV(0, 1 | 3): 'ETA', WordPatternH(1, 0 | 3): 'ITO'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -653,7 +572,6 @@
 ├───┼───┼───┤
 │   │ A │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AN', WordPatternV(1, 2 | 2): 'ON', WordPatternH(1, 0 | 3): 'ITO', WordPatternV(0, 1 | 3): 'ETA'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -661,7 +579,6 @@
 ├───┼───┼───┤
 │   │ A │ S │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AS', WordPatternV(1, 2 | 2): 'OS', WordPatternV(0, 1 | 3): 'ETA', WordPatternH(1, 0 | 3): 'ITO'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -669,7 +586,6 @@
 ├───┼───┼───┤
 │   │ A │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AU', WordPatternV(0, 1 | 3): 'ETA', WordPatternH(1, 0 | 3): 'ITO', WordPatternV(1, 2 | 2): 'OU'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -677,7 +593,6 @@
 ├───┼───┼───┤
 │   │ E │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'EN', WordPatternV(1, 2 | 2): 'ON', WordPatternH(1, 0 | 3): 'ITO', WordPatternV(0, 1 | 3): 'ETE'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -685,7 +600,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'MU', WordPatternH(1, 0 | 3): 'NOM', WordPatternV(0, 1 | 3): 'EON'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -693,7 +607,6 @@
 ├───┼───┼───┤
 │   │ H │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'HE', WordPatternV(0, 1 | 3): 'EUH', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'NUL'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -701,7 +614,6 @@
 ├───┼───┼───┤
 │   │ G │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'GE', WordPatternV(0, 1 | 3): 'ERG', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'ORC'}
 ┌───┬───┬───┐
 │   │ E │   │
 ├───┼───┼───┤
@@ -709,7 +621,6 @@
 ├───┼───┼───┤
 │   │ G │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'GE', WordPatternV(0, 1 | 3): 'ERG', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'ORL'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -717,7 +628,6 @@
 ├───┼───┼───┤
 │   │ I │ L │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'IL', WordPatternV(1, 2 | 2): 'AL', WordPatternH(1, 0 | 3): 'BOA', WordPatternV(0, 1 | 3): 'FOI'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -725,7 +635,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'FOC', WordPatternH(1, 0 | 3): 'BOL'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -733,7 +642,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'NI', WordPatternV(0, 1 | 3): 'FOC', WordPatternH(1, 0 | 3): 'BON'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -741,7 +649,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'FOC', WordPatternH(1, 0 | 3): 'COL'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -749,7 +656,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'NI', WordPatternV(0, 1 | 3): 'FOC', WordPatternH(1, 0 | 3): 'CON'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -757,7 +663,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'NI', WordPatternV(0, 1 | 3): 'FOC', WordPatternH(1, 0 | 3): 'DON'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -765,7 +670,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'NI', WordPatternV(0, 1 | 3): 'FOC', WordPatternH(1, 0 | 3): 'EON'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -773,7 +677,6 @@
 ├───┼───┼───┤
 │   │ I │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'IF', WordPatternV(1, 2 | 2): 'CF', WordPatternH(1, 0 | 3): 'FOC', WordPatternV(0, 1 | 3): 'FOI'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -781,7 +684,6 @@
 ├───┼───┼───┤
 │   │ C │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CF', WordPatternV(1, 2 | 2): 'IF', WordPatternV(0, 1 | 3): 'FOC', WordPatternH(1, 0 | 3): 'FOI'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -789,7 +691,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'HIC', WordPatternV(0, 1 | 3): 'FIL'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -797,7 +698,6 @@
 ├───┼───┼───┤
 │   │ N │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NI', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'HIC', WordPatternV(0, 1 | 3): 'FIN'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -805,7 +705,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'NI', WordPatternV(0, 1 | 3): 'FOC', WordPatternH(1, 0 | 3): 'ION'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -813,7 +712,6 @@
 ├───┼───┼───┤
 │   │ C │ D │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CD', WordPatternV(1, 2 | 2): 'BD', WordPatternH(1, 0 | 3): 'JOB', WordPatternV(0, 1 | 3): 'FOC'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -821,7 +719,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'BE', WordPatternH(1, 0 | 3): 'JOB', WordPatternV(0, 1 | 3): 'FOC'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -829,7 +726,6 @@
 ├───┼───┼───┤
 │   │ E │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'EN', WordPatternV(1, 2 | 2): 'AN', WordPatternH(1, 0 | 3): 'KEA', WordPatternV(0, 1 | 3): 'FEE'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -837,7 +733,6 @@
 ├───┼───┼───┤
 │   │ N │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NI', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'LAC', WordPatternV(0, 1 | 3): 'FAN'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -845,7 +740,6 @@
 ├───┼───┼───┤
 │   │ C │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CF', WordPatternV(1, 2 | 2): 'IF', WordPatternV(0, 1 | 3): 'FOC', WordPatternH(1, 0 | 3): 'LOI'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -853,7 +747,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'FOC', WordPatternH(1, 0 | 3): 'LOL'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -861,7 +754,6 @@
 ├───┼───┼───┤
 │   │ C │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CF', WordPatternV(1, 2 | 2): 'IF', WordPatternV(0, 1 | 3): 'FOC', WordPatternH(1, 0 | 3): 'MOI'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -869,7 +761,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'NI', WordPatternV(0, 1 | 3): 'FOC', WordPatternH(1, 0 | 3): 'MON'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -877,7 +768,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'KU', WordPatternH(1, 0 | 3): 'NAK', WordPatternV(0, 1 | 3): 'FAN'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -885,7 +775,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'DE', WordPatternH(1, 0 | 3): 'NID', WordPatternV(0, 1 | 3): 'FIL'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -893,7 +782,6 @@
 ├───┼───┼───┤
 │   │ N │ O │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NO', WordPatternV(1, 2 | 2): 'DO', WordPatternH(1, 0 | 3): 'NID', WordPatternV(0, 1 | 3): 'FIN'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -901,7 +789,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'ME', WordPatternH(1, 0 | 3): 'NOM', WordPatternV(0, 1 | 3): 'FOC'}
 ┌───┬───┬───┐
 │   │ F │   │
 ├───┼───┼───┤
@@ -909,7 +796,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'NI', WordPatternV(0, 1 | 3): 'FOC', WordPatternH(1, 0 | 3): 'NON'}
 ┌───┬───┬───┐
 │   │ G │   │
 ├───┼───┼───┤
@@ -917,7 +803,6 @@
 ├───┼───┼───┤
 │   │ E │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'EN', WordPatternV(1, 2 | 2): 'AN', WordPatternH(1, 0 | 3): 'ARA', WordPatternV(0, 1 | 3): 'GRE'}
 ┌───┬───┬───┐
 │   │ G │   │
 ├───┼───┼───┤
@@ -925,7 +810,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'HE', WordPatternH(1, 0 | 3): 'BAH', WordPatternV(0, 1 | 3): 'GAL'}
 ┌───┬───┬───┐
 │   │ G │   │
 ├───┼───┼───┤
@@ -933,7 +817,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'BEC', WordPatternV(0, 1 | 3): 'GEL'}
 ┌───┬───┬───┐
 │   │ G │   │
 ├───┼───┼───┤
@@ -941,7 +824,6 @@
 ├───┼───┼───┤
 │   │ I │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'IF', WordPatternV(1, 2 | 2): 'CF', WordPatternH(1, 0 | 3): 'DUC', WordPatternV(0, 1 | 3): 'GUI'}
 ┌───┬───┬───┐
 │   │ G │   │
 ├───┼───┼───┤
@@ -949,7 +831,6 @@
 ├───┼───┼───┤
 │   │ E │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'EN', WordPatternV(1, 2 | 2): 'ON', WordPatternH(1, 0 | 3): 'DUO', WordPatternV(0, 1 | 3): 'GUE'}
 ┌───┬───┬───┐
 │   │ G │   │
 ├───┼───┼───┤
@@ -957,7 +838,6 @@
 ├───┼───┼───┤
 │   │ N │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NI', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'HIC', WordPatternV(0, 1 | 3): 'GIN'}
 ┌───┬───┬───┐
 │   │ G │   │
 ├───┼───┼───┤
@@ -965,7 +845,6 @@
 ├───┼───┼───┤
 │   │ I │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'IF', WordPatternV(1, 2 | 2): 'CF', WordPatternH(1, 0 | 3): 'LAC', WordPatternV(0, 1 | 3): 'GAI'}
 ┌───┬───┬───┐
 │   │ G │   │
 ├───┼───┼───┤
@@ -973,7 +852,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'LAC', WordPatternV(0, 1 | 3): 'GAL'}
 ┌───┬───┬───┐
 │   │ G │   │
 ├───┼───┼───┤
@@ -981,7 +859,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'MEC', WordPatternV(0, 1 | 3): 'GEL'}
 ┌───┬───┬───┐
 │   │ G │   │
 ├───┼───┼───┤
@@ -989,7 +866,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'ME', WordPatternH(1, 0 | 3): 'NEM', WordPatternV(0, 1 | 3): 'GEL'}
 ┌───┬───┬───┐
 │   │ G │   │
 ├───┼───┼───┤
@@ -997,7 +873,6 @@
 ├───┼───┼───┤
 │   │ N │ O │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NO', WordPatternV(1, 2 | 2): 'DO', WordPatternH(1, 0 | 3): 'NID', WordPatternV(0, 1 | 3): 'GIN'}
 ┌───┬───┬───┐
 │   │ H │   │
 ├───┼───┼───┤
@@ -1005,7 +880,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'HIC', WordPatternH(1, 0 | 3): 'AIL'}
 ┌───┬───┬───┐
 │   │ H │   │
 ├───┼───┼───┤
@@ -1013,7 +887,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'HIC', WordPatternH(1, 0 | 3): 'CIL'}
 ┌───┬───┬───┐
 │   │ H │   │
 ├───┼───┼───┤
@@ -1021,7 +894,6 @@
 ├───┼───┼───┤
 │   │ N │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NI', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'DUC', WordPatternV(0, 1 | 3): 'HUN'}
 ┌───┬───┬───┐
 │   │ H │   │
 ├───┼───┼───┤
@@ -1029,7 +901,6 @@
 ├───┼───┼───┤
 │   │ E │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'EN', WordPatternV(1, 2 | 2): 'ON', WordPatternH(1, 0 | 3): 'DUO', WordPatternV(0, 1 | 3): 'HUE'}
 ┌───┬───┬───┐
 │   │ H │   │
 ├───┼───┼───┤
@@ -1037,7 +908,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'OU', WordPatternH(1, 0 | 3): 'DUO', WordPatternV(0, 1 | 3): 'HUN'}
 ┌───┬───┬───┐
 │   │ H │   │
 ├───┼───┼───┤
@@ -1045,7 +915,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'HIC', WordPatternH(1, 0 | 3): 'FIL'}
 ┌───┬───┬───┐
 │   │ H │   │
 ├───┼───┼───┤
@@ -1053,7 +922,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'NI', WordPatternV(0, 1 | 3): 'HIC', WordPatternH(1, 0 | 3): 'FIN'}
 ┌───┬───┬───┐
 │   │ H │   │
 ├───┼───┼───┤
@@ -1061,7 +929,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'NI', WordPatternV(0, 1 | 3): 'HIC', WordPatternH(1, 0 | 3): 'GIN'}
 ┌───┬───┬───┐
 │   │ H │   │
 ├───┼───┼───┤
@@ -1069,7 +936,6 @@
 ├───┼───┼───┤
 │   │ N │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NI', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'LAC', WordPatternV(0, 1 | 3): 'HAN'}
 ┌───┬───┬───┐
 │   │ H │   │
 ├───┼───┼───┤
@@ -1077,7 +943,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'NI', WordPatternV(0, 1 | 3): 'HIC', WordPatternH(1, 0 | 3): 'LIN'}
 ┌───┬───┬───┐
 │   │ H │   │
 ├───┼───┼───┤
@@ -1085,7 +950,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'KU', WordPatternH(1, 0 | 3): 'NAK', WordPatternV(0, 1 | 3): 'HAN'}
 ┌───┬───┬───┐
 │   │ H │   │
 ├───┼───┼───┤
@@ -1093,7 +957,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'DE', WordPatternH(1, 0 | 3): 'NID', WordPatternV(0, 1 | 3): 'HIC'}
 ┌───┬───┬───┐
 │   │ H │   │
 ├───┼───┼───┤
@@ -1101,7 +964,6 @@
 ├───┼───┼───┤
 │   │ N │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NI', WordPatternV(1, 2 | 2): 'FI', WordPatternH(1, 0 | 3): 'OUF', WordPatternV(0, 1 | 3): 'HUN'}
 ┌───┬───┬───┐
 │   │ I │   │
 ├───┼───┼───┤
@@ -1109,7 +971,6 @@
 ├───┼───┼───┤
 │   │ O │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'OU', WordPatternV(0, 1 | 3): 'IDO', WordPatternH(1, 0 | 3): 'ADN', WordPatternV(1, 2 | 2): 'NU'}
 ┌───┬───┬───┐
 │   │ I │   │
 ├───┼───┼───┤
@@ -1117,7 +978,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'BEC', WordPatternV(0, 1 | 3): 'IEL'}
 ┌───┬───┬───┐
 │   │ I │   │
 ├───┼───┼───┤
@@ -1125,7 +985,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'AU', WordPatternH(1, 0 | 3): 'BOA', WordPatternV(0, 1 | 3): 'ION'}
 ┌───┬───┬───┐
 │   │ I │   │
 ├───┼───┼───┤
@@ -1133,7 +992,6 @@
 ├───┼───┼───┤
 │   │ O │ H │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'OH', WordPatternV(1, 2 | 2): 'AH', WordPatternV(0, 1 | 3): 'ITO', WordPatternH(1, 0 | 3): 'ETA'}
 ┌───┬───┬───┐
 │   │ I │   │
 ├───┼───┼───┤
@@ -1141,7 +999,6 @@
 ├───┼───┼───┤
 │   │ O │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'ON', WordPatternV(1, 2 | 2): 'AN', WordPatternH(1, 0 | 3): 'ETA', WordPatternV(0, 1 | 3): 'ITO'}
 ┌───┬───┬───┐
 │   │ I │   │
 ├───┼───┼───┤
@@ -1149,7 +1006,6 @@
 ├───┼───┼───┤
 │   │ O │ S │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'OS', WordPatternV(1, 2 | 2): 'AS', WordPatternH(1, 0 | 3): 'ETA', WordPatternV(0, 1 | 3): 'ITO'}
 ┌───┬───┬───┐
 │   │ I │   │
 ├───┼───┼───┤
@@ -1157,7 +1013,6 @@
 ├───┼───┼───┤
 │   │ O │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'OU', WordPatternV(0, 1 | 3): 'ITO', WordPatternH(1, 0 | 3): 'ETA', WordPatternV(1, 2 | 2): 'AU'}
 ┌───┬───┬───┐
 │   │ I │   │
 ├───┼───┼───┤
@@ -1165,7 +1020,6 @@
 ├───┼───┼───┤
 │   │ O │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'ON', WordPatternV(1, 2 | 2): 'EN', WordPatternV(0, 1 | 3): 'ITO', WordPatternH(1, 0 | 3): 'ETE'}
 ┌───┬───┬───┐
 │   │ I │   │
 ├───┼───┼───┤
@@ -1173,7 +1027,6 @@
 ├───┼───┼───┤
 │   │ N │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NI', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'FOC', WordPatternV(0, 1 | 3): 'ION'}
 ┌───┬───┬───┐
 │   │ I │   │
 ├───┼───┼───┤
@@ -1181,7 +1034,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'MEC', WordPatternV(0, 1 | 3): 'IEL'}
 ┌───┬───┬───┐
 │   │ I │   │
 ├───┼───┼───┤
@@ -1189,7 +1041,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'ME', WordPatternH(1, 0 | 3): 'NEM', WordPatternV(0, 1 | 3): 'IEL'}
 ┌───┬───┬───┐
 │   │ I │   │
 ├───┼───┼───┤
@@ -1197,7 +1048,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'MU', WordPatternH(1, 0 | 3): 'NOM', WordPatternV(0, 1 | 3): 'ION'}
 ┌───┬───┬───┐
 │   │ J │   │
 ├───┼───┼───┤
@@ -1205,7 +1055,6 @@
 ├───┼───┼───┤
 │   │ B │ S │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'BS', WordPatternV(0, 1 | 3): 'JOB', WordPatternV(1, 2 | 2): 'AS', WordPatternH(1, 0 | 3): 'BOA'}
 ┌───┬───┬───┐
 │   │ J │   │
 ├───┼───┼───┤
@@ -1213,7 +1062,6 @@
 ├───┼───┼───┤
 │   │ B │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'BE', WordPatternV(0, 1 | 3): 'JOB', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'BOL'}
 ┌───┬───┬───┐
 │   │ J │   │
 ├───┼───┼───┤
@@ -1221,7 +1069,6 @@
 ├───┼───┼───┤
 │   │ B │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'BE', WordPatternV(0, 1 | 3): 'JOB', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'COL'}
 ┌───┬───┬───┐
 │   │ J │   │
 ├───┼───┼───┤
@@ -1229,7 +1076,6 @@
 ├───┼───┼───┤
 │   │ B │ D │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'BD', WordPatternV(1, 2 | 2): 'CD', WordPatternV(0, 1 | 3): 'JOB', WordPatternH(1, 0 | 3): 'FOC'}
 ┌───┬───┬───┐
 │   │ J │   │
 ├───┼───┼───┤
@@ -1237,7 +1083,6 @@
 ├───┼───┼───┤
 │   │ B │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'BE', WordPatternV(0, 1 | 3): 'JOB', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'FOC'}
 ┌───┬───┬───┐
 │   │ J │   │
 ├───┼───┼───┤
@@ -1245,7 +1090,6 @@
 ├───┼───┼───┤
 │   │ B │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'BE', WordPatternV(0, 1 | 3): 'JOB', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'LOL'}
 ┌───┬───┬───┐
 │   │ J │   │
 ├───┼───┼───┤
@@ -1253,7 +1097,6 @@
 ├───┼───┼───┤
 │   │ B │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'BE', WordPatternV(0, 1 | 3): 'JOB', WordPatternV(1, 2 | 2): 'ME', WordPatternH(1, 0 | 3): 'NOM'}
 ┌───┬───┬───┐
 │   │ K │   │
 ├───┼───┼───┤
@@ -1261,7 +1104,6 @@
 ├───┼───┼───┤
 │   │ A │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AN', WordPatternV(1, 2 | 2): 'EN', WordPatternV(0, 1 | 3): 'KEA', WordPatternH(1, 0 | 3): 'FEE'}
 ┌───┬───┬───┐
 │   │ K │   │
 ├───┼───┼───┤
@@ -1269,7 +1111,6 @@
 ├───┼───┼───┤
 │   │ A │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'AU', WordPatternV(0, 1 | 3): 'KEA', WordPatternV(1, 2 | 2): 'MU', WordPatternH(1, 0 | 3): 'NEM'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1277,7 +1118,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'HE', WordPatternH(1, 0 | 3): 'BAH', WordPatternV(0, 1 | 3): 'LAC'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1285,7 +1125,6 @@
 ├───┼───┼───┤
 │   │ C │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CF', WordPatternV(1, 2 | 2): 'IF', WordPatternV(0, 1 | 3): 'LAC', WordPatternH(1, 0 | 3): 'BAI'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1293,7 +1132,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'LAC', WordPatternH(1, 0 | 3): 'BAL'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1301,7 +1139,6 @@
 ├───┼───┼───┤
 │   │ I │ L │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'IL', WordPatternV(1, 2 | 2): 'AL', WordPatternH(1, 0 | 3): 'BOA', WordPatternV(0, 1 | 3): 'LOI'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1309,7 +1146,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'LAC', WordPatternH(1, 0 | 3): 'CAL'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1317,7 +1153,6 @@
 ├───┼───┼───┤
 │   │ I │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'IF', WordPatternV(1, 2 | 2): 'CF', WordPatternH(1, 0 | 3): 'DUC', WordPatternV(0, 1 | 3): 'LUI'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1325,7 +1160,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'NI', WordPatternV(0, 1 | 3): 'LAC', WordPatternH(1, 0 | 3): 'FAN'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1333,7 +1167,6 @@
 ├───┼───┼───┤
 │   │ I │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'IF', WordPatternV(1, 2 | 2): 'CF', WordPatternH(1, 0 | 3): 'FOC', WordPatternV(0, 1 | 3): 'LOI'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1341,7 +1174,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'FOC', WordPatternV(0, 1 | 3): 'LOL'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1349,7 +1181,6 @@
 ├───┼───┼───┤
 │   │ C │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CF', WordPatternV(1, 2 | 2): 'IF', WordPatternV(0, 1 | 3): 'LAC', WordPatternH(1, 0 | 3): 'GAI'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1357,7 +1188,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'LAC', WordPatternH(1, 0 | 3): 'GAL'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1365,7 +1195,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'NI', WordPatternV(0, 1 | 3): 'LAC', WordPatternH(1, 0 | 3): 'HAN'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1373,7 +1202,6 @@
 ├───┼───┼───┤
 │   │ N │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NI', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'HIC', WordPatternV(0, 1 | 3): 'LIN'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1381,7 +1209,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'BE', WordPatternH(1, 0 | 3): 'JOB', WordPatternV(0, 1 | 3): 'LOL'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1389,7 +1216,6 @@
 ├───┼───┼───┤
 │   │ C │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CF', WordPatternV(1, 2 | 2): 'IF', WordPatternV(0, 1 | 3): 'LAC', WordPatternH(1, 0 | 3): 'MAI'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1397,7 +1223,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'LAC', WordPatternH(1, 0 | 3): 'MAL'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1405,7 +1230,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'NI', WordPatternV(0, 1 | 3): 'LAC', WordPatternH(1, 0 | 3): 'NAN'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1413,7 +1237,6 @@
 ├───┼───┼───┤
 │   │ N │ O │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NO', WordPatternV(1, 2 | 2): 'DO', WordPatternH(1, 0 | 3): 'NID', WordPatternV(0, 1 | 3): 'LIN'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1421,7 +1244,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'ME', WordPatternH(1, 0 | 3): 'NOM', WordPatternV(0, 1 | 3): 'LOL'}
 ┌───┬───┬───┐
 │   │ L │   │
 ├───┼───┼───┤
@@ -1429,7 +1251,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'LAC', WordPatternH(1, 0 | 3): 'PAL'}
 ┌───┬───┬───┐
 │   │ M │   │
 ├───┼───┼───┤
@@ -1437,7 +1258,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'HE', WordPatternH(1, 0 | 3): 'BAH', WordPatternV(0, 1 | 3): 'MAL'}
 ┌───┬───┬───┐
 │   │ M │   │
 ├───┼───┼───┤
@@ -1445,7 +1265,6 @@
 ├───┼───┼───┤
 │   │ I │ L │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'IL', WordPatternV(1, 2 | 2): 'AL', WordPatternH(1, 0 | 3): 'BOA', WordPatternV(0, 1 | 3): 'MOI'}
 ┌───┬───┬───┐
 │   │ M │   │
 ├───┼───┼───┤
@@ -1453,7 +1272,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'AU', WordPatternH(1, 0 | 3): 'BOA', WordPatternV(0, 1 | 3): 'MON'}
 ┌───┬───┬───┐
 │   │ M │   │
 ├───┼───┼───┤
@@ -1461,7 +1279,6 @@
 ├───┼───┼───┤
 │   │ E │ N │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'EN', WordPatternV(1, 2 | 2): 'ON', WordPatternH(1, 0 | 3): 'DUO', WordPatternV(0, 1 | 3): 'MUE'}
 ┌───┬───┬───┐
 │   │ M │   │
 ├───┼───┼───┤
@@ -1469,7 +1286,6 @@
 ├───┼───┼───┤
 │   │ I │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'IF', WordPatternV(1, 2 | 2): 'CF', WordPatternH(1, 0 | 3): 'FOC', WordPatternV(0, 1 | 3): 'MOI'}
 ┌───┬───┬───┐
 │   │ M │   │
 ├───┼───┼───┤
@@ -1477,7 +1293,6 @@
 ├───┼───┼───┤
 │   │ N │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NI', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'FOC', WordPatternV(0, 1 | 3): 'MON'}
 ┌───┬───┬───┐
 │   │ M │   │
 ├───┼───┼───┤
@@ -1485,7 +1300,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'MEC', WordPatternH(1, 0 | 3): 'GEL'}
 ┌───┬───┬───┐
 │   │ M │   │
 ├───┼───┼───┤
@@ -1493,7 +1307,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'MEC', WordPatternH(1, 0 | 3): 'IEL'}
 ┌───┬───┬───┐
 │   │ M │   │
 ├───┼───┼───┤
@@ -1501,7 +1314,6 @@
 ├───┼───┼───┤
 │   │ I │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'IF', WordPatternV(1, 2 | 2): 'CF', WordPatternH(1, 0 | 3): 'LAC', WordPatternV(0, 1 | 3): 'MAI'}
 ┌───┬───┬───┐
 │   │ M │   │
 ├───┼───┼───┤
@@ -1509,7 +1321,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'LAC', WordPatternV(0, 1 | 3): 'MAL'}
 ┌───┬───┬───┐
 │   │ M │   │
 ├───┼───┼───┤
@@ -1517,7 +1328,6 @@
 ├───┼───┼───┤
 │   │ C │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CI', WordPatternV(1, 2 | 2): 'FI', WordPatternH(1, 0 | 3): 'NEF', WordPatternV(0, 1 | 3): 'MEC'}
 ┌───┬───┬───┐
 │   │ M │   │
 ├───┼───┼───┤
@@ -1525,7 +1335,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'ME', WordPatternH(1, 0 | 3): 'NEM', WordPatternV(0, 1 | 3): 'MEC'}
 ┌───┬───┬───┐
 │   │ M │   │
 ├───┼───┼───┤
@@ -1533,7 +1342,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'MU', WordPatternH(1, 0 | 3): 'NOM', WordPatternV(0, 1 | 3): 'MON'}
 ┌───┬───┬───┐
 │   │ M │   │
 ├───┼───┼───┤
@@ -1541,7 +1349,6 @@
 ├───┼───┼───┤
 │   │ O │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'OU', WordPatternV(0, 1 | 3): 'MHO', WordPatternH(1, 0 | 3): 'OHM', WordPatternV(1, 2 | 2): 'MU'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1549,7 +1356,6 @@
 ├───┼───┼───┤
 │   │ D │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'DE', WordPatternV(0, 1 | 3): 'NID', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'AIL'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1557,7 +1363,6 @@
 ├───┼───┼───┤
 │   │ F │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'FI', WordPatternV(0, 1 | 3): 'NEF', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'BEC'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1565,7 +1370,6 @@
 ├───┼───┼───┤
 │   │ M │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'ME', WordPatternV(0, 1 | 3): 'NEM', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'BEC'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1573,7 +1377,6 @@
 ├───┼───┼───┤
 │   │ M │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'MU', WordPatternV(0, 1 | 3): 'NOM', WordPatternV(1, 2 | 2): 'AU', WordPatternH(1, 0 | 3): 'BOA'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1581,7 +1384,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'AU', WordPatternH(1, 0 | 3): 'BOA', WordPatternV(0, 1 | 3): 'NON'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1589,7 +1391,6 @@
 ├───┼───┼───┤
 │   │ M │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'ME', WordPatternV(0, 1 | 3): 'NOM', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'BOL'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1597,7 +1398,6 @@
 ├───┼───┼───┤
 │   │ M │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'MU', WordPatternV(0, 1 | 3): 'NOM', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'BON'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1605,7 +1405,6 @@
 ├───┼───┼───┤
 │   │ D │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'DE', WordPatternV(0, 1 | 3): 'NID', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'CIL'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1613,7 +1412,6 @@
 ├───┼───┼───┤
 │   │ M │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'ME', WordPatternV(0, 1 | 3): 'NOM', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'COL'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1621,7 +1419,6 @@
 ├───┼───┼───┤
 │   │ M │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'MU', WordPatternV(0, 1 | 3): 'NOM', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'CON'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1629,7 +1426,6 @@
 ├───┼───┼───┤
 │   │ M │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'MU', WordPatternV(0, 1 | 3): 'NOM', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'DON'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1637,7 +1433,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'DUC', WordPatternV(0, 1 | 3): 'NUL'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1645,7 +1440,6 @@
 ├───┼───┼───┤
 │   │ M │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'MU', WordPatternV(0, 1 | 3): 'NOM', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'EON'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1653,7 +1447,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'HE', WordPatternH(1, 0 | 3): 'EUH', WordPatternV(0, 1 | 3): 'NUL'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1661,7 +1454,6 @@
 ├───┼───┼───┤
 │   │ K │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'KU', WordPatternV(0, 1 | 3): 'NAK', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'FAN'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1669,7 +1461,6 @@
 ├───┼───┼───┤
 │   │ D │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'DE', WordPatternV(0, 1 | 3): 'NID', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'FIL'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1677,7 +1468,6 @@
 ├───┼───┼───┤
 │   │ D │ O │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'DO', WordPatternV(1, 2 | 2): 'NO', WordPatternV(0, 1 | 3): 'NID', WordPatternH(1, 0 | 3): 'FIN'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1685,7 +1475,6 @@
 ├───┼───┼───┤
 │   │ M │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'ME', WordPatternV(0, 1 | 3): 'NOM', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'FOC'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1693,7 +1482,6 @@
 ├───┼───┼───┤
 │   │ N │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NI', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'FOC', WordPatternV(0, 1 | 3): 'NON'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1701,7 +1489,6 @@
 ├───┼───┼───┤
 │   │ M │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'ME', WordPatternV(0, 1 | 3): 'NEM', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'GEL'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1709,7 +1496,6 @@
 ├───┼───┼───┤
 │   │ D │ O │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'DO', WordPatternV(1, 2 | 2): 'NO', WordPatternV(0, 1 | 3): 'NID', WordPatternH(1, 0 | 3): 'GIN'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1717,7 +1503,6 @@
 ├───┼───┼───┤
 │   │ K │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'KU', WordPatternV(0, 1 | 3): 'NAK', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'HAN'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1725,7 +1510,6 @@
 ├───┼───┼───┤
 │   │ D │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'DE', WordPatternV(0, 1 | 3): 'NID', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'HIC'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1733,7 +1517,6 @@
 ├───┼───┼───┤
 │   │ M │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'ME', WordPatternV(0, 1 | 3): 'NEM', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'IEL'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1741,7 +1524,6 @@
 ├───┼───┼───┤
 │   │ M │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'MU', WordPatternV(0, 1 | 3): 'NOM', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'ION'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1749,7 +1531,6 @@
 ├───┼───┼───┤
 │   │ M │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'ME', WordPatternV(0, 1 | 3): 'NOM', WordPatternV(1, 2 | 2): 'BE', WordPatternH(1, 0 | 3): 'JOB'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1757,7 +1538,6 @@
 ├───┼───┼───┤
 │   │ M │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'MU', WordPatternV(0, 1 | 3): 'NEM', WordPatternV(1, 2 | 2): 'AU', WordPatternH(1, 0 | 3): 'KEA'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1765,7 +1545,6 @@
 ├───┼───┼───┤
 │   │ N │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NI', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'LAC', WordPatternV(0, 1 | 3): 'NAN'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1773,7 +1552,6 @@
 ├───┼───┼───┤
 │   │ D │ O │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'DO', WordPatternV(1, 2 | 2): 'NO', WordPatternV(0, 1 | 3): 'NID', WordPatternH(1, 0 | 3): 'LIN'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1781,7 +1559,6 @@
 ├───┼───┼───┤
 │   │ M │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'ME', WordPatternV(0, 1 | 3): 'NOM', WordPatternV(1, 2 | 2): 'LE', WordPatternH(1, 0 | 3): 'LOL'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1789,7 +1566,6 @@
 ├───┼───┼───┤
 │   │ F │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'FI', WordPatternV(0, 1 | 3): 'NEF', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'MEC'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1797,7 +1573,6 @@
 ├───┼───┼───┤
 │   │ M │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'ME', WordPatternV(0, 1 | 3): 'NEM', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'MEC'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1805,7 +1580,6 @@
 ├───┼───┼───┤
 │   │ M │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'MU', WordPatternV(0, 1 | 3): 'NOM', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'MON'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1813,7 +1587,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'KU', WordPatternH(1, 0 | 3): 'NAK', WordPatternV(0, 1 | 3): 'NAN'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1821,7 +1594,6 @@
 ├───┼───┼───┤
 │   │ K │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'KU', WordPatternV(0, 1 | 3): 'NAK', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'NAN'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1829,7 +1601,6 @@
 ├───┼───┼───┤
 │   │ M │ Z │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'MZ', WordPatternV(1, 2 | 2): 'FZ', WordPatternH(1, 0 | 3): 'NEF', WordPatternV(0, 1 | 3): 'NEM'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1837,7 +1608,6 @@
 ├───┼───┼───┤
 │   │ F │ Z │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'FZ', WordPatternV(1, 2 | 2): 'MZ', WordPatternV(0, 1 | 3): 'NEF', WordPatternH(1, 0 | 3): 'NEM'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1845,7 +1615,6 @@
 ├───┼───┼───┤
 │   │ N │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'NU', WordPatternV(1, 2 | 2): 'MU', WordPatternH(1, 0 | 3): 'NOM', WordPatternV(0, 1 | 3): 'NON'}
 ┌───┬───┬───┐
 │   │ N │   │
 ├───┼───┼───┤
@@ -1853,7 +1622,6 @@
 ├───┼───┼───┤
 │   │ M │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'MU', WordPatternV(0, 1 | 3): 'NOM', WordPatternV(1, 2 | 2): 'NU', WordPatternH(1, 0 | 3): 'NON'}
 ┌───┬───┬───┐
 │   │ O │   │
 ├───┼───┼───┤
@@ -1861,7 +1629,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'ARC', WordPatternV(0, 1 | 3): 'ORL'}
 ┌───┬───┬───┐
 │   │ O │   │
 ├───┼───┼───┤
@@ -1869,7 +1636,6 @@
 ├───┼───┼───┤
 │   │ C │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CF', WordPatternV(1, 2 | 2): 'IF', WordPatternV(0, 1 | 3): 'ORC', WordPatternH(1, 0 | 3): 'CRI'}
 ┌───┬───┬───┐
 │   │ O │   │
 ├───┼───┼───┤
@@ -1877,7 +1643,6 @@
 ├───┼───┼───┤
 │   │ F │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'FI', WordPatternV(0, 1 | 3): 'OUF', WordPatternV(1, 2 | 2): 'CI', WordPatternH(1, 0 | 3): 'DUC'}
 ┌───┬───┬───┐
 │   │ O │   │
 ├───┼───┼───┤
@@ -1885,7 +1650,6 @@
 ├───┼───┼───┤
 │   │ I │ F │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'IF', WordPatternV(1, 2 | 2): 'CF', WordPatternH(1, 0 | 3): 'DUC', WordPatternV(0, 1 | 3): 'OUI'}
 ┌───┬───┬───┐
 │   │ O │   │
 ├───┼───┼───┤
@@ -1893,7 +1657,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'GE', WordPatternH(1, 0 | 3): 'ERG', WordPatternV(0, 1 | 3): 'ORC'}
 ┌───┬───┬───┐
 │   │ O │   │
 ├───┼───┼───┤
@@ -1901,7 +1664,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'GE', WordPatternH(1, 0 | 3): 'ERG', WordPatternV(0, 1 | 3): 'ORL'}
 ┌───┬───┬───┐
 │   │ O │   │
 ├───┼───┼───┤
@@ -1909,7 +1671,6 @@
 ├───┼───┼───┤
 │   │ F │ I │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'FI', WordPatternV(0, 1 | 3): 'OUF', WordPatternV(1, 2 | 2): 'NI', WordPatternH(1, 0 | 3): 'HUN'}
 ┌───┬───┬───┐
 │   │ O │   │
 ├───┼───┼───┤
@@ -1917,7 +1678,6 @@
 ├───┼───┼───┤
 │   │ M │ U │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'MU', WordPatternV(0, 1 | 3): 'OHM', WordPatternH(1, 0 | 3): 'MHO', WordPatternV(1, 2 | 2): 'OU'}
 ┌───┬───┬───┐
 │   │ O │   │
 ├───┼───┼───┤
@@ -1925,7 +1685,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'ORC', WordPatternV(0, 1 | 3): 'ORL'}
 ┌───┬───┬───┐
 │   │ O │   │
 ├───┼───┼───┤
@@ -1933,7 +1692,6 @@
 ├───┼───┼───┤
 │   │ C │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'CE', WordPatternV(1, 2 | 2): 'LE', WordPatternV(0, 1 | 3): 'ORC', WordPatternH(1, 0 | 3): 'ORL'}
 ┌───┬───┬───┐
 │   │ P │   │
 ├───┼───┼───┤
@@ -1941,7 +1699,6 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'HE', WordPatternH(1, 0 | 3): 'BAH', WordPatternV(0, 1 | 3): 'PAL'}
 ┌───┬───┬───┐
 │   │ P │   │
 ├───┼───┼───┤
@@ -1949,4 +1706,3 @@
 ├───┼───┼───┤
 │   │ L │ E │
 └───┴───┴───┘
-{WordPatternH(2, 1 | 2): 'LE', WordPatternV(1, 2 | 2): 'CE', WordPatternH(1, 0 | 3): 'LAC', WordPatternV(0, 1 | 3): 'PAL'}

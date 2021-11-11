@@ -11,7 +11,6 @@ def main():
     found_grids_str = ''
     for word_dict, pretty_grid in found_grids:
         found_grids_str += pretty_grid
-        found_grids_str += str(word_dict) + '\n'
 
 
 if __name__ == '__main__':

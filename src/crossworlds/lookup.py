@@ -1,5 +1,6 @@
 import os
 import json
+from string import ascii_uppercase
 from collections import defaultdict
 from unidecode import unidecode
 
@@ -26,7 +27,7 @@ def init_vocab() -> dict[str, set[str]]:
 
 
 def normalize(string: str) -> str:
-    return unidecode(string).upper()
+    return ''.join(letter for letter in unidecode(string).upper() if letter in ascii_uppercase)
 
 
 def update_lookups(words_lookups_dict: LookupDict, word: str) -> None:

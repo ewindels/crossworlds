@@ -11,9 +11,8 @@ def main():
     found_grids = get_full_grids(height, width, definitions, vocab)
     print(f'Found {len(found_grids)} grids')
     found_grids_str = ''
-    for word_dict, pretty_grid in found_grids:
+    for word_dict, pretty_grid in sorted(found_grids, key=lambda x: x[1]):
         found_grids_str += pretty_grid
-        found_grids_str += str(word_dict) + '\n'
     with open(f'output/word_grids/{height}x{width}.wordgrids', 'w', encoding='utf-8') as fp:
         fp.write(found_grids_str)
     with open('output/word_grids/sizes.json', 'r', encoding='utf-8') as fp:
