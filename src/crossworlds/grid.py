@@ -387,7 +387,9 @@ class WordPattern(ABC):
                 if self.grid.output_pretty:
                     self.set_content(index, letter)
                 self.linked_letters_indices.add(index)
-                self.update_orthogonal_word_pattern_letters(index, letter)
+                early_break = self.update_orthogonal_word_pattern_letters(index, letter)
+                if early_break:
+                    break
 
     def remove_word(self) -> None:
         self.grid.words_dict.pop(self)
@@ -402,18 +404,17 @@ class WordPattern(ABC):
 
     def update_orthogonal_word_pattern_letters(self,
                                                index: int,
-                                               letter: str) -> None:
-        coor = self.get_coor(index)
+                                               letter: str) -> bool:
         if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
-            index = crossed_word_pattern.get_index(*coor)
-            crossed_word_pattern.letters_indices[index] = letter
-            crossed_word_pattern.update_candidates(index, letter)
+            crossed_index = crossed_word_pattern.get_index(*self.get_coor(index))
+            crossed_word_pattern.letters_indices[crossed_index] = letter
+            crossed_word_pattern.update_candidates(crossed_index, letter)
+            return not crossed_word_pattern.candidates
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
-        coor = self.get_coor(index)
         if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
-            index = crossed_word_pattern.get_index(*coor)
-            crossed_word_pattern.letters_indices.pop(index)
+            crossed_index = crossed_word_pattern.get_index(*self.get_coor(index))
+            crossed_word_pattern.letters_indices.pop(crossed_index)
             crossed_word_pattern.update_candidates()
 
     def update_candidates(self,

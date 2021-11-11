@@ -4,8 +4,8 @@ from crossworlds.search import get_full_grids
 
 
 def main():
-    height = 3
-    width = 3
+    height = 4
+    width = 4
     definitions = {}
     vocab = init_vocab()
     output_pretty = True
