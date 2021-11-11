@@ -15,7 +15,7 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.9",
-    install_requires=['requests', 'pytest', 'beautifulsoup4', 'unicode'],
+    install_requires=['requests', 'pytest', 'beautifulsoup4', 'unidecode'],
     package_data={
         'crossworlds': ['*'],
     },

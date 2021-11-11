@@ -1,10 +1,9 @@
 import pytest
-from grid import Grid
-from search import get_full_grids
-from lookup import init_vocab
+from crossworlds.search import get_full_grids
+# from crossworlds.lookup import init_vocab
 
 
-@pytest.mark.parametrize("width,height,vocab,expected", [
+@pytest.mark.parametrize(("width", "height", "vocab", "expected"), [
     (2, 2, {'AB': set(), 'BB': set()}, 2),
     (2, 2, {'AB': set(), 'DD': set()}, 0),
     (2, 2, {'AB': set(), 'BB': set(), 'CB': set(), 'DD': set()}, 6),
@@ -16,6 +15,6 @@ from lookup import init_vocab
     (4, 4, {'CLAN': set(), 'ALEA': set(), 'EMU': set(), 'AMI': set(), 'BAI': set(), 'AN': set()}, 0),
     (4, 4, {'HUIT': set(), 'JUDO': set(), 'DO': set(), 'ION': set(), 'CON': set(), 'ET': set()}, 0)
 ])
-def test_search(width, height, vocab, expected):
-    found_grids = get_full_grids(width, height, vocab)
+def test_search(height, width, vocab, expected):
+    found_grids = get_full_grids(height, width, {}, vocab)
     assert len(found_grids) == expected

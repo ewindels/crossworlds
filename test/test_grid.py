@@ -1,9 +1,9 @@
 import pytest
-from grid import Grid, WordGrid, WordPatternHorizontal, WordPatternVertical
+from crossworlds.grid import Grid, WordGrid, WordPatternHorizontal, WordPatternVertical
 
 
 def test_parse_str():
-    with open(f'output/5x5.grids', 'r') as fp:
+    with open('output/5x5.grids', 'r') as fp:
         for values_str in fp.read().splitlines():
             _ = Grid(5, 5, Grid.parse_str(values_str))
 

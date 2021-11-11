@@ -1,6 +1,10 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
+from typing import Optional
+from crossworlds.lookup import LookupDict
 
+
+DEF_TOKEN = '[def]'
 Coor = tuple[int, int]
 
 
@@ -253,6 +257,8 @@ class WordGrid(Grid):
         super().__init__(height, width, definitions)
         self.word_patterns = self._init_word_patterns()
         self.letters = {}
+        self.words_dict = {}
+        self.crossing_word_patterns = self._init_crossing_word_patterns()
 
     def _init_word_patterns(self) -> set[WordPattern]:
         word_patterns = set()
@@ -280,10 +286,39 @@ class WordGrid(Grid):
                 word_patterns.add(WordPatternHorizontal(row, 1, self.width - 1, self))
         return word_patterns
 
+    def _init_crossing_word_patterns(self) -> dict[Coor, CrossingWordPatterns]:
+        crossing_word_patterns = {}
+        for word_pattern in self.word_patterns:
+            for index in range(word_pattern.length):
+                coor = word_pattern.get_coor(index)
+                if coor not in crossing_word_patterns:
+                    crossing_word_patterns[coor] = CrossingWordPatterns()
+                crossing_word_patterns[coor].set_aligned(word_pattern)
+        return crossing_word_patterns
+
     def get_content(self,
                     row: int,
                     col: int) -> Optional[str]:
-        return self.letters[(row, col)]
+        return self.letters.get((row, col))
+
+    def set_content(self,
+                    row: int,
+                    col: int,
+                    content: str) -> None:
+        self.letters[(row, col)] = content
+
+    def remove_content(self,
+                       row: int,
+                       col: int) -> None:
+        self.letters.pop((row, col), None)
+
+    @staticmethod
+    def score_pattern(pattern: WordPattern) -> tuple[int, int, int]:
+        return len(pattern.letters_indices), -pattern.col, -pattern.row
+
+    @property
+    def best_word_pattern(self) -> WordPattern:
+        return max(self.word_patterns, key=self.score_pattern)
 
 
 class WordPattern(ABC):
@@ -296,11 +331,13 @@ class WordPattern(ABC):
         self.col = col
         self.length = length
         self.grid = grid
+        self.letters_indices = set()
+        self.linked_letters_indices = set()
 
     @abstractmethod
     def get_coor(self,
                  index: int,
-                 orthogonal_offset: int = 0) -> tuple[int, int]:
+                 orthogonal_offset: int = 0) -> Coor:
         pass
 
     def __eq__(self, other: WordPattern) -> bool:
@@ -312,6 +349,62 @@ class WordPattern(ABC):
     def get_content(self, index: int) -> Optional[str]:
         return self.grid.get_content(*self.get_coor(index))
 
+    def match_lookups(self,
+                      words_lookups_dict: LookupDict,
+                      vocab_length_dict: dict[int, set[str]]) -> set[str]:
+        matching_words = vocab_length_dict[self.length].copy()
+        for index in self.letters_indices:
+            letter = self.get_content(index)
+            if not (lookup := words_lookups_dict.get((index, letter))):
+                return {}
+            matching_words = matching_words.intersection(lookup.vocab)
+            if not matching_words:
+                return {}
+        return matching_words
+
+    def set_content(self,
+                    index: int,
+                    content: str) -> None:
+        row, col = self.get_coor(index)
+        self.grid.set_content(row, col, content)
+
+    def remove_content(self, index: int) -> None:
+        row, col = self.get_coor(index)
+        self.grid.remove_content(row, col)
+
+    def set_word(self, word: str) -> None:
+        self.grid.words_dict[self] = word
+        self.grid.word_patterns.discard(self)
+        for index, letter in enumerate(word):
+            if self.get_content(index) is None:
+                self.set_content(index, letter)
+                self.linked_letters_indices.add(index)
+                self.update_orthogonal_word_pattern_letters(index)
+
+    def remove_word(self) -> None:
+        self.grid.words_dict.pop(self)
+        self.grid.word_patterns.add(self)
+        for index in self.linked_letters_indices:
+            self.remove_content(index)
+            self.unset_orthogonal_word_pattern_letters(index)
+        self.linked_letters_indices = set()
+
+    def get_orthogonal_word_pattern(self, index: int) -> Optional[WordPattern]:
+        coor = self.get_coor(index)
+        return self.grid.crossing_word_patterns[coor].get_orthogonal(self)
+
+    def update_orthogonal_word_pattern_letters(self, index: int) -> None:
+        coor = self.get_coor(index)
+        if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
+            index = crossed_word_pattern.get_index(*coor)
+            crossed_word_pattern.letters_indices.add(index)
+
+    def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
+        coor = self.get_coor(index)
+        if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
+            index = crossed_word_pattern.get_index(*coor)
+            crossed_word_pattern.letters_indices.remove(index)
+
 
 class WordPatternHorizontal(WordPattern):
     def __repr__(self) -> str:
@@ -322,8 +415,13 @@ class WordPatternHorizontal(WordPattern):
 
     def get_coor(self,
                  index: int,
-                 orthogonal_offset: int = 0) -> tuple[int, int]:
+                 orthogonal_offset: int = 0) -> Coor:
         return self.row + orthogonal_offset, self.col + index
+
+    def get_index(self,
+                  _: int,
+                  col: int) -> int:
+        return col - self.col
 
 
 class WordPatternVertical(WordPattern):
@@ -335,5 +433,42 @@ class WordPatternVertical(WordPattern):
 
     def get_coor(self,
                  index: int,
-                 orthogonal_offset: int = 0) -> tuple[int, int]:
+                 orthogonal_offset: int = 0) -> Coor:
         return self.row + index, self.col + orthogonal_offset
+
+    def get_index(self,
+                  row: int,
+                  _: int) -> int:
+        return row - self.row
+
+
+class CrossingWordPatterns:
+    def __init__(self,
+                 horizontal: Optional[WordPatternHorizontal] = None,
+                 vertical: Optional[WordPatternVertical] = None) -> None:
+        self.horizontal = horizontal
+        self.vertical = vertical
+
+    def get_aligned(self, word_pattern: WordPattern) -> Optional[WordPattern]:
+        if isinstance(word_pattern, WordPatternHorizontal):
+            return self.horizontal
+        elif isinstance(word_pattern, WordPatternVertical):
+            return self.vertical
+
+    def set_aligned(self, word_pattern: WordPattern) -> None:
+        if isinstance(word_pattern, WordPatternHorizontal):
+            self.horizontal = word_pattern
+        elif isinstance(word_pattern, WordPatternVertical):
+            self.vertical = word_pattern
+
+    def get_orthogonal(self, word_pattern: WordPattern) -> Optional[WordPattern]:
+        if isinstance(word_pattern, WordPatternHorizontal):
+            return self.vertical
+        elif isinstance(word_pattern, WordPatternVertical):
+            return self.horizontal
+
+    def set_orthogonal(self, word_pattern: Optional[WordPattern]) -> None:
+        if isinstance(word_pattern, WordPatternHorizontal):
+            self.vertical = word_pattern
+        elif isinstance(word_pattern, WordPatternVertical):
+            self.horizontal = word_pattern
