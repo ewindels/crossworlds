@@ -405,7 +405,7 @@ class WordPattern(ABC):
         if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
             index = crossed_word_pattern.get_index(*coor)
             crossed_word_pattern.letters_indices[index] = letter
-            crossed_word_pattern.update_candidates(index)
+            crossed_word_pattern.update_candidates(index, letter)
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
         coor = self.get_coor(index)
@@ -414,13 +414,15 @@ class WordPattern(ABC):
             crossed_word_pattern.letters_indices.pop(index)
             crossed_word_pattern.update_candidates()
 
-    def update_candidates(self, index: Optional[int] = None) -> None:
+    def update_candidates(self,
+                          index: Optional[int] = None,
+                          letter: Optional[str] = None) -> None:
         if self.letters_indices:
             cache_key = (self.length, tuple(sorted(self.letters_indices.items())))
             if cache_key not in self.grid.candidates_cache:
                 if index is not None:
-                    if lookup := self.grid.words_lookups_dict.get((index, self.get_content(index))):
-                        self.grid.candidates_cache[cache_key] = self._candidates.intersection(lookup.vocab)
+                    if lookup := self.grid.words_lookups_dict.get((index, letter)):
+                        self.grid.candidates_cache[cache_key] = self._candidates.intersection(lookup)
                     else:
                         self.grid.candidates_cache[cache_key] = set()
             self._candidates = self.grid.candidates_cache[cache_key]

@@ -1,15 +1,15 @@
 16096 words in vocabulary
-         64599839 function calls (63979012 primitive calls) in 30.427 seconds
+         63925671 function calls (63310042 primitive calls) in 29.218 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-  2256086    2.787    0.000    4.082    0.000 grid.py:417(update_candidates)
-   620617    2.179    0.000   11.915    0.000 grid.py:380(set_word)
-  2965954    1.973    0.000    5.262    0.000 grid.py:397(get_orthogonal_word_pattern)
-  1482977    1.873    0.000    6.970    0.000 grid.py:410(unset_orthogonal_word_pattern_letters)
-  1482977    1.717    0.000    7.076    0.000 grid.py:401(update_orthogonal_word_pattern_letters)
- 620618/1    1.524    0.000   29.740   29.740 search.py:5(recursive_search)
-  2667254    1.467    0.000    1.467    0.000 grid.py:430(candidates)
-   620617    1.404    0.000   11.480    0.000 grid.py:389(remove_word)
-  1855826    1.240    0.000    2.675    0.000 grid.py:323(<lambda>)
+  2238844    2.630    0.000    3.860    0.000 grid.py:417(update_candidates)
+   615419    2.122    0.000   11.503    0.000 grid.py:380(set_word)
+  2940374    1.913    0.000    5.045    0.000 grid.py:397(get_orthogonal_word_pattern)
+  1470187    1.792    0.000    6.654    0.000 grid.py:410(unset_orthogonal_word_pattern_letters)
+  1470187    1.702    0.000    6.823    0.000 grid.py:401(update_orthogonal_word_pattern_letters)
+ 615420/1    1.455    0.000   28.555   28.555 search.py:5(recursive_search)
+  2648154    1.391    0.000    1.391    0.000 grid.py:432(candidates)
+   615419    1.328    0.000   10.965    0.000 grid.py:389(remove_word)
+  1842826    1.192    0.000    2.557    0.000 grid.py:323(<lambda>)

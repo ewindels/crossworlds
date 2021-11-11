@@ -5,14 +5,7 @@ from collections import defaultdict
 from unidecode import unidecode
 
 
-class WordsLookup:
-    def __init__(self, index: int, letter: str):
-        self.vocab = set()
-        self.index = index
-        self.letter = letter
-
-
-LookupDict = dict[tuple[int, str], WordsLookup]
+LookupDict = dict[tuple[int, str], set[str]]
 
 
 def init_vocab() -> dict[str, set[str]]:
@@ -32,8 +25,8 @@ def normalize(string: str) -> str:
 
 def update_lookups(words_lookups_dict: LookupDict, word: str) -> None:
     for index, letter in enumerate(normalize(word)):
-        words_lookup = words_lookups_dict.get((index, letter), WordsLookup(index, letter))
-        words_lookup.vocab.add(word)
+        words_lookup = words_lookups_dict.get((index, letter), set())
+        words_lookup.add(word)
         if (index, letter) not in words_lookups_dict:
             words_lookups_dict[(index, letter)] = words_lookup
 
