@@ -348,7 +348,7 @@ class WordPattern(ABC):
         self.col = col
         self.length = length
         self.grid = grid
-        self.letters_indices = set()
+        self.letters_indices = {}
         self.linked_letters_indices = set()
         self._candidates = grid.vocab_length_dict[length]
 
@@ -365,7 +365,7 @@ class WordPattern(ABC):
         return hash((self.row, self.col, self.length))
 
     def get_content(self, index: int) -> Optional[str]:
-        return self.grid.get_content(*self.get_coor(index))
+        return self.letters_indices[index]
 
     def set_content(self,
                     index: int,
@@ -381,10 +381,10 @@ class WordPattern(ABC):
         self.grid.words_dict[self] = word
         self.grid.word_patterns.discard(self)
         for index, letter in enumerate(word):
-            if self.get_content(index) is None:
+            if index not in self.letters_indices:
                 self.set_content(index, letter)
                 self.linked_letters_indices.add(index)
-                self.update_orthogonal_word_pattern_letters(index)
+                self.update_orthogonal_word_pattern_letters(index, letter)
 
     def remove_word(self) -> None:
         self.grid.words_dict.pop(self)
@@ -398,23 +398,25 @@ class WordPattern(ABC):
         coor = self.get_coor(index)
         return self.grid.crossing_word_patterns[coor].get_orthogonal(self)
 
-    def update_orthogonal_word_pattern_letters(self, index: int) -> None:
+    def update_orthogonal_word_pattern_letters(self,
+                                               index: int,
+                                               letter: str) -> None:
         coor = self.get_coor(index)
         if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
             index = crossed_word_pattern.get_index(*coor)
-            crossed_word_pattern.letters_indices.add(index)
+            crossed_word_pattern.letters_indices[index] = letter
             crossed_word_pattern.update_candidates(index)
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
         coor = self.get_coor(index)
         if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
             index = crossed_word_pattern.get_index(*coor)
-            crossed_word_pattern.letters_indices.remove(index)
+            crossed_word_pattern.letters_indices.pop(index)
             crossed_word_pattern.update_candidates()
 
     def update_candidates(self, index: Optional[int] = None) -> None:
         if self.letters_indices:
-            cache_key = (self.length, tuple((i, self.get_content(i)) for i in sorted(self.letters_indices)))
+            cache_key = (self.length, tuple((i, letter) for i, letter in sorted(self.letters_indices.items())))
             if cache_key not in self.grid.candidates_cache:
                 if index is not None:
                     if lookup := self.grid.words_lookups_dict.get((index, self.get_content(index))):
