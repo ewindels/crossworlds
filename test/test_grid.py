@@ -51,3 +51,14 @@ def test_switchable_values_2():
 ])
 def test_init_word_patterns(grid, expected_word_patterns):
     assert grid.word_patterns == expected_word_patterns
+
+
+def test_prettify():
+    grid = WordGrid(2, 2, {}, {})
+    grid.letters = {
+        (0, 1): 'A',
+        (1, 0): 'B',
+        (1, 1): 'B'
+    }
+    pretty_grid = grid.prettify()
+    assert pretty_grid == '┌───┬───┐\n│   │ A │\n├───┼───┤\n│ B │ B │\n└───┴───┘\n'

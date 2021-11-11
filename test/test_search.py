@@ -18,3 +18,10 @@ from crossworlds.search import get_full_grids
 def test_search(height, width, vocab, expected):
     found_grids = get_full_grids(height, width, {}, vocab)
     assert len(found_grids) == expected
+
+
+def test_prettify():
+    found_grids = get_full_grids(2, 2, {}, {'AB': set(), 'BB': set()})
+    pretty_grids = {pretty_grid for _, pretty_grid in found_grids}
+    assert pretty_grids ==  {'┌───┬───┐\n│   │ B │\n├───┼───┤\n│ A │ B │\n└───┴───┘\n',
+                             '┌───┬───┐\n│   │ A │\n├───┼───┤\n│ B │ B │\n└───┴───┘\n'}

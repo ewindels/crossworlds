@@ -416,7 +416,7 @@ class WordPattern(ABC):
 
     def update_candidates(self, index: Optional[int] = None) -> None:
         if self.letters_indices:
-            cache_key = (self.length, tuple((i, letter) for i, letter in sorted(self.letters_indices.items())))
+            cache_key = (self.length, tuple(sorted(self.letters_indices.items())))
             if cache_key not in self.grid.candidates_cache:
                 if index is not None:
                     if lookup := self.grid.words_lookups_dict.get((index, self.get_content(index))):
