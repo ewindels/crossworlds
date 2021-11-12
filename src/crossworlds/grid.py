@@ -264,6 +264,7 @@ class WordGrid(Grid):
         self.letters = {}
         self.words_dict = {}
         self.crossing_word_patterns = self._init_crossing_word_patterns()
+        self._init_orthogonal_word_patterns()
         self.candidates_cache = {}
         self.used_words = set()
         self.output_pretty = output_pretty
@@ -303,6 +304,15 @@ class WordGrid(Grid):
                     crossing_word_patterns[coor] = CrossingWordPatterns()
                 crossing_word_patterns[coor].set_aligned(word_pattern)
         return crossing_word_patterns
+
+    def _init_orthogonal_word_patterns(self) -> None:
+        for word_pattern in self.word_patterns:
+            for index in range(word_pattern.length):
+                coor = word_pattern.get_coor(index)
+                crossing_word_pattern = self.crossing_word_patterns[coor]
+                if orthogonal_pattern := crossing_word_pattern.get_orthogonal(word_pattern):
+                    crossed_index = orthogonal_pattern.get_index(*word_pattern.get_coor(index))
+                    word_pattern.orthogonal_word_patterns[index] = (orthogonal_pattern, crossed_index)
 
     def get_content(self,
                     row: int,
@@ -355,6 +365,7 @@ class WordPattern(ABC):
         self.letters_indices = {}
         self.linked_letters_indices = set()
         self._candidates = grid.vocab_length_dict[length]
+        self.orthogonal_word_patterns = {}
 
     @abstractmethod
     def get_coor(self,
@@ -399,22 +410,18 @@ class WordPattern(ABC):
             self.unset_orthogonal_word_pattern_letters(index)
         self.linked_letters_indices = set()
 
-    def get_orthogonal_word_pattern(self, index: int) -> Optional[WordPattern]:
-        coor = self.get_coor(index)
-        return self.grid.crossing_word_patterns[coor].get_orthogonal(self)
-
     def update_orthogonal_word_pattern_letters(self,
                                                index: int,
                                                letter: str) -> bool:
-        if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
-            crossed_index = crossed_word_pattern.get_index(*self.get_coor(index))
+        if crossed_word_pattern_tuple := self.orthogonal_word_patterns.get(index):
+            crossed_word_pattern, crossed_index = crossed_word_pattern_tuple
             crossed_word_pattern.letters_indices[crossed_index] = letter
             crossed_word_pattern.update_candidates(crossed_index, letter)
             return not crossed_word_pattern.candidates
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
-        if crossed_word_pattern := self.get_orthogonal_word_pattern(index):
-            crossed_index = crossed_word_pattern.get_index(*self.get_coor(index))
+        if crossed_word_pattern_tuple := self.orthogonal_word_patterns.get(index):
+            crossed_word_pattern, crossed_index = crossed_word_pattern_tuple
             crossed_word_pattern.letters_indices.pop(crossed_index)
             crossed_word_pattern.update_candidates()
 
@@ -487,12 +494,6 @@ class CrossingWordPatterns:
         self.horizontal = horizontal
         self.vertical = vertical
 
-    def get_aligned(self, word_pattern: WordPattern) -> Optional[WordPattern]:
-        if isinstance(word_pattern, WordPatternHorizontal):
-            return self.horizontal
-        elif isinstance(word_pattern, WordPatternVertical):
-            return self.vertical
-
     def set_aligned(self, word_pattern: WordPattern) -> None:
         if isinstance(word_pattern, WordPatternHorizontal):
             self.horizontal = word_pattern
@@ -500,13 +501,4 @@ class CrossingWordPatterns:
             self.vertical = word_pattern
 
     def get_orthogonal(self, word_pattern: WordPattern) -> Optional[WordPattern]:
-        if isinstance(word_pattern, WordPatternHorizontal):
-            return self.vertical
-        elif isinstance(word_pattern, WordPatternVertical):
-            return self.horizontal
-
-    def set_orthogonal(self, word_pattern: Optional[WordPattern]) -> None:
-        if isinstance(word_pattern, WordPatternHorizontal):
-            self.vertical = word_pattern
-        elif isinstance(word_pattern, WordPatternVertical):
-            self.horizontal = word_pattern
+        return self.vertical if isinstance(word_pattern, WordPatternHorizontal) else self.horizontal
