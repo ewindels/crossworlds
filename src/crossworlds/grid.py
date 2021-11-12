@@ -341,6 +341,8 @@ class WordGrid(Grid):
 
 
 class WordPattern(ABC):
+    direction = None
+
     def __init__(self,
                  row: int,
                  col: int,
@@ -380,7 +382,7 @@ class WordPattern(ABC):
         self.grid.remove_content(row, col)
 
     def set_word(self, word: str) -> None:
-        self.grid.words_dict[self] = word
+        self.grid.words_dict[(self.row, self.col, self.direction)] = word
         self.grid.word_patterns.discard(self)
         for index, letter in enumerate(word):
             if index not in self.letters_indices:
@@ -392,7 +394,6 @@ class WordPattern(ABC):
                     break
 
     def remove_word(self) -> None:
-        self.grid.words_dict.pop(self)
         self.grid.word_patterns.add(self)
         for index in self.linked_letters_indices:
             self.unset_orthogonal_word_pattern_letters(index)
@@ -438,6 +439,8 @@ class WordPattern(ABC):
 
 
 class WordPatternHorizontal(WordPattern):
+    direction = 'H'
+
     def __repr__(self) -> str:
         return f'WordPatternH({self.row}, {self.col} | {self.length})'
 
@@ -454,8 +457,12 @@ class WordPatternHorizontal(WordPattern):
                   col: int) -> int:
         return col - self.col
 
+    
+
 
 class WordPatternVertical(WordPattern):
+    direction = 'V'
+
     def __repr__(self) -> str:
         return f'WordPatternV({self.row}, {self.col} | {self.length})'
 
