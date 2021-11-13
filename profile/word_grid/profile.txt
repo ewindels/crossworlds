@@ -1,20 +1,20 @@
 16096 words in vocabulary
-         18210667 function calls (17771066 primitive calls) in 9.222 seconds
+         18237377 function calls (17797377 primitive calls) in 9.579 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-  1820704    1.845    0.000    2.721    0.000 grid.py:425(update_candidates)
-  1870669    0.901    0.000    0.901    0.000 grid.py:440(candidates)
-   615825    0.820    0.000    3.798    0.000 grid.py:393(set_word)
-   910352    0.783    0.000    2.661    0.000 grid.py:412(update_orthogonal_word_pattern_letters)
-464170/24779    0.769    0.000    8.681    0.000 search.py:6(recursive_search)
-  1803996    0.642    0.000    0.642    0.000 {built-in method builtins.sorted}
-   910352    0.550    0.000    1.873    0.000 grid.py:420(unset_orthogonal_word_pattern_letters)
-   615825    0.498    0.000    2.446    0.000 grid.py:406(unset_word)
-   743927    0.480    0.000    1.004    0.000 grid.py:333(<lambda>)
-   216480    0.260    0.000    1.264    0.000 {built-in method builtins.min}
-  1562861    0.225    0.000    0.346    0.000 {method 'add' of 'set' objects}
-      164    0.201    0.001    0.201    0.001 decoder.py:343(raw_decode)
-  1804003    0.199    0.000    0.199    0.000 {method 'items' of 'dict' objects}
-   482342    0.180    0.000    0.243    0.000 grid.py:377(__hash__)
+  1823430    1.877    0.000    2.772    0.000 grid.py:425(update_candidates)
+  1873817    0.992    0.000    0.992    0.000 grid.py:439(candidates)
+   616728    0.859    0.000    3.946    0.000 grid.py:393(set_word)
+   911715    0.802    0.000    2.749    0.000 grid.py:412(update_orthogonal_word_pattern_letters)
+464569/24779    0.788    0.000    8.991    0.000 search.py:6(recursive_search)
+  1806716    0.666    0.000    0.666    0.000 {built-in method builtins.sorted}
+   911715    0.552    0.000    1.894    0.000 grid.py:420(unset_orthogonal_word_pattern_letters)
+   616728    0.511    0.000    2.482    0.000 grid.py:406(unset_word)
+   745313    0.487    0.000    1.070    0.000 grid.py:333(<lambda>)
+   216879    0.274    0.000    1.344    0.000 {built-in method builtins.min}
+  1565022    0.242    0.000    0.367    0.000 {method 'add' of 'set' objects}
+      164    0.220    0.001    0.220    0.001 decoder.py:343(raw_decode)
+  1806723    0.189    0.000    0.189    0.000 {method 'items' of 'dict' objects}
+   483140    0.183    0.000    0.252    0.000 grid.py:377(__hash__)
