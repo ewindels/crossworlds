@@ -372,7 +372,6 @@ class WordPattern(ABC):
         self.grid = grid
         self.letters_indices = [None for _ in range(length)]
         self.linked_letters_indices = set()
-        self._candidates = grid.vocab_length_dict[length]
         self.orthogonal_word_patterns = {}
         self.cache_key = length
 
@@ -430,34 +429,31 @@ class WordPattern(ABC):
                                                letter: str) -> bool:
         crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
         crossed_word_pattern.letters_indices[crossed_index] = letter
+        old_cache_key = crossed_word_pattern.cache_key
         crossed_word_pattern.cache_key += ALPHABET_MAP[letter] * (27 ** crossed_index) * 100
-        has_values = crossed_word_pattern.update_candidates_add(crossed_index, letter)
+        has_values = crossed_word_pattern.update_candidates_add(crossed_index, letter, old_cache_key)
         return has_values and bool(crossed_word_pattern.candidates)
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
         crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
         crossed_word_pattern.cache_key -= ALPHABET_MAP[crossed_word_pattern.letters_indices[crossed_index]] * (27 ** crossed_index) * 100
         crossed_word_pattern.letters_indices[crossed_index] = None
-        crossed_word_pattern.update_candidates_remove()
 
     def update_candidates_add(self,
-                              index:    Optional[int],
-                              letter:   Optional[str]) -> bool:
+                              index:            int,
+                              letter:           str,
+                              old_cache_key:    int) -> bool:
         if self.cache_key not in self.grid.candidates_cache:
             if lookup := self.grid.words_lookups_dict.get((index, letter)): # type: ignore
-                self.grid.candidates_cache[self.cache_key] = self._candidates.intersection(lookup)
+                self.grid.candidates_cache[self.cache_key] = self.grid.candidates_cache[old_cache_key].intersection(lookup)
             else:
                 self.grid.candidates_cache[self.cache_key] = set()
                 return False
-        self._candidates = self.grid.candidates_cache[self.cache_key]
         return True
-
-    def update_candidates_remove(self) -> None:
-        self._candidates = self.grid.candidates_cache[self.cache_key]
 
     @property
     def candidates(self) -> set[str]:
-        return self._candidates - self.grid.used_words
+        return self.grid.candidates_cache[self.cache_key] - self.grid.used_words
 
 
 class WordPatternHorizontal(WordPattern):
