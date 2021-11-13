@@ -460,8 +460,6 @@ class WordPatternHorizontal(WordPattern):
                   col: int) -> int:
         return col - self.col
 
-    
-
 
 class WordPatternVertical(WordPattern):
     direction = 'V'
