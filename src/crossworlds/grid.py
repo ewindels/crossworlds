@@ -431,19 +431,19 @@ class WordPattern(ABC):
         crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
         crossed_word_pattern.letters_indices[crossed_index] = letter
         crossed_word_pattern.cache_key += ALPHABET_MAP[letter] * (27 ** crossed_index) * 100
-        no_values = crossed_word_pattern.update_candidates(crossed_index, letter)
-        return no_values and bool(crossed_word_pattern.candidates)
+        has_values = crossed_word_pattern.update_candidates_add(crossed_index, letter)
+        return has_values and bool(crossed_word_pattern.candidates)
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
         crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
         crossed_word_pattern.cache_key -= ALPHABET_MAP[crossed_word_pattern.letters_indices[crossed_index]] * (27 ** crossed_index) * 100
         crossed_word_pattern.letters_indices[crossed_index] = None
-        crossed_word_pattern.update_candidates()
+        crossed_word_pattern.update_candidates_remove()
 
-    def update_candidates(self,
-                          index:    Optional[int] = None,
-                          letter:   Optional[str] = None) -> bool:
-        if index is not None and self.cache_key not in self.grid.candidates_cache:
+    def update_candidates_add(self,
+                              index:    Optional[int],
+                              letter:   Optional[str]) -> bool:
+        if self.cache_key not in self.grid.candidates_cache:
             if lookup := self.grid.words_lookups_dict.get((index, letter)): # type: ignore
                 self.grid.candidates_cache[self.cache_key] = self._candidates.intersection(lookup)
             else:
@@ -451,6 +451,9 @@ class WordPattern(ABC):
                 return False
         self._candidates = self.grid.candidates_cache[self.cache_key]
         return True
+
+    def update_candidates_remove(self) -> None:
+        self._candidates = self.grid.candidates_cache[self.cache_key]
 
     @property
     def candidates(self) -> set[str]:
