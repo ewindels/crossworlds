@@ -399,10 +399,11 @@ class WordPattern(ABC):
             if index not in self.letters_indices:
                 if self.grid.output_pretty:
                     self.set_content(index, letter)
-                self.linked_letters_indices.add(index)
-                early_break = self.update_orthogonal_word_pattern_letters(index, letter)
-                if early_break:
-                    break
+                if not (index == 0 and (self.row == 0 or self.col == 0)):
+                    self.linked_letters_indices.add(index)
+                    early_break = self.update_orthogonal_word_pattern_letters(index, letter)
+                    if early_break:
+                        break
 
     def remove_word(self) -> None:
         self.grid.word_patterns.add(self)

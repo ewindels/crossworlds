@@ -3,7 +3,7 @@ from crossworlds.grid import Grid, WordGrid, WordPatternHorizontal, WordPatternV
 
 
 def test_parse_str():
-    with open('output/grids/5x5.grids', 'r') as fp:
+    with open('output/grids/5x5.grids', 'r', encoding='utf-8') as fp:
         for values_str in fp.read().splitlines():
             _ = Grid(5, 5, Grid.parse_str(values_str))
 
@@ -21,7 +21,7 @@ def test_switchable_values_2():
     height = 5
     width = 8
     expansion = 'horizontal'
-    with open(f'output/grids/{height}x{width}.grids', 'r') as fp:
+    with open(f'output/grids/{height}x{width}.grids', 'r', encoding='utf-8') as fp:
         for values_str in fp.read().splitlines():
             grid = Grid(height, width, Grid.parse_str(values_str))
             valid_grids = grid.find_valid_grids_expansion(expansion)
