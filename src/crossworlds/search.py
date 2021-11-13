@@ -1,9 +1,8 @@
 from copy import copy
-from typing import Union
 from crossworlds.grid import WordGrid
 
 
-def recursive_search(grid: WordGrid) -> None:
+def recursive_search(grid: WordGrid) -> dict:
     if grid.word_patterns:
         word_pattern = grid.best_word_pattern
         for word in word_pattern.candidates:
@@ -19,6 +18,6 @@ def recursive_search(grid: WordGrid) -> None:
 def get_full_grids(height: int,
                    width: int,
                    definitions: set,
-                   vocab: dict[str, set[str]]) -> Union[list[dict], list[str]]:
+                   vocab: dict[str, set[str]]) -> dict:
     grid = WordGrid(height, width, definitions, vocab)
     return recursive_search(grid)

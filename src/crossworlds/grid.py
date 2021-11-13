@@ -272,7 +272,7 @@ class WordGrid(Grid):
     def _init_word_patterns(self) -> set[WordPattern]:
         word_patterns = set()
         for row, col in self.definitions:
-            length = None
+            length = 0
             for length in range(self.height):
                 if (row + length + 1, col) in self.definitions or row + length + 1 == self.height:
                     break
@@ -295,10 +295,10 @@ class WordGrid(Grid):
                 word_patterns.add(WordPatternHorizontal(row, 1, self.width - 1, self))
         return word_patterns
 
-    def _init_candidates_cache(self) -> dict[tuple[int, int], set[str]]:
+    def _init_candidates_cache(self) -> dict[int, set[str]]:
         cache = {}
         for word_pattern in self.word_patterns:
-            cache_key = (word_pattern.length, 0)
+            cache_key = word_pattern.length
             if cache_key not in cache:
                 cache[cache_key] = self.vocab_length_dict[word_pattern.length]
         return cache
@@ -374,7 +374,7 @@ class WordPattern(ABC):
         self.linked_letters_indices = set()
         self._candidates = grid.vocab_length_dict[length]
         self.orthogonal_word_patterns = {}
-        self.letters_indices_hash = 0
+        self.cache_key = length
 
     @abstractmethod
     def get_coor(self,
@@ -382,10 +382,16 @@ class WordPattern(ABC):
                  orthogonal_offset: int = 0) -> Coor:
         pass
 
+    @abstractmethod
+    def get_index(self,
+                  row: int,
+                  col: int) -> int:
+        pass
+
     def __eq__(self, other: WordPattern) -> bool:
         return self.row == other.row and self.col == other.col and self.length == other.length
 
-    def __hash__(self) -> str:
+    def __hash__(self) -> int:
         return hash((self.row, self.col, self.length))
 
     def get_content(self, index: int) -> Optional[str]:
@@ -401,7 +407,7 @@ class WordPattern(ABC):
         row, col = self.get_coor(index)
         self.grid.remove_content(row, col)
 
-    def set_word(self, word: str) -> None:
+    def set_word(self, word: str) -> bool:
         for index in self.orthogonal_word_patterns:
             if index not in self.letters_indices:
                 self.linked_letters_indices.add(index)
@@ -425,27 +431,26 @@ class WordPattern(ABC):
                                                letter: str) -> bool:
         crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
         crossed_word_pattern.letters_indices[crossed_index] = letter
-        crossed_word_pattern.letters_indices_hash += ALPHABET_MAP[letter] * (27 ** crossed_index)
+        crossed_word_pattern.cache_key += ALPHABET_MAP[letter] * (27 ** crossed_index) * 100
         no_values = crossed_word_pattern.update_candidates(crossed_index, letter)
         return no_values and bool(crossed_word_pattern.candidates)
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
         crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
         letter = crossed_word_pattern.letters_indices.pop(crossed_index)
-        crossed_word_pattern.letters_indices_hash -= ALPHABET_MAP[letter] * (27 ** crossed_index)
+        crossed_word_pattern.cache_key -= ALPHABET_MAP[letter] * (27 ** crossed_index) * 100
         crossed_word_pattern.update_candidates()
 
     def update_candidates(self,
                           index:    Optional[int] = None,
                           letter:   Optional[str] = None) -> bool:
-        cache_key = (self.length, self.letters_indices_hash)
-        if index is not None and cache_key not in self.grid.candidates_cache:
+        if index is not None and self.cache_key not in self.grid.candidates_cache:
             if lookup := self.grid.words_lookups_dict.get((index, letter)):
-                self.grid.candidates_cache[cache_key] = self._candidates.intersection(lookup)
+                self.grid.candidates_cache[self.cache_key] = self._candidates.intersection(lookup)
             else:
-                self.grid.candidates_cache[cache_key] = set()
+                self.grid.candidates_cache[self.cache_key] = set()
                 return False
-        self._candidates = self.grid.candidates_cache[cache_key]
+        self._candidates = self.grid.candidates_cache[self.cache_key]
         return True
 
     @property
