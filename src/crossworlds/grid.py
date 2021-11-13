@@ -254,8 +254,7 @@ class WordGrid(Grid):
                  height: int,
                  width: int,
                  definitions: set[Coor],
-                 vocab: dict[str, set[str]],
-                 output_pretty: bool = False) -> None:
+                 vocab: dict[str, set[str]]) -> None:
         super().__init__(height, width, definitions)
         words_lookups_dict, vocab_length_dict = build_lookups(vocab)
         self.words_lookups_dict = words_lookups_dict
@@ -267,7 +266,6 @@ class WordGrid(Grid):
         self._init_orthogonal_word_patterns()
         self.candidates_cache = {}
         self.used_words = set()
-        self.output_pretty = output_pretty
 
     def _init_word_patterns(self) -> set[WordPattern]:
         word_patterns = set()
@@ -393,15 +391,11 @@ class WordPattern(ABC):
         self.grid.remove_content(row, col)
 
     def set_word(self, word: str) -> None:
-        for index, letter in enumerate(word):
+        for index in self.orthogonal_word_patterns:
             if index not in self.letters_indices:
-                if self.grid.output_pretty:
-                    self.set_content(index, letter)
-                if index in self.orthogonal_word_patterns:
-                    self.linked_letters_indices.add(index)
-                    early_break = self.update_orthogonal_word_pattern_letters(index, letter)
-                    if early_break:
-                        break
+                self.linked_letters_indices.add(index)
+                if self.update_orthogonal_word_pattern_letters(index, word[index]):
+                    break
         else:
             self.grid.word_patterns.discard(self)
             self.grid.words_dict[(self.row, self.col, self.direction)] = word

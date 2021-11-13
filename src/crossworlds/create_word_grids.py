@@ -8,8 +8,7 @@ def main():
     width = 4
     definitions = {}
     vocab = init_vocab()
-    output_pretty = True
-    found_grids = sorted(get_full_grids(height, width, definitions, vocab, output_pretty))
+    found_grids = sorted(get_full_grids(height, width, definitions, vocab))
     print(f'Found {len(found_grids)} grids')
     found_grids_str = ''.join(found_grids)
     with open(f'output/word_grids/{height}x{width}.wordgrids', 'w', encoding='utf-8') as fp:

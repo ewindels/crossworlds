@@ -1,20 +1,20 @@
 16096 words in vocabulary
-         25585068 function calls (24764884 primitive calls) in 12.800 seconds
+         25581145 function calls (24760982 primitive calls) in 12.501 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-  1833302    1.890    0.000    2.784    0.000 grid.py:429(update_candidates)
-  3751936    1.717    0.000    1.717    0.000 grid.py:444(candidates)
-844753/24779    1.341    0.000   12.242    0.000 search.py:6(recursive_search)
-  2238312    1.265    0.000    2.653    0.000 grid.py:335(<lambda>)
-   621750    1.018    0.000    3.954    0.000 grid.py:395(set_word)
-   916651    0.749    0.000    2.655    0.000 grid.py:416(update_orthogonal_word_pattern_letters)
-   597063    0.697    0.000    3.350    0.000 {built-in method builtins.min}
-  1816624    0.652    0.000    0.652    0.000 {built-in method builtins.sorted}
-   621750    0.645    0.000    3.073    0.000 grid.py:409(remove_word)
-   916651    0.567    0.000    1.928    0.000 grid.py:424(unset_orthogonal_word_pattern_letters)
-  2330326    0.375    0.000    0.680    0.000 {method 'add' of 'set' objects}
-   863096    0.307    0.000    0.423    0.000 grid.py:379(__hash__)
-   596973    0.217    0.000    3.566    0.000 grid.py:333(best_word_pattern)
-      164    0.208    0.001    0.208    0.001 decoder.py:343(raw_decode)
+  1832660    1.880    0.000    2.764    0.000 grid.py:423(update_candidates)
+  3751665    1.748    0.000    1.748    0.000 grid.py:438(candidates)
+844732/24779    1.349    0.000   11.966    0.000 search.py:6(recursive_search)
+  2238383    1.258    0.000    2.659    0.000 grid.py:333(<lambda>)
+   621729    0.765    0.000    3.682    0.000 grid.py:393(set_word)
+   916330    0.739    0.000    2.639    0.000 grid.py:410(update_orthogonal_word_pattern_letters)
+   597042    0.684    0.000    3.344    0.000 {built-in method builtins.min}
+  1815976    0.668    0.000    0.668    0.000 {built-in method builtins.sorted}
+   621729    0.649    0.000    3.063    0.000 grid.py:403(remove_word)
+   916330    0.559    0.000    1.919    0.000 grid.py:418(unset_orthogonal_word_pattern_letters)
+  2329963    0.373    0.000    0.672    0.000 {method 'add' of 'set' objects}
+   862954    0.306    0.000    0.416    0.000 grid.py:377(__hash__)
+   596952    0.216    0.000    3.560    0.000 grid.py:331(best_word_pattern)
+      164    0.197    0.001    0.197    0.001 decoder.py:343(raw_decode)
