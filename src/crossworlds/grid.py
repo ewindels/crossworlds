@@ -415,7 +415,6 @@ class WordPattern(ABC):
                     break
         else:
             self.grid.used_words.add(word)
-            self.grid.word_patterns.discard(self)
             self.grid.words_dict[(self.row, self.col, self.direction)] = word
             return True
         return False
