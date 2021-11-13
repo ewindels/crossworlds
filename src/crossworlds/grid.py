@@ -417,7 +417,7 @@ class WordPattern(ABC):
         old_cache_key = crossed_word_pattern.cache_key
         crossed_word_pattern.cache_key += ALPHABET_MAP[letter] * cross_factor
         has_values = crossed_word_pattern.update_candidates_add(crossed_index, letter, old_cache_key)
-        if has_values and bool(crossed_word_pattern.candidates):
+        if has_values and crossed_word_pattern.candidates:
             crossed_word_pattern.letters_indices[crossed_index] = letter
             return True
         crossed_word_pattern.cache_key = old_cache_key
