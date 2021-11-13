@@ -1,10 +1,12 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import Optional
+from string import ascii_uppercase
 from crossworlds.lookup import build_lookups
 
 
 DEF_TOKEN = '[def]'
+ALPHABET_MAP = {letter: index for index, letter in enumerate(ascii_uppercase, 1)}
 Coor = tuple[int, int]
 
 
@@ -264,7 +266,7 @@ class WordGrid(Grid):
         self.words_dict = {}
         self.crossing_word_patterns = self._init_crossing_word_patterns()
         self._init_orthogonal_word_patterns()
-        self.candidates_cache = {}
+        self.candidates_cache = self._init_candidates_cache()
         self.used_words = set()
 
     def _init_word_patterns(self) -> set[WordPattern]:
@@ -292,6 +294,14 @@ class WordGrid(Grid):
             elif (row, 1) not in self.definitions:
                 word_patterns.add(WordPatternHorizontal(row, 1, self.width - 1, self))
         return word_patterns
+
+    def _init_candidates_cache(self) -> dict[tuple[int, int], set[str]]:
+        cache = {}
+        for word_pattern in self.word_patterns:
+            cache_key = (word_pattern.length, 0)
+            if cache_key not in cache:
+                cache[cache_key] = self.vocab_length_dict[word_pattern.length]
+        return cache
 
     def _init_crossing_word_patterns(self) -> dict[Coor, CrossingWordPatterns]:
         crossing_word_patterns = {}
@@ -364,6 +374,7 @@ class WordPattern(ABC):
         self.linked_letters_indices = set()
         self._candidates = grid.vocab_length_dict[length]
         self.orthogonal_word_patterns = {}
+        self.letters_indices_hash = 0
 
     @abstractmethod
     def get_coor(self,
@@ -414,30 +425,28 @@ class WordPattern(ABC):
                                                letter: str) -> bool:
         crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
         crossed_word_pattern.letters_indices[crossed_index] = letter
+        crossed_word_pattern.letters_indices_hash += ALPHABET_MAP[letter] * (27 ** crossed_index)
         no_values = crossed_word_pattern.update_candidates(crossed_index, letter)
         return no_values and bool(crossed_word_pattern.candidates)
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
         crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
-        crossed_word_pattern.letters_indices.pop(crossed_index)
+        letter = crossed_word_pattern.letters_indices.pop(crossed_index)
+        crossed_word_pattern.letters_indices_hash -= ALPHABET_MAP[letter] * (27 ** crossed_index)
         crossed_word_pattern.update_candidates()
 
     def update_candidates(self,
                           index:    Optional[int] = None,
                           letter:   Optional[str] = None) -> bool:
-        if self.letters_indices:
-            cache_key = (self.length, tuple(sorted(self.letters_indices.items())))
-            if index is not None and cache_key not in self.grid.candidates_cache:
-                if lookup := self.grid.words_lookups_dict.get((index, letter)):
-                    self.grid.candidates_cache[cache_key] = self._candidates.intersection(lookup)
-                else:
-                    self.grid.candidates_cache[cache_key] = set()
-                    return False
-            self._candidates = self.grid.candidates_cache[cache_key]
-            return True
-        else:
-            self._candidates = self.grid.vocab_length_dict[self.length]
-            return True
+        cache_key = (self.length, self.letters_indices_hash)
+        if index is not None and cache_key not in self.grid.candidates_cache:
+            if lookup := self.grid.words_lookups_dict.get((index, letter)):
+                self.grid.candidates_cache[cache_key] = self._candidates.intersection(lookup)
+            else:
+                self.grid.candidates_cache[cache_key] = set()
+                return False
+        self._candidates = self.grid.candidates_cache[cache_key]
+        return True
 
     @property
     def candidates(self) -> set[str]:
