@@ -414,8 +414,8 @@ class WordPattern(ABC):
                                                letter: str) -> bool:
         crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
         crossed_word_pattern.letters_indices[crossed_index] = letter
-        crossed_word_pattern.update_candidates(crossed_index, letter)
-        return bool(crossed_word_pattern.candidates)
+        no_values = crossed_word_pattern.update_candidates(crossed_index, letter)
+        return no_values and bool(crossed_word_pattern.candidates)
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
         crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
@@ -424,7 +424,7 @@ class WordPattern(ABC):
 
     def update_candidates(self,
                           index:    Optional[int] = None,
-                          letter:   Optional[str] = None) -> None:
+                          letter:   Optional[str] = None) -> bool:
         if self.letters_indices:
             cache_key = (self.length, tuple(sorted(self.letters_indices.items())))
             if index is not None and cache_key not in self.grid.candidates_cache:
@@ -432,9 +432,12 @@ class WordPattern(ABC):
                     self.grid.candidates_cache[cache_key] = self._candidates.intersection(lookup)
                 else:
                     self.grid.candidates_cache[cache_key] = set()
+                    return False
             self._candidates = self.grid.candidates_cache[cache_key]
+            return True
         else:
             self._candidates = self.grid.vocab_length_dict[self.length]
+            return True
 
     @property
     def candidates(self) -> set[str]:
