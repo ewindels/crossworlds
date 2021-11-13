@@ -393,17 +393,18 @@ class WordPattern(ABC):
         self.grid.remove_content(row, col)
 
     def set_word(self, word: str) -> None:
-        self.grid.words_dict[(self.row, self.col, self.direction)] = word
-        self.grid.word_patterns.discard(self)
         for index, letter in enumerate(word):
             if index not in self.letters_indices:
                 if self.grid.output_pretty:
                     self.set_content(index, letter)
-                if not (index == 0 and (self.row == 0 or self.col == 0)):
+                if index in self.orthogonal_word_patterns:
                     self.linked_letters_indices.add(index)
                     early_break = self.update_orthogonal_word_pattern_letters(index, letter)
                     if early_break:
                         break
+        else:
+            self.grid.word_patterns.discard(self)
+            self.grid.words_dict[(self.row, self.col, self.direction)] = word
 
     def remove_word(self) -> None:
         self.grid.word_patterns.add(self)
@@ -414,11 +415,11 @@ class WordPattern(ABC):
     def update_orthogonal_word_pattern_letters(self,
                                                index: int,
                                                letter: str) -> bool:
-        if crossed_word_pattern_tuple := self.orthogonal_word_patterns.get(index):
-            crossed_word_pattern, crossed_index = crossed_word_pattern_tuple
-            crossed_word_pattern.letters_indices[crossed_index] = letter
-            crossed_word_pattern.update_candidates(crossed_index, letter)
-            return not crossed_word_pattern.candidates
+        crossed_word_pattern_tuple = self.orthogonal_word_patterns[index]
+        crossed_word_pattern, crossed_index = crossed_word_pattern_tuple
+        crossed_word_pattern.letters_indices[crossed_index] = letter
+        crossed_word_pattern.update_candidates(crossed_index, letter)
+        return not crossed_word_pattern.candidates
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
         if crossed_word_pattern_tuple := self.orthogonal_word_patterns.get(index):
