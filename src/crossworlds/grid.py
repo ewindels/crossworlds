@@ -394,18 +394,20 @@ class WordPattern(ABC):
         for index in self.orthogonal_word_patterns:
             if index not in self.letters_indices:
                 self.linked_letters_indices.add(index)
-                if self.update_orthogonal_word_pattern_letters(index, word[index]):
+                if not self.update_orthogonal_word_pattern_letters(index, word[index]):
                     break
         else:
+            self.grid.used_words.add(word)
             self.grid.word_patterns.discard(self)
             self.grid.words_dict[(self.row, self.col, self.direction)] = word
+            return True
+        return False
 
-    def remove_word(self) -> None:
-        self.grid.word_patterns.add(self)
+    def unset_word(self) -> None:
         for index in self.linked_letters_indices:
             if index in self.orthogonal_word_patterns:
                 self.unset_orthogonal_word_pattern_letters(index)
-        self.linked_letters_indices = set()
+        self.linked_letters_indices.clear()
 
     def update_orthogonal_word_pattern_letters(self,
                                                index: int,
@@ -413,7 +415,7 @@ class WordPattern(ABC):
         crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
         crossed_word_pattern.letters_indices[crossed_index] = letter
         crossed_word_pattern.update_candidates(crossed_index, letter)
-        return not crossed_word_pattern.candidates
+        return bool(crossed_word_pattern.candidates)
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
         crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]

@@ -7,11 +7,11 @@ def recursive_search(grid: WordGrid) -> None:
     if grid.word_patterns:
         word_pattern = grid.best_word_pattern
         for word in word_pattern.candidates:
-            grid.used_words.add(word)
-            word_pattern.set_word(word)
-            yield from recursive_search(grid)
-            word_pattern.remove_word()
-            grid.used_words.remove(word)
+            if word_pattern.set_word(word):
+                yield from recursive_search(grid)
+                grid.word_patterns.add(word_pattern)
+                grid.used_words.remove(word)
+            word_pattern.unset_word()
     else:
         yield copy(grid.words_dict)
 
