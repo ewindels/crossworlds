@@ -320,7 +320,8 @@ class WordGrid(Grid):
                 crossing_word_pattern = self.crossing_word_patterns[coor]
                 if orthogonal_pattern := crossing_word_pattern.get_orthogonal(word_pattern):
                     crossed_index = orthogonal_pattern.get_index(*word_pattern.get_coor(index))
-                    word_pattern.orthogonal_word_patterns[index] = (orthogonal_pattern, crossed_index)
+                    cache_factor = (27 ** crossed_index) * 100
+                    word_pattern.orthogonal_word_patterns[index] = (orthogonal_pattern, crossed_index, cache_factor)
 
     def get_content(self,
                     row: int,
@@ -393,19 +394,6 @@ class WordPattern(ABC):
     def __hash__(self) -> int:
         return hash((self.row, self.col, self.length))
 
-    def get_content(self, index: int) -> Optional[str]:
-        return self.letters_indices[index]
-
-    def set_content(self,
-                    index: int,
-                    content: str) -> None:
-        row, col = self.get_coor(index)
-        self.grid.set_content(row, col, content)
-
-    def remove_content(self, index: int) -> None:
-        row, col = self.get_coor(index)
-        self.grid.remove_content(row, col)
-
     def set_word(self, word: str) -> bool:
         for index in self.orthogonal_word_patterns:
             if self.letters_indices[index] is None:
@@ -425,9 +413,9 @@ class WordPattern(ABC):
     def update_orthogonal_word_pattern_letters(self,
                                                index: int,
                                                letter: str) -> bool:
-        crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
+        crossed_word_pattern, crossed_index, cross_factor = self.orthogonal_word_patterns[index]
         old_cache_key = crossed_word_pattern.cache_key
-        crossed_word_pattern.cache_key += ALPHABET_MAP[letter] * (27 ** crossed_index) * 100
+        crossed_word_pattern.cache_key += ALPHABET_MAP[letter] * cross_factor
         has_values = crossed_word_pattern.update_candidates_add(crossed_index, letter, old_cache_key)
         if has_values and bool(crossed_word_pattern.candidates):
             crossed_word_pattern.letters_indices[crossed_index] = letter
@@ -436,8 +424,8 @@ class WordPattern(ABC):
         return False
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
-        crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
-        crossed_word_pattern.cache_key -= ALPHABET_MAP[crossed_word_pattern.letters_indices[crossed_index]] * (27 ** crossed_index) * 100
+        crossed_word_pattern, crossed_index, cross_factor = self.orthogonal_word_patterns[index]
+        crossed_word_pattern.cache_key -= ALPHABET_MAP[crossed_word_pattern.letters_indices[crossed_index]] * cross_factor
         crossed_word_pattern.letters_indices[crossed_index] = None
 
     def update_candidates_add(self,
