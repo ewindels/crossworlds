@@ -427,7 +427,7 @@ class WordPattern(ABC):
                           letter:   Optional[str] = None) -> None:
         if self.letters_indices:
             cache_key = (self.length, tuple(sorted(self.letters_indices.items())))
-            if cache_key not in self.grid.candidates_cache:
+            if index is not None and cache_key not in self.grid.candidates_cache:
                 if lookup := self.grid.words_lookups_dict.get((index, letter)):
                     self.grid.candidates_cache[cache_key] = self._candidates.intersection(lookup)
                 else:
