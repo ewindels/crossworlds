@@ -1,15 +1,20 @@
 16096 words in vocabulary
-         27180968 function calls (26367024 primitive calls) in 13.509 seconds
+         27191047 function calls (26376972 primitive calls) in 13.950 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-  1817224    1.915    0.000    2.816    0.000 grid.py:429(update_candidates)
-  3342117    1.608    0.000    1.608    0.000 grid.py:444(candidates)
-838513/24779    1.359    0.000   12.952    0.001 search.py:6(recursive_search)
-   615510    1.250    0.000    4.776    0.000 grid.py:395(set_word)
-  1842772    1.120    0.000    2.350    0.000 grid.py:335(<lambda>)
-   908612    0.897    0.000    2.957    0.000 grid.py:414(update_orthogonal_word_pattern_letters)
-   908612    0.705    0.000    2.174    0.000 grid.py:423(unset_orthogonal_word_pattern_letters)
-   590823    0.655    0.000    3.006    0.000 {built-in method builtins.min}
-  1800521    0.654    0.000    0.654    0.000 {built-in method builtins.sorted}
+  1817844    1.984    0.000    2.924    0.000 grid.py:429(update_candidates)
+  3343958    1.660    0.000    1.660    0.000 grid.py:444(candidates)
+838644/24779    1.425    0.000   13.403    0.001 search.py:6(recursive_search)
+   615641    1.311    0.000    4.938    0.000 grid.py:395(set_word)
+  1844172    1.148    0.000    2.409    0.000 grid.py:335(<lambda>)
+   908922    0.917    0.000    3.046    0.000 grid.py:414(update_orthogonal_word_pattern_letters)
+   908922    0.728    0.000    2.255    0.000 grid.py:423(unset_orthogonal_word_pattern_letters)
+  1801129    0.697    0.000    0.697    0.000 {built-in method builtins.sorted}
+   590954    0.690    0.000    3.100    0.000 {built-in method builtins.min}
+   615641    0.606    0.000    3.377    0.000 grid.py:408(remove_word)
+  1231290    0.431    0.000    0.596    0.000 grid.py:379(__hash__)
+  2310379    0.408    0.000    0.712    0.000 {method 'add' of 'set' objects}
+   590864    0.237    0.000    3.337    0.000 grid.py:333(best_word_pattern)
+  2010105    0.218    0.000    0.218    0.000 {method 'get' of 'dict' objects}
