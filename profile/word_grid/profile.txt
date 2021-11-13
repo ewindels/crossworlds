@@ -1,20 +1,20 @@
 16096 words in vocabulary
-         14623136 function calls (14183198 primitive calls) in 7.810 seconds
+         13761387 function calls (13320938 primitive calls) in 7.833 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-   911886    1.119    0.000    1.853    0.000 grid.py:429(update_orthogonal_word_pattern_letters)
-   911886    0.879    0.000    1.185    0.000 grid.py:438(unset_orthogonal_word_pattern_letters)
-   616916    0.781    0.000    2.905    0.000 grid.py:410(set_word)
-  1872683    0.761    0.000    0.761    0.000 grid.py:456(candidates)
-464507/24779    0.702    0.000    6.723    0.000 search.py:5(recursive_search)
-  1823772    0.614    0.000    0.645    0.000 grid.py:444(update_candidates)
-   616916    0.452    0.000    1.705    0.000 grid.py:423(unset_word)
-   745148    0.366    0.000    0.820    0.000 grid.py:343(<lambda>)
-      164    0.270    0.002    0.280    0.002 {method 'read' of '_io.TextIOWrapper' objects}
-   216817    0.238    0.000    1.058    0.000 {built-in method builtins.min}
-      164    0.211    0.001    0.211    0.001 {built-in method io.open}
-  1565069    0.190    0.000    0.298    0.000 {method 'add' of 'set' objects}
-      164    0.169    0.001    0.169    0.001 decoder.py:343(raw_decode)
-   483016    0.151    0.000    0.212    0.000 grid.py:394(__hash__)
+   916761    1.113    0.000    1.870    0.000 grid.py:429(update_orthogonal_word_pattern_letters)
+   621204    0.827    0.000    2.972    0.000 grid.py:410(set_word)
+   916761    0.811    0.000    1.038    0.000 grid.py:438(unset_orthogonal_word_pattern_letters)
+  1878720    0.771    0.000    0.771    0.000 grid.py:456(candidates)
+465018/24779    0.718    0.000    6.697    0.000 search.py:5(recursive_search)
+  1833522    0.630    0.000    0.666    0.000 grid.py:444(update_candidates)
+   621204    0.460    0.000    1.568    0.000 grid.py:423(unset_word)
+   745783    0.373    0.000    0.830    0.000 grid.py:343(<lambda>)
+      164    0.281    0.002    0.291    0.002 {method 'read' of '_io.TextIOWrapper' objects}
+   217328    0.246    0.000    1.076    0.000 {built-in method builtins.min}
+      164    0.220    0.001    0.221    0.001 {built-in method io.open}
+  1570966    0.194    0.000    0.308    0.000 {method 'add' of 'set' objects}
+      164    0.175    0.001    0.175    0.001 decoder.py:343(raw_decode)
+   484038    0.160    0.000    0.223    0.000 grid.py:394(__hash__)

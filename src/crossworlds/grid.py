@@ -370,7 +370,7 @@ class WordPattern(ABC):
         self.col = col
         self.length = length
         self.grid = grid
-        self.letters_indices = {}
+        self.letters_indices = [None for _ in range(length)]
         self.linked_letters_indices = set()
         self._candidates = grid.vocab_length_dict[length]
         self.orthogonal_word_patterns = {}
@@ -409,7 +409,7 @@ class WordPattern(ABC):
 
     def set_word(self, word: str) -> bool:
         for index in self.orthogonal_word_patterns:
-            if index not in self.letters_indices:
+            if self.letters_indices[index] is None:
                 self.linked_letters_indices.add(index)
                 if not self.update_orthogonal_word_pattern_letters(index, word[index]):
                     break
@@ -437,15 +437,15 @@ class WordPattern(ABC):
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
         crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
-        letter = crossed_word_pattern.letters_indices.pop(crossed_index)
-        crossed_word_pattern.cache_key -= ALPHABET_MAP[letter] * (27 ** crossed_index) * 100
+        crossed_word_pattern.cache_key -= ALPHABET_MAP[crossed_word_pattern.letters_indices[crossed_index]] * (27 ** crossed_index) * 100
+        crossed_word_pattern.letters_indices[crossed_index] = None
         crossed_word_pattern.update_candidates()
 
     def update_candidates(self,
                           index:    Optional[int] = None,
                           letter:   Optional[str] = None) -> bool:
         if index is not None and self.cache_key not in self.grid.candidates_cache:
-            if lookup := self.grid.words_lookups_dict.get((index, letter)):
+            if lookup := self.grid.words_lookups_dict.get((index, letter)): # type: ignore
                 self.grid.candidates_cache[self.cache_key] = self._candidates.intersection(lookup)
             else:
                 self.grid.candidates_cache[self.cache_key] = set()
