@@ -409,14 +409,12 @@ class WordPattern(ABC):
     def set_word(self, word: str) -> bool:
         for index in self.orthogonal_word_patterns:
             if self.letters_indices[index] is None:
-                self.linked_letters_indices.add(index)
                 if not self.update_orthogonal_word_pattern_letters(index, word[index]):
-                    break
-        else:
-            self.grid.used_words.add(word)
-            self.grid.words_dict[(self.row, self.col, self.direction)] = word
-            return True
-        return False
+                    return False
+                self.linked_letters_indices.add(index)
+        self.grid.used_words.add(word)
+        self.grid.words_dict[(self.row, self.col, self.direction)] = word
+        return True
 
     def unset_word(self) -> None:
         for index in self.linked_letters_indices:
@@ -428,11 +426,14 @@ class WordPattern(ABC):
                                                index: int,
                                                letter: str) -> bool:
         crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
-        crossed_word_pattern.letters_indices[crossed_index] = letter
         old_cache_key = crossed_word_pattern.cache_key
         crossed_word_pattern.cache_key += ALPHABET_MAP[letter] * (27 ** crossed_index) * 100
         has_values = crossed_word_pattern.update_candidates_add(crossed_index, letter, old_cache_key)
-        return has_values and bool(crossed_word_pattern.candidates)
+        if has_values and bool(crossed_word_pattern.candidates):
+            crossed_word_pattern.letters_indices[crossed_index] = letter
+            return True
+        crossed_word_pattern.cache_key = old_cache_key
+        return False
 
     def unset_orthogonal_word_pattern_letters(self, index: int) -> None:
         crossed_word_pattern, crossed_index = self.orthogonal_word_patterns[index]
