@@ -416,8 +416,8 @@ class WordPattern(ABC):
         crossed_word_pattern, crossed_index, cross_factor = self.orthogonal_word_patterns[index]
         old_cache_key = crossed_word_pattern.cache_key
         crossed_word_pattern.cache_key += ALPHABET_MAP[letter] * cross_factor
-        has_values = crossed_word_pattern.update_candidates_add(crossed_index, letter, old_cache_key)
-        if has_values and crossed_word_pattern.candidates:
+        crossed_word_pattern.update_candidates(crossed_index, letter, old_cache_key)
+        if crossed_word_pattern.candidates:
             crossed_word_pattern.letters_indices[crossed_index] = letter
             return True
         crossed_word_pattern.cache_key = old_cache_key
@@ -428,17 +428,13 @@ class WordPattern(ABC):
         crossed_word_pattern.cache_key -= ALPHABET_MAP[crossed_word_pattern.letters_indices[crossed_index]] * cross_factor
         crossed_word_pattern.letters_indices[crossed_index] = None
 
-    def update_candidates_add(self,
-                              index:            int,
-                              letter:           str,
-                              old_cache_key:    int) -> bool:
+    def update_candidates(self,
+                          index:            int,
+                          letter:           str,
+                          old_cache_key:    int) -> None:
         if self.cache_key not in self.grid.candidates_cache:
-            if lookup := self.grid.words_lookups_dict.get((index, letter)): # type: ignore
-                self.grid.candidates_cache[self.cache_key] = self.grid.candidates_cache[old_cache_key].intersection(lookup)
-            else:
-                self.grid.candidates_cache[self.cache_key] = set()
-                return False
-        return True
+            lookup = self.grid.words_lookups_dict.get((index, letter), set()) # type: ignore
+            self.grid.candidates_cache[self.cache_key] = self.grid.candidates_cache[old_cache_key].intersection(lookup)
 
     @property
     def candidates(self) -> set[str]:
