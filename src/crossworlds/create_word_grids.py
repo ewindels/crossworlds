@@ -10,7 +10,6 @@ def main():
         definitions = set()
         found_grids = list(get_full_grids(height, width, definitions, vocab))
         print(f'Found {len(found_grids)} grids')
-
         found_grids_str_list = []
         for word_dicts in found_grids:
             found_grids_str_list.append('|'.join(f'{pattern[0]},{pattern[1]},{pattern[2]}:{word_dicts[pattern]}' for pattern in sorted(word_dicts)))
