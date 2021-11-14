@@ -18,9 +18,9 @@ def recursive_search(grid: WordGrid) -> dict:
         yield copy(grid.words_dict)
 
 
-def get_full_grids(height: int,
-                   width: int,
+def get_full_grids(height:      int,
+                   width:       int,
                    definitions: set,
-                   vocab: dict[str, set[str]]) -> dict:
+                   vocab:       dict[str, set[str]]) -> dict:
     grid = WordGrid(height, width, definitions, vocab)
     return recursive_search(grid)

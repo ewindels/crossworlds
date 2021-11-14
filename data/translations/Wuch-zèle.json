@@ -1,0 +1,5503 @@
+{
+    "Wuchiaping\u2019ien": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Wuchiapingium"
+                        ],
+                        "en": [
+                            "Wuchiapingian"
+                        ],
+                        "ca": [
+                            "Wujiapingi\u00e0"
+                        ],
+                        "es": [
+                            "Wuchiapingiense"
+                        ],
+                        "hu": [
+                            "Wuchiapingi"
+                        ],
+                        "it": [
+                            "Wuchiapingiano"
+                        ],
+                        "nl": [
+                            "Wuchiapingien"
+                        ],
+                        "pl": [
+                            "Wucziaping"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "wushu": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Wushu"
+                        ],
+                        "en": [
+                            "wushu"
+                        ],
+                        "hy": [
+                            "\u0578\u0582\u0577\u0578\u0582"
+                        ],
+                        "zh": [
+                            "\u6b66\u672f"
+                        ],
+                        "ko": [
+                            "\ubb34\uc220"
+                        ],
+                        "ja": [
+                            "\u6b66\u8853"
+                        ],
+                        "ru": [
+                            "\u0443\u0448\u0443"
+                        ],
+                        "vi": [
+                            "v\u00f5 thu\u1eadt"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "WYSIWYG": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "WYSIWYG"
+                        ],
+                        "eo": [
+                            "vidote"
+                        ],
+                        "fi": [
+                            "WYSIWYG"
+                        ],
+                        "hu": [
+                            "WYSIWYG"
+                        ],
+                        "ru": [
+                            "WYSIWYG"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "xanthine": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Colorant (1):",
+                    "translations": {
+                        "en": [
+                            "xanthine"
+                        ],
+                        "fi": [
+                            "ksantiini",
+                            "dioksipuriini"
+                        ],
+                        "it": [
+                            "xantina"
+                        ],
+                        "nl": [
+                            "xanthine"
+                        ],
+                        "cs": [
+                            "xantin"
+                        ],
+                        "tr": [
+                            "ksantin"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "xanthine": [
+                    "Singulier"
+                ],
+                "xanthines": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "xanthome": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Xanthom"
+                        ],
+                        "en": [
+                            "xanthoma"
+                        ],
+                        "da": [
+                            "xanthom"
+                        ],
+                        "es": [
+                            "xantoma"
+                        ],
+                        "id": [
+                            "xanthoma"
+                        ],
+                        "it": [
+                            "xantoma"
+                        ],
+                        "pt": [
+                            "xantoma"
+                        ],
+                        "sv": [
+                            "antomatos"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "xanthome": [
+                    "Singulier"
+                ],
+                "xanthomes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "x\u00e9narthre": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Xenarthra"
+                        ],
+                        "de": [
+                            "Nebengelenktier"
+                        ],
+                        "en": [
+                            "xenarthran"
+                        ],
+                        "ja": [
+                            "\u7570\u7bc0\u985e"
+                        ],
+                        "oc": [
+                            "senatre"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "x\u00e9narthre": [
+                    "Singulier"
+                ],
+                "x\u00e9narthres": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "x\u00e9nisme": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Fremdwort"
+                        ],
+                        "en": [
+                            "foreignism"
+                        ],
+                        "eu": [
+                            "erdarakada"
+                        ],
+                        "da": [
+                            "fremmedord"
+                        ],
+                        "es": [
+                            "extranjerismo"
+                        ],
+                        "it": [
+                            "forestierismo",
+                            "stranierismo",
+                            "esotismo"
+                        ],
+                        "nl": [
+                            "vreemd woord"
+                        ],
+                        "pt": [
+                            "estrangeirismo"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "x\u00e9nisme": [
+                    "Singulier"
+                ],
+                "x\u00e9nismes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "x\u00e9non": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Xenon"
+                        ],
+                        "en": [
+                            "xenon"
+                        ],
+                        "ar": [
+                            "\u0632\u064a\u0646\u0648\u0646"
+                        ],
+                        "bg": [
+                            "\u043a\u0441\u0435\u043d\u043e\u043d"
+                        ],
+                        "ca": [
+                            "xen\u00f3"
+                        ],
+                        "zh": [
+                            "\u6c19"
+                        ],
+                        "ko": [
+                            "\uc81c\ub17c"
+                        ],
+                        "hr": [
+                            "ksenon"
+                        ],
+                        "da": [
+                            "xenon"
+                        ],
+                        "es": [
+                            "xen\u00f3n"
+                        ],
+                        "eo": [
+                            "ksenono"
+                        ],
+                        "et": [
+                            "ksenoon"
+                        ],
+                        "fi": [
+                            "ksenon"
+                        ],
+                        "el": [
+                            "\u03be\u03ad\u03bd\u03bf"
+                        ],
+                        "he": [
+                            "\u05e7\u05e1\u05e0\u05d5\u05df"
+                        ],
+                        "hu": [
+                            "xenon"
+                        ],
+                        "io": [
+                            "xenono"
+                        ],
+                        "id": [
+                            "xenon"
+                        ],
+                        "is": [
+                            "xenon"
+                        ],
+                        "it": [
+                            "xeno",
+                            "xenon"
+                        ],
+                        "ja": [
+                            "\u30ad\u30bb\u30ce\u30f3"
+                        ],
+                        "lv": [
+                            "ksenons"
+                        ],
+                        "lt": [
+                            "ksenonas"
+                        ],
+                        "ms": [
+                            "xenon"
+                        ],
+                        "mt": [
+                            "xenu"
+                        ],
+                        "gv": [
+                            "xenon"
+                        ],
+                        "nl": [
+                            "xenon"
+                        ],
+                        "no": [
+                            "xenon"
+                        ],
+                        "oc": [
+                            "xenon"
+                        ],
+                        "pl": [
+                            "ksenon"
+                        ],
+                        "pt": [
+                            "x\u00e9non",
+                            "xen\u00f3n",
+                            "xen\u00f4nio",
+                            "xen\u00e3o"
+                        ],
+                        "ro": [
+                            "xenon"
+                        ],
+                        "ru": [
+                            "\u043a\u0441\u0435\u043d\u043e\u043d"
+                        ],
+                        "sr": [
+                            "\u043a\u0441\u0435\u043d\u043e\u043d"
+                        ],
+                        "sk": [
+                            "xen\u00f3n"
+                        ],
+                        "sl": [
+                            "ksenon"
+                        ],
+                        "sv": [
+                            "xenon"
+                        ],
+                        "cs": [
+                            "xenon"
+                        ],
+                        "th": [
+                            "\u0e19\u0e2d\u0e19"
+                        ],
+                        "uk": [
+                            "\u043a\u0441\u0435\u043d\u043e\u043d"
+                        ],
+                        "vi": [
+                            "non"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "x\u00e9noperdrix": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Xenoperdix"
+                        ],
+                        "de": [
+                            "Wachtel"
+                        ],
+                        "en": [
+                            "forest partridge"
+                        ],
+                        "ar": [
+                            "\u062d\u062c\u0644 \u063a\u0631\u064a\u0628"
+                        ],
+                        "pl": [
+                            "rdzawobr\u00f3d"
+                        ],
+                        "sv": [
+                            "h\u00f6na"
+                        ],
+                        "tr": [
+                            "orman kekli\u011fi"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "x\u00e9nophobe": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "xenophobic"
+                        ],
+                        "es": [
+                            "xen\u00f3fobo"
+                        ],
+                        "el": [
+                            "\u03be\u03b5\u03bd\u03bf\u03c6\u03bf\u03b2\u03b9\u03ba\u03cc\u03c2"
+                        ],
+                        "it": [
+                            "xenofobo",
+                            "xenofobico"
+                        ],
+                        "nl": [
+                            "xenofoob"
+                        ],
+                        "cs": [
+                            "xenofobsk\u00fd",
+                            "xenofobn\u00ed"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "x\u00e9nophobe": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "x\u00e9nophobes": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "x\u00e9nophobie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Xenophobie"
+                        ],
+                        "en": [
+                            "xenophobia"
+                        ],
+                        "bg": [
+                            "\u043a\u0441\u0435\u043d\u043e\u0444\u043e\u0431\u0438\u044f"
+                        ],
+                        "zh": [
+                            "\u4ec7\u5916"
+                        ],
+                        "hr": [
+                            "ksenofobija"
+                        ],
+                        "da": [
+                            "xenofobi"
+                        ],
+                        "es": [
+                            "xenofobia"
+                        ],
+                        "eo": [
+                            "ksenofobio"
+                        ],
+                        "fi": [
+                            "ksenofobia"
+                        ],
+                        "ka": [
+                            "\u10e5\u10e1\u10d4\u10dc\u10dd\u10e4\u10dd\u10d1\u10d8\u10d0"
+                        ],
+                        "el": [
+                            "\u03be\u03b5\u03bd\u03bf\u03c6\u03bf\u03b2\u03af\u03b1"
+                        ],
+                        "he": [
+                            "\u05e9\u05e0\u05d0\u05ea \u05d6\u05e8\u05d9\u05dd"
+                        ],
+                        "hu": [
+                            "xenof\u00f3bia"
+                        ],
+                        "id": [
+                            "xenofobia"
+                        ],
+                        "is": [
+                            "\u00fatlendingahatur"
+                        ],
+                        "it": [
+                            "xenofobia"
+                        ],
+                        "ja": [
+                            "\u5916\u56fd\u4eba\u6050\u6016\u75c7"
+                        ],
+                        "nl": [
+                            "xenofobie",
+                            "vreemdelingenhaat"
+                        ],
+                        "no": [
+                            "xenofobi"
+                        ],
+                        "pl": [
+                            "ksenofobia"
+                        ],
+                        "pt": [
+                            "xenofobia"
+                        ],
+                        "ro": [
+                            "xenofobie"
+                        ],
+                        "ru": [
+                            "\u043a\u0441\u0435\u043d\u043e\u0444\u043e\u0431\u0438\u044f"
+                        ],
+                        "sv": [
+                            "fr\u00e4mlingsfientlighet"
+                        ],
+                        "tr": [
+                            "zenofobi"
+                        ],
+                        "uk": [
+                            "\u043a\u0441\u0435\u043d\u043e\u0444\u043e\u0431\u0456\u044f"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "x\u00e9nophobie": [
+                    "Singulier"
+                ],
+                "x\u00e9nophobies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "x\u00e9notransplantation": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Xenotransplantation"
+                        ],
+                        "en": [
+                            "xenotransplantation"
+                        ],
+                        "es": [
+                            "xenotrasplante"
+                        ],
+                        "eo": [
+                            "ksenotransplanta"
+                        ],
+                        "fi": [
+                            "ksenotransplantaatio"
+                        ],
+                        "el": [
+                            "\u03be\u03b5\u03bd\u03bf\u03bc\u03b5\u03c4\u03b1\u03bc\u03cc\u03c3\u03c7\u03b5\u03c5\u03c3\u03b7"
+                        ],
+                        "he": [
+                            "\u05de\u05d9\u05e0\u05d5"
+                        ],
+                        "it": [
+                            "xenotrapianto"
+                        ],
+                        "ja": [
+                            "\u7570\u7a2e\u79fb\u690d"
+                        ],
+                        "nl": [
+                            "xenotransplantatie"
+                        ],
+                        "pt": [
+                            "xenotransplante"
+                        ],
+                        "ru": [
+                            "\u0446\u0438\u044f"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "x\u00e9notransplantation": [
+                    "Singulier"
+                ],
+                "x\u00e9notransplantations": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "x\u00e9r\u00e8s": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Sherry"
+                        ],
+                        "en": [
+                            "sherry"
+                        ],
+                        "ca": [
+                            "xer\u00e8s"
+                        ],
+                        "es": [
+                            "jerez"
+                        ],
+                        "nl": [
+                            "xeres",
+                            "xereswijn"
+                        ],
+                        "ru": [
+                            "\u0445\u0435\u0440\u0435\u0441"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "x\u00e9rocopie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "xerox copy",
+                            "xerox"
+                        ],
+                        "cy": [
+                            "copi xerox"
+                        ],
+                        "pl": [
+                            "ksero",
+                            "kserokopia"
+                        ],
+                        "pt": [
+                            "xeroc\u00f3pia"
+                        ],
+                        "ru": [
+                            "\u043a\u0441\u0435\u0440\u043e\u043a\u043e\u043f\u0438\u044f"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "x\u00e9rocopie": [
+                    "Singulier"
+                ],
+                "x\u00e9rocopies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "x\u00e9rophtalmie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Xerophthalmie"
+                        ],
+                        "en": [
+                            "xerophthalmia"
+                        ],
+                        "es": [
+                            "xeroftalmia"
+                        ],
+                        "el": [
+                            "\u03be\u03b7\u03c1\u03bf\u03c6\u03b8\u03b1\u03bb\u03bc\u03af\u03b1"
+                        ],
+                        "it": [
+                            "xeroftalmia"
+                        ],
+                        "ja": [
+                            "\u773c\u7403\u4e7e\u71e5\u75c7"
+                        ],
+                        "pt": [
+                            "xeroftalmia"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "x\u00e9rophtalmie": [
+                    "Singulier"
+                ],
+                "x\u00e9rophtalmies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "xian": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "county"
+                        ],
+                        "zh": [
+                            "\u53bf"
+                        ],
+                        "ko": [
+                            "\ud604"
+                        ],
+                        "ja": [
+                            "\u770c"
+                        ],
+                        "vi": [
+                            "huy\u1ec7n"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "xian": [
+                    "Singulier"
+                ],
+                "xians": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "xiangqi": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Xiangqi"
+                        ],
+                        "en": [
+                            "xiangqi"
+                        ],
+                        "zh": [
+                            "\u8c61\u68cb"
+                        ],
+                        "es": [
+                            "ajedrez chino"
+                        ],
+                        "ko": [
+                            "\uc0f9\uce58"
+                        ],
+                        "ja": [
+                            "\u30b7\u30e3\u30f3\u30c1\u30fc",
+                            "\u8c61\u68cb"
+                        ],
+                        "ru": [
+                            "\u0441\u044f\u043d\u0446\u0438"
+                        ],
+                        "sv": [
+                            "xiangqi"
+                        ],
+                        "vi": [
+                            "c\u1edd t\u01b0\u1edbng"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "Xiongnu": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Xiongnu"
+                        ],
+                        "en": [
+                            "Xiongnu"
+                        ],
+                        "zh": [
+                            "\u5308\u5974"
+                        ],
+                        "es": [
+                            "Xiongnu"
+                        ],
+                        "nl": [
+                            "Xiongnu"
+                        ],
+                        "pt": [
+                            "Xiongnu"
+                        ],
+                        "ru": [
+                            "\u0425\u0443\u043d\u043d\u0443"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "Xiongnu": [
+                    "Singulier"
+                ],
+                "Xiongnus": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "xiphos": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Xiphos"
+                        ],
+                        "en": [
+                            "xiphos"
+                        ],
+                        "es": [
+                            "xifos"
+                        ],
+                        "fi": [
+                            "ksifos"
+                        ],
+                        "it": [
+                            "xiphos"
+                        ],
+                        "no": [
+                            "xiphos"
+                        ],
+                        "pl": [
+                            "xiphos"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "xptdr": [
+        {
+            "type": "Interjection",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "reps"
+                        ],
+                        "en": [
+                            "lol"
+                        ],
+                        "es": [
+                            "jaja"
+                        ],
+                        "eo": [
+                            "mdr"
+                        ],
+                        "hu": [
+                            "hfn"
+                        ],
+                        "it": [
+                            "rm"
+                        ],
+                        "ja": [
+                            "w"
+                        ],
+                        "pt": [
+                            "rs"
+                        ],
+                        "ru": [
+                            "\u043b\u043e\u043b"
+                        ],
+                        "sv": [
+                            "asg"
+                        ],
+                        "th": [
+                            "\u0e32\u0e46\u0e46"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "xyl\u00e8me": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Xylem",
+                            "Holzteil"
+                        ],
+                        "en": [
+                            "xylem"
+                        ],
+                        "ast": [
+                            "xilema"
+                        ],
+                        "eu": [
+                            "xilema"
+                        ],
+                        "be": [
+                            "\u043a\u0441\u0456\u043b\u0435\u043ca"
+                        ],
+                        "hr": [
+                            "ksilem"
+                        ],
+                        "da": [
+                            "xylem",
+                            "vedv\u00e6v"
+                        ],
+                        "es": [
+                            "xilema"
+                        ],
+                        "eo": [
+                            "ksilemo"
+                        ],
+                        "et": [
+                            "ks\u00fcleem",
+                            "puiduosa"
+                        ],
+                        "fi": [
+                            "ksyleemi"
+                        ],
+                        "ga": [
+                            "xil\u00e9im"
+                        ],
+                        "gl": [
+                            "xilema"
+                        ],
+                        "cy": [
+                            "sylem"
+                        ],
+                        "hu": [
+                            "xil\u00e9m",
+                            "far\u00e9sz"
+                        ],
+                        "id": [
+                            "pembuluh kayu",
+                            "xilem"
+                        ],
+                        "it": [
+                            "xilema"
+                        ],
+                        "jv": [
+                            "pembuluh kayu",
+                            "xilem"
+                        ],
+                        "ky": [
+                            "\u043a\u0441\u0438\u043b\u0435\u043c\u0430"
+                        ],
+                        "ku": [
+                            "ks\u00eelem"
+                        ],
+                        "lt": [
+                            "mediena",
+                            "ksilema"
+                        ],
+                        "mk": [
+                            "\u043a\u0441\u0438\u043b\u0435\u043c"
+                        ],
+                        "ms": [
+                            "xilem"
+                        ],
+                        "gv": [
+                            "sylem",
+                            "xylem"
+                        ],
+                        "nl": [
+                            "xyleem"
+                        ],
+                        "no": [
+                            "vedvev",
+                            "xylem"
+                        ],
+                        "oc": [
+                            "xil\u00e8ma"
+                        ],
+                        "pl": [
+                            "drewno",
+                            "ksylem"
+                        ],
+                        "pt": [
+                            "xilema"
+                        ],
+                        "ro": [
+                            "xilem"
+                        ],
+                        "ru": [
+                            "\u043a\u0441\u0438\u043b\u0435\u043c\u0430"
+                        ],
+                        "sh": [
+                            "ksilem"
+                        ],
+                        "so": [
+                            "maydhax"
+                        ],
+                        "su": [
+                            "xilem"
+                        ],
+                        "sv": [
+                            "xylem"
+                        ],
+                        "cs": [
+                            "xyl\u00e9m",
+                            "d\u0159evo"
+                        ],
+                        "tr": [
+                            "odun borusu",
+                            "ksilem"
+                        ],
+                        "uk": [
+                            "\u043a\u0441\u0438\u043b\u0435\u043c\u0430"
+                        ],
+                        "vi": [
+                            "m\u1ea1ch g\u1ed7"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "xyl\u00e8me": [
+                    "Singulier"
+                ],
+                "xyl\u00e8mes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "xyl\u00e8ne": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "isom\u00e8re du dim\u00e9thylebenz\u00e8ne",
+                    "translations": {
+                        "de": [
+                            "Xylol"
+                        ],
+                        "en": [
+                            "xylene"
+                        ],
+                        "es": [
+                            "xileno"
+                        ],
+                        "it": [
+                            "xilene"
+                        ],
+                        "nl": [
+                            "xyleen"
+                        ],
+                        "cs": [
+                            "xylen"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "xyl\u00e8ne": [
+                    "Singulier"
+                ],
+                "xyl\u00e8nes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "xylitol": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Xylit",
+                            "Xylitol"
+                        ],
+                        "en": [
+                            "xylitol"
+                        ],
+                        "ca": [
+                            "xilitol"
+                        ],
+                        "hr": [
+                            "ksilitol"
+                        ],
+                        "da": [
+                            "xylitol"
+                        ],
+                        "es": [
+                            "xilitol"
+                        ],
+                        "et": [
+                            "ks\u00fclitool"
+                        ],
+                        "fi": [
+                            "ksylitoli"
+                        ],
+                        "gl": [
+                            "xilitol"
+                        ],
+                        "el": [
+                            "\u03be\u03c5\u03bb\u03b9\u03c4\u03cc\u03bb\u03b7"
+                        ],
+                        "hu": [
+                            "xilit"
+                        ],
+                        "it": [
+                            "xilitolo"
+                        ],
+                        "ja": [
+                            "\u30ad\u30b7\u30ea\u30c8\u30fc\u30eb"
+                        ],
+                        "li": [
+                            "ksulit\u00f3l"
+                        ],
+                        "lt": [
+                            "ksilitolis"
+                        ],
+                        "ms": [
+                            "xilitol"
+                        ],
+                        "nl": [
+                            "xylitol"
+                        ],
+                        "no": [
+                            "xylitol"
+                        ],
+                        "uz": [
+                            "ksilit"
+                        ],
+                        "pl": [
+                            "ksylitol"
+                        ],
+                        "pt": [
+                            "xilitol"
+                        ],
+                        "ro": [
+                            "xilitol"
+                        ],
+                        "ru": [
+                            "\u043a\u0441\u0438\u043b\u0438\u0442"
+                        ],
+                        "sh": [
+                            "ksilitol"
+                        ],
+                        "su": [
+                            "xylitol"
+                        ],
+                        "sv": [
+                            "xylitol"
+                        ],
+                        "cs": [
+                            "xylitol"
+                        ],
+                        "uk": [
+                            "\u043a\u0441\u0438\u043b\u0456\u0442"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "xylocope": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Xylocopa"
+                        ],
+                        "de": [
+                            "Holzbiene"
+                        ],
+                        "en": [
+                            "carpenter bee"
+                        ],
+                        "es": [
+                            "abejorro carpintero"
+                        ],
+                        "ms": [
+                            "lebah kayu"
+                        ],
+                        "sv": [
+                            "snickarbin"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "xylocope": [
+                    "Singulier"
+                ],
+                "xylocopes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "xylographie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "impression sur bois",
+                    "translations": {
+                        "de": [
+                            "Xylographie",
+                            "Holzschnitt",
+                            "Holztafeldruck",
+                            "Blockdruck"
+                        ],
+                        "en": [
+                            "xylography"
+                        ],
+                        "ar": [
+                            "\u062d\u0641\u0631 \u0639\u0644\u0649 \u0627\u0644\u062e\u0634\u0628"
+                        ],
+                        "bg": [
+                            "\u043a\u0441\u0438\u043b\u043e\u0433\u0440\u0430\u0444\u0438\u044f"
+                        ],
+                        "zh": [
+                            "\u6728\u7248\u672f",
+                            "\u6728\u7248\u5370\u5237\u6cd5",
+                            "\u6728\u523b"
+                        ],
+                        "es": [
+                            "xilograf\u00eda"
+                        ],
+                        "fi": [
+                            "ksylografia"
+                        ],
+                        "el": [
+                            "\u03be\u03c5\u03bb\u03bf\u03b3\u03c1\u03b1\u03c6\u03af\u03b1"
+                        ],
+                        "id": [
+                            "silografi"
+                        ],
+                        "it": [
+                            "xilografia"
+                        ],
+                        "nl": [
+                            "xylografie"
+                        ],
+                        "pt": [
+                            "xilografia"
+                        ],
+                        "ru": [
+                            "\u043a\u0441\u0438\u043b\u043e\u0433\u0440\u0430\u0444\u0438\u044f"
+                        ],
+                        "sk": [
+                            "xylografie"
+                        ],
+                        "sv": [
+                            "xylografi"
+                        ],
+                        "cs": [
+                            "xylografie",
+                            "d\u0159evoryt"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "xylographie": [
+                    "Singulier"
+                ],
+                "xylographies": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "xylologie": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "xylology"
+                        ],
+                        "es": [
+                            "xylologia"
+                        ],
+                        "it": [
+                            "xilologia"
+                        ],
+                        "oc": [
+                            "xilologia"
+                        ],
+                        "ro": [
+                            "xilologie"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "xylophage": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "xylophag"
+                        ],
+                        "en": [
+                            "xylophagous"
+                        ],
+                        "et": [
+                            "ks\u00fclofaag"
+                        ],
+                        "el": [
+                            "\u03be\u03c5\u03bb\u03bf\u03c6\u03ac\u03b3\u03bf\u03c2"
+                        ],
+                        "hu": [
+                            "xilof\u00e1g"
+                        ],
+                        "it": [
+                            "xilofago"
+                        ],
+                        "nl": [
+                            "xylofaag"
+                        ],
+                        "ro": [
+                            "xilofag"
+                        ],
+                        "ru": [
+                            "\u043a\u0441\u0438\u043b\u043e\u0444\u0430\u0433\u0438"
+                        ],
+                        "uk": [
+                            "\u043a\u0441\u0438\u043b\u043e\u0444\u0430\u0433\u0438"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "xylophage": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "xylophages": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        },
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Xylophage",
+                            "Holzwurm"
+                        ],
+                        "en": [
+                            "woodworm"
+                        ],
+                        "es": [
+                            "carcoma"
+                        ],
+                        "it": [
+                            "xilofago",
+                            "tarlo"
+                        ],
+                        "nl": [
+                            "houtworm"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "xylophage": [
+                    "Singulier"
+                ],
+                "xylophages": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "xylophone": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "xilofoon"
+                        ],
+                        "de": [
+                            "Xylophon"
+                        ],
+                        "en": [
+                            "xylophone"
+                        ],
+                        "hy": [
+                            "\u0584\u057d\u056b\u056c\u0578\u0586\u0578\u0576"
+                        ],
+                        "ast": [
+                            "xil\u00f3fonu"
+                        ],
+                        "az": [
+                            "ksilofon"
+                        ],
+                        "eu": [
+                            "xilofono"
+                        ],
+                        "be": [
+                            "\u043a\u0441\u0456\u043b\u0430\u0444\u043e\u043d"
+                        ],
+                        "bg": [
+                            "\u043a\u0441\u0438\u043b\u043e\u0444\u043e\u043d"
+                        ],
+                        "ca": [
+                            "xil\u00f2fon"
+                        ],
+                        "chr": [
+                            "\u13a0\u13d3 \u13d7\u13a6\u13be\u13b5 \u13d7\u13ac\u13c5\u13cd\u13d9\u13d7"
+                        ],
+                        "zh": [
+                            "\u6728\u7434"
+                        ],
+                        "hr": [
+                            "ksilofon"
+                        ],
+                        "da": [
+                            "xylofon"
+                        ],
+                        "es": [
+                            "xil\u00f3fono"
+                        ],
+                        "eo": [
+                            "ksilofono"
+                        ],
+                        "et": [
+                            "ks\u00fclofon"
+                        ],
+                        "fi": [
+                            "ksylofoni"
+                        ],
+                        "ga": [
+                            "xileaf\u00f3n"
+                        ],
+                        "gl": [
+                            "xil\u00f3fono"
+                        ],
+                        "el": [
+                            "\u03be\u03c5\u03bb\u03cc\u03c6\u03c9\u03bd\u03bf"
+                        ],
+                        "hu": [
+                            "xilofon"
+                        ],
+                        "io": [
+                            "xilofono"
+                        ],
+                        "id": [
+                            "xilofon"
+                        ],
+                        "ia": [
+                            "xylophono"
+                        ],
+                        "it": [
+                            "xilofono"
+                        ],
+                        "ja": [
+                            "\u6728\u7434"
+                        ],
+                        "ku": [
+                            "dar\u00eenk"
+                        ],
+                        "lv": [
+                            "ksilofons"
+                        ],
+                        "lt": [
+                            "ksilofonas"
+                        ],
+                        "mk": [
+                            "\u043a\u0441\u0438\u043b\u043e\u0444\u043e\u043d"
+                        ],
+                        "ms": [
+                            "xilofon"
+                        ],
+                        "mg": [
+                            "atranatrana"
+                        ],
+                        "nl": [
+                            "xylofoon"
+                        ],
+                        "no": [
+                            "xylofon"
+                        ],
+                        "pl": [
+                            "ksylofon"
+                        ],
+                        "pt": [
+                            "xilofone"
+                        ],
+                        "ro": [
+                            "xilofon"
+                        ],
+                        "ru": [
+                            "\u043a\u0441\u0438\u043b\u043e\u0444\u043e\u043d"
+                        ],
+                        "sr": [
+                            "\u043a\u0441\u0438\u043b\u043e\u0444\u043e\u043d"
+                        ],
+                        "sh": [
+                            "ksilofon"
+                        ],
+                        "sk": [
+                            "xylof\u00f3n"
+                        ],
+                        "sl": [
+                            "ksilofon"
+                        ],
+                        "sv": [
+                            "xylofon"
+                        ],
+                        "sw": [
+                            "marimba"
+                        ],
+                        "tl": [
+                            "saylopon"
+                        ],
+                        "cs": [
+                            "xylofon"
+                        ],
+                        "tr": [
+                            "ksilofon"
+                        ],
+                        "uk": [
+                            "\u043a\u0441\u0438\u043b\u043e\u0444\u043e\u043d"
+                        ],
+                        "vi": [
+                            "m\u1ed9c c\u1ea7m"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "xylophone": [
+                    "Singulier"
+                ],
+                "xylophones": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "xylophoniste": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "xylophonist"
+                        ],
+                        "es": [
+                            "xilofonista"
+                        ],
+                        "gl": [
+                            "xilofonista"
+                        ],
+                        "ia": [
+                            "xylophonista"
+                        ],
+                        "it": [
+                            "xilofonista"
+                        ],
+                        "sv": [
+                            "xylofonist"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "xylophoniste": [
+                    "Singulier"
+                ],
+                "xylophonistes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "xyloth\u00e8que": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Holzbibliothek",
+                            "Xylothek"
+                        ],
+                        "en": [
+                            "xylotheque"
+                        ],
+                        "ca": [
+                            "xiloteca"
+                        ],
+                        "da": [
+                            "xylotek"
+                        ],
+                        "es": [
+                            "xiloteca"
+                        ],
+                        "it": [
+                            "xiloteca"
+                        ],
+                        "nl": [
+                            "xylotheek"
+                        ],
+                        "pt": [
+                            "xiloteca"
+                        ],
+                        "sl": [
+                            "ksiloteka"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "xyloth\u00e8que": [
+                    "Singulier"
+                ],
+                "xyloth\u00e8ques": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "xyste": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "gymnase couvert",
+                    "translations": {
+                        "de": [
+                            "Xystos"
+                        ],
+                        "en": [
+                            "xystus"
+                        ],
+                        "da": [
+                            "xystos"
+                        ],
+                        "hu": [
+                            "xystus"
+                        ],
+                        "pl": [
+                            "ksystus"
+                        ],
+                        "ro": [
+                            "xist"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "xyste": [
+                    "Singulier"
+                ],
+                "xystes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yama-ma\u00ef": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Antheraea yamamai"
+                        ],
+                        "de": [
+                            "Japanischer Eichenseidenspinner"
+                        ],
+                        "en": [
+                            "Japanese silk moth",
+                            "Japanese oak silkmoth"
+                        ],
+                        "fi": [
+                            "japanintammisilkkikehr\u00e4\u00e4j\u00e4"
+                        ],
+                        "hu": [
+                            "p\u00e1vaszem",
+                            "selyemlepke",
+                            "jap\u00e1n selyemlepke"
+                        ],
+                        "ja": [
+                            "\u30e4\u30de\u30de\u30e6"
+                        ],
+                        "no": [
+                            "japansk eikep\u00e5fuglspinner"
+                        ],
+                        "ru": [
+                            "\u044f\u043f\u043e\u043d\u0441\u043a\u0430\u044f \u0434\u0443\u0431\u043e\u0432\u0430\u044f \u043f\u0430\u0432\u043b\u0438\u043d\u043e\u0433\u043b\u0430\u0437\u043a\u0430",
+                            "\u044f\u043f\u043e\u043d\u0441\u043a\u0438\u0439 \u0434\u0443\u0431\u043e\u0432\u044b\u0439 \u0448\u0435\u043b\u043a\u043e\u043f\u0440\u044f\u0434"
+                        ],
+                        "sv": [
+                            "japansk eksilkesfj\u00e4ril"
+                        ],
+                        "vi": [
+                            "t\u1eb1m t\u01a1 nh\u1eadt b\u1ea3n"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yang": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "yang"
+                        ],
+                        "zh": [
+                            "\u9633"
+                        ],
+                        "ko": [
+                            "\uc591"
+                        ],
+                        "ja": [
+                            "\u967d"
+                        ],
+                        "vi": [
+                            "d\u01b0\u01a1ng"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yang": [
+                    "Singulier"
+                ],
+                "yangs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "Yankee": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "Yankee"
+                        ],
+                        "ca": [
+                            "ianqui"
+                        ],
+                        "ja": [
+                            "\u30e4\u30f3\u30ad\u30fc"
+                        ],
+                        "oc": [
+                            "ianqui"
+                        ],
+                        "pl": [
+                            "Jankes"
+                        ],
+                        "pt": [
+                            "ianque"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "Yankee": [
+                    "Singulier"
+                ],
+                "Yankees": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yantra": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yantra"
+                        ],
+                        "en": [
+                            "yantra"
+                        ],
+                        "es": [
+                            "yantra"
+                        ],
+                        "it": [
+                            "yantra"
+                        ],
+                        "pt": [
+                            "yantra"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yantra": [
+                    "Singulier"
+                ],
+                "yantras": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yaourt": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Lait caill\u00e9 pr\u00e9par\u00e9 \u00e0 partir de ferments lactiques",
+                    "translations": {
+                        "af": [
+                            "yoghurt"
+                        ],
+                        "de": [
+                            "Joghurt",
+                            "Jogurt"
+                        ],
+                        "en": [
+                            "yogurt",
+                            "yoghourt",
+                            "yoghurt",
+                            "yogourt"
+                        ],
+                        "ar": [
+                            "\u0644\u0628\u0646 \u0632\u0628\u0627\u062f\u064a",
+                            "\u0631\u0648\u0628\u0629"
+                        ],
+                        "bg": [
+                            "\u043a\u0438\u0441\u0435\u043b\u043e \u043c\u043b\u044f\u043a\u043e",
+                            "\u0439\u043e\u0433\u0443\u0440\u0442"
+                        ],
+                        "ca": [
+                            "iogurt"
+                        ],
+                        "zh": [
+                            "\u9178\u5976"
+                        ],
+                        "ko": [
+                            "\uc694\uad6c\ub974\ud2b8",
+                            "\uc694\uac70\ud2b8"
+                        ],
+                        "da": [
+                            "jogurt",
+                            "yoghurt"
+                        ],
+                        "es": [
+                            "yogur"
+                        ],
+                        "eo": [
+                            "jogurto"
+                        ],
+                        "fo": [
+                            "r\u00f3mastampur",
+                            "loypingur"
+                        ],
+                        "fi": [
+                            "jogurtti"
+                        ],
+                        "ga": [
+                            "i\u00f3gart"
+                        ],
+                        "cy": [
+                            "iogwrt"
+                        ],
+                        "el": [
+                            "\u03b3\u03b9\u03b1\u03bf\u03cd\u03c1\u03c4\u03b9"
+                        ],
+                        "he": [
+                            "\u05d9\u05d5\u05d2\u05d5\u05e8\u05d8"
+                        ],
+                        "hu": [
+                            "joghurt"
+                        ],
+                        "io": [
+                            "yogurto"
+                        ],
+                        "id": [
+                            "yoghurt"
+                        ],
+                        "ia": [
+                            "yogurt"
+                        ],
+                        "it": [
+                            "yogurt",
+                            "iogurt"
+                        ],
+                        "ja": [
+                            "\u30e8\u30fc\u30b0\u30eb\u30c8"
+                        ],
+                        "ku": [
+                            "mast"
+                        ],
+                        "la": [
+                            "iogurtum"
+                        ],
+                        "nl": [
+                            "yoghurt",
+                            "joghurt"
+                        ],
+                        "oc": [
+                            "iaort",
+                            "iogort"
+                        ],
+                        "fa": [
+                            "\u0645\u0627\u0633\u062a"
+                        ],
+                        "pl": [
+                            "jogurt"
+                        ],
+                        "pt": [
+                            "iogurte"
+                        ],
+                        "ro": [
+                            "iaurt"
+                        ],
+                        "ru": [
+                            "\u0439\u043e\u0433\u0443\u0440\u0442"
+                        ],
+                        "sv": [
+                            "yoghurt"
+                        ],
+                        "cs": [
+                            "jogurt"
+                        ],
+                        "tr": [
+                            "yo\u011furt"
+                        ],
+                        "vi": [
+                            "s\u1eefa chua",
+                            "da ua"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yaourt": [
+                    "Singulier"
+                ],
+                "yaourts": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yaourti\u00e8re": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "yogurt maker",
+                            "yoghurt maker"
+                        ],
+                        "br": [
+                            "yaourterez"
+                        ],
+                        "it": [
+                            "yogurtiera"
+                        ],
+                        "nl": [
+                            "yoghurtmaker"
+                        ],
+                        "cs": [
+                            "jogurtova\u010d"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yaourti\u00e8re": [
+                    "Singulier"
+                ],
+                "yaourti\u00e8res": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yapock": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Chironectes minimus"
+                        ],
+                        "de": [
+                            "Schwimmbeutler",
+                            "Yapok"
+                        ],
+                        "en": [
+                            "water opossum",
+                            "yapock",
+                            "yapok",
+                            "aquatic opossum"
+                        ],
+                        "br": [
+                            "dour",
+                            "yapok"
+                        ],
+                        "ca": [
+                            "op\u00f2ssum aqu\u00e0tic"
+                        ],
+                        "es": [
+                            "cuica de agua",
+                            "zarig\u00fceya de agua",
+                            "chucha de agua"
+                        ],
+                        "fi": [
+                            "pussisaukko",
+                            "japok",
+                            "yapok"
+                        ],
+                        "hu": [
+                            "v\u00edzioposszum",
+                            "yapok"
+                        ],
+                        "is": [
+                            "vatnapokarotta"
+                        ],
+                        "it": [
+                            "chironetto",
+                            "acqua",
+                            "yapok",
+                            "opossum acquatico"
+                        ],
+                        "lt": [
+                            "vandeninis oposumas"
+                        ],
+                        "mt": [
+                            "ilma",
+                            "japok"
+                        ],
+                        "nl": [
+                            "wateropossum",
+                            "yapok"
+                        ],
+                        "pl": [
+                            "japok wodny",
+                            "japok"
+                        ],
+                        "pt": [
+                            "\u00e1gua",
+                            "\u00e1gua"
+                        ],
+                        "qu": [
+                            "yaku chaha"
+                        ],
+                        "sv": [
+                            "pungutter",
+                            "vattenpungr\u00e5tta"
+                        ],
+                        "cs": [
+                            "va\u010dice vyd\u0159\u00ed",
+                            "japok"
+                        ],
+                        "tr": [
+                            "su oposumu",
+                            "yapok"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yapock": [
+                    "Singulier"
+                ],
+                "yapocks": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yarchagumba": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Cordyceps sinensis"
+                        ],
+                        "de": [
+                            "Chinesischer Raupenpilz"
+                        ],
+                        "en": [
+                            "caterpillar fungus"
+                        ],
+                        "zh": [
+                            "\u51ac\u866b\u590f\u8349"
+                        ],
+                        "ru": [
+                            "\u044f\u0440\u0441\u0430\u0433\u0443\u043c\u0431\u0430"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yard": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "jaart"
+                        ],
+                        "sq": [
+                            "jardi"
+                        ],
+                        "de": [
+                            "Yard"
+                        ],
+                        "en": [
+                            "yard"
+                        ],
+                        "ar": [
+                            "\u064a\u0627\u0631\u062f"
+                        ],
+                        "hy": [
+                            "\u0575\u0561\u0580\u0564"
+                        ],
+                        "ast": [
+                            "yarda"
+                        ],
+                        "eu": [
+                            "yarda"
+                        ],
+                        "bn": [
+                            "\u0997\u099c"
+                        ],
+                        "be": [
+                            "\u044f\u0440\u0434"
+                        ],
+                        "bs": [
+                            "jard"
+                        ],
+                        "bg": [
+                            "\u044f\u0440\u0434"
+                        ],
+                        "ca": [
+                            "iarda"
+                        ],
+                        "zh": [
+                            "\u7801"
+                        ],
+                        "ko": [
+                            "\uc57c\ub4dc"
+                        ],
+                        "hr": [
+                            "jard"
+                        ],
+                        "da": [
+                            "yard"
+                        ],
+                        "es": [
+                            "yarda"
+                        ],
+                        "eo": [
+                            "jardo"
+                        ],
+                        "et": [
+                            "jard"
+                        ],
+                        "fi": [
+                            "jaardi"
+                        ],
+                        "gl": [
+                            "iarda"
+                        ],
+                        "ka": [
+                            "\u10d8\u10d0\u10e0\u10d3\u10d8"
+                        ],
+                        "hu": [
+                            "yard"
+                        ],
+                        "id": [
+                            "yard"
+                        ],
+                        "it": [
+                            "iarda"
+                        ],
+                        "ja": [
+                            "\u30e4\u30fc\u30c9"
+                        ],
+                        "kk": [
+                            "\u044f\u0440\u0434"
+                        ],
+                        "ku": [
+                            "yard"
+                        ],
+                        "lv": [
+                            "jards"
+                        ],
+                        "mk": [
+                            "\u0458\u0430\u0440\u0434\u0430"
+                        ],
+                        "mr": [
+                            "\u0921"
+                        ],
+                        "nl": [
+                            "yard"
+                        ],
+                        "no": [
+                            "yard",
+                            "yard"
+                        ],
+                        "ur": [
+                            "\u06af\u0632"
+                        ],
+                        "uz": [
+                            "yard"
+                        ],
+                        "fa": [
+                            "\u06cc\u0627\u0631\u062f"
+                        ],
+                        "pl": [
+                            "jard"
+                        ],
+                        "pt": [
+                            "jarda"
+                        ],
+                        "ru": [
+                            "\u044f\u0440\u0434"
+                        ],
+                        "sr": [
+                            "\u0458\u0430\u0440\u0434"
+                        ],
+                        "sk": [
+                            "yard"
+                        ],
+                        "sl": [
+                            "jard"
+                        ],
+                        "sv": [
+                            "yard"
+                        ],
+                        "tl": [
+                            "yarda"
+                        ],
+                        "cs": [
+                            "yard"
+                        ],
+                        "th": [
+                            "\u0e2b\u0e25\u0e32"
+                        ],
+                        "tr": [
+                            "yarda"
+                        ],
+                        "uk": [
+                            "\u044f\u0440\u0434"
+                        ],
+                        "vi": [
+                            "yard"
+                        ],
+                        "wa": [
+                            "vedje canadyinne"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yard": [
+                    "Singulier"
+                ],
+                "yards": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yarsagumbu": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Cordyceps sinensis",
+                            "Ophiocordyceps sinensis"
+                        ],
+                        "de": [
+                            "Chinesischer Raupenpilz"
+                        ],
+                        "en": [
+                            "caterpillar fungus"
+                        ],
+                        "zh": [
+                            "\u51ac\u866b\u590f\u8349"
+                        ],
+                        "ru": [
+                            "\u044f\u0440\u0441\u0430\u0433\u0443\u043c\u0431\u0430"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "y\u00e9m\u00e9nite": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "Yemeni"
+                        ],
+                        "it": [
+                            "yemenita"
+                        ],
+                        "ru": [
+                            "\u0439\u0435\u043c\u0435\u043d\u0441\u043a\u0438\u0439"
+                        ],
+                        "sk": [
+                            "jemensk\u00fd"
+                        ],
+                        "cs": [
+                            "jemensk\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "y\u00e9m\u00e9nite": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "y\u00e9m\u00e9nites": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "Y\u00e9m\u00e9nite": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Jemenit",
+                            "Jemenitin"
+                        ],
+                        "en": [
+                            "Yemeni"
+                        ],
+                        "ar": [
+                            "\u064a\u0645\u0646\u064a",
+                            "\u064a\u0645\u0646\u064a\u0629"
+                        ],
+                        "bg": [
+                            "\u0439\u0435\u043c\u0435\u043d\u0435\u0446",
+                            "\u0439\u0435\u043c\u0435\u043d\u043a\u0430"
+                        ],
+                        "ca": [
+                            "iemenita"
+                        ],
+                        "es": [
+                            "yemen\u00ed"
+                        ],
+                        "eo": [
+                            "jemenano",
+                            "jemenanino"
+                        ],
+                        "fi": [
+                            "jemenil\u00e4inen"
+                        ],
+                        "it": [
+                            "yemenita"
+                        ],
+                        "nl": [
+                            "Jemeniet",
+                            "Jemenitische"
+                        ],
+                        "no": [
+                            "jemenitt",
+                            "jemenitt"
+                        ],
+                        "pl": [
+                            "Jeme\u0144czyk",
+                            "Jemenka"
+                        ],
+                        "ru": [
+                            "\u0439\u0435\u043c\u0435\u043d\u0435\u0446",
+                            "\u0439\u0435\u043c\u0435\u043d\u043a\u0430",
+                            "\u0439\u0435\u043c\u0435\u043d\u0438\u0442",
+                            "\u0439\u0435\u043c\u0435\u043d\u0438\u0442\u043a\u0430"
+                        ],
+                        "sk": [
+                            "Jemen\u010dan"
+                        ],
+                        "sv": [
+                            "jemenit",
+                            "jemenitiska"
+                        ],
+                        "tr": [
+                            "Yemenli"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "Y\u00e9m\u00e9nite": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "Y\u00e9m\u00e9nites": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "yen": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yen"
+                        ],
+                        "en": [
+                            "yen"
+                        ],
+                        "ca": [
+                            "ien"
+                        ],
+                        "zh": [
+                            "\u65e5\u5706",
+                            "\u65e5\u5143"
+                        ],
+                        "ko": [
+                            "\uc5d4"
+                        ],
+                        "fi": [
+                            "jeni"
+                        ],
+                        "el": [
+                            "\u03b3\u03b9\u03b5\u03bd"
+                        ],
+                        "it": [
+                            "yen"
+                        ],
+                        "ja": [
+                            "\u5186"
+                        ],
+                        "ru": [
+                            "\u0438\u0435\u043d\u0430"
+                        ],
+                        "sk": [
+                            "jen"
+                        ],
+                        "cs": [
+                            "jen"
+                        ],
+                        "vi": [
+                            "y\u00ean",
+                            "y\u00ean Nh\u1eadt"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yen": [
+                    "Singulier"
+                ],
+                "yens": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "y\u00e9ti": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Animal mythologique",
+                    "translations": {
+                        "de": [
+                            "Yeti",
+                            "Schneemensch"
+                        ],
+                        "en": [
+                            "yeti",
+                            "abominable snowman"
+                        ],
+                        "ar": [
+                            "\u064a"
+                        ],
+                        "ca": [
+                            "ieti"
+                        ],
+                        "zh": [
+                            "\u96ea\u4eba"
+                        ],
+                        "ko": [
+                            "\uc608\ud2f0"
+                        ],
+                        "es": [
+                            "yeti"
+                        ],
+                        "eo": [
+                            "jetio"
+                        ],
+                        "fi": [
+                            "lumimies",
+                            "jeti"
+                        ],
+                        "el": [
+                            "\u03b3\u03ad\u03c4\u03b9"
+                        ],
+                        "he": [
+                            "\u05d9\u05d8\u05d9"
+                        ],
+                        "hi": [
+                            "\u0928\u0935"
+                        ],
+                        "hu": [
+                            "jeti"
+                        ],
+                        "ja": [
+                            "\u30a4\u30a8\u30c6\u30a3",
+                            "\u96ea\u7537"
+                        ],
+                        "mn": [
+                            "\u0430\u043b\u043c\u0430\u0441",
+                            "\u0446\u0430\u0441\u043d\u044b \u0445\u04af\u043d"
+                        ],
+                        "nl": [
+                            "yeti"
+                        ],
+                        "ne": [
+                            "\u0928\u092c"
+                        ],
+                        "oc": [
+                            "ieti",
+                            "yeti"
+                        ],
+                        "fa": [
+                            "\u06cc\u062a\u06cc"
+                        ],
+                        "pl": [
+                            "yeti"
+                        ],
+                        "pt": [
+                            "ieti",
+                            "i\u00e9ti",
+                            "yeti",
+                            "abomin\u00e1vel homem das neves"
+                        ],
+                        "ru": [
+                            "\u0439\u0435\u0442\u0438",
+                            "\u0441\u043d\u0435\u0436\u043d\u044b\u0439 \u0447\u0435\u043b\u043e\u0432\u0435\u043a",
+                            "\u0431\u0438\u0433\u0444\u0443\u0442"
+                        ],
+                        "sk": [
+                            "yeti"
+                        ],
+                        "sl": [
+                            "jeti"
+                        ],
+                        "sv": [
+                            "yeti",
+                            "jeti",
+                            "sn\u00f6man"
+                        ],
+                        "cs": [
+                            "yetti",
+                            "sn\u011b\u017en\u00fd mu\u017e"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "y\u00e9ti": [
+                    "Singulier"
+                ],
+                "y\u00e9tis": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yeuse": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Steineiche"
+                        ],
+                        "ca": [
+                            "alzina"
+                        ],
+                        "co": [
+                            "leccia"
+                        ],
+                        "es": [
+                            "encina"
+                        ],
+                        "it": [
+                            "leccio"
+                        ],
+                        "oc": [
+                            "euse",
+                            "elze"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yeuse": [
+                    "Singulier"
+                ],
+                "yeuses": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "y\u00e9zidi": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Jeside"
+                        ],
+                        "en": [
+                            "Yezidi",
+                            "Yazidi"
+                        ],
+                        "ca": [
+                            "yazidite",
+                            "yazid\u00ed"
+                        ],
+                        "es": [
+                            "yazid\u00ed"
+                        ],
+                        "nl": [
+                            "jezidi",
+                            "yezidi",
+                            "yazidi"
+                        ],
+                        "pl": [
+                            "jezyd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "y\u00e9zidi": [
+                    "Singulier"
+                ],
+                "y\u00e9zidis": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yiddish": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Jiddisch"
+                        ],
+                        "en": [
+                            "Yiddish"
+                        ],
+                        "ca": [
+                            "\u00eddix"
+                        ],
+                        "zh": [
+                            "\u610f\u7b2c\u7eea\u8bed"
+                        ],
+                        "ko": [
+                            "\uc774\ub514\uc2dc\uc5b4"
+                        ],
+                        "es": [
+                            "yidis"
+                        ],
+                        "eo": [
+                            "jida lingvo",
+                            "judgermana lingvo"
+                        ],
+                        "el": [
+                            "\u03b3\u03af\u03bd\u03c4\u03b9\u03c2"
+                        ],
+                        "it": [
+                            "yiddish"
+                        ],
+                        "ja": [
+                            "\u30a4\u30c7\u30a3\u30c3\u30b7\u30e5\u8a9e"
+                        ],
+                        "pl": [
+                            "jidysz"
+                        ],
+                        "pt": [
+                            "i\u00eddiche",
+                            "\u00eddiche"
+                        ],
+                        "ru": [
+                            "\u0438\u0434\u0438\u0448"
+                        ],
+                        "scn": [
+                            "yiddish",
+                            "jiddisch"
+                        ],
+                        "cs": [
+                            "jidi\u0161"
+                        ],
+                        "yi": [
+                            "\u05d3\u05d9\u05e9"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yidiche": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "Yiddish"
+                        ],
+                        "fi": [
+                            "jiddi\u0161"
+                        ],
+                        "pl": [
+                            "jidysz"
+                        ],
+                        "cs": [
+                            "jidi\u0161"
+                        ],
+                        "yi": [
+                            "\u05d3\u05d9\u05e9"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yin": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "yin"
+                        ],
+                        "zh": [
+                            "\u9634"
+                        ],
+                        "ko": [
+                            "\uc74c"
+                        ],
+                        "ja": [
+                            "\u9670"
+                        ],
+                        "vi": [
+                            "\u00e2m"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yin": [
+                    "Singulier"
+                ],
+                "yins": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yin-yang": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yang",
+                            "Yin und Yang"
+                        ],
+                        "en": [
+                            "yang",
+                            "yin yang",
+                            "yin and yang"
+                        ],
+                        "zh": [
+                            "\u9634\u9633"
+                        ],
+                        "ko": [
+                            "\uc74c\uc591"
+                        ],
+                        "ja": [
+                            "\u9670\u967d"
+                        ],
+                        "vi": [
+                            "\u00e2m d\u01b0\u01a1ng"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yoctocandela": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yoktocandela"
+                        ],
+                        "en": [
+                            "yoctocandela"
+                        ],
+                        "es": [
+                            "yoctocandela"
+                        ],
+                        "gl": [
+                            "yoctocandela"
+                        ],
+                        "it": [
+                            "yoctocandela"
+                        ],
+                        "ja": [
+                            "\u30e8\u30af\u30c8\u30ab\u30f3\u30c7\u30e9"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yoctocandela": [
+                    "Singulier"
+                ],
+                "yoctocandelas": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yoctohenry": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Unit\u00e9 de mesure d\u2019inductance",
+                    "translations": {
+                        "de": [
+                            "Yoctohenry"
+                        ],
+                        "en": [
+                            "yoctohenry"
+                        ],
+                        "es": [
+                            "yoctohenrio"
+                        ],
+                        "gl": [
+                            "yoctohenry",
+                            "yoctohenrio"
+                        ],
+                        "it": [
+                            "yoctohenry"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yoctohenry": [
+                    "Singulier"
+                ],
+                "yoctohenrys": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yoctohertz": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Unit\u00e9 de mesure de fr\u00e9quence",
+                    "translations": {
+                        "de": [
+                            "Yoctohertz"
+                        ],
+                        "en": [
+                            "yoctohertz"
+                        ],
+                        "ko": [
+                            "\uc695\ud1a0\ud5e4\ub974\uce20"
+                        ],
+                        "es": [
+                            "yoctohercio",
+                            "yoctohertz",
+                            "yoctohertzio"
+                        ],
+                        "gl": [
+                            "yoctohercio",
+                            "yoctohertz"
+                        ],
+                        "it": [
+                            "yoctohertz"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yoctolumen": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yoktolumen"
+                        ],
+                        "en": [
+                            "yoctolumen"
+                        ],
+                        "es": [
+                            "yoctolumen"
+                        ],
+                        "it": [
+                            "yoctolumen"
+                        ],
+                        "ja": [
+                            "\u30e8\u30af\u30c8\u30eb\u30fc\u30e1\u30f3"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yoctolumen": [
+                    "Singulier"
+                ],
+                "yoctolumens": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yoctolux": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yoktolux"
+                        ],
+                        "en": [
+                            "yoctolux"
+                        ],
+                        "es": [
+                            "yoctolux"
+                        ],
+                        "it": [
+                            "yoctolux"
+                        ],
+                        "ja": [
+                            "\u30e8\u30af\u30c8\u30eb\u30af\u30b9"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yoctonewton": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yoktonewton"
+                        ],
+                        "en": [
+                            "yoctonewton"
+                        ],
+                        "es": [
+                            "yoctonewton"
+                        ],
+                        "gl": [
+                            "yoctonewton"
+                        ],
+                        "it": [
+                            "yoctonewton"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yoctonewton": [
+                    "Singulier"
+                ],
+                "yoctonewtons": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yoctopascal": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yoktopascal"
+                        ],
+                        "en": [
+                            "yoctopascal"
+                        ],
+                        "es": [
+                            "yoctopascal"
+                        ],
+                        "gl": [
+                            "yoctopascal"
+                        ],
+                        "it": [
+                            "yoctopascal"
+                        ],
+                        "ja": [
+                            "\u30e8\u30af\u30c8\u30d1\u30b9\u30ab\u30eb"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yoctopascal": [
+                    "Singulier"
+                ],
+                "yoctopascals": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yodler": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "jodeln"
+                        ],
+                        "en": [
+                            "yodel"
+                        ],
+                        "da": [
+                            "jodle"
+                        ],
+                        "et": [
+                            "joodeldama"
+                        ],
+                        "ga": [
+                            "geoidligh"
+                        ],
+                        "nl": [
+                            "jodelen"
+                        ],
+                        "no": [
+                            "jodle"
+                        ],
+                        "sv": [
+                            "joddla"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yoga": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "religion hindouiste",
+                    "translations": {
+                        "en": [
+                            "yoga"
+                        ],
+                        "es": [
+                            "yoga"
+                        ],
+                        "eo": [
+                            "jogo"
+                        ],
+                        "gl": [
+                            "ioga"
+                        ],
+                        "el": [
+                            "\u03b3\u03b9\u03cc\u03b3\u03ba\u03b1"
+                        ],
+                        "hi": [
+                            "\u0917"
+                        ],
+                        "ia": [
+                            "yoga"
+                        ],
+                        "it": [
+                            "yoga"
+                        ],
+                        "nl": [
+                            "yoga"
+                        ],
+                        "pt": [
+                            "ioga"
+                        ],
+                        "ru": [
+                            "\u0439\u043e\u0433\u0430"
+                        ],
+                        "sa": [
+                            "\u0917"
+                        ],
+                        "sv": [
+                            "yoga"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yoga": [
+                    "Singulier"
+                ],
+                "yogas": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yohimbe": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Arbre",
+                    "translations": {
+                        "wikispecies": [
+                            "Pausinystalia johimbe"
+                        ],
+                        "de": [
+                            "Yohimbe"
+                        ],
+                        "en": [
+                            "yohimbe"
+                        ],
+                        "ca": [
+                            "iohimbe"
+                        ],
+                        "et": [
+                            "johimbepuu"
+                        ],
+                        "it": [
+                            "johimbe",
+                            "yohimbe"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yohimbe": [
+                    "Singulier"
+                ],
+                "yohimbes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yohimbine": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yohimbin"
+                        ],
+                        "en": [
+                            "yohimbine"
+                        ],
+                        "bg": [
+                            "\u0439\u043e\u0445\u0438\u043c\u0431\u0438\u043d"
+                        ],
+                        "es": [
+                            "yohimbina"
+                        ],
+                        "fi": [
+                            "johimbiini"
+                        ],
+                        "it": [
+                            "yohimbina"
+                        ],
+                        "ja": [
+                            "\u30e8\u30d2\u30f3\u30d3\u30f3"
+                        ],
+                        "nl": [
+                            "yohimbine"
+                        ],
+                        "pl": [
+                            "johimbina"
+                        ],
+                        "pt": [
+                            "ioimbina"
+                        ],
+                        "ro": [
+                            "yohimbin\u0103"
+                        ],
+                        "ru": [
+                            "\u0438\u043e\u0445\u0438\u043c\u0431\u0438\u043d"
+                        ],
+                        "sh": [
+                            "johimbin"
+                        ],
+                        "sk": [
+                            "yohimb\u00edn"
+                        ],
+                        "sl": [
+                            "johimbin"
+                        ],
+                        "sv": [
+                            "yohimbin"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yohimbine": [
+                    "Singulier"
+                ],
+                "yohimbines": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "y\u00f4kai": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "yokai"
+                        ],
+                        "zh": [
+                            "\u5996\u602a"
+                        ],
+                        "ko": [
+                            "\uc694\uad34"
+                        ],
+                        "ja": [
+                            "\u5996\u602a"
+                        ],
+                        "ru": [
+                            "\u0451\u043a\u0430\u0439"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yokozuna": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yokozuna"
+                        ],
+                        "en": [
+                            "yokozuna"
+                        ],
+                        "ar": [
+                            "\u064a\u0648\u0643\u0648\u0632\u0648\u0646\u0627"
+                        ],
+                        "zh": [
+                            "\u6a6b\u7db1"
+                        ],
+                        "es": [
+                            "yokozuna"
+                        ],
+                        "fi": [
+                            "yokozuna"
+                        ],
+                        "hu": [
+                            "jokodzuna"
+                        ],
+                        "id": [
+                            "yokozuna"
+                        ],
+                        "it": [
+                            "yokozuna"
+                        ],
+                        "ja": [
+                            "\u6a2a\u7db1"
+                        ],
+                        "nl": [
+                            "yokozuna"
+                        ],
+                        "pl": [
+                            "yokozuna"
+                        ],
+                        "ru": [
+                            "\u0451\u043a\u043e\u0434\u0437\u0443\u043d\u0430"
+                        ],
+                        "sv": [
+                            "yokozuna"
+                        ],
+                        "uk": [
+                            "\u0439\u043e\u043a\u043e\u0434\u0437\u0443\u043d\u0430"
+                        ],
+                        "vi": [
+                            "yokozuna"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yokozuna": [
+                    "Singulier"
+                ],
+                "yokozunas": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yola": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yola"
+                        ],
+                        "en": [
+                            "Yola"
+                        ],
+                        "br": [
+                            "yoleg",
+                            "yola"
+                        ],
+                        "ca": [
+                            "iola"
+                        ],
+                        "da": [
+                            "yola"
+                        ],
+                        "es": [
+                            "yola"
+                        ],
+                        "fi": [
+                            "yola"
+                        ],
+                        "ga": [
+                            "Y\u00f3lais"
+                        ],
+                        "no": [
+                            "yola"
+                        ],
+                        "pl": [
+                            "j\u0119zyk yola"
+                        ],
+                        "ru": [
+                            "\u0439\u043e\u043b\u0430"
+                        ],
+                        "sr": [
+                            "\u0458\u043e\u043b\u0430"
+                        ],
+                        "sh": [
+                            "jola"
+                        ],
+                        "cs": [
+                            "yol\u0161tina"
+                        ],
+                        "uk": [
+                            "\u0439\u043e\u043b\u0430"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yole": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "da": [
+                            "jolle"
+                        ],
+                        "es": [
+                            "yola"
+                        ],
+                        "eo": [
+                            "jolo"
+                        ],
+                        "it": [
+                            "scialuppa"
+                        ],
+                        "nl": [
+                            "jol"
+                        ],
+                        "ru": [
+                            "\u044f\u043b"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yole": [
+                    "Singulier"
+                ],
+                "yoles": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yoruba": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yoruba"
+                        ],
+                        "en": [
+                            "Yoruba"
+                        ],
+                        "br": [
+                            "yoroubeg"
+                        ],
+                        "es": [
+                            "yoruba"
+                        ],
+                        "eo": [
+                            "joruba"
+                        ],
+                        "fi": [
+                            "joruba"
+                        ],
+                        "gl": [
+                            "yoruba"
+                        ],
+                        "ha": [
+                            "Yarbanci"
+                        ],
+                        "ja": [
+                            "\u30e8\u30eb\u30d0\u8a9e"
+                        ],
+                        "nl": [
+                            "Yoruba"
+                        ],
+                        "pl": [
+                            "yoruba"
+                        ],
+                        "pt": [
+                            "iorub\u00e1"
+                        ],
+                        "sv": [
+                            "yoruba"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yottacandela": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yottacandela"
+                        ],
+                        "en": [
+                            "yottacandela"
+                        ],
+                        "es": [
+                            "yottacandela"
+                        ],
+                        "gl": [
+                            "yottacandela"
+                        ],
+                        "it": [
+                            "yottacandela"
+                        ],
+                        "ja": [
+                            "\u30e8\u30bf\u30ab\u30f3\u30c7\u30e9"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yottacandela": [
+                    "Singulier"
+                ],
+                "yottacandelas": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yottafarad": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yottafarad"
+                        ],
+                        "en": [
+                            "yottafarad"
+                        ],
+                        "es": [
+                            "yottafaradio"
+                        ],
+                        "it": [
+                            "yottafarad"
+                        ],
+                        "ja": [
+                            "\u30e8\u30bf\u30d5\u30a1\u30e9\u30c9"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yottafarad": [
+                    "Singulier"
+                ],
+                "yottafarads": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yottahenry": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Unit\u00e9 de mesure d\u2019inductance",
+                    "translations": {
+                        "de": [
+                            "Yottahenry"
+                        ],
+                        "en": [
+                            "yottahenry"
+                        ],
+                        "es": [
+                            "yottahenrio"
+                        ],
+                        "gl": [
+                            "yottahenry",
+                            "yottahenrio"
+                        ],
+                        "it": [
+                            "yottahenry"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yottahenry": [
+                    "Singulier"
+                ],
+                "yottahenrys": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yottahertz": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Unit\u00e9 de mesure de fr\u00e9quence",
+                    "translations": {
+                        "de": [
+                            "Yottahertz"
+                        ],
+                        "en": [
+                            "yottahertz"
+                        ],
+                        "ko": [
+                            "\uc694\ud0c0\ud5e4\ub974\uce20"
+                        ],
+                        "es": [
+                            "yottahercio",
+                            "yottahertz",
+                            "yottahertzio"
+                        ],
+                        "gl": [
+                            "yottahertz"
+                        ],
+                        "it": [
+                            "yottahertz"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yottalumen": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yottalumen"
+                        ],
+                        "en": [
+                            "yottalumen"
+                        ],
+                        "es": [
+                            "yottalumen"
+                        ],
+                        "it": [
+                            "yottalumen"
+                        ],
+                        "ja": [
+                            "\u30e8\u30bf\u30eb\u30fc\u30e1\u30f3"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yottalumen": [
+                    "Singulier"
+                ],
+                "yottalumens": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yottalux": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yottalux"
+                        ],
+                        "en": [
+                            "yottalux"
+                        ],
+                        "es": [
+                            "yottalux"
+                        ],
+                        "it": [
+                            "yottalux"
+                        ],
+                        "ja": [
+                            "\u30e8\u30bf\u30eb\u30af\u30b9"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yottanewton": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yottanewton"
+                        ],
+                        "en": [
+                            "yottanewton"
+                        ],
+                        "es": [
+                            "yottanewton"
+                        ],
+                        "gl": [
+                            "yottanewton"
+                        ],
+                        "it": [
+                            "yottanewton"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yottanewton": [
+                    "Singulier"
+                ],
+                "yottanewtons": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yottapascal": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Unit\u00e9 de mesure de pression",
+                    "translations": {
+                        "de": [
+                            "Yottapascal"
+                        ],
+                        "en": [
+                            "yottapascal"
+                        ],
+                        "es": [
+                            "yottapascal"
+                        ],
+                        "gl": [
+                            "yottapascal"
+                        ],
+                        "it": [
+                            "yottapascal"
+                        ],
+                        "ja": [
+                            "\u30e8\u30bf\u30d1\u30b9\u30ab\u30eb"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yottapascal": [
+                    "Singulier"
+                ],
+                "yottapascals": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "youfte": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Juchten"
+                        ],
+                        "en": [
+                            "yuft"
+                        ],
+                        "be": [
+                            "\u044e\u0445\u0442"
+                        ],
+                        "pl": [
+                            "jucht"
+                        ],
+                        "ru": [
+                            "\u044e\u0444\u0442\u044c"
+                        ],
+                        "cs": [
+                            "juchta"
+                        ],
+                        "uk": [
+                            "\u0444\u0442\u0430"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "youfte": [
+                    "Singulier"
+                ],
+                "youftes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "youga": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yuga"
+                        ],
+                        "en": [
+                            "yuga"
+                        ],
+                        "es": [
+                            "iuga"
+                        ],
+                        "fi": [
+                            "yuga"
+                        ],
+                        "id": [
+                            "yuga"
+                        ],
+                        "ja": [
+                            "\u30e6\u30ac"
+                        ],
+                        "lt": [
+                            "juga"
+                        ],
+                        "mk": [
+                            "\u0458\u0443\u0433\u0430"
+                        ],
+                        "nl": [
+                            "juga"
+                        ],
+                        "pl": [
+                            "juga"
+                        ],
+                        "ru": [
+                            "\u044e\u0433\u0430"
+                        ],
+                        "sr": [
+                            "\u0458\u0443\u0433\u0430"
+                        ],
+                        "sk": [
+                            "juga"
+                        ],
+                        "sl": [
+                            "juge"
+                        ],
+                        "uk": [
+                            "\u044e\u0491\u0430"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "youga": [
+                    "Singulier"
+                ],
+                "yougas": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yougoslave": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "jugoslawisch"
+                        ],
+                        "en": [
+                            "Yugoslav",
+                            "Yugoslavian"
+                        ],
+                        "hr": [
+                            "jugoslavenski"
+                        ],
+                        "es": [
+                            "yugoslavo"
+                        ],
+                        "eo": [
+                            "jugoslava"
+                        ],
+                        "hu": [
+                            "jugoszl\u00e1v",
+                            "jugoszl\u00e1viai"
+                        ],
+                        "it": [
+                            "jugoslavo"
+                        ],
+                        "mk": [
+                            "\u0458\u0443\u0433\u043e\u0441\u043b\u043e\u0432\u0435\u043d\u0441\u043a\u0438"
+                        ],
+                        "pl": [
+                            "jugos\u0142owia\u0144ski"
+                        ],
+                        "ru": [
+                            "\u044e\u0433\u043e\u0441\u043b\u0430\u0432\u0441\u043a\u0438\u0439"
+                        ],
+                        "sr": [
+                            "\u0458\u0443\u0433\u043e\u0441\u043b\u043e\u0432\u0435\u043d\u0441\u043a\u0438",
+                            "jugoslovenski"
+                        ],
+                        "sk": [
+                            "juhoslovansk\u00fd"
+                        ],
+                        "sl": [
+                            "jugoslovanski"
+                        ],
+                        "sv": [
+                            "jugoslavisk"
+                        ],
+                        "cs": [
+                            "jugosl\u00e1vsk\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yougoslave": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "yougoslaves": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "Yougoslave": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Jugoslawe",
+                            "Jugoslawin"
+                        ],
+                        "en": [
+                            "Yugoslavian"
+                        ],
+                        "ga": [
+                            "I\u00fagslavach"
+                        ],
+                        "el": [
+                            "\u0393\u03b9\u03bf\u03c5\u03b3\u03ba\u03bf\u03c3\u03bb\u03ac\u03b2\u03bf\u03c2"
+                        ],
+                        "hu": [
+                            "jugoszl\u00e1v"
+                        ],
+                        "pl": [
+                            "Jugos\u0142owianin",
+                            "Jugos\u0142owianka"
+                        ],
+                        "pt": [
+                            "iugoslavo"
+                        ],
+                        "ro": [
+                            "iugoslav",
+                            "iugoslav\u0103"
+                        ],
+                        "ru": [
+                            "\u044e\u0433\u043e\u0441\u043b\u0430\u0432"
+                        ],
+                        "sh": [
+                            "Jugoslaven"
+                        ],
+                        "sv": [
+                            "jugoslav"
+                        ],
+                        "cs": [
+                            "Jugosl\u00e1vec"
+                        ],
+                        "tr": [
+                            "Yugoslav",
+                            "Yugoslavyal\u0131"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "Yougoslave": [
+                    "Singulier",
+                    "Masculinet f\u00e9minin"
+                ],
+                "Yougoslaves": [
+                    "Pluriel",
+                    "Masculinet f\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "youpi": [
+        {
+            "type": "Interjection",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "whoopee",
+                            "yippee",
+                            "yahoo"
+                        ],
+                        "es": [
+                            "lol"
+                        ],
+                        "eo": [
+                            "maldiable"
+                        ],
+                        "el": [
+                            "\u03b6\u03ae\u03c4\u03c9"
+                        ],
+                        "la": [
+                            "io"
+                        ],
+                        "nl": [
+                            "joepie"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yourte": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Jurte"
+                        ],
+                        "en": [
+                            "yurt"
+                        ],
+                        "da": [
+                            "jurte"
+                        ],
+                        "es": [
+                            "yurta"
+                        ],
+                        "eo": [
+                            "jurto"
+                        ],
+                        "fi": [
+                            "jurtta"
+                        ],
+                        "it": [
+                            "iurta",
+                            "yurta"
+                        ],
+                        "ja": [
+                            "\u30b2\u30eb"
+                        ],
+                        "kk": [
+                            "\u043a\u0438\u0456\u0437 \u04af\u0439"
+                        ],
+                        "ky": [
+                            "\u0431\u043e\u0437 \u04af\u0439",
+                            "\u043a\u0438\u0439\u0438\u0437 \u04af\u0439"
+                        ],
+                        "mn": [
+                            "\u0433\u044d\u0440"
+                        ],
+                        "nl": [
+                            "yurt"
+                        ],
+                        "no": [
+                            "jurt"
+                        ],
+                        "pl": [
+                            "jurta"
+                        ],
+                        "pt": [
+                            "ger"
+                        ],
+                        "ru": [
+                            "\u044e\u0440\u0442\u0430"
+                        ],
+                        "sk": [
+                            "jurta"
+                        ],
+                        "sv": [
+                            "jurta"
+                        ],
+                        "tt": [
+                            "\u043a\u0438\u0435\u0437 \u04e9\u0439",
+                            "\u0442\u0438\u0440\u043c\u04d9"
+                        ],
+                        "cs": [
+                            "jurta"
+                        ],
+                        "tk": [
+                            "gara \u00f6\u00fd"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yourte": [
+                    "Singulier"
+                ],
+                "yourtes": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "youtubeur": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "utilisateur qui publie des vid\u00e9os sur YouTube",
+                    "translations": {
+                        "de": [
+                            "Youtuborin"
+                        ],
+                        "en": [
+                            "YouTuber",
+                            "YouTubian"
+                        ],
+                        "es": [
+                            "youtuber"
+                        ],
+                        "fi": [
+                            "tubettaja"
+                        ],
+                        "gl": [
+                            "youtuber"
+                        ],
+                        "it": [
+                            "youtuber"
+                        ],
+                        "pt": [
+                            "youtuber"
+                        ],
+                        "sv": [
+                            "youtuber",
+                            "youtubare"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "youtubeur": [
+                    "Singulier"
+                ],
+                "youtubeurs": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "youyou": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Petit canot\u00a0(1)",
+                    "translations": {
+                        "de": [
+                            "Dingi"
+                        ],
+                        "en": [
+                            "dinghy"
+                        ],
+                        "eu": [
+                            "batel",
+                            "txalupa",
+                            "txanel"
+                        ],
+                        "es": [
+                            "gabarra"
+                        ],
+                        "it": [
+                            "yuyu"
+                        ],
+                        "nl": [
+                            "sloepje"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "youyou": [
+                    "Singulier"
+                ],
+                "youyous": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yp\u00e9rite": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "yperiet"
+                        ],
+                        "de": [
+                            "Senfgas"
+                        ],
+                        "en": [
+                            "sulfur mustard",
+                            "mustard gas"
+                        ],
+                        "ar": [
+                            "\u063a\u0627\u0632 \u0627\u0644\u062e\u0631\u062f\u0644"
+                        ],
+                        "hy": [
+                            "\u056b\u057a\u0580\u056b\u057f"
+                        ],
+                        "br": [
+                            "iperit"
+                        ],
+                        "bg": [
+                            "\u0438\u043f\u0440\u0438\u0442"
+                        ],
+                        "ca": [
+                            "mostassa sulfurada"
+                        ],
+                        "zh": [
+                            "\u82a5\u5b50\u6bd2\u6c14"
+                        ],
+                        "ko": [
+                            "\uba38\uc2a4\ud130\ub4dc \uac00\uc2a4"
+                        ],
+                        "da": [
+                            "sennepsgas"
+                        ],
+                        "es": [
+                            "gas mostaza"
+                        ],
+                        "eo": [
+                            "iperito"
+                        ],
+                        "et": [
+                            "ipriit"
+                        ],
+                        "fi": [
+                            "sinappikaasu"
+                        ],
+                        "ga": [
+                            "g\u00e1s mustaird"
+                        ],
+                        "gl": [
+                            "gas mostaza"
+                        ],
+                        "cy": [
+                            "nwy mwstard"
+                        ],
+                        "he": [
+                            "\u05d2\u05d6 \u05d7\u05e8\u05d3\u05dc"
+                        ],
+                        "hu": [
+                            "must\u00e1rg\u00e1z"
+                        ],
+                        "id": [
+                            "yperit"
+                        ],
+                        "is": [
+                            "sinnepsgas"
+                        ],
+                        "it": [
+                            "iprite",
+                            "gas mostarda"
+                        ],
+                        "ja": [
+                            "\u30de\u30b9\u30bf\u30fc\u30c9\u30ac\u30b9",
+                            "\u30a4\u30da\u30ea\u30c3\u30c8"
+                        ],
+                        "kk": [
+                            "\u0438\u043f\u0440\u0438\u0442"
+                        ],
+                        "ky": [
+                            "\u0438\u043f\u0440\u0438\u0442"
+                        ],
+                        "la": [
+                            "yperitum"
+                        ],
+                        "lv": [
+                            "ipr\u012bts"
+                        ],
+                        "lt": [
+                            "ipritas"
+                        ],
+                        "nl": [
+                            "mosterdgas"
+                        ],
+                        "no": [
+                            "sennepsgass"
+                        ],
+                        "pnb": [
+                            "\u0645\u0633\u0679\u0631\u0688 \u06af\u06cc\u0633"
+                        ],
+                        "fa": [
+                            "\u06af\u0627\u0632 \u062e\u0631\u062f\u0644"
+                        ],
+                        "pl": [
+                            "iperyt siarkowy"
+                        ],
+                        "pt": [
+                            "g\u00e1s mostarda"
+                        ],
+                        "ro": [
+                            "iperit\u0103"
+                        ],
+                        "ru": [
+                            "\u0438\u043f\u0440\u0438\u0442"
+                        ],
+                        "sr": [
+                            "iperit"
+                        ],
+                        "sh": [
+                            "iperit"
+                        ],
+                        "sk": [
+                            "yperit"
+                        ],
+                        "sl": [
+                            "iperit"
+                        ],
+                        "sv": [
+                            "senapsgas"
+                        ],
+                        "cs": [
+                            "yperit"
+                        ],
+                        "tr": [
+                            "hardal gaz\u0131"
+                        ],
+                        "uk": [
+                            "\u0456\u043f\u0440\u0438\u0442"
+                        ],
+                        "vi": [
+                            "l\u01b0u hu\u1ef3nh m\u00f9 t\u1ea1t"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yp\u00e9rite": [
+                    "Singulier"
+                ],
+                "yp\u00e9rites": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "Ypr\u00e9sien": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Ypresium"
+                        ],
+                        "en": [
+                            "Ypresian"
+                        ],
+                        "ca": [
+                            "Ypresi\u00e0"
+                        ],
+                        "es": [
+                            "Ypresiense"
+                        ],
+                        "hu": [
+                            "Yprezi"
+                        ],
+                        "it": [
+                            "Ypresiano"
+                        ],
+                        "nl": [
+                            "Ypresien"
+                        ],
+                        "pl": [
+                            "Ipres"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "ytterbium": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Ytterbium"
+                        ],
+                        "en": [
+                            "ytterbium"
+                        ],
+                        "bg": [
+                            "\u0438\u0442\u0435\u0440\u0431\u0438\u0439"
+                        ],
+                        "ko": [
+                            "\uc774\ud14c\ub974\ube00"
+                        ],
+                        "da": [
+                            "ytterbium"
+                        ],
+                        "es": [
+                            "iterbio"
+                        ],
+                        "eo": [
+                            "iterbio"
+                        ],
+                        "et": [
+                            "\u00fcterbium"
+                        ],
+                        "fi": [
+                            "ytterbium"
+                        ],
+                        "el": [
+                            "\u03c5\u03c4\u03c4\u03ad\u03c1\u03b2\u03b9\u03bf"
+                        ],
+                        "hu": [
+                            "itterbium"
+                        ],
+                        "it": [
+                            "itterbio"
+                        ],
+                        "ja": [
+                            "\u30a4\u30c3\u30c6\u30eb\u30d3\u30a6\u30e0"
+                        ],
+                        "lv": [
+                            "iterbijs"
+                        ],
+                        "lt": [
+                            "iterbis"
+                        ],
+                        "mt": [
+                            "itterbju"
+                        ],
+                        "nl": [
+                            "ytterbium"
+                        ],
+                        "oc": [
+                            "it\u00e8rbi"
+                        ],
+                        "pl": [
+                            "iterb"
+                        ],
+                        "pt": [
+                            "it\u00e9rbio"
+                        ],
+                        "ro": [
+                            "yterbiu"
+                        ],
+                        "ru": [
+                            "\u0438\u0442\u0442\u0435\u0440\u0431\u0438\u0439"
+                        ],
+                        "sk": [
+                            "yterbium"
+                        ],
+                        "sl": [
+                            "iterbij"
+                        ],
+                        "sv": [
+                            "ytterbium"
+                        ],
+                        "cs": [
+                            "ytterbium"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yttria": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yttriumoxid"
+                        ],
+                        "en": [
+                            "yttria",
+                            "yttrium oxide"
+                        ],
+                        "da": [
+                            "yttria",
+                            "yttriumoxid"
+                        ],
+                        "es": [
+                            "\u00f3xido de itrio"
+                        ],
+                        "fi": [
+                            "yttriumoksidi"
+                        ],
+                        "it": [
+                            "ossido di ittrio"
+                        ],
+                        "nl": [
+                            "yttriumoxide"
+                        ],
+                        "pt": [
+                            "\u00edtria"
+                        ],
+                        "ru": [
+                            "\u043e\u043a\u0441\u0438\u0434 \u0438\u0442\u0442\u0440\u0438\u044f"
+                        ],
+                        "cs": [
+                            "oxid yttrit\u00fd"
+                        ],
+                        "vi": [
+                            "oxit"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yttria": [
+                    "Singulier"
+                ],
+                "yttrias": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yttrium": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "af": [
+                            "yttrium"
+                        ],
+                        "sq": [
+                            "itriumi"
+                        ],
+                        "de": [
+                            "Yttrium"
+                        ],
+                        "en": [
+                            "yttrium"
+                        ],
+                        "an": [
+                            "itrio"
+                        ],
+                        "hy": [
+                            "\u056b\u057f\u0580\u056b\u0578\u0582\u0574"
+                        ],
+                        "ast": [
+                            "itriu"
+                        ],
+                        "az": [
+                            "ittrium"
+                        ],
+                        "eu": [
+                            "itrio"
+                        ],
+                        "be": [
+                            "\u0456\u0442\u0440\u044b\u0439"
+                        ],
+                        "bs": [
+                            "itrij"
+                        ],
+                        "br": [
+                            "itriom"
+                        ],
+                        "bg": [
+                            "\u0438\u0442\u0440\u0438\u0439"
+                        ],
+                        "ca": [
+                            "itri"
+                        ],
+                        "ko": [
+                            "\uc774\ud2b8\ub968"
+                        ],
+                        "co": [
+                            "ittriu"
+                        ],
+                        "hr": [
+                            "itrij"
+                        ],
+                        "da": [
+                            "yttrium"
+                        ],
+                        "es": [
+                            "itrio"
+                        ],
+                        "eo": [
+                            "itrio"
+                        ],
+                        "et": [
+                            "\u00fctrium"
+                        ],
+                        "fi": [
+                            "yttrium"
+                        ],
+                        "gd": [
+                            "itrium"
+                        ],
+                        "ga": [
+                            "itriam"
+                        ],
+                        "gl": [
+                            "itrio"
+                        ],
+                        "cy": [
+                            "ytriwm"
+                        ],
+                        "el": [
+                            "\u03cd\u03c4\u03c4\u03c1\u03b9\u03bf"
+                        ],
+                        "hu": [
+                            "ittrium"
+                        ],
+                        "io": [
+                            "yitrio"
+                        ],
+                        "id": [
+                            "itrium"
+                        ],
+                        "is": [
+                            "yttr\u00edn"
+                        ],
+                        "it": [
+                            "ittrio"
+                        ],
+                        "ja": [
+                            "\u30a4\u30c3\u30c8\u30ea\u30a6\u30e0"
+                        ],
+                        "jv": [
+                            "itrium"
+                        ],
+                        "kk": [
+                            "\u0438\u0442\u0442\u0440\u0438\u0439"
+                        ],
+                        "ky": [
+                            "\u0438\u0442\u0442\u0440\u0438\u0439"
+                        ],
+                        "ku": [
+                            "\u00eetriy\u00fbm"
+                        ],
+                        "lv": [
+                            "itrijs"
+                        ],
+                        "lt": [
+                            "itris"
+                        ],
+                        "jbo": [
+                            "jinmrtitri"
+                        ],
+                        "mk": [
+                            "\u0438\u0442\u0440\u0438\u0443\u043c"
+                        ],
+                        "mt": [
+                            "ittrju"
+                        ],
+                        "gv": [
+                            "yttrium"
+                        ],
+                        "mn": [
+                            "\u0438\u0442\u0442\u0440\u0438"
+                        ],
+                        "nl": [
+                            "yttrium"
+                        ],
+                        "no": [
+                            "yttrium"
+                        ],
+                        "oc": [
+                            "itri"
+                        ],
+                        "uz": [
+                            "ittriy"
+                        ],
+                        "pl": [
+                            "itr"
+                        ],
+                        "pt": [
+                            "\u00edtrio"
+                        ],
+                        "qu": [
+                            "itriyu"
+                        ],
+                        "ro": [
+                            "ytriu"
+                        ],
+                        "ru": [
+                            "\u0438\u0442\u0442\u0440\u0438\u0439"
+                        ],
+                        "sr": [
+                            "\u0438\u0442\u0440\u0438\u0458\u0443\u043c"
+                        ],
+                        "sh": [
+                            "itrijum",
+                            "itrij"
+                        ],
+                        "scn": [
+                            "ittriu"
+                        ],
+                        "sk": [
+                            "ytrium"
+                        ],
+                        "sl": [
+                            "itrij"
+                        ],
+                        "so": [
+                            "itriyaam"
+                        ],
+                        "su": [
+                            "itrium"
+                        ],
+                        "sv": [
+                            "yttrium"
+                        ],
+                        "sw": [
+                            "ytri"
+                        ],
+                        "tl": [
+                            "itriyo"
+                        ],
+                        "tt": [
+                            "\u0438\u0442\u0442\u0440\u0438\u0439"
+                        ],
+                        "cs": [
+                            "yttrium"
+                        ],
+                        "tr": [
+                            "itriyum"
+                        ],
+                        "uk": [
+                            "\u0456\u0442\u0440\u0456\u0439"
+                        ],
+                        "vi": [
+                            "yttri"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yuan": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yuan"
+                        ],
+                        "en": [
+                            "yuan"
+                        ],
+                        "bg": [
+                            "\u044e\u0430\u043d"
+                        ],
+                        "ca": [
+                            "iuan"
+                        ],
+                        "zh": [
+                            "\u5143"
+                        ],
+                        "ko": [
+                            "\uc704\uc548"
+                        ],
+                        "es": [
+                            "yuan"
+                        ],
+                        "eo": [
+                            "juano"
+                        ],
+                        "el": [
+                            "\u03b3\u03b9\u03bf\u03c5\u03ac\u03bd",
+                            "\u03b3\u03bf\u03c5\u03ac\u03bd"
+                        ],
+                        "hu": [
+                            "j\u00fcan"
+                        ],
+                        "id": [
+                            "yuan"
+                        ],
+                        "ja": [
+                            "\u5143",
+                            "\u30e6\u30a2\u30f3"
+                        ],
+                        "kk": [
+                            "\u044e\u04d9\u043d"
+                        ],
+                        "ru": [
+                            "\u044e\u0430\u043d\u044c"
+                        ],
+                        "tr": [
+                            "yuan"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yuan": [
+                    "Singulier"
+                ],
+                "yuans": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yuanyang": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "yuenyeung"
+                        ],
+                        "zh": [
+                            "\u9d1b\u9d26"
+                        ],
+                        "es": [
+                            "yuanyang"
+                        ],
+                        "ja": [
+                            "\u9d1b\u9d26\u8336"
+                        ],
+                        "no": [
+                            "yuanyang"
+                        ],
+                        "sv": [
+                            "yuanyang"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "yucca": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "yucca"
+                        ],
+                        "zh": [
+                            "\u4e1d\u5170"
+                        ],
+                        "es": [
+                            "yuca"
+                        ],
+                        "it": [
+                            "iucca",
+                            "yucca"
+                        ],
+                        "oc": [
+                            "ioca"
+                        ],
+                        "pt": [
+                            "i\u00faca"
+                        ],
+                        "sk": [
+                            "juka"
+                        ],
+                        "cs": [
+                            "juka"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yucca": [
+                    "Singulier"
+                ],
+                "yuccas": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "yukata": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "Yukata"
+                        ],
+                        "en": [
+                            "yukata"
+                        ],
+                        "ar": [
+                            "\u064a\u0648\u0643\u0627\u062a\u0627"
+                        ],
+                        "zh": [
+                            "\u6d74\u8863"
+                        ],
+                        "ko": [
+                            "\uc720\uce74\ud0c0"
+                        ],
+                        "ja": [
+                            "\u6d74\u8863"
+                        ],
+                        "ru": [
+                            "\u044e\u043a\u0430\u0442\u0430"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "yukata": [
+                    "Singulier"
+                ],
+                "yukatas": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "z\u00e8bre": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "\u00c9quid\u00e9 d\u2019Afrique blanc et noir",
+                    "translations": {
+                        "af": [
+                            "sebra"
+                        ],
+                        "de": [
+                            "Zebra"
+                        ],
+                        "en": [
+                            "zebra"
+                        ],
+                        "ar": [
+                            "\u062d\u0645\u0627\u0631 \u0645\u062e\u0637\u0637",
+                            "\u0631\u062f"
+                        ],
+                        "br": [
+                            "roudenneg"
+                        ],
+                        "ca": [
+                            "zebra"
+                        ],
+                        "zh": [
+                            "\u6591\u9a6c"
+                        ],
+                        "ko": [
+                            "\uc5bc\ub8e9\ub9d0"
+                        ],
+                        "es": [
+                            "cebra"
+                        ],
+                        "eo": [
+                            "zebro"
+                        ],
+                        "el": [
+                            "\u03b6\u03ad\u03b2\u03c1\u03b1"
+                        ],
+                        "io": [
+                            "zebro"
+                        ],
+                        "it": [
+                            "zebra",
+                            "tipo",
+                            "tizio"
+                        ],
+                        "ja": [
+                            "\u30b7\u30de\u30a6\u30de"
+                        ],
+                        "rw": [
+                            "yemera"
+                        ],
+                        "ln": [
+                            "mp\u00fanda ya mingol\u00fa"
+                        ],
+                        "nl": [
+                            "zebra",
+                            "Kaapse ezel"
+                        ],
+                        "oc": [
+                            "z\u00e8bre"
+                        ],
+                        "pt": [
+                            "zebra"
+                        ],
+                        "ru": [
+                            "\u0437\u0435\u0431\u0440\u0430"
+                        ],
+                        "sk": [
+                            "zebra"
+                        ],
+                        "sv": [
+                            "zebra"
+                        ],
+                        "sw": [
+                            "punda milia"
+                        ],
+                        "tr": [
+                            "yaban e\u015fe\u011fi",
+                            "zebra"
+                        ],
+                        "vi": [
+                            "ng\u1ef1a v\u1eb1n"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "z\u00e8bre": [
+                    "Singulier"
+                ],
+                "z\u00e8bres": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "z\u00e9brer": [
+        {
+            "type": "Verbe",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "mit Streifen versehen"
+                        ],
+                        "en": [
+                            "stripe",
+                            "streak"
+                        ],
+                        "br": [
+                            "roudenna\u00f1"
+                        ],
+                        "eo": [
+                            "strii"
+                        ],
+                        "it": [
+                            "rigare",
+                            "striare"
+                        ],
+                        "pt": [
+                            "zebrar"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "z\u00e9bu": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Bos taurus indicus",
+                            "parfois Bos indicus"
+                        ],
+                        "de": [
+                            "Zebu",
+                            "Buckelrind"
+                        ],
+                        "en": [
+                            "zebu",
+                            "humped cattle"
+                        ],
+                        "es": [
+                            "ceb\u00fa"
+                        ],
+                        "eo": [
+                            "zebuo"
+                        ],
+                        "it": [
+                            "zeb\u00f9",
+                            "zebu"
+                        ],
+                        "nl": [
+                            "zeboe"
+                        ],
+                        "pt": [
+                            "zebu"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "z\u00e9bu": [
+                    "Singulier"
+                ],
+                "z\u00e9bus": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "z\u00e8de": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "de": [
+                            "zet"
+                        ],
+                        "en": [
+                            "zed",
+                            "zee"
+                        ],
+                        "ko": [
+                            "\uc81c\ud2b8",
+                            "\uc81c\ub4dc"
+                        ],
+                        "es": [
+                            "zeta"
+                        ],
+                        "eo": [
+                            "zo"
+                        ],
+                        "ja": [
+                            "\u30bc\u30c3\u30c8",
+                            "\u30bc\u30c3\u30c9"
+                        ],
+                        "ru": [
+                            "\u0437\u044d\u0434",
+                            "\u0437\u044d\u0442",
+                            "\u0446\u044d\u0442"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "z\u00e8de": [
+                    "Singulier"
+                ],
+                "z\u00e8des": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "z\u00e9doaire": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "wikispecies": [
+                            "Curcuma zedoaria"
+                        ],
+                        "en": [
+                            "zedoary"
+                        ],
+                        "ar": [
+                            "\u062c\u062f\u0648\u0627\u0631"
+                        ],
+                        "es": [
+                            "zedoaria"
+                        ],
+                        "it": [
+                            "zettovario",
+                            "zedo\u00e0ria"
+                        ],
+                        "pt": [
+                            "zedo\u00e1ria"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "z\u00e9doaire": [
+                    "Singulier"
+                ],
+                "z\u00e9doaires": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "zek": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "zek"
+                        ],
+                        "ca": [
+                            "zek"
+                        ],
+                        "es": [
+                            "zek"
+                        ],
+                        "it": [
+                            "zek"
+                        ],
+                        "pl": [
+                            "zek"
+                        ],
+                        "pt": [
+                            "zek"
+                        ],
+                        "ru": [
+                            "\u0437\u044d\u043a"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "zek": [
+                    "Singulier"
+                ],
+                "zeks": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ],
+    "z\u00e9l\u00e9": [
+        {
+            "type": "Adjectif",
+            "translations": [
+                {
+                    "definition": "",
+                    "translations": {
+                        "en": [
+                            "zealous"
+                        ],
+                        "br": [
+                            "c\u02bchoantek"
+                        ],
+                        "es": [
+                            "celador"
+                        ],
+                        "fi": [
+                            "innokas"
+                        ],
+                        "ru": [
+                            "\u0440\u0435\u0432\u043d\u043e\u0441\u0442\u043d\u044b\u0439"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "z\u00e9l\u00e9": [
+                    "Singulier",
+                    "Masculin"
+                ],
+                "z\u00e9l\u00e9s": [
+                    "Pluriel",
+                    "Masculin"
+                ],
+                "z\u00e9l\u00e9e": [
+                    "Singulier",
+                    "F\u00e9minin"
+                ],
+                "z\u00e9l\u00e9es": [
+                    "Pluriel",
+                    "F\u00e9minin"
+                ]
+            }
+        }
+    ],
+    "z\u00e8le": [
+        {
+            "type": "Nom commun",
+            "translations": [
+                {
+                    "definition": "Vive ardeur pour appliquer les consignes et les r\u00e8glements \u00e0 la lettre",
+                    "translations": {
+                        "de": [
+                            "Eifer",
+                            "Inbrunst"
+                        ],
+                        "br": [
+                            "gred"
+                        ],
+                        "ca": [
+                            "fervor"
+                        ],
+                        "da": [
+                            "iver"
+                        ],
+                        "es": [
+                            "celo",
+                            "cuidado"
+                        ],
+                        "eo": [
+                            "fervoro"
+                        ],
+                        "fi": [
+                            "innokkuus",
+                            "into"
+                        ],
+                        "fy": [
+                            "ambysje"
+                        ],
+                        "el": [
+                            "\u03b6\u03ae\u03bb\u03bf\u03c2"
+                        ],
+                        "io": [
+                            "zelo"
+                        ],
+                        "it": [
+                            "ardore",
+                            "voga",
+                            "zelo"
+                        ],
+                        "nl": [
+                            "ambitie",
+                            "ijver",
+                            "vuur"
+                        ],
+                        "pl": [
+                            "zapa\u0142",
+                            "gorliwo\u015b\u0107"
+                        ],
+                        "pt": [
+                            "ardor",
+                            "fervor",
+                            "zelo"
+                        ],
+                        "ro": [
+                            "zel"
+                        ]
+                    }
+                }
+            ],
+            "forms": {
+                "z\u00e8le": [
+                    "Singulier"
+                ],
+                "z\u00e8les": [
+                    "Pluriel"
+                ]
+            }
+        }
+    ]
+}
