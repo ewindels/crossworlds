@@ -339,7 +339,6 @@ class WordGrid(Grid):
                        col: int) -> None:
         self.letters.pop((row, col), None)
 
-    @property
     def best_word_pattern(self) -> WordPattern:
         return min(self.word_patterns, key=lambda x: len(x.candidates))
 
@@ -417,7 +416,7 @@ class WordPattern(ABC):
         old_cache_key = crossed_word_pattern.cache_key
         crossed_word_pattern.cache_key += ALPHABET_MAP[letter] * cross_factor
         crossed_word_pattern.update_candidates(crossed_index, letter, old_cache_key)
-        if crossed_word_pattern.candidates:
+        if crossed_word_pattern.candidates - self.grid.used_words:
             crossed_word_pattern.letters_indices[crossed_index] = letter
             return True
         crossed_word_pattern.cache_key = old_cache_key
@@ -438,7 +437,7 @@ class WordPattern(ABC):
 
     @property
     def candidates(self) -> set[str]:
-        return self.grid.candidates_cache[self.cache_key] - self.grid.used_words
+        return self.grid.candidates_cache[self.cache_key]
 
 
 class WordPatternHorizontal(WordPattern):
