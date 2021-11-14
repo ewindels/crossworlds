@@ -5,8 +5,7 @@ from crossworlds.search import get_full_grids
 
 def main():
     vocab = init_vocab()
-    for height, width in [(3, 3), (3, 4), (4, 4), (4, 5), (5, 5), (5, 6),
-                          (6, 6), (6, 7), (7, 7)]:
+    for height, width in [(7, 8), (8, 8)]:
         print(f'{height}x{width}')
         definitions = set()
         found_grids = list(get_full_grids(height, width, definitions, vocab))
