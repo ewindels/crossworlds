@@ -374,6 +374,7 @@ class WordPattern(ABC):
         self.linked_letters_indices = set()
         self.orthogonal_word_patterns = {}
         self.cache_key = length
+        self.hash = hash((self.row, self.col))
 
     @abstractmethod
     def get_coor(self,
@@ -387,11 +388,8 @@ class WordPattern(ABC):
                   col: int) -> int:
         pass
 
-    def __eq__(self, other: WordPattern) -> bool:
-        return self.row == other.row and self.col == other.col and self.length == other.length
-
     def __hash__(self) -> int:
-        return hash((self.row, self.col, self.length))
+        return self.hash
 
     def set_word(self, word: str) -> bool:
         for index in self.orthogonal_word_patterns:
