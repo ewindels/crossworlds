@@ -19,6 +19,14 @@ int WordPatternHorizontal::getCoor(int index, int orthogonalOffset) {
     return d_grid.height() * (d_row + orthogonalOffset) + d_col + index;
 }
 
+int WordPatternHorizontal::getIndex(int coor) {
+    return coor % d_grid.width() - d_col;
+}
+
 int WordPatternVertical::getCoor(int index, int orthogonalOffset) {
     return d_grid.height() * (d_row + index) + d_col + orthogonalOffset;
+}
+
+int WordPatternVertical::getIndex(int coor) {
+    return coor / d_grid.width() - d_row;
 }

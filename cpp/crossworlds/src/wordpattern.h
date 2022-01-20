@@ -13,6 +13,7 @@ class WordPattern {
         WordPattern(int row, int col, int length, Grid& grid);
 
         virtual int getCoor(int index, int orthogonalOffset = 0) = 0;
+        virtual int getIndex(int coor) = 0;
         char& letter(int index);
         void setWord(std::string word);
 
@@ -30,12 +31,14 @@ class WordPatternHorizontal : public WordPattern {
     public:
         using WordPattern::WordPattern;
         int getCoor(int index, int orthogonalOffset = 0);
+        int getIndex(int coor);
 };
 
 class WordPatternVertical : public WordPattern {
     public:
-    using WordPattern::WordPattern;
+        using WordPattern::WordPattern;
         int getCoor(int index, int orthogonalOffset = 0);
+        int getIndex(int coor);
 };
 
 #endif

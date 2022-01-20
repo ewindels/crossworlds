@@ -17,3 +17,12 @@ TEST(WordPattern, SetAndReadLetter) {
     ASSERT_EQ(grid.letter(1), 'A');
 }
 
+TEST(WordPattern, GetIndex) {
+    Grid grid(2, 2);
+    WordPatternVertical wordPatternV(0, 1, 2, grid);
+    WordPatternHorizontal wordPatternH(1, 0, 2, grid);
+    ASSERT_EQ(wordPatternV.getIndex(1), 0);
+    ASSERT_EQ(wordPatternV.getIndex(3), 1);
+    ASSERT_EQ(wordPatternH.getIndex(2), 0);
+    ASSERT_EQ(wordPatternH.getIndex(3), 1);
+}
