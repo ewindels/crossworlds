@@ -15,7 +15,8 @@ class WordPattern {
         virtual int getCoor(int index, int orthogonalOffset = 0) = 0;
         virtual int getIndex(int coor) = 0;
         char& letter(int index);
-        void setWord(std::string word);
+        bool setWord(std::string word);
+        bool updateOrthogonalLetters(int index, char letter);
 
     protected:
         int d_row;
@@ -24,6 +25,7 @@ class WordPattern {
         std::set<int> d_lettersIndices;
         std::set<int> d_linkedLettersIndices;
         std::unordered_set<std::string> d_candidates;
+        std::map<int, WordPattern*> d_orthogonalMap;
         Grid d_grid;
 };
 

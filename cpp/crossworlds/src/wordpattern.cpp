@@ -12,7 +12,20 @@ char& WordPattern::letter(int index) {
     return d_grid.letter(getCoor(index));
 }
 
-void WordPattern::setWord(std::string word) {
+bool WordPattern::setWord(std::string word) {
+    for ( const auto &mapPair : d_orthogonalMap ) {
+        int index = mapPair.first;
+        if ( d_orthogonalMap.find(index) != d_orthogonalMap.end() ) {
+            if ( !updateOrthogonalLetters(index, word[index]) ) {
+                return false;
+            };
+        };
+    };
+    return true;
+}
+
+bool WordPattern::updateOrthogonalLetters(int index, char letter) {
+    return true;
 }
 
 int WordPatternHorizontal::getCoor(int index, int orthogonalOffset) {
