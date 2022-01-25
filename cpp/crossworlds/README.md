@@ -1,8 +1,10 @@
 **build**
 
-cd cpp/crossworlds/build
+mkdir build
+cd build
+cmake ..
 make
 
 **run tests**
-(once in cpp/crossworlds/build)
-tests/*test_name*
+cd build
+ctest
