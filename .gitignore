@@ -116,3 +116,4 @@ dmypy.json
 .vscode/
 notebooks/
 .idea/
+cpp/crossworlds/.devcontainer/devcontainer.json
