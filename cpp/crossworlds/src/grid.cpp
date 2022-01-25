@@ -21,6 +21,14 @@ char& Grid::letter(int coor) {
     return d_letters_p[coor];
 }
 
-std::set<std::string>& Grid::usedWords() {
-    return d_usedWords;
-}
+void Grid::addUsedWord(const std::string& word) {
+    d_usedWords.insert(word)
+};
+
+bool Grid::hasUsedWord(const std::string& word) {
+
+};
+
+void Grid::removeUsedWord(const std::string& word) {
+
+};
