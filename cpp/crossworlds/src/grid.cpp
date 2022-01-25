@@ -20,3 +20,7 @@ int Grid::width() const
 char& Grid::letter(int coor) {
     return d_letters_p[coor];
 }
+
+std::set<std::string>& Grid::usedWord() {
+    return d_usedWords;
+}

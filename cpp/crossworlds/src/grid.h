@@ -1,8 +1,9 @@
 #ifndef GRID
 #define GRID
 
-#include <map>
-#include "lookup.h"
+#include <lookup.h>
+#include <set>
+#include <string>
 
 class Grid {
     public:
@@ -11,11 +12,13 @@ class Grid {
         int height() const;
         int width() const;
         char& letter(int coor);
+        std::set<std::string>& usedWord();
 
     private:
         int d_height;
         int d_width;
         char* d_letters_p;
+        std::set<std::string> d_usedWords;
 };
 
 #endif

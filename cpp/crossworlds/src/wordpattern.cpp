@@ -21,6 +21,7 @@ bool WordPattern::setWord(std::string word) {
             };
         };
     };
+    d_grid.usedWord().insert(word);
     return true;
 }
 
