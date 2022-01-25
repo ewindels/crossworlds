@@ -12,7 +12,7 @@ class Grid {
         int height() const;
         int width() const;
         char& letter(int coor);
-        std::set<std::string>& usedWord();
+        std::set<std::string>& usedWords();
 
     private:
         int d_height;

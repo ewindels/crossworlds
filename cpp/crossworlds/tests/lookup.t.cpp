@@ -1,5 +1,5 @@
-#include "gtest/gtest.h"
-#include "lookup.h"
+#include <gtest/gtest.h>
+#include <lookup.h>
 #include <unordered_set>
 #include <string>
 

@@ -1,4 +1,4 @@
-#include "grid.h"
+#include <grid.h>
 
 Grid::Grid(int height, int width)
 : d_height(height),
@@ -21,6 +21,6 @@ char& Grid::letter(int coor) {
     return d_letters_p[coor];
 }
 
-std::set<std::string>& Grid::usedWord() {
+std::set<std::string>& Grid::usedWords() {
     return d_usedWords;
 }
