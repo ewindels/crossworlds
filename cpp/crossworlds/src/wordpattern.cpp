@@ -4,7 +4,8 @@ WordPattern::WordPattern(int row, int col, int length, Grid& grid)
 : d_row(row),
   d_col(col),
   d_length(length),
-  d_grid(grid)
+  d_grid(grid),
+  d_letters(length, ' ')
 {
 }
 
@@ -15,13 +16,13 @@ char& WordPattern::letter(int index) {
 bool WordPattern::setWord(std::string word) {
     for ( const auto &mapPair : d_orthogonalMap ) {
         int index = mapPair.first;
-        if ( d_orthogonalMap.find(index) != d_orthogonalMap.end() ) {
+        if ( d_letters[index] != ' ' ) {
             if ( !updateOrthogonalLetters(index, word[index]) ) {
                 return false;
             };
         };
     };
-    d_grid.usedWords().insert(word);
+    d_grid.addUsedWord(word);
     return true;
 }
 

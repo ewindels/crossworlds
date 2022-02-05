@@ -3,6 +3,7 @@
 
 #include <map>
 #include <set>
+#include <vector>
 #include <unordered_set>
 #include <string>
 #include <utility>
@@ -22,7 +23,7 @@ class WordPattern {
         int d_row;
         int d_col;
         int d_length;
-        std::set<int> d_lettersIndices;
+        std::vector<char> d_letters;
         std::set<int> d_linkedLettersIndices;
         std::unordered_set<std::string> d_candidates;
         std::map<int, WordPattern*> d_orthogonalMap;
@@ -32,15 +33,15 @@ class WordPattern {
 class WordPatternHorizontal : public WordPattern {
     public:
         using WordPattern::WordPattern;
-        int getCoor(int index, int orthogonalOffset = 0);
-        int getIndex(int coor);
+        int getCoor(int index, int orthogonalOffset = 0) override;
+        int getIndex(int coor) override;
 };
 
 class WordPatternVertical : public WordPattern {
     public:
         using WordPattern::WordPattern;
-        int getCoor(int index, int orthogonalOffset = 0);
-        int getIndex(int coor);
+        int getCoor(int index, int orthogonalOffset = 0) override;
+        int getIndex(int coor) override;
 };
 
 #endif

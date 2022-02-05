@@ -22,13 +22,13 @@ char& Grid::letter(int coor) {
 }
 
 void Grid::addUsedWord(const std::string& word) {
-    d_usedWords.insert(word)
+    d_usedWords.insert(word);
 };
 
 bool Grid::hasUsedWord(const std::string& word) {
-
+    return d_usedWords.find(word) != d_usedWords.end();
 };
 
 void Grid::removeUsedWord(const std::string& word) {
-
+    d_usedWords.erase(word);
 };
