@@ -5,8 +5,6 @@
 class GridTest : public ::testing::Test {
     public:
         Grid<3,3> grid;
-
-        // GridTest(): {};
 };
 
 TEST_F(GridTest, Init) {

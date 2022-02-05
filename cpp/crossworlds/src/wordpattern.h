@@ -36,7 +36,7 @@ class WordPattern {
 };
 
 template<std::size_t h, std::size_t w>
-WordPattern::WordPattern(int        row,
+WordPattern::WordPattern(int         row,
                          int         col,
                          int         length,
                          Grid<h,w>&  grid,
