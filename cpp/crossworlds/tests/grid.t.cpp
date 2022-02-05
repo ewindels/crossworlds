@@ -3,8 +3,8 @@
 #include <unordered_set>
 
 class GridTest : public ::testing::Test {
-    public:
-        Grid<3,3> grid;
+  public:
+    Grid<3,3> grid;
 };
 
 TEST_F(GridTest, Init) {
@@ -12,6 +12,6 @@ TEST_F(GridTest, Init) {
 }
 
 TEST_F(GridTest, SetAndRead) {
-    grid.letter(3) = 'A';
-    ASSERT_EQ(grid.letter(3), 'A');
+    grid.setLetter(3, 'A');
+    ASSERT_EQ(grid.getLetter(3), 'A');
 }

@@ -8,14 +8,15 @@
 template<std::size_t h, std::size_t w>
 class Grid
 {
-public:
+  public:
     Grid();
 
     int height() const;
     int width() const;
-    char& letter(int coor);
+    void setLetter(int coor, char letter);
+    char& getLetter(int coor);
 
-private:
+  private:
     int d_height;
     int d_width;
     char d_letters[h*w] = { ' ' };
@@ -23,8 +24,8 @@ private:
 
 template<std::size_t h, std::size_t w>
 Grid<h,w>::Grid()
-: d_height(h),
-  d_width(w)
+: d_height(h)
+, d_width(w)
 {
 }
 
@@ -41,7 +42,14 @@ int Grid<h,w>::width() const
 }
 
 template<std::size_t h, std::size_t w>
-char& Grid<h,w>::letter(int coor) {
+void Grid<h,w>::setLetter(int coor, char letter)
+{
+    d_letters[coor] = letter;
+}
+
+template<std::size_t h, std::size_t w>
+char& Grid<h,w>::getLetter(int coor)
+{
     return d_letters[coor];
 }
 

@@ -1,22 +1,27 @@
 #include <vocabulary.h>
 
-void Vocabulary::addUsedWord(const std::string& word) {
+void Vocabulary::addUsedWord(const std::string& word)
+{
     d_usedWords.insert(word);
-};
+}
 
-bool Vocabulary::hasUsedWord(const std::string& word) {
+bool Vocabulary::hasUsedWord(const std::string& word)
+{
     return d_usedWords.find(word) != d_usedWords.end();
-};
+}
 
-void Vocabulary::removeUsedWord(const std::string& word) {
+void Vocabulary::removeUsedWord(const std::string& word)
+{
     d_usedWords.erase(word);
-};
+}
 
-LookUp::LookUp(std::unordered_set<std::string> vocabulary) {
+LookUp::LookUp(StringSet vocabulary)
+{
     setLookups(vocabulary);
 }
 
-void LookUp::setLookups(std::unordered_set<std::string> vocabulary) {
+void LookUp::setLookups(StringSet vocabulary)
+{
     for (std::string const& word : vocabulary) {
         d_lengthLookup[word.size()].insert(word);
         int i = 0;
@@ -27,10 +32,13 @@ void LookUp::setLookups(std::unordered_set<std::string> vocabulary) {
     }
 }
 
-std::unordered_set<std::string> LookUp::lookupLength(int length) {
+LookUp::StringSet LookUp::lookupLength(int length)
+{
     return d_lengthLookup[length];
 }
 
-std::unordered_set<std::string> LookUp::lookupLetterIndex(int index, char letter) {
+LookUp::StringSet LookUp::lookupLetterIndex(int  index,
+                                            char letter)
+{
     return d_lettersIndicesLookup[std::make_pair(index, letter)];
 }
