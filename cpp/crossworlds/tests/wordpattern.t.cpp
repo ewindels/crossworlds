@@ -4,14 +4,14 @@
 
 class WordPatternTest : public ::testing::Test {
     public:
-        Grid grid;
+        Grid<2,2> grid;
+        Vocabulary vocabulary;
         WordPatternVertical wordPatternV;
         WordPatternHorizontal wordPatternH;
 
         WordPatternTest()
-        : grid(2, 2)
-        , wordPatternV(0, 1, 2, grid)
-        , wordPatternH(1, 0, 2, grid)
+        : wordPatternV(0, 1, 2, grid, vocabulary),
+          wordPatternH(1, 0, 2, grid, vocabulary)
         {
         }
 };

@@ -1,13 +1,28 @@
-#ifndef LOOKUP
-#define LOOKUP
+#ifndef VOCABULARY
+#define VOCABULARY
 
 #include <unordered_set>
+#include <set>
+#include <vector>
 #include <utility>
 #include <string>
 #include <unordered_map>
 #include <map>
 
-class LookUp {
+class Vocabulary
+{
+    public:
+        void addUsedWord(const std::string& word);
+        bool hasUsedWord(const std::string& word);
+        void removeUsedWord(const std::string& word);
+
+    private:
+        std::set<std::string> d_usedWords;
+        std::vector<int> d_cacheFactor;
+};
+
+class LookUp
+{
     public:
         LookUp(std::unordered_set<std::string> vocabulary);
         void setLookups(std::unordered_set<std::string> vocabulary);

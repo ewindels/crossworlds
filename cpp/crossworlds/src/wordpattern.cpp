@@ -1,28 +1,21 @@
 #include <wordpattern.h>
 
-WordPattern::WordPattern(int row, int col, int length, Grid& grid)
-: d_row(row),
-  d_col(col),
-  d_length(length),
-  d_grid(grid),
-  d_letters(length, ' ')
-{
-}
-
 char& WordPattern::letter(int index) {
-    return d_grid.letter(getCoor(index));
+    return *d_letters[index];
 }
 
 bool WordPattern::setWord(std::string word) {
     for ( const auto &mapPair : d_orthogonalMap ) {
         int index = mapPair.first;
-        if ( d_letters[index] != ' ' ) {
+        if ( letter(index) != ' ' ) {
             if ( !updateOrthogonalLetters(index, word[index]) ) {
                 return false;
-            };
+            }
+            d_linkedLettersIndices.insert(index);
         };
     };
-    d_grid.addUsedWord(word);
+    d_vocabulary.addUsedWord(word);
+    d_word = word;
     return true;
 }
 
@@ -31,17 +24,17 @@ bool WordPattern::updateOrthogonalLetters(int index, char letter) {
 }
 
 int WordPatternHorizontal::getCoor(int index, int orthogonalOffset) {
-    return d_grid.height() * (d_row + orthogonalOffset) + d_col + index;
+    return d_height * (d_row + orthogonalOffset) + d_col + index;
 }
 
 int WordPatternHorizontal::getIndex(int coor) {
-    return coor % d_grid.width() - d_col;
+    return coor % d_width - d_col;
 }
 
 int WordPatternVertical::getCoor(int index, int orthogonalOffset) {
-    return d_grid.height() * (d_row + index) + d_col + orthogonalOffset;
+    return d_height * (d_row + index) + d_col + orthogonalOffset;
 }
 
 int WordPatternVertical::getIndex(int coor) {
-    return coor / d_grid.width() - d_row;
+    return coor / d_width - d_row;
 }

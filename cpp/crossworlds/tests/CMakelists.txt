@@ -1,8 +1,8 @@
 add_executable(gridtests grid.t.cpp)
 target_link_libraries(gridtests PRIVATE gtest_main crossworlds)
 
-add_executable(lookuptests lookup.t.cpp)
-target_link_libraries(lookuptests PRIVATE gtest_main crossworlds)
+add_executable(vocabularytests vocabulary.t.cpp)
+target_link_libraries(vocabularytests PRIVATE gtest_main crossworlds)
 
 add_executable(wordpatterntests wordpattern.t.cpp)
 target_link_libraries(wordpatterntests PRIVATE gtest_main crossworlds)
@@ -10,5 +10,5 @@ target_link_libraries(wordpatterntests PRIVATE gtest_main crossworlds)
 enable_testing()
 include(GoogleTest)
 gtest_discover_tests(gridtests)
-gtest_discover_tests(lookuptests)
+gtest_discover_tests(vocabularytests)
 gtest_discover_tests(wordpatterntests)

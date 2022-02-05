@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include <lookup.h>
+#include <vocabulary.h>
 #include <unordered_set>
 #include <string>
 
@@ -12,3 +12,12 @@ TEST(LookUp, Init) {
     ASSERT_EQ(lookup.lookupLetterIndex(0, 'A').size(), 0);
 }
 
+TEST(LookUp, AddandRemove) {
+    Vocabulary vocabulary;
+    vocabulary.addUsedWord("foo");
+    vocabulary.addUsedWord("bar");
+    ASSERT_TRUE(vocabulary.hasUsedWord("foo"));
+    ASSERT_FALSE(vocabulary.hasUsedWord("test"));
+    vocabulary.removeUsedWord("foo");
+    ASSERT_FALSE(vocabulary.hasUsedWord("foo"));
+}

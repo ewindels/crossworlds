@@ -1,4 +1,16 @@
-#include <lookup.h>
+#include <vocabulary.h>
+
+void Vocabulary::addUsedWord(const std::string& word) {
+    d_usedWords.insert(word);
+};
+
+bool Vocabulary::hasUsedWord(const std::string& word) {
+    return d_usedWords.find(word) != d_usedWords.end();
+};
+
+void Vocabulary::removeUsedWord(const std::string& word) {
+    d_usedWords.erase(word);
+};
 
 LookUp::LookUp(std::unordered_set<std::string> vocabulary) {
     setLookups(vocabulary);
