@@ -1,4 +1,5 @@
 #include <wordpattern.h>
+#include <cmath>
 
 const char& WordPattern::getLetter(const int index)
 {
@@ -30,7 +31,9 @@ bool WordPattern::setWord(const std::string& word)
 bool WordPattern::updateOrthogonalLetters(const int   index,
                                           const char& letter)
 {
-    return true;
+    OrthogonalPattern orthogonalPattern = d_orthogonalMap[index];
+    orthogonalPattern.updateCandidates(letter);
+    return false;
 }
 
 int WordPatternHorizontal::getCoor(const int index,
@@ -51,4 +54,19 @@ int WordPatternVertical::getCoor(const int index,
 
 int WordPatternVertical::getIndex(const int coor) {
     return coor / d_width - d_row;
+}
+
+WordPattern* OrthogonalPattern::pattern()
+{
+    return d_pattern_p;
+}
+
+int OrthogonalPattern::index()
+{
+    return d_index;
+}
+
+void OrthogonalPattern::updateCandidates(char letter)
+{
+    d_pattern_p->d_strRepr[d_index] = letter;
 }

@@ -18,7 +18,6 @@ class Vocabulary
 
   private:
     std::set<std::string> d_usedWords;
-    std::vector<int> d_cacheFactor;
 };
 
 class LookUp

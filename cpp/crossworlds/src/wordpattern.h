@@ -10,6 +10,8 @@
 #include <grid.h>
 #include <vocabulary.h>
 
+class OrthogonalPattern;
+
 class WordPattern {
   public:
     template<std::size_t h, std::size_t w>
@@ -24,10 +26,12 @@ class WordPattern {
     virtual int getIndex(const int coor) = 0;
     const char& getLetter(const int index);
     void setLetter(const int  index,
-                    const char letter);
+                   const char letter);
     bool setWord(const std::string& word);
     bool updateOrthogonalLetters(const int   index,
-                                    const char& letter);
+                                 const char& letter);
+
+    friend class OrthogonalPattern;
 
   protected:
     int d_row;
@@ -38,16 +42,17 @@ class WordPattern {
     std::vector<char*> d_letters;
     std::set<int> d_linkedLettersIndices;
     std::unordered_set<std::string> d_candidates;
-    std::map<int, WordPattern*> d_orthogonalMap;
     std::string d_word;
     Vocabulary d_vocabulary;
+    std::map<int, OrthogonalPattern> d_orthogonalMap;
+    std::string d_strRepr;
 };
 
 template<std::size_t h, std::size_t w>
 WordPattern::WordPattern(const int         row,
                          const int         col,
                          const int         length,
-                         Grid<h,w>&  grid,
+                         Grid<h,w>&        grid,
                          const Vocabulary& vocabulary)
 : d_row(row)
 , d_col(col)
@@ -56,6 +61,7 @@ WordPattern::WordPattern(const int         row,
 , d_letters(length)
 , d_height(h)
 , d_width(w)
+, d_strRepr(std::string(length, '.'))
 {
 };
 
@@ -64,10 +70,10 @@ class WordPatternHorizontal : public WordPattern
   public:
     template<std::size_t h, std::size_t w>
     WordPatternHorizontal(const int         row,
-                            const int         col,
-                            const int         length,
-                            Grid<h,w>&        grid,
-                            const Vocabulary& vocabulary);
+                          const int         col,
+                          const int         length,
+                          Grid<h,w>&        grid,
+                          const Vocabulary& vocabulary);
     int getCoor(const int index,
                 const int orthogonalOffset = 0) override;
     int getIndex(const int coor) override;
@@ -77,7 +83,7 @@ template<std::size_t h, std::size_t w>
 WordPatternHorizontal::WordPatternHorizontal(const int         row,
                                              const int         col,
                                              const int         length,
-                                             Grid<h,w>&         grid,
+                                             Grid<h,w>&        grid,
                                              const Vocabulary& vocabulary)
 : WordPattern(row, col, length, grid, vocabulary)
 {
@@ -118,9 +124,13 @@ WordPatternVertical::WordPatternVertical(const int         row,
 class OrthogonalPattern
 {
   protected:
-    WordPattern* d_pattern;
-    int d_crossedIndex;
+    WordPattern* d_pattern_p;
+    int d_index;
 
+  public:
+    WordPattern* pattern();
+    int index();
+    void updateCandidates(char letter);
 };
 
 #endif
