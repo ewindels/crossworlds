@@ -22,10 +22,10 @@ LookUp::LookUp(StringSet vocabulary)
 
 void LookUp::setLookups(StringSet vocabulary)
 {
-    for (std::string const& word : vocabulary) {
+    for (const std::string& word : vocabulary) {
         d_lengthLookup[word.size()].insert(word);
         int i = 0;
-        for (char const& letter : word) {
+        for (const char& letter : word) {
             d_lettersIndicesLookup[std::make_pair(i, letter)].insert(word);
             i++;
         }
